@@ -130,7 +130,10 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Coding Task] --> subgraph Reusable["Reusable Step"]
+    A[Coding Task] --> B
+    A --> D
+
+    subgraph Reusable["Reusable Step"]
         B[Write Tests] --> C[Write Code]
         D[Analyze Complexity] --> E[Verify Code]
     end
