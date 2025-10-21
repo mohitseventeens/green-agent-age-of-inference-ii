@@ -8,33 +8,34 @@ echo "=== SageMaker startup script started ==="
 set -e
 
 # --- PARAMETERS ---
-YOUR_USER_NAME="Mohit Sonkamble"
+YOUR_GITHUB_USERNAME="mohitseventeens"
+YOUR_USER_NAME="Mohit Sonkamble" # This is for commit author name
 YOUR_EMAIL_ADDRESS="mohitseventeens@gmail.com"
 ENV_FILE=".env"
 PROJECT_FILE="pyproject.toml"
 VENV_DIR=".venv"
-# This name should be unique and descriptive for the Jupyter kernel
 KERNEL_NAME="green-agent-venv"
-KERNEL_DISPLAY_NAME="Python uv (Green Agent)"
+KERNEL_DISPLAY_NAME="Python (Green Agent)"
 
 # --- Configure Git ---
-echo "Configuring Git user..."
+echo "Configuring Git user for commits..."
 git config --global user.name "$YOUR_USER_NAME"
 git config --global user.email "$YOUR_EMAIL_ADDRESS"
 echo "Git config set to: $(git config --global user.name) <$(git config --global user.email)>"
 
-# --- Configure Git credentials (using your original robust logic) ---
+# --- Configure Git credentials ---
 echo "Setting up Git credentials..."
 if [ -f "$ENV_FILE" ]; then
     echo "Loading GitHub token from $ENV_FILE..."
-    # Source the .env file to load environment variables
     source "$ENV_FILE"
     
-    # Check if token variable exists
     if [ -n "$AWS_SAGEMAKER_2_GITHUB_TOKEN" ]; then
         echo "Configuring Git credential store..."
         git config --global credential.helper 'store'
-        echo "https://$YOUR_USER_NAME:$AWS_SAGEMAKER_2_GITHUB_TOKEN@github.com" > ~/.git-credentials
+        
+        # CHANGE #2: Use the correct GitHub username for the credential URL
+        echo "https://$YOUR_GITHUB_USERNAME:$AWS_SAGEMAKER_2_GITHUB_TOKEN@github.com" > ~/.git-credentials
+        
         echo "Git credentials configured successfully."
     else
         echo "Warning: AWS_SAGEMAKER_2_GITHUB_TOKEN not found in $ENV_FILE. Git credential configuration skipped."
@@ -53,37 +54,30 @@ echo "uv installation complete."
 if [ -f "$PROJECT_FILE" ]; then
     echo "Found $PROJECT_FILE. Setting up project environment..."
 
-    # Create the virtual environment if it doesn't exist
     if [ ! -d "$VENV_DIR" ]; then
-        echo "Virtual environment not found. Creating it now at: $VENV_DIR"
+        echo "Virtual environment not found. Creating it now..."
         uv venv
     else
         echo "Virtual environment already exists."
     fi
 
-    # Activate the venv to perform actions within it
     source "$VENV_DIR/bin/activate"
 
-    # Install/update dependencies from pyproject.toml without removing other packages
     echo "Installing/updating dependencies from $PROJECT_FILE..."
     uv pip install .
     
-    # Ensure ipykernel is installed in the venv for Jupyter integration
     echo "Ensuring ipykernel is installed..."
     uv pip install ipykernel
 
-    # Register the virtual environment as a Jupyter Kernel if not already registered
     KERNEL_PATH="$HOME/.local/share/jupyter/kernels/$KERNEL_NAME"
     if [ ! -d "$KERNEL_PATH" ]; then
         echo "Jupyter kernel '$KERNEL_DISPLAY_NAME' not found. Registering it now..."
-        # Use the python from the venv to register itself
         python -m ipykernel install --user --name="$KERNEL_NAME" --display-name="$KERNEL_DISPLAY_NAME"
         echo "Kernel registered."
     else
         echo "Jupyter kernel '$KERNEL_DISPLAY_NAME' is already registered."
     fi
     
-    # Deactivate the environment for script hygiene
     deactivate
     
     echo "Project environment is ready and registered with Jupyter."
