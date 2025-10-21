@@ -7,9 +7,17 @@ echo "=== SageMaker startup script started ==="
 # Stop on first error
 set -e
 
+# --- Helper Functions ---
+log_success() {
+    echo "✓ $1"
+}
+
+log_warning() {
+    echo "⚠ $1"
+}
+
 # --- PARAMETERS ---
-YOUR_GITHUB_USERNAME="mohitseventeens"
-YOUR_USER_NAME="Mohit Sonkamble" # This is for commit author name
+YOUR_USER_NAME="Mohit Sonkamble"
 YOUR_EMAIL_ADDRESS="mohitseventeens@gmail.com"
 ENV_FILE=".env"
 PROJECT_FILE="pyproject.toml"
@@ -21,68 +29,63 @@ KERNEL_DISPLAY_NAME="Python (Green Agent)"
 echo "Configuring Git user for commits..."
 git config --global user.name "$YOUR_USER_NAME"
 git config --global user.email "$YOUR_EMAIL_ADDRESS"
-echo "Git config set to: $(git config --global user.name) <$(git config --global user.email)>"
+log_success "Git config set to: $(git config --global user.name) <$(git config --global user.email)>"
 
 # --- Configure Git credentials ---
 echo "Setting up Git credentials..."
 if [ -f "$ENV_FILE" ]; then
-    echo "Loading GitHub token from $ENV_FILE..."
     source "$ENV_FILE"
     
     if [ -n "$AWS_SAGEMAKER_2_GITHUB_TOKEN" ]; then
-        echo "Configuring Git credential store..."
         git config --global credential.helper 'store'
-        
-        # CHANGE #2: Use the correct GitHub username for the credential URL
-        echo "https://$YOUR_GITHUB_USERNAME:$AWS_SAGEMAKER_2_GITHUB_TOKEN@github.com" > ~/.git-credentials
-        
-        echo "Git credentials configured successfully."
+        echo "https://$YOUR_USER_NAME:$AWS_SAGEMAKER_2_GITHUB_TOKEN@github.com" > ~/.git-credentials
+        log_success "Git credentials configured from $ENV_FILE."
     else
-        echo "Warning: AWS_SAGEMAKER_2_GITHUB_TOKEN not found in $ENV_FILE. Git credential configuration skipped."
+        log_warning "AWS_SAGEMAKER_2_GITHUB_TOKEN not found in $ENV_FILE. Skipping credential config."
     fi
 else
-    echo "Warning: $ENV_FILE not found. Git credential configuration skipped."
+    log_warning "$ENV_FILE not found. Skipping credential config."
 fi
 
-# --- Install/Update uv ---
-echo "Installing/updating uv via pip..."
-pip install --upgrade pip
-pip install --upgrade uv
-echo "uv installation complete."
+# --- Install uv ---
+echo "Installing/updating uv..."
+pip install --upgrade pip > /dev/null
+pip install --upgrade uv > /dev/null
+log_success "uv is installed."
 
-# --- Setup Project Virtual Environment and Jupyter Kernel ---
+# --- Setup Project Virtual Environment ---
 if [ -f "$PROJECT_FILE" ]; then
-    echo "Found $PROJECT_FILE. Setting up project environment..."
+    log_success "Found $PROJECT_FILE. Proceeding with environment setup."
 
     if [ ! -d "$VENV_DIR" ]; then
-        echo "Virtual environment not found. Creating it now..."
-        uv venv
+        echo "Virtual environment not found. Creating it..."
+        uv venv > /dev/null
+        log_success "Virtual environment created at $VENV_DIR."
     else
-        echo "Virtual environment already exists."
+        log_success "Virtual environment already exists."
     fi
 
+    echo "Installing/updating dependencies and kernel..."
     source "$VENV_DIR/bin/activate"
-
-    echo "Installing/updating dependencies from $PROJECT_FILE..."
-    uv pip install .
     
-    echo "Ensuring ipykernel is installed..."
-    uv pip install ipykernel
-
+    uv sync > /dev/null
+    uv pip install ipykernel > /dev/null
+    log_success "Dependencies are up to date."
+    
+    # --- Register venv as a Jupyter Kernel ---
     KERNEL_PATH="$HOME/.local/share/jupyter/kernels/$KERNEL_NAME"
     if [ ! -d "$KERNEL_PATH" ]; then
-        echo "Jupyter kernel '$KERNEL_DISPLAY_NAME' not found. Registering it now..."
-        python -m ipykernel install --user --name="$KERNEL_NAME" --display-name="$KERNEL_DISPLAY_NAME"
-        echo "Kernel registered."
+        echo "Jupyter kernel '$KERNEL_DISPLAY_NAME' not found. Registering..."
+        python -m ipykernel install --user --name="$KERNEL_NAME" --display-name="$KERNEL_DISPLAY_NAME" > /dev/null
+        log_success "Kernel registered successfully."
     else
-        echo "Jupyter kernel '$KERNEL_DISPLAY_NAME' is already registered."
+        log_success "Jupyter kernel '$KERNEL_DISPLAY_NAME' is already registered."
     fi
     
     deactivate
-    
-    echo "Project environment is ready and registered with Jupyter."
+    log_success "Project environment is ready."
 else
-    echo "Warning: $PROJECT_FILE not found. Skipping project environment setup."
+    log_warning "$PROJECT_FILE not found. Skipping project environment setup."
 fi
 
 echo "=== SageMaker startup script finished successfully ==="
