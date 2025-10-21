@@ -1,8 +1,8 @@
 # Python Codebase Documentation
 
-**Root Directory:** `/home/ec2-user/SageMaker`
+**Root Directory:** `/home/ec2-user/SageMaker/green-agent-age-of-inference-ii`
 
-**Total Python Files:** 4
+**Total Python Files:** 16
 
 ---
 
@@ -710,16 +710,50 @@
 │       ├── 📄 tr97.md
 │       ├── 📄 tr98.md
 │       └── 📄 tr99.md
-├── 📁 lost+found/
-├── 📁 utils/
-│   ├── 📁 __pycache__/
-│   │   ├── 📄 __init__.cpython-310.pyc
-│   │   └── 📄 s3_helper.cpython-310.pyc
+├── 📁 docs/
+│   ├── 📄 GDSC API Documentation.md
+│   ├── 📄 ai_coding_instructions.md
+│   ├── 📄 design.md
+│   ├── 📄 development_environment.md
+│   ├── 📄 learning_log.md
+│   ├── 📄 pocketflow.md
+│   └── 📄 terminal_training.md
+├── 📁 notebooks/
+│   └── 📄 01_data_exploration.ipynb.ipynb
+├── 📁 pocketflow/
 │   ├── 🐍 __init__.py
-│   └── 🐍 s3_helper.py
+│   └── 📄 __init__.pyi
+├── 📁 src/
+│   ├── 📁 __pycache__/
+│   │   └── 📄 __init__.cpython-312.pyc
+│   ├── 📁 utils/
+│   │   ├── 📁 __pycache__/
+│   │   ├── 🐍 __init__.py
+│   │   ├── 🐍 call_llm.py
+│   │   ├── 🐍 data_retrieval.py
+│   │   ├── 🐍 gdsc_utils.py
+│   │   └── 🐍 s3_helper.py
+│   ├── 🐍 __init__.py
+│   ├── 🐍 flow.py
+│   └── 🐍 nodes.py
+├── 📁 tests/
+│   ├── 📁 __pycache__/
+│   │   ├── 📄 __init__.cpython-312.pyc
+│   │   └── 📄 test_call_mistral_real.cpython-312-pytest-8.4.2.pyc
+│   ├── 🐍 __init__.py
+│   ├── 🐍 test_integration.py
+│   ├── 🐍 test_matching.py
+│   ├── 🐍 test_nodes.py
+│   └── 🐍 test_utils.py
+├── 📄 LICENSE
+├── 📄 README.md
+├── 📄 Untitled.ipynb
 ├── 📄 codebase_documentation.md
 ├── 🐍 collect_python_codebase_info.py
-└── 🐍 generic_s3_downloader.py
+├── 🐍 generic_s3_downloader.py
+├── 📄 pyproject.toml
+├── 📄 run_startup.sh
+└── 📄 uv.lock
 ```
 
 ---
@@ -728,8 +762,20 @@
 
 1. [./collect_python_codebase_info.py](#--collect_python_codebase_info-py)
 2. [./generic_s3_downloader.py](#--generic_s3_downloader-py)
-3. [./utils/__init__.py](#--utils-__init__-py)
-4. [./utils/s3_helper.py](#--utils-s3_helper-py)
+3. [./pocketflow/__init__.py](#--pocketflow-__init__-py)
+4. [./tests/__init__.py](#--tests-__init__-py)
+5. [./tests/test_matching.py](#--tests-test_matching-py)
+6. [./tests/test_utils.py](#--tests-test_utils-py)
+7. [./tests/test_nodes.py](#--tests-test_nodes-py)
+8. [./tests/test_integration.py](#--tests-test_integration-py)
+9. [./src/__init__.py](#--src-__init__-py)
+10. [./src/flow.py](#--src-flow-py)
+11. [./src/nodes.py](#--src-nodes-py)
+12. [./src/utils/call_llm.py](#--src-utils-call_llm-py)
+13. [./src/utils/__init__.py](#--src-utils-__init__-py)
+14. [./src/utils/gdsc_utils.py](#--src-utils-gdsc_utils-py)
+15. [./src/utils/data_retrieval.py](#--src-utils-data_retrieval-py)
+16. [./src/utils/s3_helper.py](#--src-utils-s3_helper-py)
 
 ---
 
@@ -737,7 +783,7 @@
 
 ### ./collect_python_codebase_info.py
 
-> 💬 **Developer Note:** This file is one of my toolkit script. It's captures the codebase(specific to python files for now, later can be modified) and creates a markdown file.
+> 💬 **Developer Note:** Collects information about the current state of the entire codebase, specific to python scripts
 
 **Size:** 5970 bytes
 
@@ -915,7 +961,7 @@ if __name__ == "__main__":
 
 ### ./generic_s3_downloader.py
 
-> 💬 **Developer Note:** This file I created today (18 October 2025), this downloads folder from s3 into sagemaker environment (my specific usecase). this is also new addition to my toolkit.
+> 💬 **Developer Note:** Generic s3 downloader, for current stage it's not needed since data is available in the Sagemaker environment.
 
 **Size:** 2436 bytes
 
@@ -990,9 +1036,118 @@ if __name__ == "__main__":
 
 ---
 
-### ./utils/__init__.py
+### ./pocketflow/__init__.py
 
-> 💬 **Developer Note:** to make the utils directory a reliable Python package, it's a best practice to add an empty __init__.py file inside it.
+> 💬 **Developer Note:** The development framework
+
+**Size:** 5211 bytes
+
+```python
+import asyncio, warnings, copy, time
+
+class BaseNode:
+    def __init__(self): self.params,self.successors={},{}
+    def set_params(self,params): self.params=params
+    def next(self,node,action="default"):
+        if action in self.successors: warnings.warn(f"Overwriting successor for action '{action}'")
+        self.successors[action]=node; return node
+    def prep(self,shared): pass
+    def exec(self,prep_res): pass
+    def post(self,shared,prep_res,exec_res): pass
+    def _exec(self,prep_res): return self.exec(prep_res)
+    def _run(self,shared): p=self.prep(shared); e=self._exec(p); return self.post(shared,p,e)
+    def run(self,shared): 
+        if self.successors: warnings.warn("Node won't run successors. Use Flow.")  
+        return self._run(shared)
+    def __rshift__(self,other): return self.next(other)
+    def __sub__(self,action):
+        if isinstance(action,str): return _ConditionalTransition(self,action)
+        raise TypeError("Action must be a string")
+
+class _ConditionalTransition:
+    def __init__(self,src,action): self.src,self.action=src,action
+    def __rshift__(self,tgt): return self.src.next(tgt,self.action)
+
+class Node(BaseNode):
+    def __init__(self,max_retries=1,wait=0): super().__init__(); self.max_retries,self.wait=max_retries,wait
+    def exec_fallback(self,prep_res,exc): raise exc
+    def _exec(self,prep_res):
+        for self.cur_retry in range(self.max_retries):
+            try: return self.exec(prep_res)
+            except Exception as e:
+                if self.cur_retry==self.max_retries-1: return self.exec_fallback(prep_res,e)
+                if self.wait>0: time.sleep(self.wait)
+
+class BatchNode(Node):
+    def _exec(self,items): return [super(BatchNode,self)._exec(i) for i in (items or [])]
+
+class Flow(BaseNode):
+    def __init__(self,start=None): super().__init__(); self.start_node=start
+    def start(self,start): self.start_node=start; return start
+    def get_next_node(self,curr,action):
+        nxt=curr.successors.get(action or "default")
+        if not nxt and curr.successors: warnings.warn(f"Flow ends: '{action}' not found in {list(curr.successors)}")
+        return nxt
+    def _orch(self,shared,params=None):
+        curr,p,last_action =copy.copy(self.start_node),(params or {**self.params}),None
+        while curr: curr.set_params(p); last_action=curr._run(shared); curr=copy.copy(self.get_next_node(curr,last_action))
+        return last_action
+    def _run(self,shared): p=self.prep(shared); o=self._orch(shared); return self.post(shared,p,o)
+    def post(self,shared,prep_res,exec_res): return exec_res
+
+class BatchFlow(Flow):
+    def _run(self,shared):
+        pr=self.prep(shared) or []
+        for bp in pr: self._orch(shared,{**self.params,**bp})
+        return self.post(shared,pr,None)
+
+class AsyncNode(Node):
+    async def prep_async(self,shared): pass
+    async def exec_async(self,prep_res): pass
+    async def exec_fallback_async(self,prep_res,exc): raise exc
+    async def post_async(self,shared,prep_res,exec_res): pass
+    async def _exec(self,prep_res): 
+        for self.cur_retry in range(self.max_retries):
+            try: return await self.exec_async(prep_res)
+            except Exception as e:
+                if self.cur_retry==self.max_retries-1: return await self.exec_fallback_async(prep_res,e)
+                if self.wait>0: await asyncio.sleep(self.wait)
+    async def run_async(self,shared): 
+        if self.successors: warnings.warn("Node won't run successors. Use AsyncFlow.")  
+        return await self._run_async(shared)
+    async def _run_async(self,shared): p=await self.prep_async(shared); e=await self._exec(p); return await self.post_async(shared,p,e)
+    def _run(self,shared): raise RuntimeError("Use run_async.")
+
+class AsyncBatchNode(AsyncNode,BatchNode):
+    async def _exec(self,items): return [await super(AsyncBatchNode,self)._exec(i) for i in items]
+
+class AsyncParallelBatchNode(AsyncNode,BatchNode):
+    async def _exec(self,items): return await asyncio.gather(*(super(AsyncParallelBatchNode,self)._exec(i) for i in items))
+
+class AsyncFlow(Flow,AsyncNode):
+    async def _orch_async(self,shared,params=None):
+        curr,p,last_action =copy.copy(self.start_node),(params or {**self.params}),None
+        while curr: curr.set_params(p); last_action=await curr._run_async(shared) if isinstance(curr,AsyncNode) else curr._run(shared); curr=copy.copy(self.get_next_node(curr,last_action))
+        return last_action
+    async def _run_async(self,shared): p=await self.prep_async(shared); o=await self._orch_async(shared); return await self.post_async(shared,p,o)
+    async def post_async(self,shared,prep_res,exec_res): return exec_res
+
+class AsyncBatchFlow(AsyncFlow,BatchFlow):
+    async def _run_async(self,shared):
+        pr=await self.prep_async(shared) or []
+        for bp in pr: await self._orch_async(shared,{**self.params,**bp})
+        return await self.post_async(shared,pr,None)
+
+class AsyncParallelBatchFlow(AsyncFlow,BatchFlow):
+    async def _run_async(self,shared): 
+        pr=await self.prep_async(shared) or []
+        await asyncio.gather(*(self._orch_async(shared,{**self.params,**bp}) for bp in pr))
+        return await self.post_async(shared,pr,None)
+```
+
+---
+
+### ./tests/__init__.py
 
 **Size:** 0 bytes
 
@@ -1002,9 +1157,123 @@ if __name__ == "__main__":
 
 ---
 
-### ./utils/s3_helper.py
+### ./tests/test_matching.py
 
-> 💬 **Developer Note:** A helper class for common Amazon S3 operations. `list_objects`, `upload_file`, `download_object`. Note the names of the functions. All the suffixes are meaningful. `list_objects` is plural and uses the term 'object', this is because every file inside s3 bucket is 'object' in AWS lingo/concept. `upload_file` has suffix 'file' because it can be any kind and finally `download_object` has singular because this function downloads the objects one at a time. The downloading process is usually quick so no need to optimize this in the near future.
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./tests/test_utils.py
+
+> 💬 **Developer Note:** Test different utility functions
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./tests/test_nodes.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./tests/test_integration.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/__init__.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/flow.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/nodes.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/utils/call_llm.py
+
+> 💬 **Developer Note:** ### CURRENT TASK TO DO
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/utils/__init__.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/utils/gdsc_utils.py
+
+> 💬 **Developer Note:** official utils from the GDSC
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/utils/data_retrieval.py
+
+**Size:** 0 bytes
+
+```python
+
+```
+
+---
+
+### ./src/utils/s3_helper.py
 
 **Size:** 7824 bytes
 
