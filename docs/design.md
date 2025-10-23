@@ -77,16 +77,6 @@ flowchart TD
         *   **Output**: A dictionary containing the persona's profile.
         *   **Necessity**: To get the specific user profile for processing. (Note: The implementation will initially load from local files, but the function signature is designed to easily switch to an API call).
 
-3.  **Matching & Filtering Logic** (`src/utils/gdsc_utils.py`)
-    *   `apply_hard_filters(persona, jobs)`
-        *   **Input**: `persona` (dict), `jobs` (list of dicts).
-        *   **Output**: A filtered list of job dictionaries that pass all hard filter criteria.
-        *   **Necessity**: Core logic for the "jobs+trainings" path.
-    *   `calculate_skill_coverage(persona, job)`
-        *   **Input**: `persona` (dict), `job` (dict).
-        *   **Output**: `coverage` (float, e.g., 0.8) and `gap_skills` (list of str).
-        *   **Necessity**: Core logic for identifying compatible jobs and their skill gaps.
-
 ## 4. Data Design
 
 ### Shared Store
