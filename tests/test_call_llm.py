@@ -31,7 +31,7 @@ def test_call_llm_with_api_key_returns_string_response():
     # Assert
     assert isinstance(response, str), "The response should be a string."
     assert len(response) > 0, "The response string should not be empty."
-    print(f"Response: \n{response}\n")
+    print(f"Response: \n{response}")
     print(f"\nLive API test successful. Received response of {len(response)} characters.")
 
 def test_call_llm_without_prompt_or_messages_raises_error():

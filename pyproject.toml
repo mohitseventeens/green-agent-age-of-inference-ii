@@ -7,8 +7,11 @@ requires-python = ">=3.10"
 dependencies = [
     "boto3>=1.40.55",
     "dotenv>=0.9.9",
+    "ipywidgets>=8.1.7",
     "mistralai>=1.9.11",
+    "pandas>=2.3.3",
     "python-dotenv>=1.1.1",
+    "tqdm>=4.67.1",
 ]
 [project.optional-dependencies]
 dev = ["ipykernel"]
