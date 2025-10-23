@@ -48,10 +48,11 @@ sagemaker-workspace/
 │   ├── jobs/                         # 200 Job description markdown files
 │   └── trainings/                    # 497 training markdown files
 ├── docs/
-│   ├── development_environment.md                # The current document
+│   ├── development_environment.md    # The current document
 │   ├── design.md                     # High-level system design
 │   ├── ai_coding_instructions.md     # AI coding guide
 │   └── learning_log.md               # Document insights and learnings
+│   └── pocketflow.md                 # Pocketflow Documentation
 │   └── terminal_training.md          # Learning through Practice
 ├── requirements.txt
 └── README.md
@@ -241,7 +242,6 @@ response = call_llm(prompt, use_cache=use_cache)
 ```
 
 **Learning:** PocketFlow's retry mechanism needs cache-aware implementations.
-```
 
 ---
 
