@@ -2,16 +2,14 @@ import pytest
 import os
 import json
 import getpass
-from src.nodes import LoadStaticDataNode, ExtractProfileNode, PersonaProfile
+from src.nodes import LoadStaticDataNode, ExtractProfileNode, DecisionNode, PersonaProfile
 from dotenv import load_dotenv
 
 # --- Load .env file for MISTRAL_API_KEY ---
 load_dotenv()
 
 # --- Interactive Credential Setup ---
-# Helper function to prompt for credentials if they are not found.
 def setup_credentials():
-    """Checks for necessary API keys and prompts the user if they are missing."""
     creds_to_check = {
         "MISTRAL_API_KEY": "Enter your Mistral API Key: ",
         "AWS_ACCESS_KEY_ID": "Enter your AWS Access Key ID: ",
@@ -22,7 +20,6 @@ def setup_credentials():
     for key, prompt_text in creds_to_check.items():
         if not os.getenv(key):
             print(f"Environment variable '{key}' not found.")
-            # Use getpass for secret keys to hide input
             if "KEY" in key or "TOKEN" in key:
                 value = getpass.getpass(prompt_text)
             else:
@@ -30,12 +27,8 @@ def setup_credentials():
             os.environ[key] = value
             print(f"✅ '{key}' set for this session.")
 
-# Run the setup function when the test module is loaded.
 setup_credentials()
 
-# --- Reusable Pytest Marker ---
-# This defines the marker that was missing before.
-# It skips tests if essential AWS credentials for the GDSC API are not set.
 requires_aws_creds = pytest.mark.skipif(
     not os.getenv("AWS_ACCESS_KEY_ID") or not os.getenv("AWS_SECRET_ACCESS_KEY"),
     reason="This test makes a live API call and requires AWS credentials."
@@ -43,19 +36,9 @@ requires_aws_creds = pytest.mark.skipif(
 
 
 def test_load_static_data_node():
-    """
-
-    Tests that the LoadStaticDataNode correctly loads jobs and trainings
-    and populates the shared store.
-    """
-    # Arrange
     node = LoadStaticDataNode()
     shared = {}
-
-    # Act
     node.run(shared)
-
-    # Assert
     assert "all_jobs" in shared
     assert "all_trainings" in shared
     assert isinstance(shared["all_jobs"], list)
@@ -68,38 +51,21 @@ def test_load_static_data_node():
 
 @requires_aws_creds
 def test_extract_profile_node_live():
-    """
-    A live integration test for the ExtractProfileNode.
-    It calls the actual GDSC API to chat with a persona and then uses
-    a real LLM call to extract and validate the profile using Pydantic.
-    """
-    # Arrange
     node = ExtractProfileNode()
     shared = {"persona_id": "persona_001"}
-
-    # Act
     node.run(shared)
-
-    # Assert
     assert "persona_profile" in shared
     assert "conversation_id" in shared
     assert "conversation_history" in shared
-
-    # Assert profile is a Pydantic model instance
     profile = shared["persona_profile"]
     assert isinstance(profile, PersonaProfile)
-    
-    # Assert specific fields for type safety
     assert isinstance(profile.age, int)
     assert isinstance(profile.city, str)
     assert len(profile.city) > 0
-
-    # Assert conversation details
     assert isinstance(shared["conversation_id"], str)
     assert len(shared["conversation_id"]) > 10
     assert isinstance(shared["conversation_history"], list)
     assert len(shared["conversation_history"]) == 3
-
     print("\n--- Live Test: ExtractProfileNode ---")
     print(f"Persona ID: {shared['persona_id']}")
     print(f"Conversation ID: {shared['conversation_id']}")
@@ -107,3 +73,41 @@ def test_extract_profile_node_live():
     print("Extracted Profile (Validated):")
     print(json.dumps(profile.model_dump(), indent=2, ensure_ascii=False))
     print("--- Test Passed ---")
+
+
+# --- Unit Tests for DecisionNode ---
+@pytest.mark.parametrize("profile_data, expected_action", [
+    ({"age": 15, "goals": "find a job"}, "provide_awareness_young"),
+    ({"age": 25, "goals": "I'm just exploring my options."}, "provide_awareness_info"),
+    ({"age": 22, "goals": "I am not sure what I want yet."}, "provide_awareness_info"),
+    ({"age": 30, "goals": "I want to learn new skills and get training."}, "recommend_trainings"),
+    ({"age": 18, "goals": "Quero estudar e fazer cursos."}, "recommend_trainings"),
+    ({"age": 28, "goals": "I need a job in the green sector."}, "recommend_jobs"),
+    ({"age": 24, "goals": "I want to find a job and get training for it."}, "recommend_jobs"),
+    ({"age": 40, "goals": "Looking for a new career."}, "recommend_jobs"),
+])
+def test_decision_node(profile_data, expected_action):
+    """
+    Tests the DecisionNode logic across all defined branches using mocked profiles.
+    """
+    # Arrange
+    node = DecisionNode()
+    # Create a mock profile, filling in required fields with dummy data
+    mock_profile = PersonaProfile(
+        age=profile_data["age"],
+        goals=profile_data["goals"],
+        city="Test City",
+        education_level="Ensino Médio",
+        experience_years=2,
+        skills=["testing"],
+        is_open_to_relocate=False
+    )
+    shared = {"persona_profile": mock_profile}
+
+    # Act
+    action = node.run(shared)
+
+    # Assert
+    assert shared["decision_action"] == expected_action
+    assert action == expected_action
+    print(f"Tested goals: '{profile_data['goals']}' -> PASSED with action: '{action}'")

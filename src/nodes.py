@@ -2,7 +2,7 @@ import logging
 import json
 from pocketflow import Node
 from pydantic import BaseModel, Field, ValidationError
-from typing import List
+from typing import List, Optional
 
 from src.utils.data_retrieval import load_all_data
 from src.utils.gdsc_utils import chat_with_persona
@@ -74,24 +74,17 @@ class ExtractProfileNode(Node):
         
         for q in questions:
             logger.info(f"Asking: {q}")
-            
-            # Call the utility function
             response_tuple = chat_with_persona(
                 persona_id=persona_id, message=q, conversation_id=conversation_id
             )
             
-            # --- ROBUSTNESS CHECK ---
-            # Check if the API call failed (the utility returns None on failure)
             if response_tuple is None:
                 raise RuntimeError(
                     "The chat_with_persona API call failed, likely due to expired AWS credentials. "
                     "Please refresh your temporary credentials and update your .env file or environment variables."
                 )
             
-            # If the check passes, unpack the tuple
             response, conversation_id = response_tuple
-            # --- END OF CHECK ---
-
             logger.info(f"Response: {response}")
             conversation_history.append({"question": q, "answer": response})
 
@@ -135,3 +128,50 @@ class ExtractProfileNode(Node):
         shared["conversation_id"] = exec_res["conversation_id"]
         shared["conversation_history"] = exec_res["conversation_history"]
         logger.info(f"Successfully extracted and validated profile for {shared['persona_id']}.")
+
+
+class DecisionNode(Node):
+    """
+    Analyzes the persona's profile and determines the next step in the flow.
+    Returns an action string for conditional routing.
+    """
+    def prep(self, shared):
+        profile = shared.get("persona_profile")
+        if not profile or not isinstance(profile, PersonaProfile):
+            raise ValueError("A valid PersonaProfile object was not found in the shared store.")
+        return profile
+
+    def exec(self, profile: PersonaProfile) -> str:
+        logger.info(f"Making decision for persona with age {profile.age} and goals: '{profile.goals}'")
+        
+        # Rule 1: Age-based awareness
+        if profile.age < 16:
+            logger.info("Decision: provide_awareness_young (age < 16)")
+            return "provide_awareness_young"
+        
+        # Rule 2: Goal-based awareness (informational)
+        informational_keywords = ["exploring", "explorar", "curious", "curioso", "just looking", "só olhando", "not sure", "não sei"]
+        if any(keyword in profile.goals.lower() for keyword in informational_keywords):
+            logger.info("Decision: provide_awareness_info (informational goals)")
+            return "provide_awareness_info"
+            
+        # Rule 3: Trainings only
+        training_keywords = ["training", "treinamento", "courses", "cursos", "learn", "aprender", "study", "estudar", "upskill"]
+        job_keywords = ["job", "emprego", "work", "trabalhar", "career", "carreira"]
+        
+        has_training_goal = any(keyword in profile.goals.lower() for keyword in training_keywords)
+        has_job_goal = any(keyword in profile.goals.lower() for keyword in job_keywords)
+
+        if has_training_goal and not has_job_goal:
+            logger.info("Decision: recommend_trainings (training-focused goals)")
+            return "recommend_trainings"
+
+        # Rule 4: Default to jobs + trainings
+        logger.info("Decision: recommend_jobs (default path)")
+        return "recommend_jobs"
+
+    def post(self, shared, prep_res, exec_res: str) -> Optional[str]:
+        shared["decision_action"] = exec_res
+        logger.info(f"Decision action '{exec_res}' stored in shared store.")
+        # This return value is used by the Flow to determine the next node
+        return exec_res
