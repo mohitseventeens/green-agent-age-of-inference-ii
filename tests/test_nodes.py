@@ -293,3 +293,41 @@ def test_find_jobs_and_trainings_node():
     # Assertions for j2 (perfect match)
     assert rec_j2 is not None
     assert len(rec_j2["suggested_trainings"]) == 0
+
+from src.nodes import FinalizeOutputNode
+
+@pytest.mark.parametrize("intermediate_recs", [
+    # Case 1: Awareness
+    ({"predicted_type": "awareness", "predicted_items": "too_young"}),
+    # Case 2: Trainings Only
+    ({"predicted_type": "trainings_only", "trainings": [{"training_id": "tr1"}]}),
+    # Case 3: Jobs + Trainings
+    ({"predicted_type": "jobs+trainings", "jobs": [{"job_id": "j1", "suggested_trainings": []}]}),
+])
+def test_finalize_output_node(intermediate_recs):
+    """
+    Tests that the FinalizeOutputNode correctly merges the persona_id
+    with the recommendation payload from any of the logic branches.
+    """
+    # Arrange
+    node = FinalizeOutputNode()
+    shared = {
+        "persona_id": "persona_test_123",
+        "intermediate_recommendations": intermediate_recs
+    }
+
+    # Act
+    node.run(shared)
+
+    # Assert
+    assert "final_recommendation" in shared
+    final_rec = shared["final_recommendation"]
+
+    # Check that persona_id is present and correct
+    assert "persona_id" in final_rec
+    assert final_rec["persona_id"] == "persona_test_123"
+
+    # Check that all keys from the intermediate recs are present
+    for key, value in intermediate_recs.items():
+        assert key in final_rec
+        assert final_rec[key] == value

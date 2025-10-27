@@ -373,3 +373,27 @@ class FindJobsAndTrainingsNode(Node):
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info("Jobs+trainings recommendation stored in 'intermediate_recommendations'.")
+
+class FinalizeOutputNode(Node):
+    """
+    Combines the persona_id with the intermediate recommendation
+    to create the final, submission-ready dictionary.
+    """
+    def prep(self, shared):
+        persona_id = shared.get("persona_id")
+        recs = shared.get("intermediate_recommendations")
+        if not persona_id or not recs:
+            raise ValueError("Persona ID or intermediate recommendations not found in shared store.")
+        return {"persona_id": persona_id, "recommendations": recs}
+
+    def exec(self, prep_res: Dict) -> Dict[str, Any]:
+        final_output = {
+            "persona_id": prep_res["persona_id"],
+            **prep_res["recommendations"] # Unpack the recommendation dict
+        }
+        logger.info(f"Final output formatted for persona {prep_res['persona_id']}.")
+        return final_output
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
+        shared["final_recommendation"] = exec_res
+        logger.info("Final recommendation stored in shared store.")
