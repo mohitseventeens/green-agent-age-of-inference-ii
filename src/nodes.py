@@ -9,7 +9,7 @@ from tqdm import tqdm
 from src.utils.data_retrieval import load_all_data
 from src.utils.gdsc_utils import chat_with_persona
 from src.utils.call_llm import call_llm
-from src.utils.matching_rules import EDUCATION_LEVELS
+from src.utils.matching_rules import EDUCATION_LEVELS, apply_hard_filters, get_required_trainings
 
 # --- Set up logging for the module ---
 logger = logging.getLogger(__name__)
@@ -311,3 +311,65 @@ class FindTrainingsOnlyNode(Node):
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")
+
+class FindJobsAndTrainingsNode(Node):
+    """
+    Finds suitable jobs based on hard filters and recommends trainings for any skill gaps.
+    """
+    def prep(self, shared):
+        profile = shared.get("persona_profile")
+        jobs = shared.get("parsed_jobs")
+        trainings = shared.get("parsed_trainings")
+        if not all([profile, jobs, trainings]):
+            raise ValueError("Persona profile, parsed jobs, or parsed trainings not found.")
+        return {"profile": profile, "jobs": jobs, "trainings": trainings}
+
+    def exec(self, prep_res: Dict) -> Dict[str, Any]:
+        profile: PersonaProfile = prep_res["profile"]
+        all_jobs: List[JobProfile] = prep_res["jobs"]
+        all_trainings: List[TrainingProfile] = prep_res["trainings"]
+
+        # Convert Pydantic profile to dict for utility functions
+        profile_dict = profile.model_dump()
+
+        # 1. Apply hard filters to find candidate jobs
+        candidate_jobs = [
+            job for job in all_jobs 
+            if apply_hard_filters(profile_dict, job.model_dump())
+        ]
+        logger.info(f"Found {len(candidate_jobs)} candidate jobs after applying hard filters.")
+
+        # 2. For each candidate job, find required trainings for skill gaps
+        job_recommendations = []
+        for job in candidate_jobs:
+            job_dict = job.model_dump()
+            missing_skills = get_required_trainings(profile_dict, job_dict)
+            
+            suggested_trainings = []
+            if missing_skills:
+                for skill in missing_skills:
+                    # Find trainings that offer this skill
+                    matching_trainings = [
+                        {"training_id": t.training_id}
+                        for t in all_trainings
+                        if skill.lower() in [s.lower() for s in t.offered_skills]
+                    ]
+                    if matching_trainings:
+                        suggested_trainings.append({
+                            "missing_skill": skill,
+                            "trainings": matching_trainings
+                        })
+            
+            job_recommendations.append({
+                "job_id": job.job_id,
+                "suggested_trainings": suggested_trainings
+            })
+
+        return {
+            "predicted_type": "jobs+trainings",
+            "jobs": job_recommendations
+        }
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
+        shared["intermediate_recommendations"] = exec_res
+        logger.info("Jobs+trainings recommendation stored in 'intermediate_recommendations'.")

@@ -215,3 +215,81 @@ def test_find_trainings_only_node():
     assert "tr3" in recommended_ids
     assert "tr1" not in recommended_ids # Should not recommend lower level
     assert "tr4" not in recommended_ids # Should not recommend level skipping
+
+from src.nodes import FindJobsAndTrainingsNode
+
+def test_find_jobs_and_trainings_node():
+    """
+    Tests the full logic of the FindJobsAndTrainingsNode:
+    1. It correctly filters jobs.
+    2. It correctly identifies skill gaps.
+    3. It correctly recommends trainings for those gaps.
+    """
+    # Arrange
+    node = FindJobsAndTrainingsNode()
+    
+    # Mock Persona
+    mock_persona = PersonaProfile(
+        age=25, city="São Paulo", education_level="Graduação", experience_years=3,
+        skills=["Python", "SQL"], languages=["Portuguese", "English"],
+        goals="find a job", is_open_to_relocate=False
+    )
+
+    # Mock Jobs
+    mock_jobs = [
+        # Passes filters, but needs 'Data Visualization' skill
+        JobProfile(job_id="j1", title="Data Analyst", city="São Paulo", is_remote=False,
+                   education_level="Graduação", experience_years=2, languages=["Portuguese"],
+                   required_skills=["Python", "SQL", "Data Visualization"]),
+        # Perfect match, no missing skills
+        JobProfile(job_id="j2", title="Backend Dev", city="São Paulo", is_remote=True,
+                   education_level="Técnico", experience_years=3, languages=["English"],
+                   required_skills=["Python"]),
+        # Fails location filter
+        JobProfile(job_id="j3", title="Manager", city="Recife", is_remote=False,
+                   education_level="Graduação", experience_years=3, languages=["Portuguese"],
+                   required_skills=["Management"]),
+        # Fails experience filter
+        JobProfile(job_id="j4", title="Senior Analyst", city="São Paulo", is_remote=False,
+                   education_level="Graduação", experience_years=5, languages=["Portuguese"],
+                   required_skills=["Python"]),
+    ]
+    
+    # Mock Trainings
+    mock_trainings = [
+        TrainingProfile(training_id="tr10", title="Intro to Viz", offered_skills=["Data Visualization", "BI Tools"]),
+        TrainingProfile(training_id="tr11", title="Advanced Viz", offered_skills=["Data Visualization", "Tableau"]),
+        TrainingProfile(training_id="tr12", title="Other Skill", offered_skills=["Project Management"]),
+    ]
+
+    shared = {
+        "persona_profile": mock_persona,
+        "parsed_jobs": mock_jobs,
+        "parsed_trainings": mock_trainings
+    }
+
+    # Act
+    node.run(shared)
+
+    # Assert
+    assert "intermediate_recommendations" in shared
+    recs = shared["intermediate_recommendations"]
+    assert recs["predicted_type"] == "jobs+trainings"
+    assert len(recs["jobs"]) == 2  # j3 and j4 should be filtered out
+
+    # Find the recommendations for j1 and j2
+    rec_j1 = next((j for j in recs["jobs"] if j["job_id"] == "j1"), None)
+    rec_j2 = next((j for j in recs["jobs"] if j["job_id"] == "j2"), None)
+    
+    # Assertions for j1 (has skill gap)
+    assert rec_j1 is not None
+    assert len(rec_j1["suggested_trainings"]) == 1
+    skill_gap = rec_j1["suggested_trainings"][0]
+    # CORRECTED: Assert against the lowercase version
+    assert skill_gap["missing_skill"] == "data visualization"
+    recommended_training_ids = {t["training_id"] for t in skill_gap["trainings"]}
+    assert recommended_training_ids == {"tr10", "tr11"}
+
+    # Assertions for j2 (perfect match)
+    assert rec_j2 is not None
+    assert len(rec_j2["suggested_trainings"]) == 0
