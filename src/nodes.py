@@ -9,6 +9,7 @@ from tqdm import tqdm
 from src.utils.data_retrieval import load_all_data
 from src.utils.gdsc_utils import chat_with_persona
 from src.utils.call_llm import call_llm
+from src.utils.matching_rules import EDUCATION_LEVELS
 
 # --- Set up logging for the module ---
 logger = logging.getLogger(__name__)
@@ -272,3 +273,41 @@ class ProvideAwarenessNode(Node):
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info(f"Awareness recommendation stored in 'intermediate_recommendations'.")
+
+class FindTrainingsOnlyNode(Node):
+    """
+    Finds and recommends the immediate next-level trainings for a persona.
+    """
+    def prep(self, shared):
+        profile = shared.get("persona_profile")
+        trainings = shared.get("parsed_trainings")
+        if not profile or not trainings:
+            raise ValueError("Persona profile or parsed trainings not found in shared store.")
+        return {"profile": profile, "trainings": trainings}
+
+    def exec(self, prep_res: Dict) -> Dict[str, Any]:
+        profile: PersonaProfile = prep_res["profile"]
+        all_trainings: List[TrainingProfile] = prep_res["trainings"]
+        
+        persona_edu_level_num = EDUCATION_LEVELS.get(profile.education_level, 0)
+        logger.info(f"Persona education level: '{profile.education_level}' (Numeric: {persona_edu_level_num}).")
+
+        recommended_trainings = []
+        for training in all_trainings:
+            # Handle trainings with no specific required level by assuming they are entry-level (level 0)
+            training_req_level_num = EDUCATION_LEVELS.get(training.required_level, 0)
+            
+            # Recommend trainings that are one level higher than the persona's current level
+            if training_req_level_num == persona_edu_level_num + 1:
+                recommended_trainings.append({"training_id": training.training_id})
+        
+        logger.info(f"Found {len(recommended_trainings)} next-level trainings.")
+        
+        return {
+            "predicted_type": "trainings_only",
+            "trainings": recommended_trainings
+        }
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
+        shared["intermediate_recommendations"] = exec_res
+        logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")

@@ -4,6 +4,7 @@ import json
 import getpass
 from pathlib import Path
 from src.nodes import LoadStaticDataNode, ExtractProfileNode, DecisionNode, ParseStaticDataNode, PersonaProfile, JobProfile, TrainingProfile
+from src.utils.matching_rules import EDUCATION_LEVELS
 from dotenv import load_dotenv
 
 # --- Load .env file for MISTRAL_API_KEY ---
@@ -168,3 +169,49 @@ def test_provide_awareness_node(decision_action, expected_reason):
     recommendation = shared["intermediate_recommendations"]
     assert recommendation["predicted_type"] == "awareness"
     assert recommendation["predicted_items"] == expected_reason
+
+from src.nodes import FindTrainingsOnlyNode
+
+def test_find_trainings_only_node():
+    """
+    Tests that the FindTrainingsOnlyNode correctly identifies trainings
+    that are the immediate next educational step for a persona.
+    """
+    # Arrange
+    node = FindTrainingsOnlyNode()
+    
+    # Mock Persona with "Ensino Médio" (Level 2)
+    mock_persona = PersonaProfile(
+        age=20, city="Test", education_level="Ensino Médio",
+        experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
+    )
+    
+    # Mock Trainings with various required levels
+    # CORRECTED: Added 'offered_skills' to each mock profile
+    mock_trainings = [
+        TrainingProfile(training_id="tr1", title="Basic Course", offered_skills=["skill1"], required_level="Ensino Fundamental"), # Level 1 (too low)
+        TrainingProfile(training_id="tr2", title="Technical Intro", offered_skills=["skill2"], required_level="Técnico"),         # Level 3 (correct)
+        TrainingProfile(training_id="tr3", title="Another Tech", offered_skills=["skill3"], required_level="Técnico"),          # Level 3 (correct)
+        TrainingProfile(training_id="tr4", title="Advanced Degree", offered_skills=["skill4"], required_level="Graduação"),      # Level 5 (too high)
+        TrainingProfile(training_id="tr5", title="Master Class", offered_skills=["skill5"], required_level="Mestrado"),         # Level 7 (too high)
+    ]
+    
+    shared = {
+        "persona_profile": mock_persona,
+        "parsed_trainings": mock_trainings
+    }
+
+    # Act
+    node.run(shared)
+
+    # Assert
+    assert "intermediate_recommendations" in shared
+    recommendation = shared["intermediate_recommendations"]
+    assert recommendation["predicted_type"] == "trainings_only"
+    
+    recommended_ids = {t["training_id"] for t in recommendation["trainings"]}
+    assert len(recommended_ids) == 2
+    assert "tr2" in recommended_ids
+    assert "tr3" in recommended_ids
+    assert "tr1" not in recommended_ids # Should not recommend lower level
+    assert "tr4" not in recommended_ids # Should not recommend level skipping
