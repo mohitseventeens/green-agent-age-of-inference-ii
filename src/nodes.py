@@ -245,3 +245,30 @@ class DecisionNode(Node):
         shared["decision_action"] = exec_res
         logger.info(f"Decision action '{exec_res}' stored in shared store.")
         return exec_res
+
+class ProvideAwarenessNode(Node):
+    """
+    Formats the 'awareness' recommendation based on the decision action.
+    """
+    def prep(self, shared):
+        decision = shared.get("decision_action")
+        if not decision or "provide_awareness" not in decision:
+            raise ValueError(f"Invalid decision action '{decision}' for ProvideAwarenessNode.")
+        return decision
+
+    def exec(self, decision: str) -> Dict[str, Any]:
+        if decision == "provide_awareness_young":
+            reason = "too_young"
+            logger.info("Formatting awareness response for reason: too_young.")
+        else: # Covers "provide_awareness_info"
+            reason = "info"
+            logger.info("Formatting awareness response for reason: info.")
+            
+        return {
+            "predicted_type": "awareness",
+            "predicted_items": reason
+        }
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
+        shared["intermediate_recommendations"] = exec_res
+        logger.info(f"Awareness recommendation stored in 'intermediate_recommendations'.")

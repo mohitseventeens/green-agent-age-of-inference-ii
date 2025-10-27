@@ -144,3 +144,27 @@ def test_decision_node(profile_data, expected_action):
     action = node.run(shared)
     assert shared["decision_action"] == expected_action
     assert action == expected_action
+
+from src.nodes import ProvideAwarenessNode
+
+@pytest.mark.parametrize("decision_action, expected_reason", [
+    ("provide_awareness_young", "too_young"),
+    ("provide_awareness_info", "info"),
+])
+def test_provide_awareness_node(decision_action, expected_reason):
+    """
+    Tests that the ProvideAwarenessNode correctly formats the output
+    for both 'too_young' and 'info' scenarios.
+    """
+    # Arrange
+    node = ProvideAwarenessNode()
+    shared = {"decision_action": decision_action}
+
+    # Act
+    node.run(shared)
+
+    # Assert
+    assert "intermediate_recommendations" in shared
+    recommendation = shared["intermediate_recommendations"]
+    assert recommendation["predicted_type"] == "awareness"
+    assert recommendation["predicted_items"] == expected_reason
