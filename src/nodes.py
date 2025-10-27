@@ -1,13 +1,13 @@
 import logging
 import json
-from pathlib import Path  # <-- CORRECTED: Added the missing import
+from pathlib import Path
 from pocketflow import Node
 from pydantic import BaseModel, Field, ValidationError
 from typing import List, Optional, Dict, Any
 from tqdm import tqdm
 
 from src.utils.data_retrieval import load_all_data
-from src.utils.gdsc_utils import chat_with_persona
+from src.utils.gdsc_utils import chat_with_persona, sanity_check
 from src.utils.call_llm import call_llm
 from src.utils.matching_rules import EDUCATION_LEVELS, apply_hard_filters, get_required_trainings
 
@@ -47,30 +47,33 @@ class TrainingProfile(BaseModel):
     offered_skills: List[str] = Field(..., description="A list of skills this training provides.")
     required_level: Optional[str] = Field(None, description="The prerequisite skill level or education, if any.")
 
-
+# --- Nodes ---
 class LoadStaticDataNode(Node):
+    # (unchanged)
     def prep(self, shared):
         return None
-
     def exec(self, prep_res):
         logger.info("Loading all static data (jobs and trainings)...")
         jobs = load_all_data("jobs")
         trainings = load_all_data("trainings")
         return {"jobs": jobs, "trainings": trainings}
-        
     def post(self, shared, prep_res, exec_res):
         shared["all_jobs"] = exec_res.get("jobs", [])
         shared["all_trainings"] = exec_res.get("trainings", [])
         logger.info(f"Loaded {len(shared['all_jobs'])} jobs and {len(shared['all_trainings'])} trainings into shared store.")
 
-
 class ParseStaticDataNode(Node):
     """
-    Parses raw job and training markdown files into structured Pydantic objects.
-    Implements a file-based cache to avoid re-processing.
+    CORRECTED: Parses raw job and training markdown files into structured Pydantic objects.
     """
+    # CORRECTED: The prep method now correctly fetches the raw data from the shared store.
+    def prep(self, shared):
+        return {
+            "raw_jobs": shared.get("all_jobs", []),
+            "raw_trainings": shared.get("all_trainings", [])
+        }
+        
     def _get_cache_path(self, name: str) -> Path:
-        # Assumes the script runs from the project root.
         return Path("data") / f"parsed_{name}.json"
         
     def _load_from_cache(self, name: str, model: BaseModel) -> Optional[List[BaseModel]]:
@@ -85,29 +88,25 @@ class ParseStaticDataNode(Node):
     def _save_to_cache(self, name: str, data: List[BaseModel]):
         cache_path = self._get_cache_path(name)
         logger.info(f"Saving {len(data)} parsed {name} to cache: {cache_path}")
-        # Convert Pydantic models to dictionaries for JSON serialization
         dict_data = [item.model_dump() for item in data]
         with open(cache_path, 'w', encoding='utf-8') as f:
             json.dump(dict_data, f, indent=2, ensure_ascii=False)
 
     def _parse_item(self, item: Dict[str, str], schema: Dict, item_id_key: str) -> Optional[Dict[str, Any]]:
+        # (unchanged)
         item_id = item.get("id")
         content = item.get("content")
-        
         prompt = f"""
         Analyze the following document and extract its properties into a valid JSON object that strictly follows this schema.
         The '{item_id_key}' must be set to '{item_id}'.
-
         JSON Schema:
         ---
         {json.dumps(schema, indent=2)}
         ---
-
         Document:
         ---
         {content}
         ---
-
         Respond ONLY with the JSON object.
         """
         try:
@@ -118,12 +117,15 @@ class ParseStaticDataNode(Node):
             logger.error(f"Failed to parse item {item_id}: {e}")
             return None
 
-    def exec(self, prep_res):
+    # CORRECTED: The exec method now receives the raw data from prep_res.
+    def exec(self, prep_res: Dict):
+        raw_jobs = prep_res["raw_jobs"]
+        raw_trainings = prep_res["raw_trainings"]
+        
         parsed_jobs = self._load_from_cache("jobs", JobProfile)
         if not parsed_jobs:
             logger.info("Job cache not found. Parsing all jobs from markdown...")
             job_schema = JobProfile.model_json_schema()
-            raw_jobs = self.shared.get("all_jobs", [])
             parsed_job_data = [
                 self._parse_item(job, job_schema, "job_id") 
                 for job in tqdm(raw_jobs, desc="Parsing Jobs")
@@ -135,7 +137,6 @@ class ParseStaticDataNode(Node):
         if not parsed_trainings:
             logger.info("Training cache not found. Parsing all trainings from markdown...")
             training_schema = TrainingProfile.model_json_schema()
-            raw_trainings = self.shared.get("all_trainings", [])
             parsed_training_data = [
                 self._parse_item(training, training_schema, "training_id") 
                 for training in tqdm(raw_trainings, desc="Parsing Trainings")
@@ -146,10 +147,126 @@ class ParseStaticDataNode(Node):
         return {"parsed_jobs": parsed_jobs, "parsed_trainings": parsed_trainings}
         
     def post(self, shared, prep_res, exec_res):
+        # (unchanged)
         shared["parsed_jobs"] = exec_res.get("parsed_jobs", [])
         shared["parsed_trainings"] = exec_res.get("parsed_trainings", [])
         logger.info(f"Loaded {len(shared['parsed_jobs'])} parsed jobs and {len(shared['parsed_trainings'])} parsed trainings into shared store.")
 
+# class ExtractProfileNode(Node):
+#     def prep(self, shared):
+#         persona_id = shared.get("persona_id")
+#         if not persona_id:
+#             raise ValueError("persona_id not found in shared store.")
+#         return {"persona_id": persona_id}
+
+#     def exec(self, prep_res):
+#         persona_id = prep_res["persona_id"]
+#         logger.info(f"Starting DYNAMIC conversation with {persona_id}...")
+        
+#         conversation_id = None
+#         conversation_history = []
+#         persona_profile = {}
+        
+#         # --- Dynamic Conversation Loop ---
+#         MAX_TURNS = 5
+#         for turn in range(MAX_TURNS):
+#             logger.info(f"Conversation Turn {turn + 1}/{MAX_TURNS}")
+            
+#             # 1. Analyze current history and extract profile data
+#             schema = PersonaProfile.model_json_schema()
+#             transcript = "\n".join([f"Q: {entry['question']}\nA: {entry['answer']}" for entry in conversation_history])
+            
+#             # Avoid sending empty transcript to LLM
+#             current_profile_data = {}
+#             if transcript:
+#                 analysis_prompt = f"""
+#                 Analyze the conversation transcript and extract the user's profile into a valid JSON object that strictly follows this schema.
+#                 If a value is not mentioned, omit the key.
+
+#                 JSON Schema:
+#                 ---
+#                 {json.dumps(schema, indent=2)}
+#                 ---
+#                 Conversation Transcript:
+#                 ---
+#                 {transcript}
+#                 ---
+#                 Respond ONLY with the JSON object.
+#                 """
+#                 profile_str = call_llm(prompt=analysis_prompt, use_cache=False)
+#                 try:
+#                     cleaned_str = profile_str.strip().replace("```json", "").replace("```", "")
+#                     current_profile_data = json.loads(cleaned_str)
+#                 except (json.JSONDecodeError, Exception) as e:
+#                     logger.warning(f"Could not parse partial profile on turn {turn+1}: {e}. Continuing conversation.")
+            
+#             # 2. Check for completion
+#             try:
+#                 # Use Pydantic to check if all required fields are present
+#                 PersonaProfile.model_validate(current_profile_data)
+#                 logger.info("All required profile information has been gathered. Ending conversation.")
+#                 persona_profile = current_profile_data
+#                 break
+#             except ValidationError as e:
+#                 missing_fields = [err['loc'][0] for err in e.errors()]
+#                 logger.info(f"Profile is not yet complete. Missing fields: {missing_fields}")
+
+#             # 3. Generate the next question
+#             if turn == 0:
+#                 next_question = "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age and current city in Brazil."
+#             else:
+#                 next_question_prompt = f"""
+#                 You are an expert career advisor conducting a friendly interview. Based on the conversation so far, you need to ask a question to gather the following missing information: {', '.join(missing_fields)}.
+                
+#                 - Ask only ONE clear and concise question.
+#                 - Phrase the question naturally based on the last answer.
+#                 - Do not repeat questions that have already been answered.
+
+#                 Conversation History:
+#                 ---
+#                 {transcript}
+#                 ---
+
+#                 What is the next best question to ask? Respond ONLY with the question text.
+#                 """
+#                 next_question = call_llm(prompt=next_question_prompt, use_cache=False)
+
+#             # 4. Interact with the persona
+#             logger.info(f"Asking: {next_question}")
+#             response_tuple = chat_with_persona(
+#                 persona_id=persona_id, message=next_question, conversation_id=conversation_id
+#             )
+#             if response_tuple is None:
+#                 raise RuntimeError("The chat_with_persona API call failed.")
+#             response, conversation_id = response_tuple
+#             logger.info(f"Response: {response}")
+#             conversation_history.append({"question": next_question, "answer": response})
+#             # Final turn check
+#             if turn == MAX_TURNS - 1:
+#                 logger.warning(f"Max conversation turns ({MAX_TURNS}) reached. Proceeding with collected data.")
+#                 persona_profile = current_profile_data
+
+
+#         # --- Final Validation ---
+#         try:
+#             final_profile = PersonaProfile.model_validate(persona_profile)
+#         except ValidationError as e:
+#             logger.error(f"Conversation ended, but profile is still incomplete. Raw data: {persona_profile}")
+#             raise RuntimeError(f"Could not build a complete persona profile. Validation errors: {e}")
+
+#         return {
+#             "persona_profile": final_profile,
+#             "conversation_id": conversation_id,
+#             "conversation_history": conversation_history
+#         }
+    
+#     def post(self, shared, prep_res, exec_res):
+#         shared["persona_profile"] = exec_res["persona_profile"]
+#         shared["conversation_id"] = exec_res["conversation_id"]
+#         shared["conversation_history"] = exec_res["conversation_history"]
+#         logger.info(f"Successfully extracted and validated profile for {shared['persona_id']}.")
+
+# MODIFIED: src/nodes.py
 
 class ExtractProfileNode(Node):
     def prep(self, shared):
@@ -160,69 +277,124 @@ class ExtractProfileNode(Node):
 
     def exec(self, prep_res):
         persona_id = prep_res["persona_id"]
-        logger.info(f"Starting conversation with {persona_id}...")
-        questions = [
-            "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age and current city in Brazil.",
-            "Great, thank you. What is your highest level of education, and what are some of your main skills or areas of experience?",
-            "That's very helpful. Finally, what are your career goals? Are you actively looking for a job, interested in training, or just exploring options in the green economy?"
-        ]
+        logger.info(f"Starting DYNAMIC conversation with {persona_id}...")
+        
         conversation_id = None
         conversation_history = []
-        for q in questions:
-            logger.info(f"Asking: {q}")
+        persona_profile = {}
+        
+        # --- Conversation Loop Constants ---
+        MAX_TURNS = 8
+        MIN_TURNS = 5
+
+        for turn in range(MAX_TURNS):
+            logger.info(f"Conversation Turn {turn + 1}/{MAX_TURNS}")
+            
+            # 1. Analyze current history to extract whatever profile data is available
+            schema = PersonaProfile.model_json_schema()
+            transcript = "\n".join([f"Q: {entry['question']}\nA: {entry['answer']}" for entry in conversation_history])
+            
+            current_profile_data = {}
+            if transcript:
+                analysis_prompt = f"""
+                Analyze the conversation transcript and extract the user's profile into a valid JSON object that strictly follows this schema.
+                If a value is not mentioned, omit the key.
+
+                JSON Schema:
+                ---
+                {json.dumps(schema, indent=2)}
+                ---
+                Conversation Transcript:
+                ---
+                {transcript}
+                ---
+                Respond ONLY with the JSON object.
+                """
+                profile_str = call_llm(prompt=analysis_prompt, use_cache=False)
+                try:
+                    cleaned_str = profile_str.strip().replace("```json", "").replace("```", "")
+                    current_profile_data = json.loads(cleaned_str)
+                except (json.JSONDecodeError, Exception) as e:
+                    logger.warning(f"Could not parse partial profile on turn {turn+1}: {e}. Continuing conversation.")
+            
+            # 2. Check for completion ONLY after minimum turns
+            is_complete = False
+            missing_fields = []
+            try:
+                PersonaProfile.model_validate(current_profile_data)
+                is_complete = True
+            except ValidationError as e:
+                missing_fields = [err['loc'][0] for err in e.errors()]
+            
+            # MODIFIED LOGIC: Break only if the profile is complete AND min turns are met
+            if is_complete and (turn + 1) >= MIN_TURNS:
+                logger.info(f"Profile is complete after {turn + 1} turns. Ending conversation.")
+                persona_profile = current_profile_data
+                break
+            else:
+                 logger.info(f"Profile is not yet complete. Missing fields: {missing_fields if not is_complete else 'N/A (min turns not met)'}")
+
+
+            # 3. Generate the next question
+            if turn == 0:
+                next_question = "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil."
+            else:
+                next_question_prompt = f"""
+                You are an expert career advisor conducting a friendly interview. Based on the conversation so far, you need to ask a question to gather the following missing information: {', '.join(missing_fields)}.
+                
+                - Ask only ONE clear and concise question.
+                - Phrase the question naturally based on the last answer.
+                - Do not repeat questions that have already been answered.
+
+                Conversation History:
+                ---
+                {transcript}
+                ---
+
+                What is the next best question to ask? Respond ONLY with the question text.
+                """
+                next_question = call_llm(prompt=next_question_prompt, use_cache=False)
+
+            # 4. Interact with the persona
+            logger.info(f"Asking: {next_question}")
             response_tuple = chat_with_persona(
-                persona_id=persona_id, message=q, conversation_id=conversation_id
+                persona_id=persona_id, message=next_question, conversation_id=conversation_id
             )
             if response_tuple is None:
-                raise RuntimeError(
-                    "The chat_with_persona API call failed, likely due to expired AWS credentials. "
-                    "Please refresh your temporary credentials and update your .env file or environment variables."
-                )
+                raise RuntimeError("The chat_with_persona API call failed.")
             response, conversation_id = response_tuple
             logger.info(f"Response: {response}")
-            conversation_history.append({"question": q, "answer": response})
-        transcript = "\n".join([f"Q: {entry['question']}\nA: {entry['answer']}" for entry in conversation_history])
-        schema = PersonaProfile.model_json_schema()
-        extraction_prompt = f"""
-        Analyze the conversation transcript and extract the user's profile into a valid JSON object that strictly follows this schema.
-        JSON Schema:
-        ---
-        {json.dumps(schema, indent=2)}
-        ---
-        Conversation Transcript:
-        ---
-        {transcript}
-        ---
-        Respond ONLY with the JSON object. Do not include any other text or markdown formatting.
-        """
-        logger.info("Extracting profile from transcript using Pydantic schema...")
-        profile_str = call_llm(prompt=extraction_prompt, use_cache=False)
+            conversation_history.append({"question": next_question, "answer": response})
+
+            if turn == MAX_TURNS - 1:
+                logger.warning(f"Max conversation turns ({MAX_TURNS}) reached. Proceeding with collected data.")
+                persona_profile = current_profile_data
+
+        # --- Final Validation ---
         try:
-            cleaned_str = profile_str.strip().replace("```json", "").replace("```", "")
-            persona_profile = PersonaProfile.model_validate_json(cleaned_str)
+            final_profile = PersonaProfile.model_validate(persona_profile)
         except ValidationError as e:
-            logger.error(f"Pydantic validation failed for LLM output: {profile_str}")
-            raise RuntimeError(f"Could not parse and validate persona profile from LLM. Validation errors: {e}")
+            logger.error(f"Conversation ended, but profile is still incomplete. Raw data: {persona_profile}")
+            raise RuntimeError(f"Could not build a complete persona profile. Validation errors: {e}")
+
         return {
-            "persona_profile": persona_profile,
+            "persona_profile": final_profile,
             "conversation_id": conversation_id,
             "conversation_history": conversation_history
         }
-
+    
     def post(self, shared, prep_res, exec_res):
         shared["persona_profile"] = exec_res["persona_profile"]
         shared["conversation_id"] = exec_res["conversation_id"]
         shared["conversation_history"] = exec_res["conversation_history"]
         logger.info(f"Successfully extracted and validated profile for {shared['persona_id']}.")
-
-
+        
 class DecisionNode(Node):
     def prep(self, shared):
         profile = shared.get("persona_profile")
         if not profile or not isinstance(profile, PersonaProfile):
             raise ValueError("A valid PersonaProfile object was not found in the shared store.")
         return profile
-
     def exec(self, profile: PersonaProfile) -> str:
         logger.info(f"Making decision for persona with age {profile.age} and goals: '{profile.goals}'")
         if profile.age < 16:
@@ -241,35 +413,28 @@ class DecisionNode(Node):
             return "recommend_trainings"
         logger.info("Decision: recommend_jobs (default path)")
         return "recommend_jobs"
-
     def post(self, shared, prep_res, exec_res: str) -> Optional[str]:
         shared["decision_action"] = exec_res
         logger.info(f"Decision action '{exec_res}' stored in shared store.")
+        
         return exec_res
-
 class ProvideAwarenessNode(Node):
-    """
-    Formats the 'awareness' recommendation based on the decision action.
-    """
     def prep(self, shared):
         decision = shared.get("decision_action")
         if not decision or "provide_awareness" not in decision:
             raise ValueError(f"Invalid decision action '{decision}' for ProvideAwarenessNode.")
         return decision
-
     def exec(self, decision: str) -> Dict[str, Any]:
         if decision == "provide_awareness_young":
             reason = "too_young"
             logger.info("Formatting awareness response for reason: too_young.")
-        else: # Covers "provide_awareness_info"
+        else:
             reason = "info"
             logger.info("Formatting awareness response for reason: info.")
-            
         return {
             "predicted_type": "awareness",
             "predicted_items": reason
         }
-
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info(f"Awareness recommendation stored in 'intermediate_recommendations'.")
@@ -277,6 +442,7 @@ class ProvideAwarenessNode(Node):
 class FindTrainingsOnlyNode(Node):
     """
     Finds and recommends the immediate next-level trainings for a persona.
+    Now includes trainings with no prerequisites as valid options.
     """
     def prep(self, shared):
         profile = shared.get("persona_profile")
@@ -294,14 +460,14 @@ class FindTrainingsOnlyNode(Node):
 
         recommended_trainings = []
         for training in all_trainings:
-            # Handle trainings with no specific required level by assuming they are entry-level (level 0)
             training_req_level_num = EDUCATION_LEVELS.get(training.required_level, 0)
             
-            # Recommend trainings that are one level higher than the persona's current level
-            if training_req_level_num == persona_edu_level_num + 1:
+            # --- IMPROVED LOGIC ---
+            # Recommend trainings that are one level higher OR have no level requirement (are open to all)
+            if (training_req_level_num == persona_edu_level_num + 1) or (training_req_level_num == 0):
                 recommended_trainings.append({"training_id": training.training_id})
         
-        logger.info(f"Found {len(recommended_trainings)} next-level trainings.")
+        logger.info(f"Found {len(recommended_trainings)} trainings (next-level or open-to-all).")
         
         return {
             "predicted_type": "trainings_only",
@@ -311,11 +477,8 @@ class FindTrainingsOnlyNode(Node):
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")
-
+        
 class FindJobsAndTrainingsNode(Node):
-    """
-    Finds suitable jobs based on hard filters and recommends trainings for any skill gaps.
-    """
     def prep(self, shared):
         profile = shared.get("persona_profile")
         jobs = shared.get("parsed_jobs")
@@ -323,32 +486,23 @@ class FindJobsAndTrainingsNode(Node):
         if not all([profile, jobs, trainings]):
             raise ValueError("Persona profile, parsed jobs, or parsed trainings not found.")
         return {"profile": profile, "jobs": jobs, "trainings": trainings}
-
     def exec(self, prep_res: Dict) -> Dict[str, Any]:
         profile: PersonaProfile = prep_res["profile"]
         all_jobs: List[JobProfile] = prep_res["jobs"]
         all_trainings: List[TrainingProfile] = prep_res["trainings"]
-
-        # Convert Pydantic profile to dict for utility functions
         profile_dict = profile.model_dump()
-
-        # 1. Apply hard filters to find candidate jobs
         candidate_jobs = [
             job for job in all_jobs 
             if apply_hard_filters(profile_dict, job.model_dump())
         ]
         logger.info(f"Found {len(candidate_jobs)} candidate jobs after applying hard filters.")
-
-        # 2. For each candidate job, find required trainings for skill gaps
         job_recommendations = []
         for job in candidate_jobs:
             job_dict = job.model_dump()
             missing_skills = get_required_trainings(profile_dict, job_dict)
-            
             suggested_trainings = []
             if missing_skills:
                 for skill in missing_skills:
-                    # Find trainings that offer this skill
                     matching_trainings = [
                         {"training_id": t.training_id}
                         for t in all_trainings
@@ -359,41 +513,32 @@ class FindJobsAndTrainingsNode(Node):
                             "missing_skill": skill,
                             "trainings": matching_trainings
                         })
-            
             job_recommendations.append({
                 "job_id": job.job_id,
                 "suggested_trainings": suggested_trainings
             })
-
         return {
             "predicted_type": "jobs+trainings",
             "jobs": job_recommendations
         }
-
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info("Jobs+trainings recommendation stored in 'intermediate_recommendations'.")
-
+        
 class FinalizeOutputNode(Node):
-    """
-    Combines the persona_id with the intermediate recommendation
-    to create the final, submission-ready dictionary.
-    """
     def prep(self, shared):
         persona_id = shared.get("persona_id")
         recs = shared.get("intermediate_recommendations")
         if not persona_id or not recs:
             raise ValueError("Persona ID or intermediate recommendations not found in shared store.")
         return {"persona_id": persona_id, "recommendations": recs}
-
     def exec(self, prep_res: Dict) -> Dict[str, Any]:
         final_output = {
             "persona_id": prep_res["persona_id"],
-            **prep_res["recommendations"] # Unpack the recommendation dict
+            **prep_res["recommendations"]
         }
         logger.info(f"Final output formatted for persona {prep_res['persona_id']}.")
         return final_output
-
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["final_recommendation"] = exec_res
         logger.info("Final recommendation stored in shared store.")

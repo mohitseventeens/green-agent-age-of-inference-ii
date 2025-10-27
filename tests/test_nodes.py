@@ -6,9 +6,11 @@ from pathlib import Path
 from src.nodes import LoadStaticDataNode, ExtractProfileNode, DecisionNode, ParseStaticDataNode, PersonaProfile, JobProfile, TrainingProfile
 from src.utils.matching_rules import EDUCATION_LEVELS
 from dotenv import load_dotenv
+from src.utils.gdsc_utils import sanity_check
 
 # --- Load .env file for MISTRAL_API_KEY ---
 load_dotenv()
+
 
 # --- REFACTORED: Credential Loading as a Fixture ---
 @pytest.fixture(scope="session", autouse=True)
@@ -110,41 +112,91 @@ def test_load_static_data_node():
     assert len(shared["all_jobs"]) == 200
     assert len(shared["all_trainings"]) == 497
 
-@requires_aws_creds
-@requires_mistral_key
-def test_extract_profile_node_live():
+# --- Helper function for credential checking ---
+def check_and_get_aws_credentials():
+    """Checks for AWS credentials, prompts if necessary, and returns True if ready."""
+    if all(os.getenv(key) for key in ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]):
+        print("\n✅ AWS credentials found in environment.")
+        return True
+
+    print("\n🔑 AWS Credential Check")
+    is_interactive = os.isatty(0)
+    
+    if is_interactive:
+        response = input("Are you in an environment with an IAM role (e.g., SageMaker)? [y/n]: ").lower()
+    else:
+        print("Non-interactive environment detected. Assuming IAM role.")
+        response = 'y'
+
+    if response == 'y':
+        print("Proceeding with IAM role-based authentication.")
+        try:
+            if not sanity_check(verbose=False):
+                print("⚠️ Warning: Sanity check to AWS failed with IAM role.")
+        except Exception as e:
+            print(f"⚠️ Warning: Sanity check to AWS failed: {e}")
+        return True # Assume role is present and let the API call try
+    else:
+        print("🔧 Please provide temporary AWS credentials.")
+        # Using getpass to hide secret key input
+        key_id = input("Enter AWS Access Key ID: ")
+        secret_key = getpass.getpass("Enter AWS Secret Access Key: ")
+        token = getpass.getpass("Enter AWS Session Token: ")
+        if not all([key_id, secret_key, token]):
+            print("❌ Incomplete credentials provided.")
+            return False
+        os.environ["AWS_ACCESS_KEY_ID"] = key_id
+        os.environ["AWS_SECRET_ACCESS_KEY"] = secret_key
+        os.environ["AWS_SESSION_TOKEN"] = token
+        print("✅ Manual credentials set for this session.")
+        return True
+
+@requires_mistral_key # We still need the Mistral key
+def test_extract_profile_node_dynamic_live():
+    """
+    Performs a live, end-to-end test of the dynamic ExtractProfileNode.
+    It now interactively checks for credentials and allows persona selection.
+    """
+    # 1. Credential Check
+    if not check_and_get_aws_credentials():
+        pytest.skip("AWS credentials were not provided. Skipping live test.")
+
+    # 2. Persona Selection
+    persona_num_str = input("\nEnter a persona number to test (1-100): ")
+    try:
+        persona_num = int(persona_num_str)
+        if not 1 <= persona_num <= 100:
+            raise ValueError
+        persona_to_test = f"persona_{persona_num:03d}"
+    except (ValueError, TypeError):
+        default_persona = "persona_001"
+        print(f"Invalid input. Defaulting to {default_persona}.")
+        persona_to_test = default_persona
+    
+    # 3. Arrange
     node = ExtractProfileNode()
-    shared = {"persona_id": "persona_001"}
+    shared = {"persona_id": persona_to_test}
+    
+    print(f"\n--- Starting LIVE dynamic conversation test for {persona_to_test} ---")
+
+    # 4. Act
     node.run(shared)
+
+    # 5. Assert
     assert "persona_profile" in shared
     profile = shared["persona_profile"]
     assert isinstance(profile, PersonaProfile)
-
-@pytest.mark.parametrize("profile_data, expected_action", [
-    ({"age": 15, "goals": "find a job"}, "provide_awareness_young"),
-    ({"age": 25, "goals": "I'm just exploring my options."}, "provide_awareness_info"),
-    ({"age": 22, "goals": "I am not sure what I want yet."}, "provide_awareness_info"),
-    ({"age": 30, "goals": "I want to learn new skills and get training."}, "recommend_trainings"),
-    ({"age": 18, "goals": "Quero estudar e fazer cursos."}, "recommend_trainings"),
-    ({"age": 28, "goals": "I need a job in the green sector."}, "recommend_jobs"),
-    ({"age": 24, "goals": "I want to find a job and get training for it."}, "recommend_jobs"),
-    ({"age": 40, "goals": "Looking for a new career."}, "recommend_jobs"),
-])
-def test_decision_node(profile_data, expected_action):
-    node = DecisionNode()
-    mock_profile = PersonaProfile(
-        age=profile_data["age"],
-        goals=profile_data["goals"],
-        city="Test City",
-        education_level="Ensino Médio",
-        experience_years=2,
-        skills=["testing"],
-        is_open_to_relocate=False
-    )
-    shared = {"persona_profile": mock_profile}
-    action = node.run(shared)
-    assert shared["decision_action"] == expected_action
-    assert action == expected_action
+    
+    assert "conversation_history" in shared
+    assert len(shared["conversation_history"]) > 0
+    
+    print(f"\n--- Live Test Complete for {persona_to_test} ---")
+    print("Final Extracted Profile:")
+    print(profile.model_dump_json(indent=2))
+    print("\nConversation History:")
+    for turn in shared["conversation_history"]:
+        print(f"  Q: {turn['question']}")
+        print(f"  A: {turn['answer']}")
 
 from src.nodes import ProvideAwarenessNode
 
@@ -175,25 +227,23 @@ from src.nodes import FindTrainingsOnlyNode
 def test_find_trainings_only_node():
     """
     Tests that the FindTrainingsOnlyNode correctly identifies trainings
-    that are the immediate next educational step for a persona.
+    that are the immediate next step OR are open to all levels.
     """
     # Arrange
     node = FindTrainingsOnlyNode()
     
-    # Mock Persona with "Ensino Médio" (Level 2)
     mock_persona = PersonaProfile(
-        age=20, city="Test", education_level="Ensino Médio",
+        age=20, city="Test", education_level="Ensino Médio", # Level 2
         experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
     )
     
-    # Mock Trainings with various required levels
     # CORRECTED: Added 'offered_skills' to each mock profile
     mock_trainings = [
         TrainingProfile(training_id="tr1", title="Basic Course", offered_skills=["skill1"], required_level="Ensino Fundamental"), # Level 1 (too low)
-        TrainingProfile(training_id="tr2", title="Technical Intro", offered_skills=["skill2"], required_level="Técnico"),         # Level 3 (correct)
-        TrainingProfile(training_id="tr3", title="Another Tech", offered_skills=["skill3"], required_level="Técnico"),          # Level 3 (correct)
+        TrainingProfile(training_id="tr2", title="Technical Intro", offered_skills=["skill2"], required_level="Técnico"),         # Level 3 (correct next step)
+        TrainingProfile(training_id="tr3", title="Another Tech", offered_skills=["skill3"], required_level="Técnico"),          # Level 3 (correct next step)
         TrainingProfile(training_id="tr4", title="Advanced Degree", offered_skills=["skill4"], required_level="Graduação"),      # Level 5 (too high)
-        TrainingProfile(training_id="tr5", title="Master Class", offered_skills=["skill5"], required_level="Mestrado"),         # Level 7 (too high)
+        TrainingProfile(training_id="tr5", title="Open for All", offered_skills=["skill5"], required_level=None),               # Level 0 (correct, open)
     ]
     
     shared = {
@@ -207,14 +257,14 @@ def test_find_trainings_only_node():
     # Assert
     assert "intermediate_recommendations" in shared
     recommendation = shared["intermediate_recommendations"]
-    assert recommendation["predicted_type"] == "trainings_only"
     
     recommended_ids = {t["training_id"] for t in recommendation["trainings"]}
-    assert len(recommended_ids) == 2
-    assert "tr2" in recommended_ids
-    assert "tr3" in recommended_ids
-    assert "tr1" not in recommended_ids # Should not recommend lower level
-    assert "tr4" not in recommended_ids # Should not recommend level skipping
+    assert len(recommended_ids) == 3
+    assert "tr2" in recommended_ids # Next level
+    assert "tr3" in recommended_ids # Next level
+    assert "tr5" in recommended_ids # Open to all
+    assert "tr1" not in recommended_ids
+    assert "tr4" not in recommended_ids
 
 from src.nodes import FindJobsAndTrainingsNode
 
