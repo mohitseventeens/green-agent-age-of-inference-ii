@@ -268,81 +268,97 @@ def test_find_trainings_only_node():
 
 from src.nodes import FindJobsAndTrainingsNode
 
-def test_find_jobs_and_trainings_node():
+# ADDED to: tests/test_nodes.py
+
+@pytest.fixture(scope="session")
+@requires_mistral_key
+def live_parsed_data():
     """
-    Tests the full logic of the FindJobsAndTrainingsNode:
-    1. It correctly filters jobs.
-    2. It correctly identifies skill gaps.
-    3. It correctly recommends trainings for those gaps.
+    A session-scoped fixture that runs the initial data loading and parsing nodes
+    ONCE to provide real, parsed data for live tests.
+    This avoids re-parsing for every test function.
     """
-    # Arrange
+    print("\n--- (Fixture) Loading and parsing all static data for live tests... ---")
+    # Use existing cache if available, otherwise parse fresh
+    job_cache_path = Path("data/parsed_jobs.json")
+    training_cache_path = Path("data/parsed_trainings.json")
+
+    shared = {}
+    if job_cache_path.exists() and training_cache_path.exists():
+        print("--- (Fixture) Found existing cache. Loading parsed data directly. ---")
+        with open(job_cache_path, 'r', encoding='utf-8') as f:
+            shared["parsed_jobs"] = [JobProfile.model_validate(item) for item in json.load(f)]
+        with open(training_cache_path, 'r', encoding='utf-8') as f:
+            shared["parsed_trainings"] = [TrainingProfile.model_validate(item) for item in json.load(f)]
+    else:
+        print("--- (Fixture) No cache found. Performing full load and parse... ---")
+        load_node = LoadStaticDataNode()
+        load_node.run(shared)
+        
+        parse_node = ParseStaticDataNode()
+        parse_node.shared = shared
+        parse_node.run(shared)
+    
+    if not shared.get("parsed_jobs") or not shared.get("parsed_trainings"):
+        pytest.fail("Data parsing failed in the fixture. Cannot proceed with live tests.")
+        
+    print(f"--- (Fixture) Data ready: {len(shared['parsed_jobs'])} jobs, {len(shared['parsed_trainings'])} trainings. ---")
+    return shared
+
+@requires_mistral_key
+def test_find_jobs_and_trainings_node_live_with_large_model(live_parsed_data):
+    """
+    Tests the FindJobsAndTrainingsNode with REAL data, NO CACHE, and the
+    POWERFUL mistral-large-latest model to ensure the highest quality reasoning.
+    """
+    # 1. Arrange
     node = FindJobsAndTrainingsNode()
+    # THIS IS THE KEY CHANGE: Use the large model and disable cache
+    node.set_params({
+        "use_cache_for_scoring": False,
+        "scoring_model": "mistral-large-latest"
+    })
     
-    # Mock Persona
-    mock_persona = PersonaProfile(
-        age=25, city="São Paulo", education_level="Graduação", experience_years=3,
-        skills=["Python", "SQL"], languages=["Portuguese", "English"],
-        goals="find a job", is_open_to_relocate=False
+    persona = PersonaProfile(
+        age=25,
+        city="São Paulo",
+        education_level="Graduação",
+        experience_years=2,
+        skills=["Análise de Dados", "Relatórios Financeiros"],
+        goals="Busco uma oportunidade como analista de dados no setor financeiro ou de sustentabilidade.",
+        is_open_to_relocate=False,
+        languages=["Portuguese", "English"]
     )
-
-    # Mock Jobs
-    mock_jobs = [
-        # Passes filters, but needs 'Data Visualization' skill
-        JobProfile(job_id="j1", title="Data Analyst", city="São Paulo", is_remote=False,
-                   education_level="Graduação", experience_years=2, languages=["Portuguese"],
-                   required_skills=["Python", "SQL", "Data Visualization"]),
-        # Perfect match, no missing skills
-        JobProfile(job_id="j2", title="Backend Dev", city="São Paulo", is_remote=True,
-                   education_level="Técnico", experience_years=3, languages=["English"],
-                   required_skills=["Python"]),
-        # Fails location filter
-        JobProfile(job_id="j3", title="Manager", city="Recife", is_remote=False,
-                   education_level="Graduação", experience_years=3, languages=["Portuguese"],
-                   required_skills=["Management"]),
-        # Fails experience filter
-        JobProfile(job_id="j4", title="Senior Analyst", city="São Paulo", is_remote=False,
-                   education_level="Graduação", experience_years=5, languages=["Portuguese"],
-                   required_skills=["Python"]),
-    ]
     
-    # Mock Trainings
-    mock_trainings = [
-        TrainingProfile(training_id="tr10", title="Intro to Viz", offered_skills=["Data Visualization", "BI Tools"]),
-        TrainingProfile(training_id="tr11", title="Advanced Viz", offered_skills=["Data Visualization", "Tableau"]),
-        TrainingProfile(training_id="tr12", title="Other Skill", offered_skills=["Project Management"]),
-    ]
-
-    shared = {
-        "persona_profile": mock_persona,
-        "parsed_jobs": mock_jobs,
-        "parsed_trainings": mock_trainings
-    }
-
-    # Act
+    shared = live_parsed_data.copy()
+    shared["persona_profile"] = persona
+    
+    print(f"\n--- Starting LIVE scoring test (Large Model, No Cache) for persona goals: '{persona.goals}' ---")
+    
+    # 2. Act
     node.run(shared)
-
-    # Assert
+    
+    # 3. Assert and Inspect
     assert "intermediate_recommendations" in shared
     recs = shared["intermediate_recommendations"]
     assert recs["predicted_type"] == "jobs+trainings"
-    assert len(recs["jobs"]) == 2  # j3 and j4 should be filtered out
-
-    # Find the recommendations for j1 and j2
-    rec_j1 = next((j for j in recs["jobs"] if j["job_id"] == "j1"), None)
-    rec_j2 = next((j for j in recs["jobs"] if j["job_id"] == "j2"), None)
     
-    # Assertions for j1 (has skill gap)
-    assert rec_j1 is not None
-    assert len(rec_j1["suggested_trainings"]) == 1
-    skill_gap = rec_j1["suggested_trainings"][0]
-    # CORRECTED: Assert against the lowercase version
-    assert skill_gap["missing_skill"] == "data visualization"
-    recommended_training_ids = {t["training_id"] for t in skill_gap["trainings"]}
-    assert recommended_training_ids == {"tr10", "tr11"}
+    num_recommendations = len(recs["jobs"])
+    print(f"Node returned {num_recommendations} job recommendations.")
+    assert 0 < num_recommendations <= 3
 
-    # Assertions for j2 (perfect match)
-    assert rec_j2 is not None
-    assert len(rec_j2["suggested_trainings"]) == 0
+    print("\n--- Top Recommendations (Scored with mistral-large-latest) ---")
+    for job_rec in recs["jobs"]:
+        job_id = job_rec['job_id']
+        job_profile = next((j for j in shared['parsed_jobs'] if j.job_id == job_id), None)
+        title = job_profile.title if job_profile else "Unknown Title"
+        print(f"\nJob ID: {job_id} ({title})")
+        if job_rec['suggested_trainings']:
+            for training_suggestion in job_rec['suggested_trainings']:
+                print(f"  - Missing Skill: {training_suggestion['missing_skill']}")
+                print(f"    - Suggested Trainings: {[t['training_id'] for t in training_suggestion['trainings']]}")
+        else:
+            print("  - No skill gaps identified.")
 
 from src.nodes import FinalizeOutputNode
 

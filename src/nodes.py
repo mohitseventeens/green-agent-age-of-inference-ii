@@ -152,122 +152,6 @@ class ParseStaticDataNode(Node):
         shared["parsed_trainings"] = exec_res.get("parsed_trainings", [])
         logger.info(f"Loaded {len(shared['parsed_jobs'])} parsed jobs and {len(shared['parsed_trainings'])} parsed trainings into shared store.")
 
-# class ExtractProfileNode(Node):
-#     def prep(self, shared):
-#         persona_id = shared.get("persona_id")
-#         if not persona_id:
-#             raise ValueError("persona_id not found in shared store.")
-#         return {"persona_id": persona_id}
-
-#     def exec(self, prep_res):
-#         persona_id = prep_res["persona_id"]
-#         logger.info(f"Starting DYNAMIC conversation with {persona_id}...")
-        
-#         conversation_id = None
-#         conversation_history = []
-#         persona_profile = {}
-        
-#         # --- Dynamic Conversation Loop ---
-#         MAX_TURNS = 5
-#         for turn in range(MAX_TURNS):
-#             logger.info(f"Conversation Turn {turn + 1}/{MAX_TURNS}")
-            
-#             # 1. Analyze current history and extract profile data
-#             schema = PersonaProfile.model_json_schema()
-#             transcript = "\n".join([f"Q: {entry['question']}\nA: {entry['answer']}" for entry in conversation_history])
-            
-#             # Avoid sending empty transcript to LLM
-#             current_profile_data = {}
-#             if transcript:
-#                 analysis_prompt = f"""
-#                 Analyze the conversation transcript and extract the user's profile into a valid JSON object that strictly follows this schema.
-#                 If a value is not mentioned, omit the key.
-
-#                 JSON Schema:
-#                 ---
-#                 {json.dumps(schema, indent=2)}
-#                 ---
-#                 Conversation Transcript:
-#                 ---
-#                 {transcript}
-#                 ---
-#                 Respond ONLY with the JSON object.
-#                 """
-#                 profile_str = call_llm(prompt=analysis_prompt, use_cache=False)
-#                 try:
-#                     cleaned_str = profile_str.strip().replace("```json", "").replace("```", "")
-#                     current_profile_data = json.loads(cleaned_str)
-#                 except (json.JSONDecodeError, Exception) as e:
-#                     logger.warning(f"Could not parse partial profile on turn {turn+1}: {e}. Continuing conversation.")
-            
-#             # 2. Check for completion
-#             try:
-#                 # Use Pydantic to check if all required fields are present
-#                 PersonaProfile.model_validate(current_profile_data)
-#                 logger.info("All required profile information has been gathered. Ending conversation.")
-#                 persona_profile = current_profile_data
-#                 break
-#             except ValidationError as e:
-#                 missing_fields = [err['loc'][0] for err in e.errors()]
-#                 logger.info(f"Profile is not yet complete. Missing fields: {missing_fields}")
-
-#             # 3. Generate the next question
-#             if turn == 0:
-#                 next_question = "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age and current city in Brazil."
-#             else:
-#                 next_question_prompt = f"""
-#                 You are an expert career advisor conducting a friendly interview. Based on the conversation so far, you need to ask a question to gather the following missing information: {', '.join(missing_fields)}.
-                
-#                 - Ask only ONE clear and concise question.
-#                 - Phrase the question naturally based on the last answer.
-#                 - Do not repeat questions that have already been answered.
-
-#                 Conversation History:
-#                 ---
-#                 {transcript}
-#                 ---
-
-#                 What is the next best question to ask? Respond ONLY with the question text.
-#                 """
-#                 next_question = call_llm(prompt=next_question_prompt, use_cache=False)
-
-#             # 4. Interact with the persona
-#             logger.info(f"Asking: {next_question}")
-#             response_tuple = chat_with_persona(
-#                 persona_id=persona_id, message=next_question, conversation_id=conversation_id
-#             )
-#             if response_tuple is None:
-#                 raise RuntimeError("The chat_with_persona API call failed.")
-#             response, conversation_id = response_tuple
-#             logger.info(f"Response: {response}")
-#             conversation_history.append({"question": next_question, "answer": response})
-#             # Final turn check
-#             if turn == MAX_TURNS - 1:
-#                 logger.warning(f"Max conversation turns ({MAX_TURNS}) reached. Proceeding with collected data.")
-#                 persona_profile = current_profile_data
-
-
-#         # --- Final Validation ---
-#         try:
-#             final_profile = PersonaProfile.model_validate(persona_profile)
-#         except ValidationError as e:
-#             logger.error(f"Conversation ended, but profile is still incomplete. Raw data: {persona_profile}")
-#             raise RuntimeError(f"Could not build a complete persona profile. Validation errors: {e}")
-
-#         return {
-#             "persona_profile": final_profile,
-#             "conversation_id": conversation_id,
-#             "conversation_history": conversation_history
-#         }
-    
-#     def post(self, shared, prep_res, exec_res):
-#         shared["persona_profile"] = exec_res["persona_profile"]
-#         shared["conversation_id"] = exec_res["conversation_id"]
-#         shared["conversation_history"] = exec_res["conversation_history"]
-#         logger.info(f"Successfully extracted and validated profile for {shared['persona_id']}.")
-
-# MODIFIED: src/nodes.py
-
 class ExtractProfileNode(Node):
     def prep(self, shared):
         persona_id = shared.get("persona_id")
@@ -418,6 +302,7 @@ class DecisionNode(Node):
         logger.info(f"Decision action '{exec_res}' stored in shared store.")
         
         return exec_res
+        
 class ProvideAwarenessNode(Node):
     def prep(self, shared):
         decision = shared.get("decision_action")
@@ -479,6 +364,12 @@ class FindTrainingsOnlyNode(Node):
         logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")
         
 class FindJobsAndTrainingsNode(Node):
+    """
+    Finds suitable jobs using a hybrid approach:
+    1. Fast, rule-based hard filters to find all technically eligible jobs.
+    2. An LLM-based "soft filter" to score the relevance of eligible jobs.
+    3. Recommends trainings for skill gaps on only the top-scoring jobs.
+    """
     def prep(self, shared):
         profile = shared.get("persona_profile")
         jobs = shared.get("parsed_jobs")
@@ -486,20 +377,83 @@ class FindJobsAndTrainingsNode(Node):
         if not all([profile, jobs, trainings]):
             raise ValueError("Persona profile, parsed jobs, or parsed trainings not found.")
         return {"profile": profile, "jobs": jobs, "trainings": trainings}
+
+    def _get_relevance_score(self, persona: PersonaProfile, job: JobProfile, use_cache: bool = True, model: str = "mistral-small-latest") -> int:
+        """Calls an LLM to score the relevance of a job to a persona."""
+        # --- NEW, MORE ROBUST PROMPT ---
+        prompt = f"""
+        You are an expert career advisor in Brazil. Your task is to score the relevance of a job for a specific persona based on their skills and, most importantly, their stated career goals.
+
+        **Persona Profile:**
+        - **Stated Goals:** "{persona.goals}"
+        - **Existing Skills:** {persona.skills}
+
+        **Job to Evaluate:**
+        - **Title:** "{job.title}"
+        - **Required Skills:** {job.required_skills}
+
+        **Scoring Criteria:**
+        - **High Score (8-10):** The job title and its domain (e.g., finance, data, sustainability) directly align with the persona's stated goals.
+        - **Medium Score (4-7):** The job shares keywords (like 'Analyst') but is in a different domain than the persona's goals (e.g., Design Analyst for a Data Analyst persona).
+        - **Low Score (1-3):** The job is in a completely different field.
+
+        On a scale of 1 to 10, how relevant is this job to the persona?
+
+        **CRITICAL INSTRUCTION:** Your response MUST be a single, valid JSON object and nothing else. The 'reasoning' string must NOT contain any newline characters (`\\n`) or other control characters. It must be a single line of text.
+
+        **Example of a valid response:**
+        {{"score": 8, "reasoning": "This job is a strong match because the domain aligns with the persona's goals."}}
+
+        Respond now.
+        """
+        try:
+            response_str = call_llm(prompt=prompt, use_cache=use_cache, model=model)
+            # Standard cleaning should be sufficient with the improved prompt
+            cleaned_str = response_str.strip().replace("```json", "").replace("```", "")
+            response_json = json.loads(cleaned_str)
+            score = int(response_json.get("score", 0))
+            logger.debug(f"Job {job.job_id} ('{job.title}') scored {score} using {model}. Reason: {response_json.get('reasoning')}")
+            return score
+        except (json.JSONDecodeError, ValueError, Exception) as e:
+            logger.warning(f"Could not parse relevance score for job {job.job_id} using {model}. Error: {e}. Raw response: '{response_str}'")
+            return 0
+
     def exec(self, prep_res: Dict) -> Dict[str, Any]:
         profile: PersonaProfile = prep_res["profile"]
         all_jobs: List[JobProfile] = prep_res["jobs"]
         all_trainings: List[TrainingProfile] = prep_res["trainings"]
+
+        # Get parameters from the node instance
+        use_cache_for_scoring = self.params.get("use_cache_for_scoring", True)
+        scoring_model = self.params.get("scoring_model", "mistral-small-latest")
+        logger.info(f"Using model '{scoring_model}' for relevance scoring.")
+
         profile_dict = profile.model_dump()
+
         candidate_jobs = [
             job for job in all_jobs 
             if apply_hard_filters(profile_dict, job.model_dump())
         ]
         logger.info(f"Found {len(candidate_jobs)} candidate jobs after applying hard filters.")
+
+        if not candidate_jobs:
+            return {"predicted_type": "jobs+trainings", "jobs": []}
+
+        scored_jobs = []
+        for job in tqdm(candidate_jobs, desc=f"Scoring jobs with {scoring_model}", disable=len(candidate_jobs) < 5):
+            score = self._get_relevance_score(profile, job, use_cache=use_cache_for_scoring, model=scoring_model)
+            scored_jobs.append({"job": job, "score": score})
+
+        sorted_jobs = sorted(scored_jobs, key=lambda x: x["score"], reverse=True)
+        
+        top_jobs = [item["job"] for item in sorted_jobs[:3]]
+        logger.info(f"Selected top {len(top_jobs)} jobs after relevance scoring.")
+
         job_recommendations = []
-        for job in candidate_jobs:
+        for job in top_jobs:
             job_dict = job.model_dump()
             missing_skills = get_required_trainings(profile_dict, job_dict)
+            
             suggested_trainings = []
             if missing_skills:
                 for skill in missing_skills:
@@ -513,14 +467,17 @@ class FindJobsAndTrainingsNode(Node):
                             "missing_skill": skill,
                             "trainings": matching_trainings
                         })
+            
             job_recommendations.append({
                 "job_id": job.job_id,
                 "suggested_trainings": suggested_trainings
             })
+
         return {
             "predicted_type": "jobs+trainings",
             "jobs": job_recommendations
         }
+        
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
         logger.info("Jobs+trainings recommendation stored in 'intermediate_recommendations'.")
