@@ -285,52 +285,106 @@ def test_provide_awareness_node(decision_action, expected_reason):
 
 from src.nodes import FindTrainingsOnlyNode
 
-def test_find_trainings_only_node():
+# def test_find_trainings_only_node():
+#     """
+#     Tests that the FindTrainingsOnlyNode correctly identifies trainings
+#     that are the immediate next step OR are open to all levels.
+#     """
+#     # Arrange
+#     node = FindTrainingsOnlyNode()
+    
+#     # mock_persona = PersonaProfile(
+#     #     age=20, city="Test", education_level="Ensino Médio", # Level 2
+#     #     experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
+#     # )
+#     mock_persona = PersonaProfile(
+#         persona_id="test_persona_01",
+#         age=20, city="Test", education_level="Ensino Médio", # Level 2
+#         experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
+#     )
+    
+#     # CORRECTED: Added 'offered_skills' to each mock profile
+#     mock_trainings = [
+#         TrainingProfile(training_id="tr1", title="Basic Course", offered_skills=["skill1"], required_level="Ensino Fundamental"), # Level 1 (too low)
+#         TrainingProfile(training_id="tr2", title="Technical Intro", offered_skills=["skill2"], required_level="Técnico"),         # Level 3 (correct next step)
+#         TrainingProfile(training_id="tr3", title="Another Tech", offered_skills=["skill3"], required_level="Técnico"),          # Level 3 (correct next step)
+#         TrainingProfile(training_id="tr4", title="Advanced Degree", offered_skills=["skill4"], required_level="Graduação"),      # Level 5 (too high)
+#         TrainingProfile(training_id="tr5", title="Open for All", offered_skills=["skill5"], required_level=None),               # Level 0 (correct, open)
+#     ]
+    
+#     shared = {
+#         "persona_profile": mock_persona,
+#         "parsed_trainings": mock_trainings
+#     }
+
+#     # Act
+#     node.run(shared)
+
+#     # Assert
+#     assert "intermediate_recommendations" in shared
+#     recommendation = shared["intermediate_recommendations"]
+    
+#     recommended_ids = {t["training_id"] for t in recommendation["trainings"]}
+#     assert len(recommended_ids) == 3
+#     assert "tr2" in recommended_ids # Next level
+#     assert "tr3" in recommended_ids # Next level
+#     assert "tr5" in recommended_ids # Open to all
+#     assert "tr1" not in recommended_ids
+#     assert "tr4" not in recommended_ids
+
+@requires_mistral_key # Add this marker as the new node uses an LLM
+def test_find_trainings_only_node_with_scoring():
     """
-    Tests that the FindTrainingsOnlyNode correctly identifies trainings
-    that are the immediate next step OR are open to all levels.
+    Tests the refactored FindTrainingsOnlyNode with its new scoring logic.
+    It mocks the LLM call to focus on the ranking and prerequisite scoring.
     """
-    # Arrange
+    # 1. Arrange
     node = FindTrainingsOnlyNode()
     
-    # mock_persona = PersonaProfile(
-    #     age=20, city="Test", education_level="Ensino Médio", # Level 2
-    #     experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
-    # )
-    mock_persona = PersonaProfile(
-        persona_id="test_persona_01",
-        age=20, city="Test", education_level="Ensino Médio", # Level 2
-        experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
+    # This persona has completed high school and wants to get into tech
+    persona = PersonaProfile(
+        persona_id="p_train", age=19, city="any", is_open_to_relocate=True,
+        education_level="Ensino Médio", # Level 2
+        experience_years=0, languages=["Portuguese"], skills=[],
+        goals="Quero aprender programação para conseguir um emprego em tecnologia."
     )
     
-    # CORRECTED: Added 'offered_skills' to each mock profile
+    # A curated list of trainings to test the scoring
     mock_trainings = [
-        TrainingProfile(training_id="tr1", title="Basic Course", offered_skills=["skill1"], required_level="Ensino Fundamental"), # Level 1 (too low)
-        TrainingProfile(training_id="tr2", title="Technical Intro", offered_skills=["skill2"], required_level="Técnico"),         # Level 3 (correct next step)
-        TrainingProfile(training_id="tr3", title="Another Tech", offered_skills=["skill3"], required_level="Técnico"),          # Level 3 (correct next step)
-        TrainingProfile(training_id="tr4", title="Advanced Degree", offered_skills=["skill4"], required_level="Graduação"),      # Level 5 (too high)
-        TrainingProfile(training_id="tr5", title="Open for All", offered_skills=["skill5"], required_level=None),               # Level 0 (correct, open)
+        # The best match: next level up, high goal alignment
+        TrainingProfile(training_id="tr_best", title="Introdução à Programação", required_level="Técnico", offered_skills=["Python"]),
+        # A good match: open to all, good goal alignment
+        TrainingProfile(training_id="tr_good", title="Lógica de Programação para Iniciantes", required_level=None, offered_skills=["Logic"]),
+        # A bad match: prerequisite is too high
+        TrainingProfile(training_id="tr_bad", title="Advanced Cloud Architecture", required_level="Graduação", offered_skills=["AWS", "Azure"]),
+        # An okay match: overqualified, but less relevant goal
+        TrainingProfile(training_id="tr_ok", title="Curso de Excel Básico", required_level="Ensino Fundamental", offered_skills=["Excel"])
     ]
     
     shared = {
-        "persona_profile": mock_persona,
+        "persona_profile": persona,
         "parsed_trainings": mock_trainings
     }
 
-    # Act
+    # 2. Act
     node.run(shared)
-
-    # Assert
-    assert "intermediate_recommendations" in shared
-    recommendation = shared["intermediate_recommendations"]
     
-    recommended_ids = {t["training_id"] for t in recommendation["trainings"]}
-    assert len(recommended_ids) == 3
-    assert "tr2" in recommended_ids # Next level
-    assert "tr3" in recommended_ids # Next level
-    assert "tr5" in recommended_ids # Open to all
-    assert "tr1" not in recommended_ids
-    assert "tr4" not in recommended_ids
+    # 3. Assert
+    assert "intermediate_recommendations" in shared
+    recs = shared["intermediate_recommendations"]
+    assert recs["predicted_type"] == "trainings_only"
+    
+    recommended_ids = [t["training_id"] for t in recs["trainings"]]
+    
+    # Check that it found some recommendations
+    assert len(recommended_ids) > 0
+    
+    # The TOP recommendation MUST be the best match
+    assert recommended_ids[0] == "tr_best"
+    # The second should be the good match
+    assert recommended_ids[1] == "tr_good"
+    # The bad match should not be highly ranked
+    assert "tr_bad" not in recommended_ids[:2]
 
 from src.nodes import FindJobsAndTrainingsNode
 

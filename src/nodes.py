@@ -13,7 +13,8 @@ from src.utils.call_llm import call_llm
 from src.utils.matching_rules import (
     get_required_trainings,
     safety_net_filter,
-    calculate_composite_score
+    calculate_composite_score,
+    calculate_training_composite_score
 )
 
 # --- Set up logging for the module ---
@@ -207,26 +208,52 @@ class ProvideAwarenessNode(Node):
         shared["intermediate_recommendations"] = exec_res
 
 class FindTrainingsOnlyNode(Node):
-    # Unchanged for now, but will likely be refactored later
+    """
+    Finds and recommends trainings by applying a graduated scoring model
+    to all trainings in the dataset.
+    """
     def prep(self, shared):
-        return {"profile": shared["persona_profile"], "trainings": shared["parsed_trainings"]}
-    def _get_relevance_score(self, persona, training):
-        prompt = f'Score 1-10: how relevant is training "{training.title}" ({training.offered_skills}) to goal "{persona.goals}"? JSON ONLY: {{"score": N}}'
-        try:
-            resp = call_llm(prompt, model="mistral-small-latest", use_cache=True)
-            return int(json.loads(resp.strip().replace("```json", "").replace("```", "")).get("score", 0))
-        except Exception: return 0
-    def exec(self, prep_res):
-        profile, all_trainings = prep_res["profile"], prep_res["trainings"]
-        from src.utils.matching_rules import get_education_level
-        persona_level = get_education_level(profile.education_level) or 0
-        candidates = [t for t in all_trainings if (get_education_level(t.required_level) or 0) == 0 or (get_education_level(t.required_level) or 0) == persona_level + 1]
-        scored = [{"training": t, "score": self._get_relevance_score(profile, t)} for t in tqdm(candidates, "Scoring trainings")]
-        top = sorted(scored, key=lambda x: x["score"], reverse=True)[:5]
-        recs = [{"training_id": item["training"].training_id} for item in top]
-        return {"predicted_type": "trainings_only", "trainings": recs}
-    def post(self, shared, prep_res, exec_res):
+        profile = shared.get("persona_profile")
+        trainings = shared.get("parsed_trainings")
+        if not profile or not trainings:
+            raise ValueError("Persona profile or parsed trainings not found in shared store.")
+        return {"profile": profile, "trainings": trainings}
+
+    def exec(self, prep_res: Dict) -> Dict[str, Any]:
+        profile: PersonaProfile = prep_res["profile"]
+        all_trainings: List[TrainingProfile] = prep_res["trainings"]
+        
+        profile_dict = profile.model_dump()
+
+        # Score all 497 trainings. This is feasible because the LLM call is cheap and cached.
+        scored_trainings = []
+        for training in tqdm(all_trainings, desc=f"Scoring trainings for persona {profile.persona_id}", disable=len(all_trainings) < 10):
+            training_dict = training.model_dump()
+            composite_score, sub_scores = calculate_training_composite_score(profile_dict, training_dict)
+            scored_trainings.append({"training": training, "score": composite_score, "sub_scores": sub_scores})
+            
+        # Sort and select the top 5 trainings
+        sorted_trainings = sorted(scored_trainings, key=lambda x: x["score"], reverse=True)
+        top_trainings_scored = sorted_trainings[:5]
+
+        logger.info(f"--- Top 5 Trainings for Persona {profile.persona_id} ---")
+        for scored_training in top_trainings_scored:
+            logger.info(
+                f"  - Training: {scored_training['training'].training_id} ({scored_training['training'].title}) | "
+                f"Composite Score: {scored_training['score']:.2f} | "
+                f"Sub-scores: {scored_training['sub_scores']}"
+            )
+            
+        recommended_trainings = [{"training_id": t["training"].training_id} for t in top_trainings_scored]
+
+        return {
+            "predicted_type": "trainings_only",
+            "trainings": recommended_trainings
+        }
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
+        logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")
 
 # --- MAJOR REFACTOR: FindJobsAndTrainingsNode ---
 class FindJobsAndTrainingsNode(Node):
