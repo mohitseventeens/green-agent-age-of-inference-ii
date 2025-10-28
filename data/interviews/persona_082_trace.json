@@ -1,0 +1,46 @@
+{
+  "persona_id": "persona_082",
+  "final_profile": {
+    "persona_id": "persona_082",
+    "age": 18,
+    "city": null,
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "advocacy",
+      "community organizing",
+      "petition drafting",
+      "stakeholder mediation",
+      "local issue mapping",
+      "campaign coordination",
+      "negotiation with officials",
+      "creative engagement (e.g., mural projects)",
+      "youth empowerment",
+      "problem-solving",
+      "project design (workshops/campaigns)"
+    ],
+    "goals": "Secure an entry-level role in a structured NGO or nonprofit focused on youth empowerment, education access, or cultural action, where I can blend advocacy with creative/artistic approaches to drive sustainable social change. Prioritize mentorship and training to develop skills in long-term project management, impact measurement, and policy advocacy. Open to grassroots opportunities if they offer quick pathways to paid roles and hands-on learning.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi! I’m Carla Lima, I’m 18, and I speak Portuguese—though I’m happy to work anywhere in Brazil or even relocate if it means making a bigger impact. Right now, I’m focused on turning my experience in student organizations into a paid job in social or cultural action. I’ve spent the last year organizing petitions, mediating between students and school admin, and mapping local issues like access to public spaces. I’m not just looking for any job—I want one where I can advocate for others and solve real problems, even if I need a little training first. What kind of entry roles actually exist for someone my age?"
+    },
+    {
+      "question": "That’s a great mindset—especially your focus on advocacy and problem-solving! To help narrow down the best entry roles for you, could you share what specific social or cultural causes (like education, environmental justice, youth empowerment, etc.) you’re most passionate about tackling?",
+      "answer": "I’m most drawn to youth empowerment and education access—issues I’ve already worked on in my school. For example, I helped organize a campaign to push for free school supplies for low-income students, which meant talking to parents, drafting proposals, and even negotiating with local officials. It was small-scale, but it showed me how advocacy can turn into real change. I’m also really interested in cultural action, like creating spaces where young people can express themselves through art or community projects. I don’t have all the answers yet, but I’m eager to learn how to make these kinds of efforts sustainable and bigger. What roles would let me start with this kind of work while still learning?"
+    },
+    {
+      "question": "Given your hands-on experience with advocacy and community projects, would you prefer an entry-level role in a structured organization (like an NGO or nonprofit) where you’d have mentorship, or are you open to more flexible or grassroots opportunities—even if they’re less formal at first?",
+      "answer": "I’d love to start in a structured organization like an NGO, especially if it means having mentorship. In my student work, I often felt like I was figuring things out alone, and I know I’d grow faster with guidance—like learning how to turn a petition into a long-term project or how to measure impact. That said, I’m open to grassroots opportunities too if they lead to a paid role quickly. My biggest worry is that my age or lack of formal experience might hold me back. How do organizations usually support someone like me in those first months? Do they offer training or start with smaller responsibilities?"
+    },
+    {
+      "question": "You’ve mentioned your passion for youth empowerment and education—have you ever explored or considered roles that combine advocacy with creative or cultural approaches, like working with organizations that use art, media, or storytelling to engage young people in social change?",
+      "answer": "Actually, yes! In my school group, we once organized a mural-painting day to highlight student voices on issues like mental health and bullying. It wasn’t just about the art—it was about giving students a way to *show* what mattered to them, which then helped us advocate for better counseling services. I’d love a role where I could blend that kind of creative engagement with real problem-solving. For example, maybe working with a cultural NGO to design workshops or campaigns that help youth express their needs, then using those insights to push for policy changes. Do entry-level roles like that exist, or would I need to start in a more general advocacy position first? And how could I prove I’m ready for that kind of responsibility?"
+    }
+  ]
+}

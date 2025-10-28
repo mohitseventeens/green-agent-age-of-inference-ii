@@ -1,0 +1,35 @@
+{
+  "persona_id": "persona_100",
+  "final_profile": {
+    "persona_id": "persona_100",
+    "age": 15,
+    "city": "Rio",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "To pursue a career that involves adventure, travel, and working on ships, with a focus on maritime activities like learning to tie knots, understanding tides, and preparing for future opportunities in the field.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I love talking about my dreams! I’m still young but old enough to know I want a life full of adventure and travel. I live in Rio, where the sea is always calling me. I speak Portuguese, but I can try English too for practice—it’s useful for exploring the world!"
+    },
+    {
+      "question": "That’s a great mindset! Since you’re just starting your journey, could you share a bit about your education so far and any work or volunteer experience you’ve had—even if it’s just a little? That way, I can point you toward the best green job opportunities for your stage.",
+      "answer": "Oh, I’m still in school, just finishing the basics, but I don’t have any work experience yet—I’ve been too busy dreaming about the future! I don’t want a regular job, though. I want something where I can feel the wind and see new places every day. Maybe something that helps me learn how to work on big, beautiful ships! Do you know any opportunities like that?"
+    },
+    {
+      "question": "That’s such an exciting vision! Since you’re still in school, could you tell me how old you are so I can suggest the best programs or apprenticeships for your age?",
+      "answer": "Age is just a number when you have big dreams, right? I’m young, but I’ve got plenty of time to prepare for my adventures. I’ve always loved watching ships come and go—it’s like they’re carrying stories from all over the world. Maybe there’s a way to start learning now, even if I’m not old enough to embark yet?"
+    },
+    {
+      "question": "To make sure I point you to the perfect starting point—whether it’s youth programs, early apprenticeships, or even maritime clubs—could you tell me exactly how old you are right now? That way, I won’t miss any opportunities tailored just for you!",
+      "answer": "You really want to know? Well... I’m 15! But don’t let that stop you—I may be young, but I’m serious about this. I want to start training now so I’m ready when the time comes. Maybe there’s a program where I can learn the basics, like tying knots or understanding the tides? Something to get me closer to my dream!"
+    }
+  ]
+}

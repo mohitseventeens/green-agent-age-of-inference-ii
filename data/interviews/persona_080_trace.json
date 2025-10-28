@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_080",
+  "final_profile": {
+    "persona_id": "persona_080",
+    "age": 22,
+    "city": null,
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "Event Planning (logistics, budgets, volunteer coordination)",
+      "Requirements Assessment (surveys, focus groups, community needs mapping)",
+      "Advocacy (grassroots campaigns, social media, petitions, partnership-building)",
+      "Resource Mobilization (securing donations, in-kind support, volunteer engagement)",
+      "Community Engagement (collaborative project design, feedback integration)",
+      "Basic Project Tracking (spreadsheets, task/timeline management)"
+    ],
+    "goals": "Transition from volunteering to a paid role in social and cultural action, focusing on bridging community needs with organizational offerings through event planning, advocacy, and needs assessment. Seeks environments with direct impact, transparency, flexibility, and mentorship—preferably in grassroots NGOs, cultural institutions, or community-focused nonprofits/social enterprises.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m 22 years old, fluent in Portuguese and English, and currently based in Brazil. I’ve spent the last few years volunteering in community projects, and now I’m looking to transition into a paid job in social and cultural action—ideally something that combines event planning and advocacy. I’m open to relocating if the role aligns with my goals."
+    },
+    {
+      "question": "That’s great experience! To better match you with opportunities, could you share your highest level of education and how many years you’ve been involved in community projects or related work?",
+      "answer": "I have a *graduação* degree, and I’ve been actively involved in community projects for about two years now—mostly volunteering in event planning, resource mobilization, and mapping local needs. It’s been hands-on work, like organizing small cultural events and coordinating with volunteers to address gaps in our community."
+    },
+    {
+      "question": "What specific skills or tools (like project management software, social media, or advocacy platforms) have you developed through your volunteer work that you’d like to apply in a paid role?",
+      "answer": "Through volunteering, I’ve developed a few key skills I’d love to bring into a paid role:\n\n1. **Event Planning**: I’ve organized small cultural and educational events—handling logistics, budgets, and volunteer coordination. I’m comfortable with basic tools like spreadsheets for tracking tasks and timelines, though I’m eager to learn more advanced project management software if needed.\n\n2. **Requirements Assessment**: This is where I feel strongest. I’ve worked directly with communities to map their needs—whether it’s through surveys, focus groups, or just informal conversations. It’s about listening first, then aligning resources or events to what’s actually useful. For example, I once helped adjust a youth workshop series after realizing the original topics didn’t match what local teens were asking for.\n\n3. **Advocacy**: I’ve supported campaigns for better public spaces and access to cultural activities, mostly through grassroots efforts—social media, petitions, and partnering with local groups. I’m not an expert in big advocacy platforms, but I understand how to rally people around a cause and keep the message clear and inclusive.\n\n4. **Resource Mobilization**: This ties into advocacy—I’ve helped secure small donations, in-kind support (like venues or materials), and volunteer time by making a compelling case for how it would benefit the community. It’s about building trust and showing impact.\n\nI’m especially excited to apply these in a role where I can bridge the gap between what communities *say* they need and what organizations *think* they should offer. And I’m open to learning new tools—whatever helps make that connection stronger."
+    },
+    {
+      "question": "What kind of organization or work environment do you envision thriving in most—whether it’s a small grassroots NGO, a larger nonprofit with structured teams, a cultural institution, or even a social enterprise? This could help narrow down roles that fit your style and values.",
+      "answer": "I thrive in environments where I can see the direct impact of my work, so I’m drawn to **small grassroots NGOs or community-focused cultural institutions**—places where collaboration is hands-on and decisions aren’t buried in bureaucracy. For example, I loved volunteering with a local collective where we planned events *with* the community, not just *for* them. The flat structure meant I could pivot quickly when needs changed, like shifting a workshop’s focus based on feedback.\n\nThat said, I’m curious about **larger nonprofits or social enterprises** if they have teams dedicated to local engagement. I’d want to ensure I’m not just a cog in a machine—maybe a role where I could still do requirements assessment or advocate for community-led ideas within a bigger system. For instance, if an organization has a structured advocacy team but lets me bring in voices from the field, that could be a great balance.\n\nCulturally, I value:\n1. **Transparency**: Clear goals and open feedback, so everyone understands the “why” behind the work.\n2. **Flexibility**: Room to adapt projects based on real-time community input.\n3. **Mentorship**: Since I’m transitioning from volunteer to paid work, I’d love a team that supports growth—whether it’s training in new tools or shadowing experienced advocates.\n\nI’m less interested in purely corporate or top-down environments. If the role lets me blend event planning, advocacy, and needs assessment—while staying close to the people we’re serving—that’s my ideal fit. Would you say that aligns more with smaller orgs, or are there larger ones that operate this way too?"
+    }
+  ]
+}

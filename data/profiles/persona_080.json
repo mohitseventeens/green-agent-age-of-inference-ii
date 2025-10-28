@@ -1,0 +1,20 @@
+{
+  "age": 22,
+  "city": null,
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "Event Planning (logistics, budgets, volunteer coordination)",
+    "Requirements Assessment (surveys, focus groups, community needs mapping)",
+    "Advocacy (grassroots campaigns, social media, petitions, partnership-building)",
+    "Resource Mobilization (securing donations, in-kind support, volunteer engagement)",
+    "Community Engagement (collaborative project design, feedback integration)",
+    "Basic Project Tracking (spreadsheets, task/timeline management)"
+  ],
+  "goals": "Transition from volunteering to a paid role in social and cultural action, focusing on bridging community needs with organizational offerings through event planning, advocacy, and needs assessment. Seeks environments with direct impact, transparency, flexibility, and mentorship—preferably in grassroots NGOs, cultural institutions, or community-focused nonprofits/social enterprises.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

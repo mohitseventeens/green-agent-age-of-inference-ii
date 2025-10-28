@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_081",
+  "final_profile": {
+    "persona_id": "persona_081",
+    "age": 27,
+    "city": "São Paulo",
+    "education_level": "Tecnólogo",
+    "experience_years": 1,
+    "skills": [
+      "group facilitation",
+      "cultural sensitivity",
+      "event planning (basic)",
+      "active listening",
+      "adaptability",
+      "community engagement"
+    ],
+    "goals": "To secure a role in social and cultural action, specifically in event planning for community engagement, with a focus on NGOs, cultural centers, or urban collectives that empower youth and marginalized groups. Aims to develop event planning skills further while applying facilitation and cultural sensitivity expertise in a structured role.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Camila Souza, 27, based in São Paulo. I’m fluent in Portuguese, and my focus is clear: I want a job in social and cultural action, specifically in event planning for community engagement. My strengths are group facilitation and cultural sensitivity—I’m ready to apply them in the right role."
+    },
+    {
+      "question": "That’s a great focus! To match you with the best opportunities, could you share your highest level of education, how many years of experience you have in event planning or community engagement, and whether you’d be open to relocating within Brazil if needed?",
+      "answer": "I have a *Tecnólogo* degree and one year of experience in group facilitation and community engagement. My event planning skills are at a basic level, but I’m eager to develop them further in a social/cultural action role. Relocation isn’t an option—I’m committed to staying in São Paulo. What roles align with my background and goals?"
+    },
+    {
+      "question": "Given your focus on social and cultural action, what types of organizations or causes are you most passionate about working with—like NGOs, cultural centers, or specific communities (e.g., youth, indigenous groups, urban collectives)?",
+      "answer": "I’m most interested in roles with NGOs, cultural centers, or urban collectives that focus on community empowerment and inclusive participation. Youth engagement and marginalized groups are key areas I want to contribute to—especially where facilitation and culturally sensitive event planning can create real impact. What specific roles in these spaces would match my skills?"
+    },
+    {
+      "question": "You’ve mentioned your passion for youth engagement and marginalized groups—could you share an example of a project or initiative you’ve been part of (even informally) that reflects this focus, and what you learned from it?",
+      "answer": "In my last role, I co-facilitated a series of workshops for young adults in a peripheral neighborhood of São Paulo, focusing on creative expression and local identity. The goal was to bridge gaps between different cultural backgrounds in the community. I learned how critical active listening and adaptability are—especially when balancing diverse perspectives. It reinforced my confidence in group facilitation and deepened my commitment to culturally sensitive engagement. Now, I want to bring this experience into a structured role in social/cultural action. What entry-level positions would value this kind of hands-on background?"
+    }
+  ]
+}

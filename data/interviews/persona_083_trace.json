@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_083",
+  "final_profile": {
+    "persona_id": "persona_083",
+    "age": 27,
+    "city": null,
+    "education_level": "Tecnólogo",
+    "experience_years": 1,
+    "skills": [
+      "organization",
+      "attention to detail",
+      "teamwork",
+      "communication",
+      "problem-solving (non-technical)"
+    ],
+    "goals": "Transition into an HSE (Health, Safety, and Environment) role with a focus on green regulations and sustainability, particularly in renewable energy, manufacturing, or construction industries that prioritize environmental impact. Seeking entry-level opportunities with on-the-job training to develop technical HSE skills and contribute to meaningful change.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh hey! So, I’m Larissa, 27, and honestly, I’m kinda new to this whole HSE thing. I’ve worked in another area for a year, but it didn’t really click, you know? Like, safety and green stuff were never a priority there, and I wanna try something that actually makes a difference.\n\nI speak Portuguese—obviously, since I’m from Brazil—but I’m open to relocating if the job’s right. I’m really curious about how HSE works in practice, though. Is it just a bunch of rules and paperwork, or do people actually get to push for greener regulations? That’s the part that excites me! What’s the day-to-day usually like in this field?"
+    },
+    {
+      "question": "That’s great to hear you’re passionate about making a difference! To help match you with the right opportunities, what’s the highest level of education you’ve completed so far?",
+      "answer": "Oh, I did a *Tecnólogo* course—it’s like a short-degree thing here in Brazil, you know? Not super long, but it gave me some basics. Honestly, I’m kinda nervous about not having a ton of experience in HSE yet, but I really want to learn.\n\nLike, in my old job, we never even talked about safety protocols or green rules. Here, I’m hoping it’s different—like, do companies actually train you on the job, or do you need to know everything upfront? I’m ready to put in the work, but I don’t wanna pretend I’m an expert when I’m still figuring it out! What’s the usual way people start in HSE?"
+    },
+    {
+      "question": "Got it! Since you’re open to relocating, which *types* of companies or industries in Brazil (or even abroad) are you most curious about working in—like renewable energy, construction, manufacturing, or something else? That’ll help narrow down where your skills could fit best!",
+      "answer": "Oh, that’s a good question! I’ve been kinda obsessed with green regulations lately, so I’d love something where that’s a big focus—like renewable energy or maybe even manufacturing, if they’re serious about sustainability. Construction could be cool too, but only if they actually care about safety and not just checking boxes, you know?\n\nHonestly, I’m still testing if HSE is *really* for me, but the idea of working somewhere that’s trying to do better for the environment gets me excited. Do you think entry-level roles in those areas even exist, or do you usually need experience first? Like, how do people break in?"
+    },
+    {
+      "question": "Since you’re drawn to green regulations and sustainability, what specific *skills* from your past work or studies (even if unrelated to HSE) do you think could transfer well—like teamwork, problem-solving, or maybe even something technical? That might help us spot roles where you’d stand out!",
+      "answer": "Hmm, good point! In my old job, I had to deal with a lot of paperwork and deadlines, so I got pretty good at organizing stuff and keeping track of details—even if it wasn’t HSE-related. Also, I worked with a team, so I know how to communicate and not lose my cool when things get busy.\n\nBut honestly, I don’t have any *technical* HSE skills yet. Like, I don’t know how to do risk assessments or anything, but I’m a fast learner. Do companies usually train you on that stuff, or should I be looking for courses first? I just don’t wanna waste time learning the wrong things, you know? What’s the first skill I *should* pick up if I wanna work with green regulations?"
+    }
+  ]
+}

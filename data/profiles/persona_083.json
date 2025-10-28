@@ -1,0 +1,18 @@
+{
+  "age": 27,
+  "city": null,
+  "education_level": "Tecnólogo",
+  "experience_years": 1,
+  "skills": [
+    "organization",
+    "attention to detail",
+    "teamwork",
+    "communication",
+    "problem-solving (non-technical)"
+  ],
+  "goals": "Transition into an HSE (Health, Safety, and Environment) role with a focus on green regulations and sustainability, particularly in renewable energy, manufacturing, or construction industries that prioritize environmental impact. Seeking entry-level opportunities with on-the-job training to develop technical HSE skills and contribute to meaningful change.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese"
+  ]
+}

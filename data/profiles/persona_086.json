@@ -1,0 +1,17 @@
+{
+  "age": 27,
+  "city": "Belo Horizonte",
+  "education_level": "técnico",
+  "experience_years": 1,
+  "skills": [
+    "safety gear inspection",
+    "hazardous material tracking",
+    "basic HSE reporting"
+  ],
+  "goals": "Explore and understand HSE job roles, particularly in hazardous material management and safety compliance.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

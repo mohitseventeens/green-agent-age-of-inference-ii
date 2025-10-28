@@ -1,0 +1,19 @@
+{
+  "age": 27,
+  "city": "São Paulo",
+  "education_level": "Tecnólogo",
+  "experience_years": 1,
+  "skills": [
+    "group facilitation",
+    "cultural sensitivity",
+    "event planning (basic)",
+    "active listening",
+    "adaptability",
+    "community engagement"
+  ],
+  "goals": "To secure a role in social and cultural action, specifically in event planning for community engagement, with a focus on NGOs, cultural centers, or urban collectives that empower youth and marginalized groups. Aims to develop event planning skills further while applying facilitation and cultural sensitivity expertise in a structured role.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

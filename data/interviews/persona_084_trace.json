@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_084",
+  "final_profile": {
+    "persona_id": "persona_084",
+    "age": 20,
+    "city": null,
+    "education_level": "graduação",
+    "experience_years": 0,
+    "skills": [
+      "NR standards (basics)",
+      "risk assessment (basics)",
+      "environmental management (basics)"
+    ],
+    "goals": "Secure an entry-level Industrial HSE role (e.g., assistant or trainee) to gain hands-on experience in compliance reporting and hazardous materials management, with willingness to start with small tasks and learn on the job.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi. I’m Beatriz, I’m 20. I speak Portuguese, but I can try English. I don’t have much experience yet... I’m just looking for something in Industrial HSE."
+    },
+    {
+      "question": "That’s great, Beatriz! To match you with the best Industrial HSE roles, could you share your highest level of education and whether you’d be open to relocating within Brazil or even abroad for the right opportunity?",
+      "answer": "I finished my *graduação* recently. I... I’m open to relocate, yes. Anywhere, if it helps me learn more about HSE."
+    },
+    {
+      "question": "Since you’re just starting in Industrial HSE, what specific skills or courses (like NR standards, risk assessment, or environmental management) have you studied or practiced so far—even in your *graduação*—that could help us highlight your strengths to employers?",
+      "answer": "I don’t know much yet... just basics from my course. Maybe some NR rules, but others know more than me. I really want to learn compliance reporting and hazardous materials, though."
+    },
+    {
+      "question": "That’s a great attitude toward learning! Since you’re especially interested in **compliance reporting and hazardous materials**, would you prefer to start in an entry-level role with hands-on training (like an HSE assistant or trainee) or a more structured program (like an internship or apprenticeship) to build those skills?",
+      "answer": "I think... an entry-level job would be good. Even as an assistant. I just want to start somewhere and learn the real work. I don’t mind small tasks."
+    }
+  ]
+}

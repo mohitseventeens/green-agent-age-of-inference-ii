@@ -1,0 +1,19 @@
+{
+  "age": 18,
+  "city": "Rio de Janeiro",
+  "education_level": "Tecnólogo (Administrative Field)",
+  "experience_years": 0,
+  "skills": [
+    "Microsoft Access (basic)",
+    "Excel (basic)",
+    "PDF editing (digitizing/annotating)",
+    "Metadata tagging (introductory)",
+    "Digital archiving basics (file formats, preservation concepts)"
+  ],
+  "goals": "To start an entry-level career in Culture and Document Management, leveraging modern technologies (AI, blockchain) for efficient and innovative preservation. Seeks foundational roles in museums, archives, or tech-driven cultural organizations to learn digitization, classification, and emerging tools while bridging traditional practices with technological advancements.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

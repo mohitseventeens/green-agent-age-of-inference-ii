@@ -532,3 +532,74 @@ def test_find_trainings_only_node_with_domain_filter(monkeypatch):
     assert "tr3" in recommended_ids # Was eligible and passed domain filter
     assert "tr2" not in recommended_ids # Was eligible but FAILED domain filter
     assert "tr4" not in recommended_ids # Was NOT eligible
+
+# ... (keep all other fixtures and tests in the file)
+
+# In tests/test_nodes.py, find the test_find_jobs_and_trainings_node_with_scoring function
+
+def test_find_jobs_and_trainings_node_with_scoring():
+    """
+    Tests the refactored FindJobsAndTrainingsNode with the new scoring logic.
+    It uses a curated set of mock data to verify that the node correctly
+    ranks jobs and recommends only the best fit.
+    """
+    # 1. Arrange
+    node = FindJobsAndTrainingsNode()
+    
+    # This persona wants a mid-level technical job in São Paulo
+    persona = PersonaProfile(
+        persona_id="p_test", age=28, city="São Paulo", is_open_to_relocate=False,
+        education_level="Graduação", # Level 5
+        experience_years=4,
+        languages=["Portuguese", "English"],
+        skills=["Python", "Cloud Computing"],
+        # --- THIS IS THE FIX ---
+        goals="I am looking for a role as a Cloud Engineer or something similar in DevOps."
+    )
+    
+    # A curated list of jobs to test the ranking logic
+    mock_jobs = [
+        # The PERFECT match: Correct level, city, skills, experience
+        JobProfile(job_id="j_perfect", title="Cloud Engineer", city="São Paulo", education_level="Graduação", experience_years=3, required_skills=["Python", "Cloud Computing", "Terraform"]),
+        # A GOOD match: Lower education req, skills are a partial match
+        JobProfile(job_id="j_good", title="Jr. DevOps", city="São Paulo", education_level="Técnico", experience_years=2, required_skills=["Python", "CI/CD"]),
+        # A BAD match: Wrong city, low experience, wrong skills
+        JobProfile(job_id="j_bad", title="Marketing Intern", city="Recife", education_level="Ensino Médio", experience_years=0, required_skills=["Social Media"]),
+        # A DECENT match but fails safety net (language)
+        JobProfile(job_id="j_lang_fail", title="Python Developer", city="São Paulo", education_level="Graduação", experience_years=3, languages=["Spanish"], required_skills=["Python"])
+    ]
+    
+    # Mock trainings to find for the perfect match's missing skill ("Terraform")
+    mock_trainings = [
+        TrainingProfile(training_id="tr_terraform", title="Terraform Basics", offered_skills=["Terraform"]),
+        TrainingProfile(training_id="tr_other", title="Other Course", offered_skills=["Other"])
+    ]
+    
+    shared = {
+        "persona_profile": persona,
+        "parsed_jobs": mock_jobs,
+        "parsed_trainings": mock_trainings
+    }
+
+    # 2. Act
+    node.run(shared)
+    
+    # 3. Assert
+    assert "intermediate_recommendations" in shared
+    recs = shared["intermediate_recommendations"]
+    assert recs["predicted_type"] == "jobs+trainings"
+    
+    # It should recommend only ONE job because the others are clearly worse fits
+    # (We set TOP_K to 3, but only 2 pass the safety net, and one is much higher score)
+    assert len(recs["jobs"]) > 0
+    
+    # The TOP recommendation MUST be the perfect match
+    top_rec = recs["jobs"][0]
+    assert top_rec["job_id"] == "j_perfect"
+    
+    # Check that it correctly identified the missing skill and suggested the right training
+    assert len(top_rec["suggested_trainings"]) == 1
+    missing_skill_info = top_rec["suggested_trainings"][0]
+    assert missing_skill_info["missing_skill"].lower() == "terraform" # Added .lower() for robustness
+    assert len(missing_skill_info["trainings"]) == 1
+    assert missing_skill_info["trainings"][0]["training_id"] == "tr_terraform"

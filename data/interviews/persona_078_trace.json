@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_078",
+  "final_profile": {
+    "persona_id": "persona_078",
+    "age": 18,
+    "city": "Rio de Janeiro",
+    "education_level": "Tecnólogo",
+    "experience_years": 0,
+    "skills": [
+      "social media management",
+      "basic spreadsheets",
+      "communication",
+      "event promotion",
+      "community organization"
+    ],
+    "goals": "Find beginner-level roles in social or cultural action in Rio de Janeiro, focusing on community projects that involve tech or communication tasks, particularly for youth education, arts, or local event accessibility.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi! I’m Carla, I’m 18, and I live in Rio de Janeiro. I speak Portuguese, but I can talk in English too. I’m just starting to look for jobs in social or cultural action—something where I can use basic tech or communication to help local projects. Do you know what kinds of roles might fit that?"
+    },
+    {
+      "question": "That sounds like a great path! To help narrow down opportunities, could you share your highest level of education so far and whether you’d be open to relocating for the right role—even within Brazil?",
+      "answer": "I finished a *Tecnólogo* course recently, so that’s my highest education. And I’d prefer to stay in Rio—I’m not looking to relocate, even within Brazil. I really want to find something here where I can help with community projects, maybe using simple tech or communication tasks. What kinds of jobs like that exist for beginners?"
+    },
+    {
+      "question": "Got it! Since you’re just starting out and want to work with community projects in Rio, what kinds of tech or communication tools (like social media, basic design, spreadsheets, etc.) do you feel most comfortable using—or would you be excited to learn?",
+      "answer": "I’m comfortable with basic things like social media—posting updates or sharing event info—and I’ve used spreadsheets a little for organizing lists. I’d love to learn more if it helps with community work, like making simple flyers or keeping track of project details. Do jobs in social action actually use these tools? What would a beginner like me do day-to-day?"
+    },
+    {
+      "question": "That’s great to hear! To find the best fit for you, could you tell me what kind of community or social cause you’re most passionate about—like education, environmental justice, arts, or something else in Rio?",
+      "answer": "I’m really drawn to projects that help young people in Rio—maybe education or arts programs, or even just making sure local events are easy for everyone to find out about. I like the idea of using tech to spread the word or keep things organized, like updating a community page or helping with sign-ups. Are there jobs where I could start with small tasks like that?"
+    }
+  ]
+}

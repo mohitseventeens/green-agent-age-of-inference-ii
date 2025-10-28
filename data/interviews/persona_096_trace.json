@@ -1,0 +1,45 @@
+{
+  "persona_id": "persona_096",
+  "final_profile": {
+    "persona_id": "persona_096",
+    "age": 18,
+    "city": "Brasília",
+    "education_level": "Tecnólogo",
+    "experience_years": 0,
+    "skills": [
+      "Mathematics",
+      "Data analysis",
+      "Optimization modeling",
+      "Resource allocation",
+      "Excel (data organization, basic modeling)",
+      "Problem-solving for inefficiencies",
+      "Cargo flow analysis",
+      "Port logistics (scheduling, coordination)",
+      "Adaptability to logistics software",
+      "Python (interest in automation and flow pattern analysis)"
+    ],
+    "goals": "To apply mathematical and analytical skills to port logistics, specifically in scheduling, cargo flow optimization, and data-driven decision-making for port authorities, logistics firms, or tech startups—preferably in remote or Brasília-based roles.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m 18, based in Brasília, and fluent in Portuguese. My background is in mathematics and science, and I’m eager to apply those skills to port logistics—specifically in scheduling and optimizing cargo flow. I can’t relocate, but I’m excited about opportunities where I can contribute from shore."
+    },
+    {
+      "question": "That’s a great focus! Have you had any hands-on experience—like internships, projects, or coursework—where you’ve applied math or data analysis to logistics or operational challenges?",
+      "answer": "In my tecnólogo program, I worked on optimization models for resource allocation—similar to scheduling cargo or coordinating port operations. I also analyzed data sets to identify inefficiencies, which I’d love to apply to real-world logistics challenges. My strength is turning numbers into actionable solutions."
+    },
+    {
+      "question": "What kinds of tools or software (like Excel, Python, or specialized logistics platforms) are you most comfortable using—or would you be excited to learn—to tackle those optimization challenges in port logistics?",
+      "answer": "I’m proficient in Excel for data organization and basic modeling, and I’m eager to learn industry-specific tools for cargo tracking or scheduling. Python interests me too—especially for automating calculations or analyzing flow patterns. Efficiency is key, so I’d adapt quickly to whatever software the role requires."
+    },
+    {
+      "question": "Given your passion for port logistics and optimization, what types of companies or organizations in Brasília (or remote roles) have you considered targeting—like shipping firms, port authorities, or tech startups focused on logistics innovation?",
+      "answer": "I’ve researched port authorities with Brasília-based operations teams, as well as logistics firms that handle inland coordination for coastal ports. Tech startups optimizing supply chains also interest me—especially if they focus on data-driven scheduling or cargo flow. Remote roles in analytics for port operations would be ideal."
+    }
+  ]
+}

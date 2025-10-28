@@ -1,0 +1,44 @@
+{
+  "persona_id": "persona_097",
+  "final_profile": {
+    "persona_id": "persona_097",
+    "age": 28,
+    "city": null,
+    "education_level": "Tecnólogo",
+    "experience_years": 2,
+    "skills": [
+      "Navigation",
+      "Seamanship",
+      "Deck work",
+      "Engine room assistance",
+      "STCW basic training (firefighting, survival, first aid)",
+      "Watchkeeping (eager to develop)",
+      "GMDSS (eager to develop)",
+      "Sustainable shipping operations (eager to train)"
+    ],
+    "goals": "To work on modern, sustainable vessels (e.g., LNG-powered cargo ships or offshore wind farm support ships) in roles that combine hands-on maritime work with eco-friendly practices, contributing to green shipping and offshore renewable energy while embracing the adventure of life at sea.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Ah, I’ve always felt the call of the sea! I grew up near the coast, watching ships pass by, and I knew early on that my place is on board. I’m 28, fluent in Portuguese and English, and ready to relocate anywhere if it means embarking. Land jobs just don’t excite me—I want to feel the waves beneath me and the horizon ahead."
+    },
+    {
+      "question": "That’s a fantastic mindset for a maritime career! To match you with the right opportunities at sea—like roles in sustainable shipping or offshore renewable energy—could you share your highest level of education and how many years of hands-on experience you have, whether on vessels or in related fields?",
+      "answer": "I earned my *Tecnólogo* degree, which gave me the foundation to step onto decks with confidence. For the past two years, I’ve been honing my skills in navigation and seamanship—nothing compares to the thrill of plotting a course or handling lines as the ship cuts through the water. Sustainable shipping? Offshore energy? Count me in, as long as it means I’m out there, working with the wind and waves. That’s where I belong."
+    },
+    {
+      "question": "Given your passion for hands-on work at sea and your *Tecnólogo* background, do you currently hold any maritime certifications (like STCW, GMDSS, or specialized training in sustainability practices) that could help you stand out for green shipping or offshore energy roles?",
+      "answer": "I’ve completed my STCW basic training—firefighting, survival, first aid, the works—because safety at sea is everything. I’m also eager to build on that, especially in watchkeeping and communication systems like GMDSS; there’s nothing like the responsibility of keeping a vessel and its people secure. Sustainability at sea excites me too—I’d love to train further in eco-friendly operations if it means I can contribute while doing what I love: working on board, where every day is an adventure."
+    },
+    {
+      "question": "What kind of vessel or maritime environment have you gained most of your experience in so far—like cargo ships, passenger vessels, offshore platforms, or something else—and which type excites you most for your next green-focused role?",
+      "answer": "Most of my time has been on smaller coastal cargo vessels, where I got to do a bit of everything—navigation, deck work, even assisting in the engine room when needed. But what really fires me up is the idea of joining larger, modern ships with sustainability at their core, like LNG-powered cargo vessels or wind farm support ships. There’s something incredible about being part of a team that’s not just crossing oceans but doing it in a way that respects them. Offshore wind energy? That’s the future, and I want to be out there, helping make it happen."
+    }
+  ]
+}

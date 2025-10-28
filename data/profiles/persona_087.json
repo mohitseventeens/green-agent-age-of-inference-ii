@@ -1,0 +1,23 @@
+{
+  "age": 21,
+  "city": null,
+  "education_level": "Técnico",
+  "experience_years": 2,
+  "skills": [
+    "Emergency planning",
+    "EHS (Environment, Health, and Safety) protocols",
+    "Spill response",
+    "Crisis management",
+    "Safety drills",
+    "Regulatory compliance (early-stage)",
+    "Manufacturing plant operations",
+    "Portuguese (fluent)",
+    "English (intermediate)"
+  ],
+  "goals": "To master green regulations (e.g., ISO 14001) and transition into EHS roles within green manufacturing or renewable energy, where safety and sustainability intersect as core operational values. Aspires to contribute to circular economy practices by integrating waste reduction and resource efficiency into industrial processes.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

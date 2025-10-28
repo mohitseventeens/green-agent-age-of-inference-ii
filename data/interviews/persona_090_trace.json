@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_090",
+  "final_profile": {
+    "persona_id": "persona_090",
+    "age": 22,
+    "city": "Brasília",
+    "education_level": "técnico",
+    "experience_years": 0,
+    "skills": [
+      "curiosity about clean energy impacts on digital archives",
+      "basic understanding of blockchain (self-described)",
+      "interest in sustainability practices (e.g., paper reduction, recycling)"
+    ],
+    "goals": "Exploring how clean energy technologies (e.g., solar power, blockchain) influence document storage and archival practices, with no immediate job-seeking intent.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m João, 22, from Brasília. I speak Portuguese and a little English. I’m curious about how clean energy affects things like document storage."
+    },
+    {
+      "question": "That’s great, João! To match you with the best opportunities in clean energy, could you share your highest level of education and whether you’d be open to relocating for the right role?",
+      "answer": "I finished técnico school. I don’t want to move from Brasília. I’m not looking for a job, just how clean energy changes things like digital archives."
+    },
+    {
+      "question": "Got it! Since you’re interested in how clean energy impacts digital archives, what specific aspect of document storage or data management are you most curious about—like energy efficiency, sustainability practices, or something else?",
+      "answer": "Do archivists use less paper now because of solar-powered computers? Or do they still print everything but recycle more?"
+    },
+    {
+      "question": "That’s a really interesting angle! Have you thought about whether the *type* of digital storage (like cloud servers vs. local data centers) changes how much clean energy actually gets used for keeping documents safe long-term?",
+      "answer": "Can blockchain store old books forever without using too much energy? I heard it’s like a digital library but... complicated."
+    }
+  ]
+}

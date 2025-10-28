@@ -1,0 +1,19 @@
+{
+  "age": 29,
+  "city": "Curitiba",
+  "education_level": "técnico",
+  "experience_years": 3,
+  "skills": [
+    "navigation",
+    "safety drills",
+    "maritime regulations (SOLAS, MARPOL)",
+    "vessel operations",
+    "fuel efficiency monitoring",
+    "environmental compliance"
+  ],
+  "goals": "To work in a hands-on maritime role that combines vessel operations with active sustainability practices (e.g., monitoring fuel use, preventing pollution, or enforcing environmental regulations), while remaining at sea rather than transitioning to office-based or land roles. Seeks a balance between technical maritime work and contributing directly to ocean conservation without losing the physical connection to the sea.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "age": 30,
+  "city": "Curitiba",
+  "education_level": "Técnico",
+  "experience_years": 3,
+  "skills": [
+    "Customs procedures",
+    "Vessel communication protocols",
+    "Equipment handling (cranes, forklifts)",
+    "Port operations coordination",
+    "Customs documentation"
+  ],
+  "goals": "Advance in land-based maritime roles by deepening expertise in customs regulations (especially Brazilian port compliance) and advanced equipment handling techniques, with a focus on training that bridges these areas for career growth.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

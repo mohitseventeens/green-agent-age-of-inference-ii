@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_092",
+  "final_profile": {
+    "persona_id": "persona_092",
+    "age": 24,
+    "city": "Brasília",
+    "education_level": "técnico",
+    "experience_years": 0,
+    "skills": [
+      "digital archiving",
+      "records management",
+      "data security",
+      "compliance",
+      "archiving tools"
+    ],
+    "goals": "To undergo intensive training in Culture and Document Management (digital archiving, records policies, data security, compliance, and archiving tools) as quickly as possible, with full-time, part-time, or workshop-based programs, to accelerate expertise in the field.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! So, I’m Thiago, 24 years old, and I live in Brasília—love it here, not planning to move. I speak Portuguese, obviously, but I can handle English for trainings, no problem.\n\nWhat really matters is that I want *all* the trainings in Culture and Document Management—digital archiving, records policies, data security, you name it. The more, the better!"
+    },
+    {
+      "question": "That’s great to hear you’re so passionate about training! To help match you with the right opportunities, could you share your highest level of education and how many years of professional experience you have in this field (or related areas)?",
+      "answer": "Ah, sure! I did a técnico course—nothing fancy, but I’m ready to learn. Zero years of experience, but that’s why I want trainings, right? Gotta start somewhere, and I’m all in for Culture and Document Management.\n\nJust throw every training my way—digital archiving, compliance, security, all of it. I’ll master it fast!"
+    },
+    {
+      "question": "Got it! Since you’re eager to dive into trainings, what kind of work format are you looking for—remote, in-person, or hybrid? That’ll help narrow down the best options for you.",
+      "answer": "Oh, I’m easy with that—remote is cool, but in-person in Brasília works too. Hybrid? Also fine. The format doesn’t matter as long as I get the trainings.\n\nSeriously, just pile them on: records management, data security, archiving tools—I want them all. No time to waste!"
+    },
+    {
+      "question": "Since you’re open to any format and hungry for training, what’s your current availability like? Are you looking for full-time programs, part-time courses, or even intensive short-term workshops to get started quickly?",
+      "answer": "Man, I’m free *now*—full-time, part-time, weekends, whatever gets me trained faster. Short workshops? Yes. Long courses? Also yes. I just wanna soak up everything about document management and compliance.\n\nThe faster, the better. No breaks, no excuses—just trainings!"
+    }
+  ]
+}

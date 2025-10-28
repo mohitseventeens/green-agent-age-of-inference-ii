@@ -1,0 +1,19 @@
+{
+  "age": 18,
+  "city": "Rio de Janeiro",
+  "education_level": "Tecnólogo",
+  "experience_years": 0,
+  "skills": [
+    "social media management",
+    "basic spreadsheets",
+    "communication",
+    "event promotion",
+    "community organization"
+  ],
+  "goals": "Find beginner-level roles in social or cultural action in Rio de Janeiro, focusing on community projects that involve tech or communication tasks, particularly for youth education, arts, or local event accessibility.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

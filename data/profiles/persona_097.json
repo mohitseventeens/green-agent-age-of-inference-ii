@@ -1,0 +1,22 @@
+{
+  "age": 28,
+  "city": null,
+  "education_level": "Tecnólogo",
+  "experience_years": 2,
+  "skills": [
+    "Navigation",
+    "Seamanship",
+    "Deck work",
+    "Engine room assistance",
+    "STCW basic training (firefighting, survival, first aid)",
+    "Watchkeeping (eager to develop)",
+    "GMDSS (eager to develop)",
+    "Sustainable shipping operations (eager to train)"
+  ],
+  "goals": "To work on modern, sustainable vessels (e.g., LNG-powered cargo ships or offshore wind farm support ships) in roles that combine hands-on maritime work with eco-friendly practices, contributing to green shipping and offshore renewable energy while embracing the adventure of life at sea.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

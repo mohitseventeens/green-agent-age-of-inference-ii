@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_099",
+  "final_profile": {
+    "persona_id": "persona_099",
+    "age": 28,
+    "city": "Salvador",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "adaptability in unpredictable situations",
+      "teamwork",
+      "problem-solving in dynamic environments",
+      "quick learning in passionate contexts",
+      "hands-on work",
+      "interpersonal communication"
+    ],
+    "goals": "Seeking adventurous, hands-on roles in green jobs—particularly in eco-tourism, conservation, or field-based sustainability work—where every day offers discovery, impact, and the thrill of being part of something dynamic and meaningful. Prefers roles that blend outdoor engagement, team collaboration, and the opportunity to protect or showcase natural environments.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I love that you asked! I’m 28, living in Salvador—a city full of energy and stories. I speak Portuguese, of course, but I’m always eager to pick up new ways to connect with people and places. What really drives me is the idea of a life full of adventure, where every day feels like stepping into something new and exciting. I’ve always been drawn to the kind of work that keeps you moving, discovering, and alive."
+    },
+    {
+      "question": "That’s such a vibrant mindset! To match you with the right opportunities, could you share a bit about your educational background and how many years of professional experience you’ve had so far?",
+      "answer": "I finished my graduação a few years back, and since then, I’ve been collecting experiences—about two years now in roles that keep me on my toes. It’s not about the years for me, though; it’s about the thrill of learning something that feels *big*, something that takes me beyond the usual. I want to wake up knowing I’m part of something adventurous, where the world isn’t just outside my window but right there with me. Does that make sense?"
+    },
+    {
+      "question": "That’s such a powerful way to look at work! Since you’re drawn to roles that blend adventure with impact, what specific *types* of green jobs or sustainability fields have caught your eye so far—like renewable energy, conservation, eco-tourism, or something else?",
+      "answer": "Oh, I love how you put that—adventure with impact! I haven’t pinned down one exact field yet, but I’m drawn to anything where I can feel the pulse of the world around me. Something hands-on, where I’m not just sitting still but *doing*, you know? Maybe working with teams that are out there making things happen, protecting places, or even guiding others to see the beauty in nature. Eco-tourism sounds amazing—imagine showing people hidden corners of the world while keeping them safe and untouched. Or even roles where I’m part of keeping things running smoothly in wild, remote places. That’s the kind of excitement I’m chasing!"
+    },
+    {
+      "question": "That’s such a vivid picture of what excites you! To help narrow it down, what kind of *skills or strengths* do you feel you’d bring to a role like that—whether it’s teamwork, problem-solving in the field, languages, or something else that makes you feel ready for adventure?",
+      "answer": "I’ve always been the kind of person who stays calm when things get unpredictable—like when plans change last minute or when you’re in a new place figuring things out. I love working with people, too, especially in those moments where teamwork turns a challenge into something exciting. And I’m not afraid to get my hands dirty or learn the hard skills if it means being part of something real. Maybe it’s my curiosity, but I soak up new things quickly when I’m passionate about them. I just need that *spark*—the chance to prove I can handle the adventure!"
+    }
+  ]
+}

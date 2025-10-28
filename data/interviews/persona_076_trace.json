@@ -1,0 +1,43 @@
+{
+  "persona_id": "persona_076",
+  "final_profile": {
+    "persona_id": "persona_076",
+    "age": 23,
+    "city": "Belo Horizonte",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "Technical writing (manuals, reports, documentation)",
+      "Research documentation",
+      "Methodology structuring",
+      "Markdown",
+      "Confluence",
+      "Google Docs",
+      "Sustainability reporting (familiarity with OpenLCA, GRI standards)"
+    ],
+    "goals": "To contribute to green jobs in research and development by creating clear, actionable documentation that bridges complex work (e.g., sustainable materials, clean tech) into practical solutions. Focused on roles where technical writing supports innovation and real-world impact, with openness to learning new tools like LaTeX or sustainability platforms as needed.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hey! I’m Lucas, 23, living in Belo Horizonte. I speak Portuguese and English—my English is decent, but I’m still working on it. I’m really into writing stuff like manuals, reports, and technical docs. It’s kinda my thing, you know?"
+    },
+    {
+      "question": "That’s great! Since you enjoy technical writing, could you share a bit about your education level, how many years of experience you have in this area, and whether you’re open to relocating for the right opportunity? Also, what are your career goals in the green job sector?",
+      "answer": "Oh, I’ve got a graduação degree, and I’ve been working in this area for about 2 years now. Writing clear, useful docs is what I love—like turning complex stuff into something anyone can understand. Relocating? Nah, I’m good here in BH, but I’m open to remote if it fits.\n\nAs for green jobs, I’m all about roles where I can use my skills to help with research and development—something that actually makes a difference, not just paperwork. Writing’s my main gig, but I also dig into methods and innovation when needed."
+    },
+    {
+      "question": "Got it! Since you’re passionate about R&D and innovation in green jobs, **what specific environmental or sustainability topics—like renewable energy, circular economy, or conservation—excite you the most, and why?**",
+      "answer": "Oh, I’m more into the behind-the-scenes stuff—like how you document and structure research so teams can actually use it. For example, if a project’s about sustainable materials or clean tech, I’d be the one writing up the methods, testing reports, or even user guides for new tools. It’s not about picking one topic, but making sure the work on *any* topic is clear and actionable.\n\nI get hyped when research turns into real solutions, you know? Like, if someone’s designing a low-waste product, I’d want to help write the playbook for how they test and improve it. That’s where I fit in."
+    },
+    {
+      "question": "That’s a really valuable niche! **Have you worked with any specific tools or platforms for technical writing—like LaTeX, Markdown, Confluence, or sustainability-focused software—that you’d want to keep using (or learn) in a green job?**",
+      "answer": "Oh yeah, I’ve used Markdown a lot—super simple for docs and reports. Also messed around with Confluence for team stuff, and Google Docs is my go-to for quick collab. Never tried LaTeX, but I’ve heard it’s great for heavy-duty technical reports, so I’d be down to learn it if needed.\n\nFor sustainability stuff, I’ve seen tools like OpenLCA or GRI standards pop up in projects, but I haven’t used them hands-on yet. If a job needs it, I’d jump in—writing’s writing, right? Just gotta understand the content."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_098",
+  "final_profile": {
+    "persona_id": "persona_098",
+    "age": 29,
+    "city": "Curitiba",
+    "education_level": "técnico",
+    "experience_years": 3,
+    "skills": [
+      "navigation",
+      "safety drills",
+      "maritime regulations (SOLAS, MARPOL)",
+      "vessel operations",
+      "fuel efficiency monitoring",
+      "environmental compliance"
+    ],
+    "goals": "To work in a hands-on maritime role that combines vessel operations with active sustainability practices (e.g., monitoring fuel use, preventing pollution, or enforcing environmental regulations), while remaining at sea rather than transitioning to office-based or land roles. Seeks a balance between technical maritime work and contributing directly to ocean conservation without losing the physical connection to the sea.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, well... I’m Isabela, 29 years old, and I live in Curitiba. I speak Portuguese, of course. Sometimes I think maybe I should look for something stable here, close to family. But then I remember how the ocean feels—the wind, the horizon—and I just can’t imagine staying on land forever. It’s like the sea keeps calling me back, you know?"
+    },
+    {
+      "question": "That’s a beautiful connection to the ocean! To help match you with the right maritime or coastal sustainability roles, could you share a bit about your highest level of education and how many years of professional experience you have—whether on land or at sea?",
+      "answer": "I finished my técnico course, which gave me a good foundation. I’ve worked for about three years now, mostly on smaller vessels—helping with navigation, safety drills, that kind of thing. Sometimes I wonder if I should’ve just stuck to a regular job in the city. Less risk, less time away. But then I think about standing on deck at sunrise, watching the water change colors... and I know I’d miss it too much. The regulations, the charts, the way everything has to work together—it’s hard, but it’s where I feel like I belong."
+    },
+    {
+      "question": "Given how much the technical and operational side of maritime work resonates with you—like navigation and safety—have you ever considered specializing in a specific area, such as marine conservation, sustainable fishing practices, or even renewable energy (like offshore wind), to combine that passion with a more stable or purpose-driven career path?",
+      "answer": "Oh, that’s... a lot to think about. I mean, yes, sometimes I’ve looked into those things—like how ships can be more efficient, or how to protect the water while we work. The rules from SOLAS and MARPOL, they’re not just paperwork to me; they’re about keeping everyone safe, keeping the sea clean. But then I worry... would that mean more time in offices? More reports? Part of me just wants to *be* out there, you know? Feeling the deck under my feet, the salt in the air. Maybe land would be simpler, safer... but the ocean doesn’t feel like a job to me. It feels like home. Even if it’s hard to explain."
+    },
+    {
+      "question": "It sounds like you thrive in hands-on maritime work—so if you *could* shape a role that keeps you on or near the water while also contributing to sustainability, what would that ideal day-to-day look like for you? For example, would it involve more time on vessels, fieldwork like monitoring ecosystems, or something else entirely?",
+      "answer": "My ideal day? It’d start with the sunrise over the water, checking the charts and the weather like I always do. I’d be on a vessel—not too big, not too small—where I could help with navigation, make sure safety drills are sharp, and keep an eye on how we’re treating the sea. Maybe checking fuel use, or making sure nothing’s being dumped that shouldn’t be. I don’t want to just *talk* about protecting the water; I want to *do* it, you know? With my hands, my skills.\n\nSometimes I think about those jobs where you test water quality or help with sustainable fishing... but then I worry it’d be too much science, too little sailing. I love the rules, the structure of SOLAS and MARPOL, because they keep things in order. But I love the *movement*, too—the way every day at sea is different. Maybe I’m just afraid that if I step too far toward \"sustainability,\" I’ll end up stuck on land again. And that’s the last thing I want."
+    }
+  ]
+}

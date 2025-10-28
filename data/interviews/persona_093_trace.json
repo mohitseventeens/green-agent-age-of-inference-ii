@@ -1,0 +1,44 @@
+{
+  "persona_id": "persona_093",
+  "final_profile": {
+    "persona_id": "persona_093",
+    "age": 22,
+    "city": "Rio de Janeiro",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "cargo coordination",
+      "safety checks",
+      "scheduling",
+      "cargo tracking systems",
+      "safety checklists",
+      "spreadsheets",
+      "reporting",
+      "basic scheduling software"
+    ],
+    "goals": "To advance in port operations with a focus on green logistics, optimizing cargo flows, safety protocols, and sustainability practices like emissions reduction and waste management, while leveraging technology and certifications for a greener port future.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Isabela, 22 years old, and I live in Rio de Janeiro—I wouldn’t want to move, as this city feels like home. I speak Portuguese and English, which helps in port work since we deal with so many international ships. I’ve always loved watching them arrive, but after what happened, I know my place is on solid ground."
+    },
+    {
+      "question": "That’s great to hear about your connection to Rio and your language skills! To help match you with the right opportunities in sustainability or port-related fields, could you share a bit about your highest level of education, how many years of work experience you have (even if informal or part-time), and what kind of role or impact you’d ideally like to have in the next few years?",
+      "answer": "I finished my *graduação* a couple of years ago, and since then, I’ve worked for about two years in port operations—mostly with cargo coordination and safety checks. I don’t need to be at sea to make a difference; I want to help things run smoothly on land, whether it’s scheduling ship arrivals, managing cargo flows, or making sure safety protocols are followed. The port is alive with activity, and I want to be part of that—just with my feet on the dock."
+    },
+    {
+      "question": "Given your experience in cargo coordination and safety, have you ever worked with or been trained in sustainability practices—like reducing emissions, waste management, or green logistics—within port operations? If not, is that something you’d be interested in exploring?",
+      "answer": "I haven’t had formal training in sustainability, but I’ve seen how ports are changing—less waste, cleaner fuels, better planning to cut delays. It’s inspiring, and I’d love to learn more about green logistics. If there’s a way to blend cargo coordination with sustainability, like optimizing routes to save fuel or reducing waste during loading, I’d be very interested. The port’s future has to be greener, and I want to help build that."
+    },
+    {
+      "question": "That’s a fantastic mindset! To help connect you with the right opportunities, what specific skills or tools (like software, certifications, or processes) have you used in your cargo coordination and safety work that you’d want to build on—or what new ones would you be excited to learn for a greener port role?",
+      "answer": "In my work, I’ve used basic scheduling software and cargo tracking systems, along with safety checklists for loading/unloading. I’m comfortable with spreadsheets and reports, but I’d love to learn more advanced tools—like real-time logistics platforms or emissions-tracking software. If there’s training for green certifications, like ISO standards for ports or sustainable cargo handling, I’d jump at the chance. My hands know the work, but my mind is ready for what’s next."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_095",
+  "final_profile": {
+    "persona_id": "persona_095",
+    "age": 30,
+    "city": "Curitiba",
+    "education_level": "Técnico",
+    "experience_years": 3,
+    "skills": [
+      "Customs procedures",
+      "Vessel communication protocols",
+      "Equipment handling (cranes, forklifts)",
+      "Port operations coordination",
+      "Customs documentation"
+    ],
+    "goals": "Advance in land-based maritime roles by deepening expertise in customs regulations (especially Brazilian port compliance) and advanced equipment handling techniques, with a focus on training that bridges these areas for career growth.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I'm Felipe Ribeiro, 30 years old, and I currently live in Curitiba. I speak Portuguese and have a strong connection to maritime work, though I can’t take roles that require embarking due to personal commitments. My focus is on improving my skills in customs procedures, vessel communication, and equipment handling—all from land-based positions."
+    },
+    {
+      "question": "That’s great to hear about your focus on land-based maritime roles! To better tailor opportunities for you, could you share your highest level of education and how many years of experience you have in customs procedures or related maritime work?",
+      "answer": "I completed a técnico course, which gave me a solid foundation for my work. I’ve been handling customs procedures and related tasks for about three years now, along with operating equipment like cranes and forklifts. My experience is all land-based, and I’m eager to build on it with the right training."
+    },
+    {
+      "question": "What kind of training or certifications—like in customs regulations, port operations, or equipment handling—have you already completed, and which ones are you most interested in pursuing next to advance in land-based maritime roles?",
+      "answer": "So far, I’ve completed basic training in vessel communication protocols and intermediate certification for operating cranes and forklifts in port environments. My next goal is to deepen my knowledge in customs regulations—especially updates on Brazilian port compliance—and advanced equipment handling techniques. Training that bridges these areas would be ideal for my career growth on land."
+    },
+    {
+      "question": "What types of companies or organizations (e.g., shipping agencies, port authorities, logistics firms) have you worked with in your maritime career so far, and do you have a preference for the size or sector of your next employer?",
+      "answer": "I’ve worked mainly with mid-sized logistics firms and a local shipping agency, handling customs documentation and coordinating with vessels from the port side. For my next step, I’m open to port authorities or larger logistics companies, as long as the role focuses on land-based operations like customs, equipment handling, or communication with ships. The size matters less than the opportunity to grow in these areas."
+    }
+  ]
+}

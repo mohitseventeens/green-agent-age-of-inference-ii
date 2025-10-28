@@ -1,0 +1,16 @@
+{
+  "age": 18,
+  "city": "Rio de Janeiro",
+  "education_level": "Tecnólogo",
+  "experience_years": 2,
+  "skills": [
+    "file organization",
+    "retention policy setup",
+    "data security for documents"
+  ],
+  "goals": "Find a job in Culture and Document Management, preferably in archives or government offices in Rio de Janeiro.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

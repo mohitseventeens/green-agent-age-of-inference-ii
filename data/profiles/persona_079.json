@@ -1,0 +1,20 @@
+{
+  "age": 17,
+  "city": null,
+  "education_level": "Ensino Médio (incomplete)",
+  "experience_years": 0,
+  "skills": [
+    "communication",
+    "group coordination",
+    "event support (props, logistics)",
+    "basic English-Portuguese translation",
+    "community engagement (informal)",
+    "cultural sensitivity (self-described)"
+  ],
+  "goals": "Seek hands-on learning in facilitation, arts/education workshops, or inclusion-focused cultural projects through internships, part-time roles, or volunteering. Wants to prove capability despite young age, gain experience in community-building, and potentially relocate for opportunities. Prioritizes roles that combine learning with practical impact (e.g., event support, youth workshops, migrant/minority inclusion initiatives).",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English (conversational)"
+  ]
+}

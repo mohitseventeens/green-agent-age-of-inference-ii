@@ -1,0 +1,17 @@
+{
+  "age": 20,
+  "city": null,
+  "education_level": "graduação",
+  "experience_years": 0,
+  "skills": [
+    "NR standards (basics)",
+    "risk assessment (basics)",
+    "environmental management (basics)"
+  ],
+  "goals": "Secure an entry-level Industrial HSE role (e.g., assistant or trainee) to gain hands-on experience in compliance reporting and hazardous materials management, with willingness to start with small tasks and learn on the job.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

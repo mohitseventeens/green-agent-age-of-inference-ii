@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_077",
+  "final_profile": {
+    "persona_id": "persona_077",
+    "age": 26,
+    "city": null,
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "teamwork",
+      "design research (theoretical interest)",
+      "product usability analysis (theoretical interest)"
+    ],
+    "goals": "Seeking an entry-level role in **design research and development** to learn about studying user-product interactions and contributing to iterative improvements. Open to exploring sustainable/eco-friendly contexts if aligned with core interests in team-based research.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi. I’m Gabriel, 26 years old. I speak Portuguese and I’m from Brazil, but I can move if needed."
+    },
+    {
+      "question": "That’s great, Gabriel! To tailor the best opportunities for you, could you share your highest level of education, how many years of professional experience you have, and what kind of role or impact you’d like to achieve in the green sector?",
+      "answer": "I finished Ensino Médio. Worked one year, but in another area.\n\nNow I want something different, more about research and teamwork. Not sure about \"green sector\" though."
+    },
+    {
+      "question": "Since you mentioned wanting to explore research and teamwork, what kinds of topics or environmental issues interest you the most—like renewable energy, conservation, waste management, or something else?",
+      "answer": "I’m not sure about those topics. I’m more interested in how teams study and develop things together. Like, understanding how people use products and improving them."
+    },
+    {
+      "question": "That’s really interesting! Since you enjoy studying how people interact with products and improving them, have you ever considered roles in **sustainable product design, circular economy, or user research for eco-friendly solutions**—where teamwork and innovation play a big part?",
+      "answer": "I... I think I didn’t explain well. I’m looking for something in design research studies and development. Entry-level, to start learning. I just don’t have experience in it yet."
+    }
+  ]
+}

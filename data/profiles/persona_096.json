@@ -1,0 +1,23 @@
+{
+  "age": 18,
+  "city": "Brasília",
+  "education_level": "Tecnólogo",
+  "experience_years": 0,
+  "skills": [
+    "Mathematics",
+    "Data analysis",
+    "Optimization modeling",
+    "Resource allocation",
+    "Excel (data organization, basic modeling)",
+    "Problem-solving for inefficiencies",
+    "Cargo flow analysis",
+    "Port logistics (scheduling, coordination)",
+    "Adaptability to logistics software",
+    "Python (interest in automation and flow pattern analysis)"
+  ],
+  "goals": "To apply mathematical and analytical skills to port logistics, specifically in scheduling, cargo flow optimization, and data-driven decision-making for port authorities, logistics firms, or tech startups—preferably in remote or Brasília-based roles.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

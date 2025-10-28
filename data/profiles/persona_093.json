@@ -1,0 +1,22 @@
+{
+  "age": 22,
+  "city": "Rio de Janeiro",
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "cargo coordination",
+    "safety checks",
+    "scheduling",
+    "cargo tracking systems",
+    "safety checklists",
+    "spreadsheets",
+    "reporting",
+    "basic scheduling software"
+  ],
+  "goals": "To advance in port operations with a focus on green logistics, optimizing cargo flows, safety protocols, and sustainability practices like emissions reduction and waste management, while leveraging technology and certifications for a greener port future.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "age": 22,
+  "city": "Brasília",
+  "education_level": "técnico",
+  "experience_years": 0,
+  "skills": [
+    "curiosity about clean energy impacts on digital archives",
+    "basic understanding of blockchain (self-described)",
+    "interest in sustainability practices (e.g., paper reduction, recycling)"
+  ],
+  "goals": "Exploring how clean energy technologies (e.g., solar power, blockchain) influence document storage and archival practices, with no immediate job-seeking intent.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

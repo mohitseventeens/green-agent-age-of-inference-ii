@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_085",
+  "final_profile": {
+    "persona_id": "persona_085",
+    "age": 16,
+    "city": "Salvador",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Mathematics",
+      "Communication",
+      "Curiosity about real-world applications",
+      "Interest in safety protocols (HSE)"
+    ],
+    "goals": "Explore entry-level HSE (Health, Safety, and Environment) roles that combine math and interpersonal communication, preferably involving training workers or inspecting sites in Salvador. Seeks to understand practical applications of skills in workplace safety.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh hello! I am Lucas, 16 years old and live in Salvador. I like math and talk with people but I dont know jobs. Sorry my English. Can you tell me, in HSE jobs, do they use math for count things or talk with people for make safe? I just want know how it is."
+    },
+    {
+      "question": "That’s great that you enjoy math and working with people! To help find the best fit for you, could you also share what level of education you’ve completed so far and if you’d be open to moving to another city for a job?",
+      "answer": "I finish Ensino Fundamental only, no more school yet. I dont want move, I like Salvador. But I curious... in HSE, they use math for what? Like, count accidents or measure chemicals? And do they talk much with workers or just write papers? I only want understand."
+    },
+    {
+      "question": "Got it! Since you’re curious about the day-to-day in HSE jobs, would you prefer a role where you’re mostly outdoors (like on construction sites or factories) or indoors (like in an office checking safety reports)? That can change how much math or talking you’d actually do.",
+      "answer": "Oh! I not think about that. So if I work outside, I count things like... how many helmets workers wear? Or measure noise with machine? And if inside, I just write numbers on paper or talk to boss about rules? Math and talk is both important, yes? I like see how it work real."
+    },
+    {
+      "question": "Since you like seeing how things work in real life and enjoy both math and talking with people, would you be more excited about a job where you *train workers* on safety (like showing them how to use equipment correctly) or one where you *inspect sites* (like checking if machines and protective gear meet the rules)?",
+      "answer": "Oh! Train workers sound fun because I can talk and explain things. But inspect sites too... do inspectors use math for check if machines is too loud or if air is clean? Or they just look and say \"yes ok\" or \"no bad\"? Maybe both jobs need math and talk? I not know. You can say?"
+    }
+  ]
+}

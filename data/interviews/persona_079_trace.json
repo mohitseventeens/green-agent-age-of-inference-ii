@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_079",
+  "final_profile": {
+    "persona_id": "persona_079",
+    "age": 17,
+    "city": null,
+    "education_level": "Ensino Médio (incomplete)",
+    "experience_years": 0,
+    "skills": [
+      "communication",
+      "group coordination",
+      "event support (props, logistics)",
+      "basic English-Portuguese translation",
+      "community engagement (informal)",
+      "cultural sensitivity (self-described)"
+    ],
+    "goals": "Seek hands-on learning in facilitation, arts/education workshops, or inclusion-focused cultural projects through internships, part-time roles, or volunteering. Wants to prove capability despite young age, gain experience in community-building, and potentially relocate for opportunities. Prioritizes roles that combine learning with practical impact (e.g., event support, youth workshops, migrant/minority inclusion initiatives).",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English (conversational)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi… oh, I’m Camila! I’m 17, almost done with school, and I live in Brazil but I don’t care where I go, really. I speak Portuguese and some English—like, enough to talk, I think? I just want to work already, you know? Like, in social stuff or cultural things. But… can you even get a job at 17 in that? Do they let you? I don’t know how any of this works. Maybe I need to wait? But I don’t want to! I want to learn facilitation—what is that, even? Is it like leading groups? I’m good at talking to people, I think… but I’m also young, so. Hmm."
+    },
+    {
+      "question": "That’s great that you’re excited about facilitation and working with people! Since you mentioned not wanting to wait, what kind of time commitment are you looking for right now—like a part-time job, internship, volunteer work, or something else?",
+      "answer": "Oh! I didn’t think about that… part-time could work, but I want to *really* learn, you know? Like, not just coffee runs or whatever. An internship sounds good? But do internships pay? I need to save money if I’m moving somewhere… or is volunteering better for experience? Ugh, I don’t know. Also, what if they don’t take me seriously because I’m 17? Like, can I even facilitate things at this age? Maybe I should just start volunteering to prove I can do it? But then how do I get a real job later? This is confusing. Do you think cultural projects would hire someone like me? I just want to help and learn!"
+    },
+    {
+      "question": "You’ve mentioned cultural projects and facilitation—what specific *types* of organizations or causes excite you most? For example, arts, education, environmental justice, or something else? That could help narrow down where to start!",
+      "answer": "Ohhh, good question! I like… everything? No, wait—okay, maybe arts and education? Like, workshops for kids or community stuff with music or theater? That sounds fun! But also, I care about people feeling included, so maybe projects that help migrants or minorities? I don’t know the exact words for it, but I want to be where people are learning and sharing. But—can I even do that at 17? Do I need to study more first? Or can I just start somewhere and learn by doing? I’m scared they’ll say I’m too young, but I really want to try! Maybe I could help with events or something? Like, setting up or talking to people? I don’t know, I just want to be useful! And travel, maybe. Is that too much?"
+    },
+    {
+      "question": "Since you’re drawn to arts, education, and inclusion—have you ever joined or organized any activities (even small ones) in these areas before, like school clubs, community events, or online projects? That could help us see what skills you already have to highlight!",
+      "answer": "Oh! Um… I helped with a school play once? Just organizing props and stuff, but I talked to the actors a lot—does that count? And my friend and I tried to start a little book club, but only three people came. Does that mean I have experience? I don’t know. Also, I sometimes translate memes for my English-learning friends—does that help with cultural sensitivity? I just like connecting people, but I’ve never had a *real* job. Do you think that’s enough to start? Or should I make up more things to say? I don’t want to lie, but I also don’t want to sound boring. Maybe I could say I’m “passionate”? Is that a good word? I am! I just don’t know how to prove it."
+    }
+  ]
+}

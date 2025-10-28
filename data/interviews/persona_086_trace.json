@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_086",
+  "final_profile": {
+    "persona_id": "persona_086",
+    "age": 27,
+    "city": "Belo Horizonte",
+    "education_level": "técnico",
+    "experience_years": 1,
+    "skills": [
+      "safety gear inspection",
+      "hazardous material tracking",
+      "basic HSE reporting"
+    ],
+    "goals": "Explore and understand HSE job roles, particularly in hazardous material management and safety compliance.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi. I’m Carla, 27, from Belo Horizonte. I speak Portuguese and a little English. I just... want to know what HSE jobs are really like."
+    },
+    {
+      "question": "That’s great, Carla! To help me suggest the best HSE roles for you, could you share your highest level of education or any relevant training you’ve completed?",
+      "answer": "I did a técnico course. Only have one year of experience in HSE. Still learning."
+    },
+    {
+      "question": "What kind of company or industry did you work in during that year of HSE experience? For example, construction, mining, manufacturing, or something else?",
+      "answer": "It was a small manufacturing place. Mostly just helped with... checking safety gear and some basic reports. Not sure if that counts."
+    },
+    {
+      "question": "That’s valuable experience! What part of HSE work did you enjoy most in that role—like the hands-on safety checks, the paperwork, or something else?",
+      "answer": "I liked... the part about tracking materials. The hazardous ones. Just making sure they were stored right. The reports were okay too."
+    }
+  ]
+}

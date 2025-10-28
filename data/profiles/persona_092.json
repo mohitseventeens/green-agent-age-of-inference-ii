@@ -1,0 +1,19 @@
+{
+  "age": 24,
+  "city": "Brasília",
+  "education_level": "técnico",
+  "experience_years": 0,
+  "skills": [
+    "digital archiving",
+    "records management",
+    "data security",
+    "compliance",
+    "archiving tools"
+  ],
+  "goals": "To undergo intensive training in Culture and Document Management (digital archiving, records policies, data security, compliance, and archiving tools) as quickly as possible, with full-time, part-time, or workshop-based programs, to accelerate expertise in the field.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

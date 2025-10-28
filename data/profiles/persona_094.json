@@ -1,0 +1,17 @@
+{
+  "age": 19,
+  "city": "Curitiba",
+  "education_level": "Técnico em Logística e Operações",
+  "experience_years": 0,
+  "skills": [
+    "logística",
+    "operações portuárias",
+    "agendamento",
+    "segurança portuária"
+  ],
+  "goals": "Trabalhar próximo a navios ou no porto, preferencialmente em funções como embarque, despacho, verificação de carga ou segurança terminal, com horários flexíveis (até 4 horas por dia) para permanecer perto da família. Idealizar oportunidades que permitam contato direto com operações marítimas, mesmo que em terra.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

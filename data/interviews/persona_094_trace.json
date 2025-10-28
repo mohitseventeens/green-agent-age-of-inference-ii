@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_094",
+  "final_profile": {
+    "persona_id": "persona_094",
+    "age": 19,
+    "city": "Curitiba",
+    "education_level": "Técnico em Logística e Operações",
+    "experience_years": 0,
+    "skills": [
+      "logística",
+      "operações portuárias",
+      "agendamento",
+      "segurança portuária"
+    ],
+    "goals": "Trabalhar próximo a navios ou no porto, preferencialmente em funções como embarque, despacho, verificação de carga ou segurança terminal, com horários flexíveis (até 4 horas por dia) para permanecer perto da família. Idealizar oportunidades que permitam contato direto com operações marítimas, mesmo que em terra.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I’m Beatriz, I’m 19 and I live in Curitiba. I’ve always loved the port, the ships, the whole world of maritime work—it’s like a dream for me. But I can’t move away, my family needs me here. I just want to be near the ships… but I can’t stay away too long."
+    },
+    {
+      "question": "That’s a great passion for maritime work! To explore options that fit your situation, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished my Técnico course, it was focused on logistics and operations. I thought it would help me get closer to the ships, you know? Maybe even work on board someday... but I know it’s hard with my situation. Still, I want to learn more about scheduling and security, things like that."
+    },
+    {
+      "question": "That’s a solid foundation in logistics! Since you’re passionate about maritime work but need to stay in Curitiba, have you considered what kind of *local* roles—like port operations, customs, or maritime logistics—might let you work near ships while staying close to family? Are there any that especially interest you?",
+      "answer": "Oh, I’ve thought about that a lot! I just love the idea of being on the ships, you know? Like, even if it’s just for a few hours a day—couldn’t I do something like that? Maybe helping with loading or checks, then coming right back? But I know it’s not easy... I guess if I can’t be on board, I’d want to learn about dispatch or terminal security. Something that keeps me close to the port."
+    },
+    {
+      "question": "What kind of work schedule would work best for you—like part-time shifts, flexible hours, or even short-term contracts—so you could balance being near the ships while still having time for your family?",
+      "answer": "I was hoping for something where I could go in the morning and be back by afternoon—no more than 4 hours away, really. Maybe helping with the schedules or checking cargo before it loads? But if I can’t be on the ships at all... then I’d need training for the land roles, like dispatch or security. It’s not the same, but it’s still the port, right?"
+    }
+  ]
+}

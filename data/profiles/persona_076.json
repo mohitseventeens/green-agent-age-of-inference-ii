@@ -1,0 +1,21 @@
+{
+  "age": 23,
+  "city": "Belo Horizonte",
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "Technical writing (manuals, reports, documentation)",
+    "Research documentation",
+    "Methodology structuring",
+    "Markdown",
+    "Confluence",
+    "Google Docs",
+    "Sustainability reporting (familiarity with OpenLCA, GRI standards)"
+  ],
+  "goals": "To contribute to green jobs in research and development by creating clear, actionable documentation that bridges complex work (e.g., sustainable materials, clean tech) into practical solutions. Focused on roles where technical writing supports innovation and real-world impact, with openness to learning new tools like LaTeX or sustainability platforms as needed.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

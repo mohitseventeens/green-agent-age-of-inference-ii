@@ -1,0 +1,18 @@
+{
+  "age": 16,
+  "city": "Salvador",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "Mathematics",
+    "Communication",
+    "Curiosity about real-world applications",
+    "Interest in safety protocols (HSE)"
+  ],
+  "goals": "Explore entry-level HSE (Health, Safety, and Environment) roles that combine math and interpersonal communication, preferably involving training workers or inspecting sites in Salvador. Seeks to understand practical applications of skills in workplace safety.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

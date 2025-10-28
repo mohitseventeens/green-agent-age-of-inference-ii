@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_089",
+  "final_profile": {
+    "persona_id": "persona_089",
+    "age": 18,
+    "city": "Rio de Janeiro",
+    "education_level": "Tecnólogo",
+    "experience_years": 2,
+    "skills": [
+      "file organization",
+      "retention policy setup",
+      "data security for documents"
+    ],
+    "goals": "Find a job in Culture and Document Management, preferably in archives or government offices in Rio de Janeiro.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi. I’m Gabriel Ferreira, 18 years old. I live in Rio de Janeiro and I speak Portuguese. I’m looking for jobs in Culture and Document Management."
+    },
+    {
+      "question": "That’s great! Since you’re just starting out in Culture and Document Management, could you share your highest level of education so far and whether you’d be open to relocating for the right opportunity?",
+      "answer": "I have a Tecnólogo degree. And no, I can’t relocate—I need to stay in Rio."
+    },
+    {
+      "question": "Got it! Since you’re focused on staying in Rio, what types of organizations or industries in the city are you most interested in working for (e.g., museums, archives, NGOs, government, or private companies)?",
+      "answer": "I was thinking maybe archives or government offices. They handle a lot of documents and need good security. Not sure about museums."
+    },
+    {
+      "question": "That’s helpful! Since archives and government roles often require specific skills, do you have any hands-on experience—like internships, volunteer work, or course projects—related to document management, digital archiving, or cultural preservation?",
+      "answer": "I worked for 2 years in a small office. I helped organize files and set up basic retention policies. Also did a project on data security for documents. Not sure if that counts."
+    }
+  ]
+}
