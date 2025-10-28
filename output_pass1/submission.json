@@ -1,0 +1,146 @@
+[
+  {
+    "persona_id": "persona_001",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j44",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j135",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_002",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr135"
+      },
+      {
+        "training_id": "tr177"
+      },
+      {
+        "training_id": "tr179"
+      },
+      {
+        "training_id": "tr165"
+      },
+      {
+        "training_id": "tr147"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_003",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j103",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j105",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j111",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_004",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j186",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance procedures",
+            "trainings": [
+              {
+                "training_id": "tr310"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_005",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr147"
+      },
+      {
+        "training_id": "tr150"
+      },
+      {
+        "training_id": "tr123"
+      },
+      {
+        "training_id": "tr159"
+      },
+      {
+        "training_id": "tr174"
+      }
+    ]
+  }
+]

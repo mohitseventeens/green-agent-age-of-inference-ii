@@ -1,0 +1,41 @@
+[
+  {
+    "persona_id": "persona_002",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr135"
+      },
+      {
+        "training_id": "tr177"
+      },
+      {
+        "training_id": "tr179"
+      },
+      {
+        "training_id": "tr165"
+      },
+      {
+        "training_id": "tr147"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_003",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j69",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j68",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j63",
+        "suggested_trainings": []
+      }
+    ]
+  }
+]

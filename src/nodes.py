@@ -14,7 +14,8 @@ from src.utils.matching_rules import (
     get_required_trainings,
     safety_net_filter,
     calculate_composite_score,
-    calculate_training_composite_score
+    calculate_training_composite_score,
+    keyword_relevance_filter
 )
 
 # --- Set up logging for the module ---
@@ -199,13 +200,37 @@ class DecisionNode(Node):
         shared["decision_action"] = exec_res
         return exec_res
 
+# class ProvideAwarenessNode(Node):
+#     # Unchanged
+#     def exec(self, prep_res):
+#         reason = "too_young" if shared.get("decision_action") == "provide_awareness_young" else "info"
+#         return {"predicted_type": "awareness", "predicted_items": reason}
+#     def post(self, shared, prep_res, exec_res):
+#         shared["intermediate_recommendations"] = exec_res
+        # In src/nodes.py, replace the old ProvideAwarenessNode with this:
+
 class ProvideAwarenessNode(Node):
-    # Unchanged
-    def exec(self, prep_res):
-        reason = "too_young" if shared.get("decision_action") == "provide_awareness_young" else "info"
-        return {"predicted_type": "awareness", "predicted_items": reason}
-    def post(self, shared, prep_res, exec_res):
+    def prep(self, shared):
+        # CORRECT: Prep method reads from shared and returns the necessary data.
+        decision = shared.get("decision_action")
+        if not decision or "provide_awareness" not in decision:
+            # This check is better placed in prep.
+            raise ValueError(f"Invalid decision action '{decision}' for ProvideAwarenessNode.")
+        return decision
+
+    def exec(self, decision_action: str) -> Dict[str, Any]:
+        # CORRECT: Exec method now receives the decision_action from prep_res.
+        # It no longer tries to access the 'shared' dictionary.
+        reason = "too_young" if decision_action == "provide_awareness_young" else "info"
+        logger.info(f"Formatting awareness response for reason: {reason}.")
+        return {
+            "predicted_type": "awareness",
+            "predicted_items": reason
+        }
+
+    def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
+        logger.info(f"Awareness recommendation stored in 'intermediate_recommendations'.")
 
 class FindTrainingsOnlyNode(Node):
     """
@@ -219,40 +244,173 @@ class FindTrainingsOnlyNode(Node):
             raise ValueError("Persona profile or parsed trainings not found in shared store.")
         return {"profile": profile, "trainings": trainings}
 
+    # def exec(self, prep_res: Dict) -> Dict[str, Any]:
+    #     profile: PersonaProfile = prep_res["profile"]
+    #     all_trainings: List[TrainingProfile] = prep_res["trainings"]
+        
+    #     profile_dict = profile.model_dump()
+
+    #     # Score all 497 trainings. This is feasible because the LLM call is cheap and cached.
+    #     scored_trainings = []
+    #     for training in tqdm(all_trainings, desc=f"Scoring trainings for persona {profile.persona_id}", disable=len(all_trainings) < 10):
+    #         training_dict = training.model_dump()
+    #         composite_score, sub_scores = calculate_training_composite_score(profile_dict, training_dict)
+    #         scored_trainings.append({"training": training, "score": composite_score, "sub_scores": sub_scores})
+            
+    #     # Sort and select the top 5 trainings
+    #     sorted_trainings = sorted(scored_trainings, key=lambda x: x["score"], reverse=True)
+    #     self.ranked_trainings_for_tracing = sorted_trainings
+    #     top_trainings_scored = sorted_trainings[:5]
+
+    #     logger.info(f"--- Top 5 Trainings for Persona {profile.persona_id} ---")
+    #     for scored_training in top_trainings_scored:
+    #         logger.info(
+    #             f"  - Training: {scored_training['training'].training_id} ({scored_training['training'].title}) | "
+    #             f"Composite Score: {scored_training['score']:.2f} | "
+    #             f"Sub-scores: {scored_training['sub_scores']}"
+    #         )
+            
+    #     recommended_trainings = [{"training_id": t["training"].training_id} for t in top_trainings_scored]
+
+    #     return {
+    #         "predicted_type": "trainings_only",
+    #         "trainings": recommended_trainings
+    #     }
+    # In class FindTrainingsOnlyNode:
+    # def exec(self, prep_res: Dict) -> Dict[str, Any]:
+    #     profile: PersonaProfile = prep_res["profile"]
+    #     all_trainings: List[TrainingProfile] = prep_res["trainings"]
+        
+    #     profile_dict = profile.model_dump()
+    #     from src.utils.matching_rules import get_education_level, score_training_prerequisite_fit
+
+    #     # --- STAGE 1: Fast, Non-LLM Pre-filter ---
+    #     # First, create a list of candidates based only on the cheap prerequisite score.
+    #     persona_edu_level = get_education_level(profile.education_level)
+        
+    #     candidate_trainings = []
+    #     for training in all_trainings:
+    #         training_req_level = get_education_level(training.required_level)
+    #         prereq_score = score_training_prerequisite_fit(persona_edu_level, training_req_level)
+            
+    #         # We only consider trainings that are a decent prerequisite fit
+    #         if prereq_score >= 60: # (60 = overqualified, 100 = perfect/next-level)
+    #             candidate_trainings.append({"training": training, "prereq_score": prereq_score})
+
+    #     logger.info(f"Filtered {len(all_trainings)} total trainings down to {len(candidate_trainings)} candidates based on prerequisite fit.")
+
+    #     if not candidate_trainings:
+    #         return {"predicted_type": "trainings_only", "trainings": []}
+
+    #     # --- STAGE 2: Expensive LLM Scoring on the smaller candidate list ---
+    #     from src.utils.matching_rules import score_training_goal_alignment
+        
+    #     fully_scored_trainings = []
+    #     for item in tqdm(candidate_trainings, desc=f"Scoring training goals for persona {profile.persona_id}", disable=len(candidate_trainings) < 10):
+    #         training = item["training"]
+    #         goal_score = score_training_goal_alignment(
+    #             profile.goals, training.title, training.offered_skills
+    #         )
+            
+    #         # --- STAGE 3: Final Composite Score Calculation ---
+    #         # Using the pre-calculated prerequisite score and the new goal score
+    #         sub_scores = {
+    #             'prerequisite': item["prereq_score"],
+    #             'goal_alignment': goal_score
+    #         }
+    #         weights = {'prerequisite': 0.40, 'goal_alignment': 0.60}
+    #         composite_score = round(sum(sub_scores[dim] * weights[dim] for dim in sub_scores), 2)
+            
+    #         fully_scored_trainings.append({
+    #             "training": training,
+    #             "score": composite_score,
+    #             "sub_scores": sub_scores
+    #         })
+            
+    #     # Sort and select the top 5 trainings
+    #     sorted_trainings = sorted(fully_scored_trainings, key=lambda x: x["score"], reverse=True)
+    #     self.ranked_trainings_for_tracing = sorted_trainings # For tracing artifact
+    #     top_trainings_scored = sorted_trainings[:5]
+
+    #     logger.info(f"--- Top 5 Trainings for Persona {profile.persona_id} ---")
+    #     for scored_training in top_trainings_scored:
+    #         logger.info(
+    #             f"  - Training: {scored_training['training'].training_id} ({scored_training['training'].title}) | "
+    #             f"Composite Score: {scored_training['score']:.2f} | "
+    #             f"Sub-scores: {scored_training['sub_scores']}"
+    #         )
+            
+    #     recommended_trainings = [{"training_id": t["training"].training_id} for t in top_trainings_scored]
+
+    #     return {
+    #         "predicted_type": "trainings_only",
+    #         "trainings": recommended_trainings
+    #     }
+    # In class FindTrainingsOnlyNode:
     def exec(self, prep_res: Dict) -> Dict[str, Any]:
         profile: PersonaProfile = prep_res["profile"]
         all_trainings: List[TrainingProfile] = prep_res["trainings"]
         
         profile_dict = profile.model_dump()
+        from src.utils.matching_rules import get_education_level, score_training_prerequisite_fit
 
-        # Score all 497 trainings. This is feasible because the LLM call is cheap and cached.
-        scored_trainings = []
-        for training in tqdm(all_trainings, desc=f"Scoring trainings for persona {profile.persona_id}", disable=len(all_trainings) < 10):
-            training_dict = training.model_dump()
-            composite_score, sub_scores = calculate_training_composite_score(profile_dict, training_dict)
-            scored_trainings.append({"training": training, "score": composite_score, "sub_scores": sub_scores})
+        # --- STAGE 1: Fast, Non-LLM Prerequisite Pre-filter ---
+        persona_edu_level = get_education_level(profile.education_level)
+        stage1_candidates = []
+        for training in all_trainings:
+            training_req_level = get_education_level(training.required_level)
+            prereq_score = score_training_prerequisite_fit(persona_edu_level, training_req_level)
+            if prereq_score >= 60:
+                stage1_candidates.append({"training": training, "prereq_score": prereq_score})
+        logger.info(f"Stage 1: Prerequisite filter reduced {len(all_trainings)} trainings to {len(stage1_candidates)}.")
+
+        # --- STAGE 2: Fast, Non-LLM Keyword Pre-filter ---
+        stage2_candidates = [
+            item for item in stage1_candidates
+            if keyword_relevance_filter(profile_dict, item["training"].model_dump())
+        ]
+        logger.info(f"Stage 2: Keyword filter reduced candidates to {len(stage2_candidates)}.")
+        
+        # --- STAGE 3: Hard Cap for Safety ---
+        MAX_LLM_CALLS = 50
+        if len(stage2_candidates) > MAX_LLM_CALLS:
+            # Sort by the cheap prerequisite score to keep the most relevant ones
+            stage2_candidates = sorted(stage2_candidates, key=lambda x: x["prereq_score"], reverse=True)[:MAX_LLM_CALLS]
+            logger.warning(f"Stage 3: Candidate list capped to {len(stage2_candidates)} to control costs.")
+        
+        final_candidates = stage2_candidates
+
+        if not final_candidates:
+            return {"predicted_type": "trainings_only", "trainings": []}
+
+        # --- STAGE 4: Expensive LLM Scoring on the final, small candidate list ---
+        from src.utils.matching_rules import score_training_goal_alignment
+        
+        fully_scored_trainings = []
+        for item in tqdm(final_candidates, desc=f"Scoring final training candidates for {profile.persona_id}", disable=len(final_candidates) < 5):
+            training = item["training"]
+            goal_score = score_training_goal_alignment(profile.goals, training.title, training.offered_skills)
+            sub_scores = {'prerequisite': item["prereq_score"], 'goal_alignment': goal_score}
+            weights = {'prerequisite': 0.40, 'goal_alignment': 0.60}
+            composite_score = round(sum(sub_scores[dim] * weights[dim] for dim in sub_scores), 2)
             
-        # Sort and select the top 5 trainings
-        sorted_trainings = sorted(scored_trainings, key=lambda x: x["score"], reverse=True)
+            fully_scored_trainings.append({"training": training, "score": composite_score, "sub_scores": sub_scores})
+            
+        sorted_trainings = sorted(fully_scored_trainings, key=lambda x: x["score"], reverse=True)
+        self.ranked_trainings_for_tracing = sorted_trainings
         top_trainings_scored = sorted_trainings[:5]
-
+        
         logger.info(f"--- Top 5 Trainings for Persona {profile.persona_id} ---")
-        for scored_training in top_trainings_scored:
-            logger.info(
-                f"  - Training: {scored_training['training'].training_id} ({scored_training['training'].title}) | "
-                f"Composite Score: {scored_training['score']:.2f} | "
-                f"Sub-scores: {scored_training['sub_scores']}"
-            )
+        for item in top_trainings_scored: logger.info(f"  - {item['training'].training_id} ({item['training'].title}) | Score: {item['score']:.2f} | Sub-scores: {item['sub_scores']}")
             
         recommended_trainings = [{"training_id": t["training"].training_id} for t in top_trainings_scored]
-
-        return {
-            "predicted_type": "trainings_only",
-            "trainings": recommended_trainings
-        }
+        return {"predicted_type": "trainings_only", "trainings": recommended_trainings}
 
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
+        trace_data = shared.get("trace_details", {})
+        trace_data["training_ranking"] = self.ranked_trainings_for_tracing
+        shared["trace_details"] = trace_data
         logger.info("Training-only recommendation stored in 'intermediate_recommendations'.")
 
 # --- MAJOR REFACTOR: FindJobsAndTrainingsNode ---
@@ -294,7 +452,8 @@ class FindJobsAndTrainingsNode(Node):
             scored_jobs.append({"job": job, "score": composite_score, "sub_scores": sub_scores})
 
         sorted_jobs = sorted(scored_jobs, key=lambda x: x["score"], reverse=True)
-        
+
+        self.ranked_jobs_for_tracing = sorted_jobs
         # Stage 4: Select the Top 3 jobs
         top_jobs_scored = sorted_jobs[:3]
         
@@ -339,6 +498,9 @@ class FindJobsAndTrainingsNode(Node):
         
     def post(self, shared, prep_res, exec_res: Dict[str, Any]):
         shared["intermediate_recommendations"] = exec_res
+        trace_data = shared.get("trace_details", {})
+        trace_data["job_ranking"] = self.ranked_jobs_for_tracing # Store the full ranked list
+        shared["trace_details"] = trace_data
         logger.info("Jobs+trainings recommendation stored in 'intermediate_recommendations'.")
         
 class FinalizeOutputNode(Node):

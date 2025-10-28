@@ -1,0 +1,23 @@
+{
+  "last_run_timestamp_utc": "2025-10-28T19:18:21.658269",
+  "total_personas_in_submission": 3,
+  "personas_processed_this_run": 3,
+  "execution_seconds_this_run": 131.02,
+  "cost_and_tokens_this_run": {
+    "total_cost": 0.05488380000000001,
+    "by_model": {
+      "mistral-small-latest": {
+        "calls": 50,
+        "input_tokens": 7263,
+        "output_tokens": 585,
+        "cost": 0.0009018000000000001
+      },
+      "mistral-large-latest": {
+        "calls": 99,
+        "input_tokens": 23526,
+        "output_tokens": 1155,
+        "cost": 0.053982000000000016
+      }
+    }
+  }
+}
