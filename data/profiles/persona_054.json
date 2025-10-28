@@ -1,0 +1,17 @@
+{
+  "age": 19,
+  "city": "Recife",
+  "education_level": "Técnico",
+  "experience_years": 2,
+  "skills": [
+    "hotel reception basics",
+    "check-ins/check-outs",
+    "basic property management system (PMS) usage"
+  ],
+  "goals": "Improve proficiency in hotel reservation systems (e.g., Opera, Cloudbeds) through relaxed, step-by-step training—preferably in-person or online at a self-paced rhythm. Focus on hands-on learning without pressure, aiming to build confidence in hospitality technology.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

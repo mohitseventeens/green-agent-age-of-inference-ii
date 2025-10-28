@@ -1,0 +1,17 @@
+{
+  "age": 23,
+  "city": "Recife",
+  "education_level": "Tecnólogo",
+  "experience_years": 1,
+  "skills": [
+    "accounting",
+    "management",
+    "risk assessment",
+    "data analysis"
+  ],
+  "goals": "Pursue a traditional accounting role in local businesses or smaller branches of larger companies in Recife, with openness to sustainability-related tasks like risk assessment for green projects.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

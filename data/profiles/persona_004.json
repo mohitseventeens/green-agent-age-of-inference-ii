@@ -1,0 +1,15 @@
+{
+  "age": 27,
+  "city": "Rio de Janeiro",
+  "education_level": "graduação",
+  "experience_years": 1,
+  "skills": [
+    "product development",
+    "quality inspection"
+  ],
+  "goals": "work in the food industry, specifically in roles related to how food affects health, with a preference for larger companies with structured quality inspection processes",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

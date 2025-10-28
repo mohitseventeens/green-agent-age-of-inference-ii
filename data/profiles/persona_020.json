@@ -1,0 +1,25 @@
+{
+  "age": 21,
+  "city": "Curitiba",
+  "education_level": "Tecnólogo",
+  "experience_years": 1,
+  "skills": [
+    "chemical handling",
+    "safety protocols",
+    "quality testing",
+    "waste reduction strategies",
+    "environmental compliance (basics)",
+    "circular economy principles",
+    "Brazil’s environmental laws (CONAMA)",
+    "process documentation",
+    "sustainability auditing",
+    "material testing (theoretical)",
+    "bilingual (Portuguese & English)"
+  ],
+  "goals": "Transition into the fibers and paper industry with a focus on sustainability, particularly in eco-regulations, waste management, and developing sustainable paper products. Seeks a role blending lab/technical work (e.g., testing eco-friendly materials, reformulating chemicals) with fieldwork (e.g., auditing waste processes, training teams on sustainability protocols). Aims to bridge technical expertise with environmental impact by applying chemical handling skills to greener production methods.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

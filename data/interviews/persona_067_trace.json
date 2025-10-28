@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_067",
+  "final_profile": {
+    "persona_id": "persona_067",
+    "age": 17,
+    "city": "Recife",
+    "education_level": "Ensino Técnico (Administração)",
+    "experience_years": 1,
+    "skills": [
+      "Documentação administrativa",
+      "Processos básicos de seguros",
+      "Organização de tarefas estruturadas"
+    ],
+    "goals": "Desenvolver habilidades em Implementação de Políticas para construir confiança e oportunidades futuras em setores bancários ou de seguros, priorizando crescimento profissional a longo prazo.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! I’m Patrícia, I’m 17 and I live in Recife—I love it here, so I’m not planning to move. I speak Portuguese, obviously, since I’m Brazilian, hehe. Right now, I’m kinda torn between doing a training in Policy Implementation for banking and insurance stuff or maybe just taking a fun cooking course, ‘cause I really enjoy making food for my friends. But I dunno, Policy Implementation sounds important, even if it seems a bit boring."
+    },
+    {
+      "question": "That’s a great mix of options! Since you’re exploring training programs, what’s the highest level of education you’ve completed so far—like, did you finish high school or are you still in it?",
+      "answer": "Ah, I already finished my *técnico* course—it was in administration, super basic stuff, you know? Just one year of experience so far, helping with some paperwork at a small insurance office here. But yeah, I’m still super new to all this. That’s why I wanna do the Policy Implementation training, even if my friends say cooking would be way more fun, haha."
+    },
+    {
+      "question": "Got it! Since you mentioned enjoying cooking but also leaning toward Policy Implementation—what’s *most important* to you right now: finding a stable job quickly, exploring a passion, or building skills that could open doors later?",
+      "answer": "Oh, for sure building skills that open doors later! I mean, cooking is cool and all, but I don’t wanna just *stay* doing fun stuff—I wanna grow, you know? Policy Implementation seems like the kind of thing that could make me more confident in banking or insurance jobs. Even if it looks a bit complicated, I think it’s worth it. I just hope I can actually handle it since I’m still a beginner."
+    },
+    {
+      "question": "Since you’re focused on building skills for the future—what kind of work environment do you think would help you thrive best? For example, do you prefer structured tasks with clear rules (like in banking) or something more dynamic where you can problem-solve in different ways?",
+      "answer": "I think I’d do better with structured tasks, at least for now. Like, clear rules and steps make me feel less lost, you know? In banking or insurance, everything’s so organized—policies, protocols, all that. It’s kinda reassuring when you’re still learning. Plus, I don’t wanna mess up important stuff like data security or documents, so having that structure helps me build confidence. Maybe later I can handle more dynamic things, but right now? Nah, I’ll stick to the basics."
+    }
+  ]
+}

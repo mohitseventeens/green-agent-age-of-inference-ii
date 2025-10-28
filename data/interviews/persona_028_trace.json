@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_028",
+  "final_profile": {
+    "persona_id": "persona_028",
+    "age": 16,
+    "city": "Curitiba",
+    "education_level": "Ensino Médio (incomplete)",
+    "experience_years": 0,
+    "skills": [
+      "Basic household repairs (e.g., fixing chairs, leaky faucets)",
+      "Interest in DIY repair (from videos/games)",
+      "Problem-solving in practical tasks"
+    ],
+    "goals": "To receive formal training in upkeep and repair (e.g., bikes, electronics) with a focus on sustainability and reusing items. Plans to start training while completing high school to develop hands-on skills in eco-friendly repair practices.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (basic)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi! I’m Camila, I’m 16 and I live in Curitiba. I speak Portuguese and a little English, mostly from games and videos. I really like fixing things in games and watching DIY repair videos—it’s so cool to see how stuff works! That’s why I want to learn upkeep and fixes for real."
+    },
+    {
+      "question": "That’s awesome that you love fixing things! Have you had any hands-on experience with repairing or maintaining real-life objects—like electronics, bikes, or household items—or is it mostly something you’ve explored through videos so far?",
+      "answer": "Oh, I’ve tried small things at home, like fixing a wobbly chair or helping my dad with a leaky faucet—it’s fun but a little scary too! The videos make it look easy, but real stuff is trickier. That’s why I want proper training in upkeep and fixes, to learn the right way."
+    },
+    {
+      "question": "Since you’re interested in getting proper training, what kind of green jobs or industries in Curitiba (like recycling, renewable energy, or eco-friendly repairs) have caught your attention so far?",
+      "answer": "I haven’t thought much about green jobs yet, but I like the idea of fixing things so they last longer instead of throwing them away. Maybe learning to repair bikes or electronics in a sustainable way? Training in upkeep and fixes could help with that, right? I just want to start with the basics."
+    },
+    {
+      "question": "That’s a great mindset—reusing and repairing is so important! To help find the right training for you, what’s the highest level of education you’ve completed so far? (Like, are you still in high school, or have you finished it?)",
+      "answer": "Oh, I’m still in high school, but I’m really focused on my goal! I want to take trainings in upkeep and fixes as soon as I can, maybe even while I finish school. It’s like leveling up in a game, but for real skills!"
+    }
+  ]
+}

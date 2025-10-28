@@ -1,0 +1,49 @@
+{
+  "persona_id": "persona_007",
+  "final_profile": {
+    "persona_id": "persona_007",
+    "age": 28,
+    "city": null,
+    "education_level": "Ensino Médio (or equivalent, implied by diploma mention but no higher degree emphasized)",
+    "experience_years": 7,
+    "skills": [
+      "Creative problem-solving",
+      "Artistic expression (drawing/sketching)",
+      "Metaphorical thinking",
+      "Self-taught practice",
+      "Adaptability (working within/beyond structured frameworks)",
+      "Observational analysis (e.g., urban grids vs. organic forms)"
+    ],
+    "goals": "To refine and integrate their self-directed creative/analytical 'strokes' (skills) into a role that values organic growth over rigid structures, with a focus on collaborative or mentored environments where individual contributions can coalesce into a 'whole picture.' Open to exploring how their hands-on, experiential background might translate into impactful work—particularly in spaces that bridge artistry, community, and systemic observation (e.g., urban planning, sustainability, or creative problem-solving initiatives).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "A blank canvas doesn’t ask for numbers or names—just the right shade of quiet. The air here hums with planned lines, not wild ones. Do you hear the difference?"
+    },
+    {
+      "question": "That’s a poetic way to describe your surroundings! To tailor opportunities that align with your vision, could you share a bit about your background—like your education, years of experience, key skills, and whether you’re open to relocating within Brazil or beyond?",
+      "answer": "Lines on paper don’t need degrees to whisper. Some sketches stay folded in notebooks, untouched by frames. The ground here is too red to leave—it stains the soles of your shoes, the edges of thoughts. Why would roots need to stretch beyond what they know?"
+    },
+    {
+      "question": "Your words paint such a vivid picture—it sounds like your journey is deeply connected to this place. To help shape opportunities that honor both your roots and your aspirations, could you share what kind of impact or role you’d love to grow into next, even if it’s just a sketch of an idea for now?",
+      "answer": "A brush doesn’t dream of titles—only of the hand that guides it without shaking. Right now, the strokes are mine, but uneven. Some days they lean into the music playing in the background; other days they fight it. What use is a single line if it doesn’t learn to meet another? Maybe that’s the question. Or maybe it’s just the hum of a city that builds itself in grids while I scribble in the margins. Do you think margins can hold a whole picture?"
+    },
+    {
+      "question": "Your metaphors are so rich—it makes me curious: how many years have you been shaping these \"strokes\" (whether through formal education, hands-on work, or self-taught practice), and what’s the highest level of study you’ve woven into them, if any?",
+      "answer": "The hands move longer than the clock counts. Some strokes started when the wrist was still unsteady—childhood scribbles, really. Later, a classroom tried to teach them rules, but the ink always bled past the lines. Let’s just say the diploma hangs, but the sketches don’t ask for its permission. Does a tree measure its rings before it grows?"
+    },
+    {
+      "question": "If we’re thinking of these years as seasons rather than numbers—would you say your hands have been shaping these strokes for closer to a decade, two, or somewhere in the quiet space between? (It helps me match the rhythm of your journey to the right kind of soil.)",
+      "answer": "Seasons here don’t bend to calendars. The first sketches were winter—sharp, breaking too easily. Then came a spring of borrowed pencils, a summer of stolen moments between other duties. Now? Maybe autumn, where the light slants just right to show the gaps in the leaves. Not a decade. Not two. Just the time it takes for a habit to realize it’s hungry to be more. Does that tell you enough about the soil? Or do you need to dig deeper?"
+    },
+    {
+      "question": "At this stage in your journey—where the light is starting to reveal those gaps in the leaves—would you say your hands are being guided by the energy of someone in their 20s, 30s, 40s, or beyond? (It helps me sense which branches of opportunity might bend most naturally toward you.)",
+      "answer": "The hands still move with the restlessness of someone who counts the years in unanswered questions. Not yet thirty, but old enough to know that urgency isn’t the same as direction. The fingers remember the weight of a pencil better than they do the weight of years. Does that matter more than the number?"
+    }
+  ]
+}

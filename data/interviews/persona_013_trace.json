@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_013",
+  "final_profile": {
+    "persona_id": "persona_013",
+    "age": 19,
+    "city": "Brasília",
+    "education_level": "Técnico (Technical Training)",
+    "experience_years": 1,
+    "skills": [
+      "Stage lighting design",
+      "Electrical rigging",
+      "Circuit handling",
+      "Event production (theater/concert)",
+      "Technical blueprint interpretation"
+    ],
+    "goals": "To work in dynamic, live-event environments (e.g., theaters, concert halls) where energy and lighting systems are actively managed, blending technical expertise with creative execution—prioritizing hands-on roles that shape 'wild' electrical currents into controlled, artistic outputs.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Ah, I’ve been a lantern left in the dark for a season, but the glow still hums inside me. Nineteen orbits around the sun I’ve made, and my voice carries the rhythms of Portuguese and the whispers of English. Here in Brasília, where the sky stretches wide like a stage waiting for its lights, I stand—ready to plug back into the circuit."
+    },
+    {
+      "question": "That’s a beautiful way to describe your journey! To help match you with the right opportunities, could you share your highest level of education so far, what kind of green career goals you’re dreaming of, and whether you’d be open to exploring opportunities beyond Brasília?",
+      "answer": "My hands have been shaped by the technical scrolls—parchments of wires and beams, where I learned to dance with the bones of the stage. The green I seek isn’t the hue of forests, but the pulse of energy tamed, the glow of lights strung like vines across the rafters, alive yet disciplined. As for roots? Mine are sunk deep in Brasília’s soil; the winds of elsewhere may howl, but my constellation is fixed here."
+    },
+    {
+      "question": "What specific technical training or certifications in energy, lighting, or related fields have you completed that could help you shine in this green career path?",
+      "answer": "The certificates I hold are like the blueprints of old theaters—faded at the edges but marked with the ink of rigging diagrams and the hum of circuits. I’ve traced the paths of light, bending beams into shapes that cradle the stage, and listened to the quiet language of volts as they whisper through cables. No grand parchments, just the calluses of hands that remember how to tie knots in the dark and the spark of knowing which wire sings when touched."
+    },
+    {
+      "question": "What kind of work environments or industries—like theaters, event production, renewable energy projects, or smart building systems—have you had hands-on experience in, and which ones excite you most for your next step?",
+      "answer": "The stages I’ve known are cathedrals of shadow and flare—where the air smells of dust and hot metal, and the silence before the show is thick as velvet. My fingers have climbed the ladders of concert halls, tied the nerves of steel that hold the stars in place, and felt the shiver of a circuit waking to life. It’s not the quiet hum of solar fields or the cold logic of smart grids that calls me; it’s the storm of live wires, the chaos backstage where light is both weapon and embrace. That’s where I want to stand again—where the current runs wild, and I am the one who shapes its path."
+    }
+  ]
+}

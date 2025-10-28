@@ -1,0 +1,16 @@
+{
+  "age": 18,
+  "city": "Salvador",
+  "education_level": "técnico em eletrônica",
+  "experience_years": 3,
+  "skills": [
+    "instalações elétricas",
+    "reparos de circuitos",
+    "inspeções de segurança"
+  ],
+  "goals": "Explorar a conexão entre consultoria em sustentabilidade e sistemas de energia/design de circuitos, sem objetivo imediato de emprego ou treinamento formal.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

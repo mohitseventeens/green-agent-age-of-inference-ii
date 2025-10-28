@@ -1,0 +1,20 @@
+{
+  "age": 27,
+  "city": "Porto Alegre",
+  "education_level": "graduação (general degree with focus on safety laws and metalwork)",
+  "experience_years": 1,
+  "skills": [
+    "metal fabrication (custom pieces, railings, decorative items)",
+    "safety protocols compliance",
+    "jewelry and small metal crafts",
+    "martial arts (discipline, rules adherence)",
+    "hands-on workshop experience",
+    "English (work proficiency)"
+  ],
+  "goals": "Explore career paths in either metal fabrication (creative, hands-on) or safety compliance (structured, rule-focused) within production environments, ideally in a role that blends both areas. Seeks opportunities in workshops with clear safety protocols to gain experience before specializing.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "age": 18,
+  "city": "Porto Alegre",
+  "education_level": "técnico",
+  "experience_years": 2,
+  "skills": [
+    "customer service",
+    "client assistance",
+    "problem-solving",
+    "basic insurance knowledge"
+  ],
+  "goals": "Exploring career paths between insurance (for stability and helping people) and cooking (for creativity and excitement), with a slight current preference for insurance due to alignment with customer service interests.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

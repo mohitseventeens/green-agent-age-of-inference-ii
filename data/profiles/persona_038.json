@@ -1,0 +1,19 @@
+{
+  "age": 22,
+  "city": "São Paulo",
+  "education_level": "graduação",
+  "experience_years": 0,
+  "skills": [
+    "negotiation",
+    "event planning",
+    "comparative analysis",
+    "logistics coordination",
+    "cost optimization"
+  ],
+  "goals": "Seeking a structured, behind-the-scenes role where they can leverage their skills in comparing options, organizing logistics, and negotiating deals—preferably in a flexible environment without relocation. Interested in turning informal talents (e.g., trip/event planning) into a professional career but lacks clarity on specific job titles or industries.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

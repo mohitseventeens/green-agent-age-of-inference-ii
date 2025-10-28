@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_056",
+  "final_profile": {
+    "persona_id": "persona_056",
+    "age": 23,
+    "city": "Rio de Janeiro",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "hotel reception",
+      "customer service"
+    ],
+    "goals": "Seeking reception work with flexible daytime or part-time shifts, prioritizing stability and schedule flexibility over industry shifts.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Gabriel, 23, from Rio de Janeiro. I speak Portuguese and English."
+    },
+    {
+      "question": "That’s great, Gabriel! To tailor the best opportunities for you, could you share your highest level of education, how many years of professional experience you have, and what your main career goals are in the sustainability or green sector? Also, would you be open to relocating for the right role?",
+      "answer": "I don’t work in sustainability. I have experience in hotel reception. No, I can’t relocate."
+    },
+    {
+      "question": "Got it! Since you mentioned your background is in hotel reception, could you tell me what level of education you’ve completed (e.g., high school, technical course, bachelor’s degree) and how many years you’ve worked in hospitality? Also, what kind of role in the green sector interests you most—even if it’s a shift from your current experience?",
+      "answer": "I have a *graduação* and two years in hotel reception. I’m not looking for green jobs, just reception work. Flexibility is important for me."
+    },
+    {
+      "question": "Since flexibility matters to you, what kind of work schedule or shift preferences (e.g., fixed hours, night shifts, part-time) would you ideally look for in a reception role?",
+      "answer": "I prefer daytime shifts. Part-time could work too."
+    }
+  ]
+}

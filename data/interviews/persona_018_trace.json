@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_018",
+  "final_profile": {
+    "persona_id": "persona_018",
+    "age": 25,
+    "city": "São Paulo",
+    "education_level": "graduação",
+    "experience_years": 3,
+    "skills": [
+      "product development (paper)",
+      "basic pulping processes",
+      "recycled materials (basic)"
+    ],
+    "goals": "Transition into a green career within the paper industry, focusing on alternative fibers and sustainable pulping processes to improve environmental impact.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello. I’m Beatriz, 25 years old, and I live in São Paulo. I speak Portuguese and some English. I’m looking for a job but can’t relocate."
+    },
+    {
+      "question": "That’s great, Beatriz! To match you with the best opportunities, could you share your highest level of education and how many years of professional experience you have?",
+      "answer": "I have a *graduação* degree and three years of experience in paper product development."
+    },
+    {
+      "question": "What specific skills or knowledge from your paper product development experience would you like to apply—or transition—to a green job?",
+      "answer": "I work with product development for paper and have basic knowledge of pulping processes. I’d like to improve in that area."
+    },
+    {
+      "question": "That’s a great foundation! Since you’re interested in deepening your knowledge of pulping processes for a green career, have you considered or explored any specific areas of sustainability within the paper industry—like recycled materials, alternative fibers, or waste reduction—that excite you the most?",
+      "answer": "I’ve worked a little with recycled materials, but I’d like to learn more about alternative fibers. I think it could help make processes more sustainable."
+    }
+  ]
+}

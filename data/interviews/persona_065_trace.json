@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_065",
+  "final_profile": {
+    "persona_id": "persona_065",
+    "age": 15,
+    "city": "Fortaleza",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Basic computer literacy",
+      "Interest in customer service",
+      "Interest in administrative technology (e.g., Excel, banking apps)"
+    ],
+    "goals": "To enroll in a hands-on training program (part-time or after school) covering administrative basics in banking/insurance, with a focus on tech tools and customer service, to explore career fit before committing to a specific field. Prefers free/low-cost, interactive options in Fortaleza (local or online).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (learning)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello! I’m Rafael Melo, I’m 15 years old, and I live in Fortaleza—I love it here and wouldn’t want to move anywhere else. I speak Portuguese, of course, but I’m trying to practice my English too because I think it might help later in banking or insurance.\n\nRight now, I’m still in school (Ensino Fundamental), but I’m really eager to start working soon. I’m torn between banking, which seems exciting and fast-paced, and insurance, which everyone says is super stable. I don’t have any experience yet, but I’m hoping to find a training program to help me figure out which path suits me better. Do you know if there are any good courses for beginners in Administrative Management for these fields?"
+    },
+    {
+      "question": "That’s great that you’re thinking ahead! Since you mentioned banking and insurance, what specific *aspects* of those fields interest you the most—like working with people, numbers, technology, or something else?",
+      "answer": "Oh, that’s a great question! I think I’d love working with people—maybe helping customers solve problems or explaining services. But I’m also really curious about the technology side! Like, how banks and insurance companies use apps and systems to manage everything. My uncle works in a bank, and he showed me how they use software to track transactions, and it looked so cool.\n\nI’m not super into just crunching numbers all day, but I don’t mind them if it’s part of a bigger picture, like helping a business run smoothly. Honestly, I just want to learn the basics first so I can see where I fit best. Do you think there are trainings that cover both the customer service *and* the tech tools used in banking or insurance? That would be perfect for me!"
+    },
+    {
+      "question": "Since you’re still in school but eager to start working soon, would you be looking for a part-time job, an internship, or a full-time training program after you finish *Ensino Fundamental*—or are you open to any of these?",
+      "answer": "Actually, I’m not looking for a job just yet—I really want to focus on training first! My parents keep saying I should start working as soon as possible, but I think if I can get into a good training program, I’ll be way more prepared to choose between banking or insurance later. Maybe something part-time or after school, like a course that teaches the basics of administrative work in those fields.\n\nI’ve heard some banks and insurance companies offer introductory programs for young people, but I’m not sure where to look. Do you know if there are any free or low-cost options in Fortaleza? I’d love something hands-on, where I can learn how offices actually run, not just theory. And if it includes tech tools, even better!"
+    },
+    {
+      "question": "Got it! Since you’re interested in hands-on training with tech tools, have you already explored any specific skills or software (like Excel, customer service platforms, or banking apps) that you’d want to learn—or would you prefer a program that covers a broad introduction to everything?",
+      "answer": "Oh, I haven’t had the chance to learn any specific software yet—just the basics on my school computer! But I’ve heard Excel is super important in both banking and insurance, so that’d be a great start. And if there’s a program that also teaches customer service platforms or even the basics of how banking apps work behind the scenes, that would be amazing.\n\nI think a broad introduction would be perfect for me right now, since I’m still deciding between the two fields. Maybe something that shows how administrative work connects to both banking *and* insurance? That way, I can compare them and see which one clicks with me. Do you know if any local schools or companies offer that kind of training? I’d even be okay with online courses if they’re interactive!"
+    }
+  ]
+}

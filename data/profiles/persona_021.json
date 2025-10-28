@@ -1,0 +1,18 @@
+{
+  "age": 18,
+  "city": "São Paulo",
+  "education_level": "Ensino Médio Completo (iniciando graduação)",
+  "experience_years": 0,
+  "skills": [
+    "Reparos básicos (DIY)",
+    "Interesse por processos industriais (papel/celulose, reciclagem)",
+    "Noções básicas de inglês",
+    "Habilidades práticas (manutenção, montagem)"
+  ],
+  "goals": "Encontrar um trabalho inicial hands-on em áreas como produção industrial (papel/celulose, fibras), manutenção de máquinas ou tecnologias sustentáveis, com oportunidade de aprender no dia a dia sem necessidade de formação prévia longa. Prefere funções dinâmicas que misturem prática e solução de problemas, evitando trabalhos exclusivamente sedentários ou em telas.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "age": 15,
+  "city": "Fortaleza",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "Basic computer literacy",
+    "Interest in customer service",
+    "Interest in administrative technology (e.g., Excel, banking apps)"
+  ],
+  "goals": "To enroll in a hands-on training program (part-time or after school) covering administrative basics in banking/insurance, with a focus on tech tools and customer service, to explore career fit before committing to a specific field. Prefers free/low-cost, interactive options in Fortaleza (local or online).",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English (learning)"
+  ]
+}

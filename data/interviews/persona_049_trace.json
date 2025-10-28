@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_049",
+  "final_profile": {
+    "persona_id": "persona_049",
+    "age": 19,
+    "city": "Recife",
+    "education_level": "Ensino Médio",
+    "experience_years": 0,
+    "skills": [
+      "cost analysis (planned)",
+      "budgeting (planned)",
+      "forecasting (planned)",
+      "Excel (planned)",
+      "ERP systems (planned)"
+    ],
+    "goals": "Focus on training in cost analysis, budgeting, forecasting, and accounting software (Excel, ERP) to secure better entry-level job opportunities in Recife without relocating. Prioritize affordable or free online courses to build foundational skills before entering the workforce.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello! I am Patrícia Costa, 19 years old, and I live in Recife. I speak Portuguese, but I can communicate in English too. Right now, I’m not looking for jobs yet—I want to focus on training, especially in cost analysis, budgeting, and forecasting. Do you think training is really worth it before starting work?"
+    },
+    {
+      "question": "That’s a great plan! Since you’re focusing on training, could you also share your current education level and whether you’d ever consider relocating for the right opportunity in the future?",
+      "answer": "I finished Ensino Médio last year and don’t have work experience yet. I’m not open to relocating—I want to stay in Recife. My family says I should just start working, but I think training in accounting software and cost analysis would help me get better opportunities here later. Do you think I should start with a basic job first or go for training?"
+    },
+    {
+      "question": "What specific accounting software or tools (like Excel, SAP, or QuickBooks) are you most interested in learning to boost your skills in cost analysis and budgeting?",
+      "answer": "I’ve heard Excel is very important for budgeting and forecasting, so I’d like to learn that well. I also see some job posts mentioning ERP systems, but I’m not sure which one is best to start with. Maybe something simple to help with cost analysis? I just want to make sure I’m not wasting time on tools that won’t be useful for entry-level roles here in Recife."
+    },
+    {
+      "question": "Got it! Since you’re focusing on Excel and ERP systems for entry-level roles in Recife, have you looked into any local training programs, online courses, or certifications that could help you build these skills efficiently—and do you have a budget in mind for them?",
+      "answer": "I haven’t looked much yet, but I want something affordable since I don’t have savings. Maybe free or low-cost online courses first? I saw some Excel tutorials on YouTube, but I’m not sure if that’s enough. For ERP, I don’t even know where to start—maybe a basic course on a platform like Coursera? My main goal is to learn enough to help with budgeting and forecasting tasks."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "age": 19,
+  "city": "Porto Alegre",
+  "education_level": "Ensino Superior (in progress, Computer Science)",
+  "experience_years": 1,
+  "skills": [
+    "stage mechanics",
+    "set movement",
+    "prop adjustment",
+    "live show operation",
+    "cue management",
+    "sound team coordination"
+  ],
+  "goals": "Pursue a financially stable career in live events (e.g., stage technician, lighting/sound tech, or event coordinator) in Porto Alegre, earning at least R$2.500–3.000/month, while avoiding relocation or unstable work conditions.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

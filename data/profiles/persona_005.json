@@ -1,0 +1,23 @@
+{
+  "age": 16,
+  "city": "Brasília",
+  "education_level": "Autodidact (Nascent)",
+  "experience_years": 0,
+  "skills": [
+    "Theoretical knowledge of FDA/ANVISA food safety protocols (e.g., pathogen control, HACCP)",
+    "Analysis of food production systems (e.g., abattoir ergonomics, *frigoríficos* layouts)",
+    "Regulatory framework comparison (e.g., EU Farm to Fork vs. Brazil’s RDC 216)",
+    "Conceptual understanding of predictive microbiology and waste reduction algorithms",
+    "Critical dissection of food industry white papers and case studies",
+    "Basic English proficiency for technical research",
+    "Spatial epidemiology modeling (theoretical interest in GIS applications)",
+    "Life Cycle Assessment (LCA) principles (theoretical)",
+    "Prototyping upcycling interventions (e.g., okara repurposing)"
+  ],
+  "goals": "To pursue an integrated, hands-on immersion in food systems—merging pathogen mitigation, waste stream deconstruction, and regulatory arbitrage through lab-field hybrids, digital modeling (e.g., GIS, LCA software), and mentored compliance simulations. Seeks to bypass age-restricted barriers in Brasília via credential stacking (e.g., SENAI’s *Jovem Aprendiz*) and shadowing arrangements, with the ultimate aim of synthesizing a meta-curriculum that transcends fragmented industry training. Prioritizes oscillating between macroscopic systems thinking and microscopic precision (e.g., pipette-level detail) to avoid superficial dabbling.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese (Brazilian variant)",
+    "English"
+  ]
+}

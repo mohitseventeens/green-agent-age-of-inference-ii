@@ -1,0 +1,19 @@
+{
+  "age": 24,
+  "city": "Belo Horizonte",
+  "education_level": "graduação",
+  "experience_years": 1,
+  "skills": [
+    "purchasing",
+    "price comparison",
+    "market trend observation",
+    "data-driven analysis (self-taught)",
+    "consumer behavior tracking"
+  ],
+  "goals": "To deepen expertise in market analysis—specifically pricing strategies and consumer behavior trends—through a structured certification program with hands-on projects, leveraging existing purchasing experience and personal interests in tech/fashion markets.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

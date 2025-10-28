@@ -1,0 +1,17 @@
+{
+  "age": 13,
+  "city": "Curitiba",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "numbers",
+    "accounting (interest)",
+    "management (interest)",
+    "calculating carbon footprints (potential)"
+  ],
+  "goals": "Learn basics of sustainability-related numerical skills, such as calculating carbon footprints, to explore potential green career paths in accounting or management.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

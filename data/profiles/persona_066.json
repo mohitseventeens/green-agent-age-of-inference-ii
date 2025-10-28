@@ -1,0 +1,17 @@
+{
+  "age": 28,
+  "city": "São Paulo",
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "risk documentation (advanced)",
+    "regulatory reporting (basic)",
+    "operational efficiency"
+  ],
+  "goals": "Become a CEO in banking quickly, with a focus on accelerating growth through practical skills like risk documentation, regulatory reporting, and operational efficiency. Open to short-term certifications (e.g., FRM) for faster career progression.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_046",
+  "final_profile": {
+    "persona_id": "persona_046",
+    "age": 27,
+    "city": "São Paulo",
+    "education_level": "Ensino Médio",
+    "experience_years": 2,
+    "skills": [
+      "document handling",
+      "meeting participation",
+      "negotiation (basic)",
+      "case analysis (basic)"
+    ],
+    "goals": "Explore career paths in law, particularly negotiation, legal writing, or case analysis, through training or roles that allow exposure to multiple areas before specializing.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I’m in São Paulo… not sure if that helps, but I’m 27 and I speak Portuguese, obviously, and some English. I was thinking about Law, but there’s so much to explore—like negotiation or maybe case analysis… not sure yet."
+    },
+    {
+      "question": "That’s great! Since you mentioned exploring areas like negotiation or case analysis, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished Ensino Médio and then… well, I’ve been working in Law for a couple of years, but it’s all been very scattered. Like, helping with documents or sitting in on meetings, but nothing formal. I just want to see what fits… maybe legal writing? Or interpreting laws? It’s confusing."
+    },
+    {
+      "question": "Given your hands-on experience in law—like handling documents and meetings—what specific tasks or parts of that work have you enjoyed the most (or found most frustrating)? That might help narrow down what fits you best.",
+      "answer": "The documents part was okay, I guess… sometimes it felt like just filling forms, but other times I got to see how arguments were built, which was interesting. Meetings were… I don’t know, some were boring, but when there was negotiation, it was kind of exciting? But then legal writing seems important too, and I’ve never really tried that properly. Maybe if I could do a bit of everything in a training…?"
+    },
+    {
+      "question": "You mentioned negotiation and legal writing both spark your interest—if you could pick *one* area to focus on first for training or a job, which would feel like the most natural starting point for you right now?",
+      "answer": "I don’t think I can pick just one… that’s the problem. Negotiation is dynamic, but legal writing feels more structured, and I’m not sure which I’d be better at. Maybe if there was a training that let me try both? Or even case analysis, because sometimes I helped with that and it was… not bad. I just don’t want to commit to one thing yet."
+    }
+  ]
+}

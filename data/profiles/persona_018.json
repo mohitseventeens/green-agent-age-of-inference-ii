@@ -1,0 +1,17 @@
+{
+  "age": 25,
+  "city": "São Paulo",
+  "education_level": "graduação",
+  "experience_years": 3,
+  "skills": [
+    "product development (paper)",
+    "basic pulping processes",
+    "recycled materials (basic)"
+  ],
+  "goals": "Transition into a green career within the paper industry, focusing on alternative fibers and sustainable pulping processes to improve environmental impact.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

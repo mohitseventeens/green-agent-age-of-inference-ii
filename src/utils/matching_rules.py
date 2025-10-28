@@ -40,49 +40,101 @@ EDUCATION_LEVELS = {
     "doutorado": 8,
 }
 
-def apply_hard_filters(persona: Dict[str, Any], job: Dict[str, Any]) -> bool:
-    """
-    Applies strict matching rules to determine if a job is a fit for a persona.
+# def apply_hard_filters(persona: Dict[str, Any], job: Dict[str, Any]) -> bool:
+#     """
+#     Applies strict matching rules to determine if a job is a fit for a persona.
 
-    Args:
-        persona: A dictionary representing the persona's profile.
-        job: A dictionary representing the job's requirements.
+#     Args:
+#         persona: A dictionary representing the persona's profile.
+#         job: A dictionary representing the job's requirements.
+
+#     Returns:
+#         True if the job passes all hard filters, False otherwise.
+#     """
+#     # 1. Location Filter
+#     is_job_remote = job.get("is_remote", False)
+#     persona_open_to_relocate = persona.get("is_open_to_relocate", False)
+#     if not is_job_remote and not persona_open_to_relocate:
+#         if persona.get("city") != job.get("city"):
+#             logger.debug(f"Filter FAIL (Location): Job city {job.get('city')} != Persona city {persona.get('city')}")
+#             return False
+
+#     # 2. Education Filter
+#     persona_edu_level = EDUCATION_LEVELS.get(persona.get("education_level", "").strip(), 0)
+#     job_edu_req = EDUCATION_LEVELS.get(job.get("education_level", "").strip(), 0)
+#     if persona_edu_level < job_edu_req:
+#         logger.debug(f"Filter FAIL (Education): Persona level {persona_edu_level} < Job level {job_edu_req}")
+#         return False
+        
+#     # # 3. Experience Filter
+#     # persona_exp = persona.get("experience_years", 0)
+#     # job_exp_req = job.get("experience_years", 0)
+#     # if persona_exp < job_exp_req:
+#     #     logger.debug(f"Filter FAIL (Experience): Persona years {persona_exp} < Job years {job_exp_req}")
+#     #     return False
+    
+#     # 3. Experience Filter (with tolerance for entry-level)
+#     persona_exp = persona.get("experience_years", 0)
+#     job_exp_req = job.get("experience_years", 0)
+    
+#     # NEW LOGIC: If a job requires 1 year or less, consider it entry-level
+#     # and allow candidates with 0 experience.
+#     if job_exp_req <= 1 and persona_exp == 0:
+#         pass # This is an acceptable entry-level match, so we don't fail.
+#     elif persona_exp < job_exp_req:
+#         logger.debug(f"Filter FAIL (Experience): Persona years {persona_exp} < Job years {job_exp_req}")
+#         return False
+
+#     # 4. Language Filter (simplified: checks for at least one common language)
+#     persona_langs = set(lang.lower() for lang in persona.get("languages", []))
+#     job_langs_req = set(lang.lower() for lang in job.get("languages", []))
+#     if job_langs_req and not persona_langs.intersection(job_langs_req):
+#         logger.debug(f"Filter FAIL (Language): No common language between {persona_langs} and {job_langs_req}")
+#         return False
+
+#     # If all checks pass
+#     logger.debug("Filter PASS: All hard filters met.")
+#     return True
+
+from typing import Tuple
+
+def apply_hard_filters(persona: Dict[str, Any], job: Dict[str, Any]) -> Tuple[bool, str]:
+    """
+    Applies strict matching rules.
 
     Returns:
-        True if the job passes all hard filters, False otherwise.
+        A tuple containing (True, "OK") if the job passes,
+        or (False, "Reason for failure") otherwise.
     """
     # 1. Location Filter
     is_job_remote = job.get("is_remote", False)
     persona_open_to_relocate = persona.get("is_open_to_relocate", False)
     if not is_job_remote and not persona_open_to_relocate:
         if persona.get("city") != job.get("city"):
-            logger.debug(f"Filter FAIL (Location): Job city {job.get('city')} != Persona city {persona.get('city')}")
-            return False
+            return False, f"Location Mismatch: Persona city '{persona.get('city')}' vs Job city '{job.get('city')}'"
 
     # 2. Education Filter
     persona_edu_level = EDUCATION_LEVELS.get(persona.get("education_level", "").strip(), 0)
     job_edu_req = EDUCATION_LEVELS.get(job.get("education_level", "").strip(), 0)
     if persona_edu_level < job_edu_req:
-        logger.debug(f"Filter FAIL (Education): Persona level {persona_edu_level} < Job level {job_edu_req}")
-        return False
+        return False, f"Education Mismatch: Persona level {persona_edu_level} < Job level {job_edu_req}"
         
-    # 3. Experience Filter
+    # 3. Experience Filter (with tolerance for entry-level)
     persona_exp = persona.get("experience_years", 0)
     job_exp_req = job.get("experience_years", 0)
-    if persona_exp < job_exp_req:
-        logger.debug(f"Filter FAIL (Experience): Persona years {persona_exp} < Job years {job_exp_req}")
-        return False
+    if job_exp_req <= 1 and persona_exp == 0:
+        pass
+    elif persona_exp < job_exp_req:
+        return False, f"Experience Mismatch: Persona years {persona_exp} < Job years {job_exp_req}"
 
-    # 4. Language Filter (simplified: checks for at least one common language)
+    # 4. Language Filter
     persona_langs = set(lang.lower() for lang in persona.get("languages", []))
     job_langs_req = set(lang.lower() for lang in job.get("languages", []))
     if job_langs_req and not persona_langs.intersection(job_langs_req):
-        logger.debug(f"Filter FAIL (Language): No common language between {persona_langs} and {job_langs_req}")
-        return False
+        return False, f"Language Mismatch: Persona langs {persona_langs} vs Job langs {job_langs_req}"
 
     # If all checks pass
-    logger.debug("Filter PASS: All hard filters met.")
-    return True
+    return True, "OK"
 
 def get_required_trainings(persona: Dict[str, Any], job: Dict[str, Any]) -> List[str]:
     """

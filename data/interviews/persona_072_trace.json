@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_072",
+  "final_profile": {
+    "persona_id": "persona_072",
+    "age": 19,
+    "city": "Brasília",
+    "education_level": "Tecnólogo",
+    "experience_years": 2,
+    "skills": [
+      "experiment design (A/B testing, survey methodologies)",
+      "hypothesis testing",
+      "basic statistical analysis (SPSS, Excel)",
+      "data collection (Google Forms, Typeform)",
+      "user behavior analysis"
+    ],
+    "goals": "To work in roles that blend experiment design, behavioral research, and sustainability—such as designing experiments to test sustainability nudges (e.g., plastic reduction, public transport adoption), analyzing conservation/energy data, or contributing to data-driven green initiatives. Seeks to develop advanced statistical skills (R, Python) while making a measurable impact in sustainability.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, absolutely! I’m Mateus Gomes, I’m 19 years old, and I live in Brasília—I love it here and wouldn’t want to move anywhere else. I speak Portuguese natively, but I’m comfortable chatting in English too, especially about topics I’m passionate about. Right now, I’m really torn between so many exciting directions—like diving deeper into experiment design, exploring statistical analysis, or even branching into psychology experiments or AI projects. It’s all so fascinating, but I know I need to focus! What do you think would be the best path for someone with my background?"
+    },
+    {
+      "question": "That’s a great mix of interests! To help narrow things down, could you share your current education level (e.g., high school, undergrad, etc.) and how many years of hands-on experience—like internships, research, or projects—you’ve had in any of these areas?",
+      "answer": "Oh, for sure! I recently completed a *Tecnólogo* degree—it’s like a short, practical undergrad program focused on applied tech and research skills. I’ve got about two years of hands-on experience, mostly from internships and small research projects. One of my favorite projects was designing a user behavior experiment for a local startup, where I got to play with hypothesis testing and basic statistical analysis. It was so cool to see how tiny tweaks in the design could totally change the outcomes! Though, I have to admit, my friends keep telling me I should just go full “data science” and leave the experiment stuff behind. But I’m not sure—that feels too narrow, you know? I love the creativity in designing studies!"
+    },
+    {
+      "question": "Given how much you enjoyed designing experiments and working with user behavior, what specific *types* of green jobs or sustainability-focused roles do you see yourself thriving in—like behavioral research for climate action, data-driven conservation, or something else entirely?",
+      "answer": "Oh, that’s such a great question! I haven’t really thought about *green jobs* in this field before, but now that you mention it, I’m getting so many ideas. Like, what if I designed experiments to test how people respond to sustainability nudges? For example, figuring out what makes people actually use less plastic or choose public transport—those little behavioral tweaks could have a huge impact! Or maybe I could work with data from conservation projects, analyzing patterns to see what strategies really work for protecting ecosystems.\n\nI also love the idea of mixing stats with real-world problems. Imagine tracking energy use in buildings and designing experiments to find the most effective ways to reduce waste. It’s like solving puzzles, but with a purpose! Though, I’ll be honest—I’m still a bit nervous about my stats skills. I’m not an expert, but I’m eager to learn more if it means working on something meaningful. Do you think there are roles that blend experiment design *and* sustainability? That sounds like a dream!"
+    },
+    {
+      "question": "That’s a fantastic vision! To help pinpoint the best roles for you, which *specific skills* from your *Tecnólogo* degree, internships, or projects (like tools, software, or methods) do you feel most confident using—or would you be excited to develop further in a green job?",
+      "answer": "Oh, I’m really glad you asked! From my degree and projects, I feel most confident with experiment design—like A/B testing frameworks and survey methodologies. I’ve used tools like Google Forms and Typeform for data collection, and I’ve dabbled in SPSS and Excel for basic statistical analysis (though I’m still learning the deeper stuff!). Hypothesis testing is something I really enjoy, especially when it’s tied to real-world questions, like “Does this messaging actually change behavior?”\n\nI’m also curious about learning more advanced tools like R or Python for data analysis, especially if it helps me work on sustainability projects. For example, I’d love to analyze data from urban mobility studies or waste reduction campaigns. And honestly, the idea of using my skills to design experiments that *prove* what works for green initiatives? That’s the kind of impact I’d love to have. Do you think there are entry-level roles where I could grow in these areas while contributing to sustainability? I’m so open to training!"
+    }
+  ]
+}

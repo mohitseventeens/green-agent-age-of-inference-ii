@@ -1,0 +1,18 @@
+{
+  "age": 27,
+  "city": "Belo Horizonte",
+  "education_level": "Law",
+  "experience_years": 0,
+  "skills": [
+    "statutory interpretation",
+    "ethical practice",
+    "legal debate",
+    "case analysis"
+  ],
+  "goals": "To deepen expertise in statutory interpretation and ethical legal practice through hands-on, interactive training—preferably in-person in Belo Horizonte—with a focus on resolving conflicts between laws and navigating ethical dilemmas in real-world scenarios.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

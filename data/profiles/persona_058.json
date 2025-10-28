@@ -1,0 +1,17 @@
+{
+  "age": 25,
+  "city": "Brasília",
+  "education_level": "graduação (bachelor's degree in tourism)",
+  "experience_years": 1,
+  "skills": [
+    "customer service",
+    "organization",
+    "problem-solving",
+    "explaining information"
+  ],
+  "goals": "Uncertain about career direction; currently prefers to stay in familiar roles (e.g., hotel reception) rather than exploring new fields like green jobs. Prefers stability in Brasília.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

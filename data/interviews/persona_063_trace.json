@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_063",
+  "final_profile": {
+    "persona_id": "persona_063",
+    "age": 20,
+    "city": "Porto Alegre",
+    "education_level": "Tecnólogo",
+    "experience_years": 2,
+    "skills": [
+      "actuarial principles (basic)",
+      "regulatory compliance",
+      "risk assessment",
+      "compliance frameworks"
+    ],
+    "goals": "Seek a flexible (20–25 hrs/week), hybrid/remote actuarial or compliance role in Porto Alegre with mentorship to bridge basic actuarial knowledge to advanced compliance work, while balancing personal commitments. Prefers collaborative environments with structured knowledge-sharing and output-focused schedules over rigid 9-to-5 arrangements.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, absolutely! I’m Rafael Costa, 20 years old, and I’m based in Porto Alegre—I love this city and wouldn’t want to relocate. I speak Portuguese fluently, of course, and while I’m still early in my career, I’ve got two years of experience in the insurance sector. My focus is really on roles where I can apply actuarial principles—even at a basic level—and dive deeper into regulatory compliance. It’s such a dynamic field, and I’m eager to grow, though my availability is a bit limited due to personal commitments. What kind of opportunities are you seeing in Insurance right now? I’d need to know specifics about schedules and responsibilities to see if they align with my goals."
+    },
+    {
+      "question": "That’s great to hear about your experience in actuarial work! To better match you with opportunities, could you share the highest level of education you’ve completed so far?",
+      "answer": "Oh, I completed a *Tecnólogo* degree—it’s a focused, practical program that gave me a solid foundation in technical skills, especially in actuarial basics. I found the coursework really engaging, particularly the modules on risk assessment and compliance frameworks. It’s not a full bachelor’s, but it’s tailored for the industry, which I think is a huge plus.\n\nThat said, I’m still hungry to learn more, especially about how actuarial principles tie into real-world regulatory compliance. Do you think there are roles out there that would let me build on that foundation while respecting my limited availability? I’d hate to take on something that’s too rigid with schedules."
+    },
+    {
+      "question": "Got it! To make sure we find the best fit, how many hours per week—or what kind of schedule—would work best for you given your current commitments? For example, are you looking for part-time, flexible hours, or something hybrid?",
+      "answer": "Oh, that’s a great question—I *really* need flexibility. Right now, I can commit to about 20–25 hours a week, ideally in a hybrid or even fully remote setup. I’ve found that insurance roles can sometimes be strict with office hours, but I’m hoping there’s something out there that values output over punch-clock time.\n\nFor example, if a role involves actuarial analysis or compliance reporting, I could easily structure my work around core tasks without needing a fixed 9-to-5. Do you think there are insurers or brokerages in Porto Alegre that offer that kind of arrangement? I’d also love to know if the role would include mentorship—someone to help me bridge the gap between my basic actuarial knowledge and more advanced compliance work. That’d be a game-changer for me!"
+    },
+    {
+      "question": "That’s really helpful! Since mentorship is important to you, would you say you’re more interested in a role where you’d work closely with a senior actuarial or compliance professional, or would you prefer a team-based environment where you could learn from multiple colleagues?",
+      "answer": "Oh, I’d *love* a mix of both, honestly! Working closely with a senior professional—someone who could guide me through the nuances of actuarial modeling or compliance frameworks—would be incredible. But I also thrive in collaborative environments where I can pick up different perspectives from colleagues. For example, if a team handles both risk assessment and regulatory filings, I’d learn so much just by observing how they connect the dots.\n\nThat said, I’d need to know how hands-on the mentorship would be. Is it structured, like weekly check-ins, or more ad-hoc? And does the team have a culture of sharing knowledge, or is it more siloed? I’ve heard some insurance firms are great at fostering growth, while others expect you to figure things out alone. I’m eager to grow, but I don’t want to be thrown into the deep end without support!"
+    }
+  ]
+}

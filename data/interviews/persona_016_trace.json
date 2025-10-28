@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_016",
+  "final_profile": {
+    "persona_id": "persona_016",
+    "age": 19,
+    "city": "Porto Alegre",
+    "education_level": "Ensino Superior (in progress, Computer Science)",
+    "experience_years": 1,
+    "skills": [
+      "stage mechanics",
+      "set movement",
+      "prop adjustment",
+      "live show operation",
+      "cue management",
+      "sound team coordination"
+    ],
+    "goals": "Pursue a financially stable career in live events (e.g., stage technician, lighting/sound tech, or event coordinator) in Porto Alegre, earning at least R$2.500–3.000/month, while avoiding relocation or unstable work conditions.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi! I’m Mariana, I’m 19 and I live in Porto Alegre. I actually started studying computer science, but my heart is really in live events—you know, the energy, the lights, the stage! It’s what I love.\n\nBut I have to be honest, I’m worried about money. Does working in live shows even pay enough? I mean, I could go back to tech, but it doesn’t excite me like this does."
+    },
+    {
+      "question": "That’s a great point about financial stability—have you ever worked or volunteered in live events before, even in small roles like stage crew, lighting, or promotions? I’m curious what hands-on experience you’ve had so far!",
+      "answer": "I’ve done a few small gigs, yes! I helped with stage mechanics at a local theater—moving sets, adjusting props, that kind of thing. And once I assisted with live show operation for a university event, managing cues and coordinating with the sound team.\n\nIt was amazing, but… I keep thinking, is this *realistic*? Like, can I actually make a living from it? Or should I just stick to something more stable? I don’t know."
+    },
+    {
+      "question": "What would you consider a \"livable\" salary for you in Porto Alegre—something that would make you feel financially secure while pursuing work in live events?",
+      "answer": "In Porto Alegre, I’d need at least around R$2.500 to R$3.000 per month to feel secure—enough to cover rent, food, and still save a little. I know tech jobs pay more, but they don’t make me happy like live shows do.\n\nBut is that even possible in this field? Or am I just dreaming? I don’t want to struggle every month, but I also don’t want to give up on what I love."
+    },
+    {
+      "question": "Have you looked into specific roles in live events that could meet that salary range—like production assistant, lighting technician, or event coordinator—and what the job market for those looks like in Porto Alegre?",
+      "answer": "I’ve looked a bit, but it’s confusing. I see job postings for stage technicians or live show operators, but they don’t always list salaries. Some say \"to be discussed,\" which makes me nervous—what if it’s way less than I need?\n\nI’ve thought about lighting or sound tech roles too, since they seem more specialized. Do those pay better? And is there even enough work in Porto Alegre, or would I have to travel all the time? That’s another worry."
+    }
+  ]
+}

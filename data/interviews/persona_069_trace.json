@@ -1,0 +1,37 @@
+{
+  "persona_id": "persona_069",
+  "final_profile": {
+    "persona_id": "persona_069",
+    "age": 19,
+    "city": null,
+    "education_level": "Ensino Médio",
+    "experience_years": 0,
+    "skills": [
+      "basic tool handling",
+      "interest in hydraulic systems"
+    ],
+    "goals": "Gain hands-on training in green technologies, particularly those involving machinery or hydraulic systems, to explore opportunities in the sector.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Camila, 19 years old. I speak Portuguese. I live in Brazil but I’m open to moving if it helps."
+    },
+    {
+      "question": "That’s great, Camila! To tailor the best opportunities for you, could you share your current education level, any work experience you have (even informal or volunteer work), and what kind of role or impact you’d love to achieve in the green job sector?",
+      "answer": "I finished Ensino Médio. I worked a little with basic tools before. I’m not sure about the green sector, but I like how machines work."
+    },
+    {
+      "question": "That’s a useful starting point! Since you enjoy working with machines, have you ever explored or been curious about any specific areas—like renewable energy (like solar or wind tech), recycling systems, or sustainable manufacturing?",
+      "answer": "I heard about hydraulic systems once. I got curious because of how they move things smoothly. I don’t know much about the other areas."
+    },
+    {
+      "question": "That’s interesting! Hydraulic systems are used in a lot of green technologies—like hydroelectric power or even eco-friendly machinery. Would you be excited to learn more about how those systems work in renewable energy, or would you prefer hands-on training first to see if it’s a good fit?",
+      "answer": "I think hands-on training would help me more. I learn better by doing."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "persona_id": "persona_015",
+  "final_profile": {
+    "persona_id": "persona_015",
+    "age": 22,
+    "city": "Fortaleza",
+    "education_level": "técnico",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "To receive hands-on training in all aspects of live event technical production (lighting, sound, stage setup) to transition from audience member to backstage/technical roles. Prefers practical, equipment-focused training over theoretical courses and seeks beginner-friendly opportunities in Fortaleza.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I’m Camila, 22 years old, and I live in Fortaleza! I’ve always loved going to concerts and theater shows—there’s something magical about it, you know? But lately, I’ve been thinking, “Why am I always just in the audience?” I want to be the one setting up the lights, adjusting the sound, or helping with the stage setup. I just don’t know where to start with training for all of that! Do you know if there are courses that teach the basics of everything, not just one thing?"
+    },
+    {
+      "question": "That’s a great mindset—so many opportunities in live events! To point you toward the right training or entry-level roles, could you tell me what your highest level of education is so far and whether you’d be open to moving to another city for work if needed?",
+      "answer": "I finished my técnico degree here in Fortaleza, and honestly, I don’t want to move—I love it here! But that’s okay because I’m not looking for a job yet, just training. I want something hands-on that teaches me all the basics: how to work the lights, set up microphones and speakers, even how to organize the stage before a show. I don’t want to pick just one thing—I want to learn it all! Do trainings like that even exist, or do I have to start with just lights *or* just sound? It’s so confusing!"
+    },
+    {
+      "question": "Got it! Since you’re eager to learn all the technical sides of live events, have you ever done any volunteer work or informal training—like helping out at local shows, school events, or community theaters—where you could’ve gotten a taste of backstage work?",
+      "answer": "Not yet—that’s the problem! I’ve only ever been on the *other* side, watching. But I’ve spent so many shows staring at the lighting rigs or trying to spot where the sound team is mixing from, you know? Like, how do they make everything sync up perfectly? I just need a training that lets me try all of it: plugging in cables, adjusting spotlights, even just coiling wires the *right* way. I don’t care if it’s basic—I just want to stop being clueless! Do you think theaters or event companies here offer that kind of beginner training? Or is it one of those things where you have to know someone to get started?"
+    },
+    {
+      "question": "That’s awesome—you’ve got such a clear passion for the hands-on side of things! Since you’re just starting out, would you be able to commit to a full-time training program, or would you prefer something part-time or on weekends while you explore?",
+      "answer": "Oh, I can do full-time if it’s not too long—I just want to *learn*, not drag it out forever! But weekends could work too if it’s more hands-on. The thing is, I don’t want a course that’s all theory, you know? Like, I want to touch the equipment: turn knobs on a mixing board, climb a ladder to focus a light, or help lay out cables for a real setup. Even if it’s just assisting at first! Do you know if places here let beginners do that, or do I have to start with months of classes before I get near the gear? I’m so ready to just *do* it!"
+    }
+  ]
+}

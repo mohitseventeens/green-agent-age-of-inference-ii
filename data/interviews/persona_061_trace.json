@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_061",
+  "final_profile": {
+    "persona_id": "persona_061",
+    "age": 21,
+    "city": "Curitiba",
+    "education_level": "Técnico",
+    "experience_years": 3,
+    "skills": [
+      "Fraud prevention",
+      "Pricing analysis",
+      "Insurance analytics"
+    ],
+    "goals": "Secure a specialized role in Insurance (fraud prevention or pricing analysis) that leverages existing skills, with market-aligned compensation for 3 years of experience. Not interested in entry-level or sustainability/green job transitions.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I have three years in Insurance, focused on fraud prevention and pricing analysis. Currently in Curitiba, not relocating. Portuguese only. Let’s discuss roles matching that."
+    },
+    {
+      "question": "\"Given your experience in insurance analytics, what’s your highest level of education, and what kind of career goals are you aiming for in the green job sector—whether that’s transitioning into sustainability roles, upskilling in a specific area, or something else?\"",
+      "answer": "I don’t do \"green jobs.\" My background is técnico, three years in Insurance—fraud prevention and pricing analysis. My goal is a role that uses those skills, not sustainability. Stay on topic."
+    },
+    {
+      "question": "Got it—just to tailor the opportunities to your experience level, how old are you currently? (This helps match roles that align with your career stage.)",
+      "answer": "21. Experience matters more. Focus on Insurance roles with fraud prevention or pricing analysis. No entry-level."
+    },
+    {
+      "question": "\"Since you’re looking for non-entry roles in fraud prevention or pricing analysis, what’s the *minimum salary expectation* you’d consider for a position in Curitiba?\"",
+      "answer": "Salary depends on the role’s complexity. For advanced fraud prevention or pricing analysis, I expect market rates for someone with three years of specialized experience. No lowball offers."
+    }
+  ]
+}

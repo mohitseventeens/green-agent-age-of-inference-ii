@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_036",
+  "final_profile": {
+    "persona_id": "persona_036",
+    "age": 16,
+    "city": "Porto Alegre",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "price comparison",
+      "trend analysis",
+      "market observation"
+    ],
+    "goals": "Explore entry-level opportunities in purchasing or procurement, particularly in fast fashion or sustainable retail, with a focus on understanding how companies select products and suppliers.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! I’m Patrícia, 16, and I live in Porto Alegre. I *love* shopping with my friends and comparing prices online—it’s like a game for me! Sometimes I wonder how companies buy things… is it like shopping but way bigger? haha."
+    },
+    {
+      "question": "That’s so interesting! Since you’re curious about how companies make big purchasing decisions, have you thought about what kind of education or training you’d like to pursue after school—maybe something related to business, sustainability, or supply chains? And would you be open to studying or working in another city if the right opportunity came up?",
+      "answer": "Oh, I never thought that far yet! Right now I just like watching videos about trends and seeing how stores pick products. Maybe a business course later? But I don’t wanna move—Porto Alegre is home!\n\nI’m more curious about how people *start* in purchasing. Like, what do interns even do? Do they just watch or help pick stuff? And how’s that different from someone who’s been doing it for years?"
+    },
+    {
+      "question": "Got it! Since you mentioned maybe taking a business course later, what’s the highest level of education you’ve completed so far—like, are you still in high school or have you done any other programs?",
+      "answer": "Oh, I’m still in *Ensino Fundamental*—like, basic school? haha. No courses yet, just my hobbies! But I love seeing how stores choose what to sell… makes me wonder if companies have people who *only* compare prices and pick the best deals, like I do for fun. Do interns do that, or is it more serious?"
+    },
+    {
+      "question": "That’s a great comparison! If you could pick *one* type of company to explore this kind of work—like a big retailer (think fast fashion or supermarkets), a sustainable brand, or even a local business in Porto Alegre—which would excite you the most and why?",
+      "answer": "Ooooh, probably a fast fashion store! I follow so many influencers who show new trends, and I always check prices at different shops. But… I also wonder if sustainable brands buy things *differently*? Like, do they care more about where stuff comes from? Maybe that’s what senior buyers do—pick based on values, not just price? Interns probably just help organize, right? haha."
+    }
+  ]
+}

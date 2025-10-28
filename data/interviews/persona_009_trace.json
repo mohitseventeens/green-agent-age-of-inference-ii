@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_009",
+  "final_profile": {
+    "persona_id": "persona_009",
+    "age": 25,
+    "city": "Rio",
+    "education_level": "Curso Técnico",
+    "experience_years": 3,
+    "skills": [
+      "Painting",
+      "Composition",
+      "Color Theory"
+    ],
+    "goals": "Seek structured training to combine traditional painting/composition skills with basic digital tools, improving confidence and technical proficiency without overly advanced or fast-paced programs.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Why do you need to know that?"
+    },
+    {
+      "question": "\"No problem! To tailor the best opportunities for you, could you share a bit about your professional background—like your education, years of experience, and key skills you’d want to highlight?\"",
+      "answer": "I don’t share details easily. How do I know this is safe?"
+    },
+    {
+      "question": "\"I completely understand your caution—privacy matters! If you’re comfortable sharing just one thing, what’s the **biggest career goal** you’d like to achieve in the next 2–3 years? That way, I can focus on opportunities that align with your aspirations without needing personal details upfront.\"",
+      "answer": "...Thanks. That makes me feel safer.\n\nRight now, I just want to get better at what I do. I’ve worked with painting and composition, but I’m still learning how to use digital tools. I don’t need a job yet—I need training that helps me combine what I already know with basic digital skills. Something structured, so I can gain confidence."
+    },
+    {
+      "question": "Got it! To find the most practical training options for you—whether online, local, or hybrid—would you be open to sharing roughly how many years of experience you have in painting/composition and if you’d consider traveling for a structured program if it were a great fit? (No need for exact numbers—just a ballpark!)",
+      "answer": "I have a few years of experience, around three. And no, I wouldn’t travel—I stay in Rio.\n\nTraining here would be best. Something that starts with the basics but doesn’t treat me like a complete beginner. I know color and composition well, but digital tools still feel unfamiliar. If it’s too fast or too technical, I’ll get lost."
+    },
+    {
+      "question": "\"Since you’re looking for structured training that builds on your experience in painting and composition, would you mind sharing your highest level of education (like high school, technical courses, or university) and your age range (e.g., 20s, 30s, etc.)? This helps me point you to programs with the right pace and prerequisites—some are designed specifically for different backgrounds.\"",
+      "answer": "I did a *técnico* course. And I’m in my mid-20s.\n\nLook, I don’t need anything too advanced—just something that respects what I already know while helping me get comfortable with digital work. If it’s too theoretical or moves too fast, I won’t keep up. And I’d prefer it to be in Portuguese, or at least have clear instructions. I learn better when I can take my time."
+    }
+  ]
+}

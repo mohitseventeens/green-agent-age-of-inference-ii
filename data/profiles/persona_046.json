@@ -1,0 +1,18 @@
+{
+  "age": 27,
+  "city": "São Paulo",
+  "education_level": "Ensino Médio",
+  "experience_years": 2,
+  "skills": [
+    "document handling",
+    "meeting participation",
+    "negotiation (basic)",
+    "case analysis (basic)"
+  ],
+  "goals": "Explore career paths in law, particularly negotiation, legal writing, or case analysis, through training or roles that allow exposure to multiple areas before specializing.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

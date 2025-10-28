@@ -1,0 +1,16 @@
+{
+  "age": 16,
+  "city": "Belo Horizonte",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "sketching (basic)",
+    "creative exploration (cinema/music interest)"
+  ],
+  "goals": "Explore Visual Arts (especially animation, cinema, and music) to understand career paths, skill requirements, and collaborative vs. independent work dynamics. No immediate job-seeking intent; focused on learning and long-term interest development.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

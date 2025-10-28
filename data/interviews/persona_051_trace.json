@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_051",
+  "final_profile": {
+    "persona_id": "persona_051",
+    "age": 23,
+    "city": "Recife",
+    "education_level": "Tecnólogo",
+    "experience_years": 1,
+    "skills": [
+      "accounting",
+      "management",
+      "risk assessment",
+      "data analysis"
+    ],
+    "goals": "Pursue a traditional accounting role in local businesses or smaller branches of larger companies in Recife, with openness to sustainability-related tasks like risk assessment for green projects.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m João Souza, 23 years old, and I live in Recife. I speak Portuguese and I’m looking for a job in accounting and management."
+    },
+    {
+      "question": "That’s great! To tailor the best opportunities for you in accounting and management, could you share your highest level of education, how many years of experience you have in the field, and whether you’d be open to relocating for the right role?",
+      "answer": "I have a *Tecnólogo* degree and one year of experience in accounting. I’m not open to relocating—I want to stay in Recife."
+    },
+    {
+      "question": "Got it! Since you’re focused on staying in Recife, what types of companies or industries in the area interest you most for your accounting and management career? (e.g., startups, NGOs, multinational corporations, local businesses, or green/sustainable sectors?)",
+      "answer": "I’d prefer local businesses or maybe a smaller branch of a bigger company. I like the idea of working where I can really see the impact of my risk assessment and data analysis."
+    },
+    {
+      "question": "That’s a great fit for your skills! When it comes to *green jobs* in accounting and management—like sustainability reporting, ESG compliance, or financial roles in eco-friendly businesses—would you be interested in focusing on those areas, or do you prefer traditional accounting roles?",
+      "answer": "I’m more focused on traditional accounting roles for now. But if a job includes some sustainability tasks, like risk assessment for green projects, I’d be open to learning."
+    }
+  ]
+}

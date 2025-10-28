@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_057",
+  "final_profile": {
+    "persona_id": "persona_057",
+    "age": 18,
+    "city": "Porto Alegre",
+    "education_level": "communication and technology",
+    "experience_years": 0,
+    "skills": [
+      "basic spreadsheet usage (data organization)",
+      "social media familiarity",
+      "interpersonal communication (self-perceived interest in talking to people)"
+    ],
+    "goals": "Exploring a structured role in hotel reception to leverage interpersonal skills and gain hands-on experience, despite self-doubt about qualifications. Open to unpaid practice (e.g., shadowing or volunteering) to test fit, but hesitant due to fear of inadequacy or burdening others.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, uh… sure. I’m Mateus, I’m 18, and I live in Porto Alegre. I don’t think I’m very impressive or anything, but I speak Portuguese, obviously. I mean, I’m not fluent in anything else, so that’s probably a problem for most jobs, right? I don’t even know why I’m trying, honestly. I studied communication and technology, but I don’t feel like I’m good at either. Now I’m thinking about hotel reception, but I’m probably not qualified for that either. I just… I don’t know, I like talking to people, I guess? Even if I’m bad at it."
+    },
+    {
+      "question": "That’s actually a great strength—enjoying conversation is huge in hospitality! What’s drawing you to hotel reception work specifically, and what parts of it excite or worry you the most?",
+      "answer": "Oh, I don’t know if it’s really a strength… I mean, I like talking to people, but I’m not sure I’m *good* at it, you know? Like, what if guests ask me something and I don’t know the answer? Or if I mess up a reservation? I’d feel so stupid.\n\nBut I guess what draws me to hotel reception is that it’s… structured? Like, there are clear tasks—checking people in, answering phones, helping with questions—and I think I could handle that. The part that excites me is the idea of making someone’s day a little better, even if it’s just with a smile or helping them find a good restaurant. But then I worry I’ll freeze up or say the wrong thing. I’ve never done this before, so I’m probably overestimating myself. Again."
+    },
+    {
+      "question": "You mentioned studying communication and technology—have you ever worked with any tools or systems (like booking software, spreadsheets, or even social media) that might actually help you in a hotel reception role? Even small experiences could be useful!",
+      "answer": "Ugh, I don’t know if any of it really counts… I mean, in my course, we used basic spreadsheets for organizing data, but it was nothing special. And I’ve messed around with social media, but that’s just posting memes, not exactly professional experience. I don’t even know if hotels would care about that.\n\nI’ve never used actual booking software, so I’d probably be completely lost. I’d have to ask someone for help every five minutes, and that’s if they even hire me in the first place. I don’t want to waste anyone’s time. Maybe I should just stick to something simpler, like… I don’t know, stocking shelves or something. At least then I wouldn’t have to talk to people as much. But then I’d be miserable, so… I don’t know. It’s all so confusing."
+    },
+    {
+      "question": "It sounds like you’re really overthinking the \"perfect\" experience—what if I told you many hotels train new hires from scratch? If you *could* get hands-on practice with booking software or customer service right now (even unpaid, like volunteering at a small hostel or shadowing a receptionist for a day), would you be open to trying it just to see how it feels?",
+      "answer": "Oh, I… I don’t know if I’d even be good enough for *unpaid* work. Like, why would anyone want me shadowing them? I’d probably just slow them down. But… I guess if someone was actually willing to let me try, I wouldn’t say no? I mean, I do want to see what it’s like, even if I’d be terrible at it.\n\nI just don’t want to bother people, you know? What if I ask too many questions or mess something up? I’d feel so guilty. But then again, if I don’t try, I’ll never know… and I’ll just keep feeling stuck. Ugh, I don’t know. Maybe I could try? If someone was actually patient enough with me. But that’s a big \"if.\""
+    }
+  ]
+}

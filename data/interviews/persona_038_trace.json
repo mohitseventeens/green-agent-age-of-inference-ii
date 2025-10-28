@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_038",
+  "final_profile": {
+    "persona_id": "persona_038",
+    "age": 22,
+    "city": "São Paulo",
+    "education_level": "graduação",
+    "experience_years": 0,
+    "skills": [
+      "negotiation",
+      "event planning",
+      "comparative analysis",
+      "logistics coordination",
+      "cost optimization"
+    ],
+    "goals": "Seeking a structured, behind-the-scenes role where they can leverage their skills in comparing options, organizing logistics, and negotiating deals—preferably in a flexible environment without relocation. Interested in turning informal talents (e.g., trip/event planning) into a professional career but lacks clarity on specific job titles or industries.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! I’m 22, I live in São Paulo, and I only speak Portuguese, but I can manage in English like this. I don’t know about \"green jobs,\" but I love finding good deals—like when I plan trips with friends or hunt for concert tickets. It’s all about comparing options, you know? I just don’t see how that fits into a career."
+    },
+    {
+      "question": "That’s a great mindset for problem-solving! By the way, what’s the highest level of education you’ve completed so far?",
+      "answer": "Oh, I finished my *graduação*—it’s like a bachelor’s degree, but honestly, I didn’t love the classes. What I *do* love is organizing things, like when I negotiate with bars for my friends’ events or spend hours comparing flight prices for trips. It’s weird, I’m good at picking the best options, but I don’t know how that turns into a real job."
+    },
+    {
+      "question": "You mentioned you’re great at negotiating and comparing options—have you ever worked in a role (even informally) where you used those skills, like planning events, sales, or anything similar?",
+      "answer": "Well, not a real job, but I’ve planned a few events for friends—like birthdays or small gatherings. I always end up talking to venues or bars to get better prices or extras, like free drinks for the group. And for trips, I’m the one who finds the cheapest flights or hotels by comparing everything. It’s fun, but I don’t know if that counts for anything professional. I just like making sure we get the best deal!"
+    },
+    {
+      "question": "That’s such a valuable skill set! If you could turn those talents into a career, what kind of work environment would you enjoy most—something fast-paced like sales or travel, or more structured like office-based planning and logistics?",
+      "answer": "Hmm, I don’t know about sales—I’m not the best at convincing people to buy things. But I *do* like the idea of something structured, where I can compare options and make smart choices, like when I plan trips or events. Maybe something where I’m behind the scenes, organizing things and finding the best deals? I just don’t know what that job would even be called. I also need flexibility since I’m in São Paulo and don’t want to relocate."
+    }
+  ]
+}

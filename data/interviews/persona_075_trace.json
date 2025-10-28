@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_075",
+  "final_profile": {
+    "persona_id": "persona_075",
+    "age": 22,
+    "city": "São Paulo",
+    "education_level": "Técnico",
+    "experience_years": 0,
+    "skills": [
+      "writing",
+      "organizing information",
+      "technical writing (potential)",
+      "research reports (potential)"
+    ],
+    "goals": "To start a career in **Design Research and Sustainability**, with a focus on technical writing, research support, and learning sustainable design practices. Eager to gain training and hands-on experience in the field.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English (learning)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello! I’m Diego Souza, 22 years old. I speak Portuguese, but I’m learning English. I’m from São Paulo but open to relocate for a job in Design Research Studies and Development."
+    },
+    {
+      "question": "That’s great! To better match you with opportunities in Design Research and Sustainability, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished Técnico level. I’m ready to learn more on the job."
+    },
+    {
+      "question": "Got it! Since you’re interested in **Design Research and Sustainability**, could you share if you’ve had any hands-on experience—like internships, projects, or volunteer work—in these areas? Even informal experience counts!",
+      "answer": "I haven’t worked officially yet, but I’ve helped with small projects for friends. I’m quick at learning and really want to start in this field. My family is pushing me to find a job soon, so I’m eager to get training if needed."
+    },
+    {
+      "question": "That’s a great mindset! Since you’re open to training, what specific skills in **Design Research or Sustainability** do you feel most excited to develop—or think would help you land your first job in the field?",
+      "answer": "I like writing and organizing information. Maybe technical writing or helping with research reports? I’m also interested in how design can be more sustainable, but I need guidance on where to start."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_001",
+  "final_profile": {
+    "persona_id": "persona_001",
+    "age": 21,
+    "city": "sao paulo",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "fast learner",
+      "interest in food safety",
+      "interest in food production machines"
+    ],
+    "goals": "To receive training in food safety and machine operation, then work in a food factory as a helper or trainee.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "hi i am rafael ribeiro, i am 21 and live in sao paulo. i speak portuges but i can try english. i like food jobs, like how they make food safe."
+    },
+    {
+      "question": "That’s great that you’re interested in food safety! To help match you with the best opportunities, what’s the highest level of education you’ve completed so far?",
+      "answer": "i finish the ensino fundamental. is that ok for food jobs? i want to lern about the mashines and how to keep food clean."
+    },
+    {
+      "question": "That’s a great goal! Have you ever worked in a food-related job before—like in a kitchen, factory, or market—or would this be your first experience in the field?",
+      "answer": "no never work before. but i can lern fast! if i see the food lines and the big mashines i can do good. do they let studnts touh the mashines?"
+    },
+    {
+      "question": "Since you’re eager to learn about food safety and machines, would you be open to starting with an entry-level role—like a helper or trainee position in a food factory—or do you prefer to begin with some short training or courses first?",
+      "answer": "i want trainig first. maybe a course for food safe and how to clean good. then i can help in factory after. is there trainigs for beginners like me?"
+    }
+  ]
+}

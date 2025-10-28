@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_041",
+  "final_profile": {
+    "persona_id": "persona_041",
+    "age": 19,
+    "city": "Belo Horizonte",
+    "education_level": "técnico",
+    "experience_years": 0,
+    "skills": [
+      "communication",
+      "group collaboration",
+      "presenting ideas",
+      "interacting with visitors",
+      "basic English proficiency"
+    ],
+    "goals": "Explore entry-level opportunities in tourism, particularly roles involving direct interaction with travelers, while leveraging language skills and interpersonal strengths. Seeking guidance on practical steps to transition informal experiences (e.g., conversing with tourists) into formal training or employment.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello! I’m 19 and I live in Belo Horizonte. I’ve always loved meeting people from different places, and I speak Portuguese and a bit of English. I’m curious about how people get started in tourism—do you think it’s better to begin with events, promotion, or working directly with visitors? I’m still figuring out what fits me best."
+    },
+    {
+      "question": "That’s great that you’re exploring tourism! To help narrow down the best opportunities for you, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished my técnico course last year, which was good, but now I’m trying to see how I can use what I learned in something more practical. I’ve noticed that in tourism, some people focus on organizing things while others are more about talking to visitors. Do you think one area needs more training than the other? I’m just not sure where my skills would fit yet."
+    },
+    {
+      "question": "What kinds of tasks or activities in your técnico course did you enjoy the most—were they more hands-on (like planning or organizing) or interactive (like communicating with people)?",
+      "answer": "I actually liked the parts where we had to work in groups and present ideas—it was a mix of planning and talking to people. But what really stood out to me was when we had visitors or guest speakers in class. I loved asking them questions and hearing about their experiences. It made me think that maybe I’d enjoy something where I get to interact with travelers, but I’m not sure how to start or what kind of training I’d need for that."
+    },
+    {
+      "question": "Since you enjoy interacting with travelers, have you ever considered or tried any volunteer work, internships, or part-time roles—even informally—that involved welcoming or assisting visitors?",
+      "answer": "Not yet, but I’ve thought about it! Sometimes when I see tourists in the city, I wonder how I could help them feel more welcome. I’ve practiced English with a few travelers I met at cafés, and they seemed happy to have someone to talk to. It made me realize how much I enjoy using languages to connect with people. Do you think that’s something I could build on, or would I need more formal experience first? I’m just not sure how to turn that into something more concrete."
+    }
+  ]
+}

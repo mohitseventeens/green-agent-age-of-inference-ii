@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_060",
+  "final_profile": {
+    "persona_id": "persona_060",
+    "age": 18,
+    "city": "Porto Alegre",
+    "education_level": "técnico",
+    "experience_years": 2,
+    "skills": [
+      "customer service",
+      "client assistance",
+      "problem-solving",
+      "basic insurance knowledge"
+    ],
+    "goals": "Exploring career paths between insurance (for stability and helping people) and cooking (for creativity and excitement), with a slight current preference for insurance due to alignment with customer service interests.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi... I’m Bruna, 18, from Porto Alegre. I speak Portuguese and a little English.\nI’m not sure if I should work with insurance or maybe try cooking... both sound interesting."
+    },
+    {
+      "question": "That’s great that you’re exploring different paths! Since you’re just starting out, could you share what level of education you’ve completed so far, and whether you’d be open to moving to another city for the right opportunity?",
+      "answer": "I did a técnico course. And no, I can’t move... I like Porto Alegre.\nInsurance is stable, but cooking is more fun? I don’t know which to pick."
+    },
+    {
+      "question": "Between insurance and cooking, which one do you feel more drawn to *right now*—even if it’s just a small preference—and what’s the main reason for that?",
+      "answer": "Maybe insurance... because I like helping people, like in customer service?\nBut cooking is creative... I’m really not sure."
+    },
+    {
+      "question": "Since you mentioned liking customer service in insurance, have you ever had any experience—even informal, like helping family or volunteering—where you enjoyed solving problems or assisting people?",
+      "answer": "I worked for 2 years in a small office... helped clients with questions, explained some insurance things.\nIt was okay, but sometimes I think cooking would be more exciting. But insurance feels safer?"
+    }
+  ]
+}

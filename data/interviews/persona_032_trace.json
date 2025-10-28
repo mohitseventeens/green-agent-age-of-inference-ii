@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_032",
+  "final_profile": {
+    "persona_id": "persona_032",
+    "age": 16,
+    "city": "Salvador",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Technology interest",
+      "Communication",
+      "Curiosity in recycling/e-waste"
+    ],
+    "goals": "Explore entry-level opportunities in e-waste recycling or tech-related sustainability roles, with a focus on hands-on or educational tasks (e.g., tracking trash with apps, fixing electronics, or teaching others about eco-practices).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi! I’m Rafael, 16 years old, and I live in Salvador. I speak Portuguese but I’m practicing English too. I don’t know much about green jobs yet—are they like fixing electronics or something?"
+    },
+    {
+      "question": "That’s great that you’re exploring green jobs early! Since you’re still in school, what’s the highest level of education you’ve completed so far, and do you have any specific goals—like studying something related to sustainability or working in a certain field? Also, would you ever consider moving to another city for the right opportunity?",
+      "answer": "I finished Ensino Fundamental, that’s all for now. I’m not sure about studying yet, just curious how people work in recycling or eco stuff. And no, I can’t move—I like Salvador. But is eco-industry the same as building solar panels? Or is it more like sorting trash? I get confused."
+    },
+    {
+      "question": "Since you’re curious about recycling and eco-work, what kinds of tasks or activities in those areas sound most interesting to you—like hands-on work, team projects, or something else?",
+      "answer": "I don’t know the tasks, but I like technology and talking to people. Can you use computers in recycling? Or is it just manual work? Maybe explaining eco things to others? I’m not sure how that fits."
+    },
+    {
+      "question": "That’s a great mix of interests! If you could try out a short project or volunteer role in Salvador—like helping with e-waste recycling, teaching others about sustainability, or assisting with tech in a green business—which one would you pick to test first?",
+      "answer": "Maybe e-waste recycling? I see old phones and computers everywhere. But how does tech help? Like tracking trash with apps? Or fixing broken electronics to reuse? I don’t know how it really works."
+    }
+  ]
+}

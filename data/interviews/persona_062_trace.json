@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_062",
+  "final_profile": {
+    "persona_id": "persona_062",
+    "age": 16,
+    "city": "Recife",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "Understand employer expectations for entry-level roles in the Insurance sector, particularly in Recife, without immediate job-seeking intent.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "What is this tool? Is it for jobs or just information? I don’t need a job, I just want to understand things."
+    },
+    {
+      "question": "Got it! Since you’re exploring green opportunities more for understanding than an immediate job search, what’s your background in this area—like your education, any relevant experience, or skills you’d want to apply? That’ll help me tailor the insights to your interests.",
+      "answer": "Do I answer, or do I ask questions? I don’t have experience, I just want to know how things work. Does this tool explain skills in Insurance?"
+    },
+    {
+      "question": "Since you’re exploring how things work, could you share your age and highest level of education completed? That way, I can explain concepts in a way that fits your background—whether you’re just starting out or looking to pivot.",
+      "answer": "I’m 16, still in Ensino Fundamental. I don’t need a job, I just want to know what employers in Insurance look for. Is that okay?"
+    },
+    {
+      "question": "Since you're curious about what employers in insurance look for, would you like me to focus on entry-level roles (like internships or first jobs) or explain the skills needed for more advanced positions in the field?",
+      "answer": "Entry-level, I think? Like, what do they want from someone with no experience? Do they even hire young people?"
+    },
+    {
+      "question": "Got it! Since you’re exploring entry-level roles, would you ever consider opportunities outside your current city in Brazil, or do you prefer to stay local for now?",
+      "answer": "I don’t want to move. Recife is my home. So what do Insurance jobs here even ask for? Like, what skills?"
+    }
+  ]
+}

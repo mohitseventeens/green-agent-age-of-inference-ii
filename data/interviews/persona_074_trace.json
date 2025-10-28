@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_074",
+  "final_profile": {
+    "persona_id": "persona_074",
+    "age": 21,
+    "city": "Salvador",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "process improvement",
+      "problem-solving",
+      "resource optimization",
+      "testing ideas",
+      "collaboration"
+    ],
+    "goals": "To re-enter the workforce with a focus on roles that involve improving processes, ideally with indirect or direct impact on sustainability or social good, while staying in Salvador.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi. I’m Camila, 21, and I live in Salvador. I speak Portuguese and some English. I took a break from work but now I want to get back to it."
+    },
+    {
+      "question": "That’s great, Camila! To match you with the best opportunities, could you share your highest level of education and whether you’d be open to relocating for the right job?",
+      "answer": "I finished my graduação and... no, I can’t move. I want to stay in Salvador."
+    },
+    {
+      "question": "Got it! Since you’ve completed your *graduação*, what was your field of study—and do you have any prior work experience (even informal or volunteer work) related to sustainability or the environment?",
+      "answer": "I didn’t study sustainability exactly. My work was more about testing ideas and improving how things are done. I have two years of experience in that."
+    },
+    {
+      "question": "That’s interesting! When you mention \"testing ideas and improving how things are done,\" could you give an example of a project or task you worked on that might connect—even indirectly—to environmental or social impact?",
+      "answer": "Oh, um... once I helped a team adjust their process to waste less time and resources. It wasn’t about the environment, but the approach was similar—finding problems, trying small changes, and seeing what worked. I like that kind of thing."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_066",
+  "final_profile": {
+    "persona_id": "persona_066",
+    "age": 28,
+    "city": "São Paulo",
+    "education_level": "graduação",
+    "experience_years": 2,
+    "skills": [
+      "risk documentation (advanced)",
+      "regulatory reporting (basic)",
+      "operational efficiency"
+    ],
+    "goals": "Become a CEO in banking quickly, with a focus on accelerating growth through practical skills like risk documentation, regulatory reporting, and operational efficiency. Open to short-term certifications (e.g., FRM) for faster career progression.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello! I am Felipe Silva, 28 years old, and I live in São Paulo. I speak Portuguese and English. My goal is to become a CEO in banking very quickly, maybe in just a few years."
+    },
+    {
+      "question": "That’s an ambitious goal! To tailor the best path for you, could you share your highest level of education, how many years of professional experience you have, and whether you’d be open to relocating for the right opportunity?",
+      "answer": "I have a *graduação* in administration and 2 years of experience in banking administration. I’m not open to relocate—I want to stay in São Paulo. I know CEO is a big jump, but I see others moving fast and want to do the same. Maybe I need to focus on something more realistic first?"
+    },
+    {
+      "question": "Given your focus on speed and staying in São Paulo, what specific skills or areas within banking (e.g., risk management, fintech, leadership) do you feel most confident in—or would you want to develop further—to accelerate your growth?",
+      "answer": "I’m most confident in risk documentation—it’s where I have advanced skills. Regulatory reporting is still basic for me, but I know it’s important. Maybe I should focus on improving that first? I also want to work on operational efficiency, as I think it can help me stand out. But I’m not sure how to connect this to becoming a CEO yet."
+    },
+    {
+      "question": "You mentioned wanting to move quickly toward leadership—have you considered pursuing an MBA or specialized certifications (like CFA, FRM, or a leadership program) to bridge the gap between your current role and higher-level opportunities in São Paulo?",
+      "answer": "I haven’t thought much about an MBA yet—it feels too long-term for me right now. But certifications like FRM could help, especially for risk documentation. I’d prefer something practical and faster, maybe a short course in regulatory reporting or operational efficiency. Do you think that would make me more competitive for better roles in banking administration? I just want to avoid wasting time."
+    }
+  ]
+}

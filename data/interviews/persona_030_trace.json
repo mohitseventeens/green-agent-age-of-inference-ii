@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_030",
+  "final_profile": {
+    "persona_id": "persona_030",
+    "age": 18,
+    "city": "Salvador",
+    "education_level": "técnico em eletrônica",
+    "experience_years": 3,
+    "skills": [
+      "instalações elétricas",
+      "reparos de circuitos",
+      "inspeções de segurança"
+    ],
+    "goals": "Explorar a conexão entre consultoria em sustentabilidade e sistemas de energia/design de circuitos, sem objetivo imediato de emprego ou treinamento formal.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Thiago, 18, from Salvador. I speak Portuguese. I was thinking about jobs in electronics, but... maybe I should ask about training first? Not sure."
+    },
+    {
+      "question": "That’s a great approach—training can really open doors! Before we dive into that, could you share your current level of education (like high school, technical course, etc.) and whether you’d be open to moving to another city for the right opportunity?",
+      "answer": "I did a técnico course in electronics. And no, I can’t move. I stay in Salvador."
+    },
+    {
+      "question": "Got it! Since you’ve already got the *técnico* in electronics, what kind of work experience (if any) have you had so far—whether in electronics, other jobs, or even projects you’ve worked on?",
+      "answer": "I worked 3 years helping with electrical installations and small circuit repairs. Mostly safety checks too. But I don’t know if that’s enough for jobs yet."
+    },
+    {
+      "question": "That’s solid hands-on experience! What’s your biggest goal right now—are you looking to land a job quickly in electronics, or would you prefer to build more skills first (like certifications or advanced training) to aim for higher-paying roles?",
+      "answer": "Actually... I’m not sure about jobs or training right now. Maybe I just want to understand something first.\n\nLike, what do sustainability consultants even do? And how does that connect to power systems or circuit design? That’s what I’m really curious about."
+    }
+  ]
+}

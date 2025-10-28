@@ -1,0 +1,20 @@
+{
+  "age": 25,
+  "city": "Recife",
+  "education_level": "Técnico",
+  "experience_years": 2,
+  "skills": [
+    "Customer service",
+    "Problem-solving",
+    "Tourist interaction (informal)",
+    "Local product knowledge",
+    "Multilingual communication (Portuguese)",
+    "Patience with language barriers",
+    "Handling busy environments"
+  ],
+  "goals": "Transition into a tourist reception role in Recife, leveraging retail customer service experience to interact directly with guests in hotels, hostels, or tour agencies. Seeks opportunities to grow in the field while potentially developing digital skills like online bookings.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

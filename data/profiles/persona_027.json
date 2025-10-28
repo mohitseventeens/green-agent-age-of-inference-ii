@@ -1,0 +1,20 @@
+{
+  "age": 26,
+  "city": "Brasília",
+  "education_level": "graduação em produção com foco em equipamentos coletivos",
+  "experience_years": 3,
+  "skills": [
+    "sistemas de produção industrial",
+    "manutenção e calibração de maquinário pesado",
+    "otimização de fluxo de energia em sistemas elétricos industriais",
+    "automação industrial",
+    "redução de desperdício de recursos",
+    "retrofit de sistemas industriais com tecnologias inteligentes",
+    "análise de eficiência operacional"
+  ],
+  "goals": "Atuar em papéis práticos com sistemas elétricos industriais, focando em ajustes de automação e manutenção para reduzir desperdício de energia e prolongar a vida útil de maquinário, contribuindo para operações mais limpas e eficientes sem comprometer o desempenho. Explorar oportunidades em Brasília, especialmente em projetos de eficiência industrial e retrofit de sistemas com tecnologias sustentáveis.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

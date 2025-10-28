@@ -1,0 +1,17 @@
+{
+  "age": 26,
+  "city": null,
+  "education_level": "Técnico em mecânica",
+  "experience_years": 3,
+  "skills": [
+    "Manutenção de motocicletas",
+    "Diagnóstico de problemas mecânicos",
+    "Reparo de motores"
+  ],
+  "goals": "Aprender sobre manutenção de veículos elétricos, especialmente motocicletas, para trabalhar em uma área que combine paixão por veículos com sustentabilidade e tecnologias do futuro.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

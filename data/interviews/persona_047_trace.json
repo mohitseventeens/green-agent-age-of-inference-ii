@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_047",
+  "final_profile": {
+    "persona_id": "persona_047",
+    "age": 14,
+    "city": "Rio de Janeiro",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Critical thinking (math/history focus)",
+      "Passion for justice/human rights",
+      "Eagerness to learn (law, research, advocacy)",
+      "Basic English proficiency"
+    ],
+    "goals": "To become a human rights lawyer in Rio de Janeiro, starting with early preparation through internships, workshops, or volunteering while still in school. Focused on defending marginalized communities and making a local impact without relocating.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I love talking about my dreams! I imagine myself standing in a courtroom one day, defending people’s rights with passion—just like the lawyers I admire. Right now, I’m living in the most amazing city, Rio de Janeiro, where the energy feels like it could fuel anyone’s ambitions. I speak Portuguese, of course, but I’m also practicing my English because I think it’s so important for connecting with people globally.\n\nAge is just a number when you have big goals, don’t you think? I’d rather focus on how I can start learning about Law now. Do lawyers really get to make a difference every day, or is it more about paperwork like some people say? I’m so curious!"
+    },
+    {
+      "question": "That’s such a great mindset—passion drives everything! To help tailor the best path for you, could you share what level of education you’ve completed so far and whether you’d ever consider moving to another city (or even country) for the right opportunity in law?",
+      "answer": "Oh, I’m still in school, but I’m already thinking ahead—math and history are my favorite subjects because they feel like the foundation for understanding laws and justice! I love Rio so much, though, with its vibrant culture and the way the city pulses with life. I can’t imagine leaving; this is where my heart is, and I believe I can build my future here while making an impact in my community.\n\nMoving away? That sounds like such a big step, and I’m more excited about finding opportunities right here where I can grow. Do you think there are ways to start learning about law now, even while I’m still studying? Maybe internships or workshops for young people who dream of becoming lawyers? I’d love to hear how others have begun their journey!"
+    },
+    {
+      "question": "That’s awesome you’re already planning ahead—how old are you now? That way, I can point you to the perfect programs or internships in Rio that fit your stage in school!",
+      "answer": "Oh, I’m still at that age where everything feels possible—like the world is full of doors just waiting to be opened! But honestly, I’d rather talk about how lawyers actually prepare for their cases. Do they spend most of their time researching, or is it more about talking to people and understanding their stories? I’ve always wondered if the dramatic courtroom moments in movies are real, or if the real magic happens behind the scenes.\n\nI’m just so eager to learn how I can start building skills now, even in small ways. Maybe there are books or online courses you’d recommend? I’m all ears!"
+    },
+    {
+      "question": "Got it! Since you’re so eager to dive into law, I’d love to suggest the right resources—are you 14, 16, or closer to 18 right now? That’ll help me point you to age-appropriate programs in Rio!",
+      "answer": "You know, I’ve always believed that passion matters more than numbers, and I’m definitely on the younger side of chasing big dreams! But let’s talk about something more exciting—like how lawyers actually *change* lives. For example, do they get to pick the cases that mean the most to them, or is it more about whatever comes their way? I’d love to focus on defending people who really need a voice, like in human rights cases.\n\nMaybe you could tell me about the first steps someone takes to become a lawyer in Brazil? I’ve heard about the *vestibular* and law school, but is there anything I can do *now* to prepare? Like volunteering or joining clubs? My mind is racing with ideas!"
+    }
+  ]
+}

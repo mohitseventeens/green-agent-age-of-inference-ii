@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_029",
+  "final_profile": {
+    "persona_id": "persona_029",
+    "age": 27,
+    "city": "Porto Alegre",
+    "education_level": "graduação (general degree with focus on safety laws and metalwork)",
+    "experience_years": 1,
+    "skills": [
+      "metal fabrication (custom pieces, railings, decorative items)",
+      "safety protocols compliance",
+      "jewelry and small metal crafts",
+      "martial arts (discipline, rules adherence)",
+      "hands-on workshop experience",
+      "English (work proficiency)"
+    ],
+    "goals": "Explore career paths in either metal fabrication (creative, hands-on) or safety compliance (structured, rule-focused) within production environments, ideally in a role that blends both areas. Seeks opportunities in workshops with clear safety protocols to gain experience before specializing.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Mariana, 27 years old, and I live in Porto Alegre—I love it here and wouldn’t want to move. I speak Portuguese, but I can manage in English for work.\n\nWhen I’m not working, I make jewelry and small metal crafts, or I practice martial arts, which taught me how important rules and safety are. It’s funny, because now I’m torn between two paths: metal fabrication for the creativity, or safety compliance for the structure. I’d love to hear more about both in production jobs."
+    },
+    {
+      "question": "That’s a great mix of skills! To explore those paths further, could you share the highest level of education you’ve completed—like high school, technical training, or a university degree?",
+      "answer": "I finished my *graduação*—it was a general degree, but I focused on courses related to safety laws and metalwork whenever I could. The mix of theory and hands-on practice really interested me.\n\nNow I’m trying to figure out if I should lean into the creative side of fabrication or the structured side of compliance. Do you think one path needs more education than the other? I’d love to hear how they compare in real jobs."
+    },
+    {
+      "question": "Given your interest in both metal fabrication and safety compliance, have you had any direct work experience—whether through jobs, internships, or even your craft projects—that involved either of these areas?",
+      "answer": "I’ve worked for about a year in a small metal workshop, mostly helping with custom pieces—like railings or decorative items. It was creative, but I also had to follow safety protocols closely, which reminded me of martial arts: discipline first, then creativity.\n\nI’m still not sure which side I prefer, though. Fabrication feels like my jewelry projects—free but precise—while safety feels like training: rules matter most. Could you explain how these two roles actually differ in a production setting?"
+    },
+    {
+      "question": "That’s really helpful context! To better match you with opportunities, what’s your ideal work environment—do you thrive in a fast-paced, hands-on workshop setting, or would you prefer a more structured office role with occasional site visits?",
+      "answer": "I think I’d do best in a mix—somewhere I can still work with my hands but also see how safety rules apply in real time. Like in martial arts, you practice moves (the hands-on part) but also study the rules (the structure).\n\nA workshop with clear safety protocols would be perfect, because I could try both fabrication and compliance before deciding. Do jobs like that exist in production and collective equipment?"
+    }
+  ]
+}

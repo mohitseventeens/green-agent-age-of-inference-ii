@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_040",
+  "final_profile": {
+    "persona_id": "persona_040",
+    "age": 13,
+    "city": "Belo Horizonte",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Communication (likes interacting with people)",
+      "Language interest (Portuguese, wants to learn more)",
+      "Storytelling (inspired by tour guide videos)",
+      "Local knowledge (familiar with Belo Horizonte attractions like Praça da Liberdade)"
+    ],
+    "goals": "Explore entry-level training or opportunities in tourism (hotel work or tour guiding), possibly starting with local roles in Belo Horizonte. Interested in jobs that involve face-to-face interaction, storytelling, or showcasing local culture/food, but unsure which path to prioritize. Seeks clarity on age requirements, training availability, and job perks (e.g., free breakfast).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "oh hey!! im ana 13 yrs old n i liv in belo horizonte!! i lik ppl n langgages but idk wat job i want yet.. turism seems fun??\ndo u no if i can do trainin 4 hotel or guide?? i lik both.. or maybe?? lol\nalso i speek portuges but want lern more!! is turism gud job??"
+    },
+    {
+      "question": "That’s awesome that you’re exploring tourism! Since you’re still in school, what grade are you in now, and would you ever consider moving to another city (or even country) for a cool job in tourism later?",
+      "answer": "im in 8th grade lol (ensino fundamental) n NO WAY i move!! belo horizonte is my life!! 😆\nbut like.. can i do trainin here 4 turism?? do i nid to be older?? or can i start now?? i lik the idea of hotel but also guide ppl?? idk\nalso do u no if turism pays gud?? (sry if dumb q)"
+    },
+    {
+      "question": "Since you’re excited about both hotels and guiding, what part of tourism excites you *most*—like working with people face-to-face, organizing trips, or maybe the creative side (like decorating hotels or sharing fun facts as a guide)? 😊",
+      "answer": "ooohhh idk!! i lik when ppl smile at me so maybe guide?? but hotel has like.. keys n uniforms n stuff thats cool 2!!\nalso i watch youtube n see guides tellin stories abt places n i think \"i can do dat!!\" but then i see hotels n think \"but free breakfast???\" lol\nwait.. do guides get free breakfast?? askin 4 a friend 😂\n(also sry 4 typos my keyboard is weird)"
+    },
+    {
+      "question": "Haha, love the free breakfast priority! 😄 Since you’re into guiding and storytelling, what’s one place in Belo Horizonte (or nearby) that you’d *love* to show off to tourists—like a park, museum, or even a hidden spot—and why?",
+      "answer": "ohhh easy!! praça da liberdade!! its sooo pretty n has like.. idk fancy buildings?? n the museums r cool but i never went in lol (do guides nid to no all the facts?? that scares me)\nalso there’s this place with *pão de queijo* near my house.. tourists WOULD LOVE IT but my mom says i cant take strangers there 😭\nwait.. can i be a guide just 4 food?? askin 4 me this time 😂"
+    }
+  ]
+}

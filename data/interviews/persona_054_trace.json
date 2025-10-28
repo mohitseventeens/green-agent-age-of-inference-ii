@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_054",
+  "final_profile": {
+    "persona_id": "persona_054",
+    "age": 19,
+    "city": "Recife",
+    "education_level": "Técnico",
+    "experience_years": 2,
+    "skills": [
+      "hotel reception basics",
+      "check-ins/check-outs",
+      "basic property management system (PMS) usage"
+    ],
+    "goals": "Improve proficiency in hotel reservation systems (e.g., Opera, Cloudbeds) through relaxed, step-by-step training—preferably in-person or online at a self-paced rhythm. Focus on hands-on learning without pressure, aiming to build confidence in hospitality technology.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh hey, no worries! I’m Bruna, 19, living in Recife—love it here, no plans to move. I speak Portuguese, obviously, but I’m cool with keeping it in English if that’s easier for you.\n\nI’ve been working at a hotel for a couple of years now, just chilling at the reception. I know the basics, but I’d love to get better at check-ins, check-outs, and those reservation systems—you know, without stressing over it. It’s all good, I just wanna learn at my own pace."
+    },
+    {
+      "question": "That’s great that you’re looking to grow in hospitality! Just so I can point you toward the right training or opportunities—what’s the highest level of education you’ve completed so far?",
+      "answer": "Ah, sure! I did a *Técnico* course, you know, the practical one. It helped me get started, but honestly, most of my skills came from just doing the job day by day.\n\nI’m not really worried about degrees or anything—just wanna find a training that walks me through the systems step by step. No rush, just vibes."
+    },
+    {
+      "question": "Got it! Since you’re focused on hands-on learning in hospitality, what specific reservation systems or software (like Opera, Cloudbeds, etc.) have you worked with—or would you like to get comfortable with?",
+      "answer": "Oh man, I’ve only used the basic PMS at my hotel—nothing fancy, just the simple stuff. I’ve heard of Opera and Cloudbeds, but never really touched ‘em.\n\nI just wanna know if trainings actually show you how to use them without making it super complicated. Like, step by step, no pressure. If it’s too techy, I’ll just go with the flow, but it’d be cool to feel more confident with it."
+    },
+    {
+      "question": "Since you’re looking for a relaxed, step-by-step way to learn—would you prefer in-person training (like workshops or mentorship at your current hotel) or online courses you could do at your own pace?",
+      "answer": "Ooooh, I’m easy either way! In-person could be fun if it’s with cool people who don’t make it feel like school, you know? But online’s chill too—I could do it after work with a *cafezinho* and no stress.\n\nI just don’t wanna feel lost in some super fast course. Slow and steady, like learning a new playlist—one song at a time. What do you think’s more common for hotel trainings around here?"
+    }
+  ]
+}

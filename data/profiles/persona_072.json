@@ -1,0 +1,19 @@
+{
+  "age": 19,
+  "city": "Brasília",
+  "education_level": "Tecnólogo",
+  "experience_years": 2,
+  "skills": [
+    "experiment design (A/B testing, survey methodologies)",
+    "hypothesis testing",
+    "basic statistical analysis (SPSS, Excel)",
+    "data collection (Google Forms, Typeform)",
+    "user behavior analysis"
+  ],
+  "goals": "To work in roles that blend experiment design, behavioral research, and sustainability—such as designing experiments to test sustainability nudges (e.g., plastic reduction, public transport adoption), analyzing conservation/energy data, or contributing to data-driven green initiatives. Seeks to develop advanced statistical skills (R, Python) while making a measurable impact in sustainability.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

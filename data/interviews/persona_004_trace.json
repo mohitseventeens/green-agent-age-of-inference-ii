@@ -1,0 +1,37 @@
+{
+  "persona_id": "persona_004",
+  "final_profile": {
+    "persona_id": "persona_004",
+    "age": 27,
+    "city": "Rio de Janeiro",
+    "education_level": "graduação",
+    "experience_years": 1,
+    "skills": [
+      "product development",
+      "quality inspection"
+    ],
+    "goals": "work in the food industry, specifically in roles related to how food affects health, with a preference for larger companies with structured quality inspection processes",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, sure. I’m Rafael, 27 years old, and I live in Rio de Janeiro. I speak Portuguese."
+    },
+    {
+      "question": "That’s great, Rafael! To tailor the best opportunities for you, could you share a bit about your education, years of experience in the field, your career goals, and whether you’d be open to relocating within Brazil or even abroad?",
+      "answer": "I have a graduação degree and about one year of experience. I’m not looking to relocate—I want to stay in Rio. My goal is to work in the food industry, maybe something related to how food affects health."
+    },
+    {
+      "question": "That’s a great focus! To narrow down the best roles for you in Rio’s food industry, could you tell me what specific skills or experiences you’ve gained in your year of work—like sustainability practices, nutrition knowledge, or food production processes?",
+      "answer": "I worked a bit in product development. Not sure about all the details yet, but I like checking how food is made and if it’s good quality."
+    },
+    {
+      "question": "Got it! Since you enjoyed working with product development and quality, what types of food products or companies in Rio’s food industry interest you most—like organic brands, large manufacturers, or health-focused startups?",
+      "answer": "I think bigger companies might have more structure for quality inspection. But I’m not sure yet."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_008",
+  "final_profile": {
+    "persona_id": "persona_008",
+    "age": 16,
+    "city": "Belo Horizonte",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "sketching (basic)",
+      "creative exploration (cinema/music interest)"
+    ],
+    "goals": "Explore Visual Arts (especially animation, cinema, and music) to understand career paths, skill requirements, and collaborative vs. independent work dynamics. No immediate job-seeking intent; focused on learning and long-term interest development.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I’m João, 16, and I live in Belo Horizonte. I speak Portuguese, but I’m writing in English here because I’m practicing. I’m not really looking for a job yet—I just want to understand how things like Visual Arts work, since I like cinema and music. Do people in Visual Arts usually need to study a lot first?"
+    },
+    {
+      "question": "That’s great that you’re exploring Visual Arts early! Since you’re still in school, have you thought about what level of education you’d like to pursue in this field (like technical courses, university, or self-taught paths), and whether you’d be open to moving to another city or country for opportunities later on?",
+      "answer": "I’m not sure about studying more yet—I’m still in Ensino Fundamental. And I don’t think I’d move; Belo Horizonte is home. But I wonder, in Visual Arts, do people usually work alone or with others? Like in films, there’s a whole team, but for drawing or design, is it different?"
+    },
+    {
+      "question": "Got it! Since you mentioned drawing and design—do you already have any hands-on experience with those (like sketching, digital tools, or school projects), or is it more of an interest you’d like to explore further?",
+      "answer": "I’ve tried sketching a little, just for fun—nothing serious. Like doodles during class or copying characters from films I like. But I don’t know any digital tools. Is that something people expect you to learn on your own first, or do jobs teach you? It feels like there’s so much to know before even starting."
+    },
+    {
+      "question": "Since you enjoy cinema and music, have you ever thought about which specific roles in those fields might interest you most—like directing, animation, sound design, or something else? That could help narrow down what skills to focus on first.",
+      "answer": "I never thought about roles that way... I just like watching how scenes are put together, or how music sets the mood. Maybe animation? But it seems too technical. Do people in animation always need to draw perfectly, or is there space to learn as you go? Like, could someone start by helping with small parts instead of creating whole things?"
+    }
+  ]
+}

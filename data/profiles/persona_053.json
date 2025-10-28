@@ -1,0 +1,15 @@
+{
+  "age": 28,
+  "city": "Brasília",
+  "education_level": "técnico em administração",
+  "experience_years": 0,
+  "skills": [
+    "Excel (básico: fórmulas e tabelas simples)"
+  ],
+  "goals": "Buscar treinamento rápido (curso ou certificação) em interpretação de dados e ferramentas como Excel e Power BI para ingressar em cargos juniores de contabilidade ou auditoria, priorizando habilidades práticas para empregabilidade imediata.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English (básico)"
+  ]
+}

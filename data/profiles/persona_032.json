@@ -1,0 +1,17 @@
+{
+  "age": 16,
+  "city": "Salvador",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "Technology interest",
+    "Communication",
+    "Curiosity in recycling/e-waste"
+  ],
+  "goals": "Explore entry-level opportunities in e-waste recycling or tech-related sustainability roles, with a focus on hands-on or educational tasks (e.g., tracking trash with apps, fixing electronics, or teaching others about eco-practices).",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

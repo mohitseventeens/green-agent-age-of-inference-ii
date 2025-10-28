@@ -1,0 +1,35 @@
+{
+  "persona_id": "persona_022",
+  "final_profile": {
+    "persona_id": "persona_022",
+    "age": 24,
+    "city": "Fortaleza",
+    "education_level": "Tecnólogo",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "Start a career in the Fibers and Paper industry, specifically in paper manufacturing, by completing hands-on training in Fortaleza (e.g., SENAI courses) to gain practical factory experience within 2–3 months.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello! I am André Souza, 24 years old, and I live in Fortaleza. My native language is Portuguese, but I can speak a little English too. Right now, I’m looking to start in the Fibers and Paper industry."
+    },
+    {
+      "question": "That’s great! To better match you with opportunities in the Fibers and Paper sector, could you share your highest level of education and whether you’d be open to relocating for the right job?",
+      "answer": "I finished a Tecnólogo degree, but I don’t have much experience yet. I’m not open to relocating—I want to stay in Fortaleza. Actually, I think I need training first before I can really work in the industry. Maybe something in paper manufacturing?"
+    },
+    {
+      "question": "Got it! Since you’re interested in paper manufacturing training, have you looked into any specific programs or certifications in Fortaleza (like SENAI or local industry courses), or would you like help finding options that fit your background?",
+      "answer": "I haven’t looked much yet. I know SENAI offers some courses, but I’m not sure which one is best for paper manufacturing. Do they teach with real machines? I want to learn how things actually work in a factory. How long does training usually take before I can start working?"
+    },
+    {
+      "question": "That’s a practical approach! To help narrow down the best training path for you, what’s your current availability like—could you commit to full-time training, or would you need part-time or evening options while working or studying something else?",
+      "answer": "I can do full-time training if it’s not too long. Maybe 2–3 months? I don’t have a job right now, so I can focus completely. But I need something in Fortaleza—no online-only courses, because I want hands-on practice with the machines. Does that kind of training exist here?"
+    }
+  ]
+}

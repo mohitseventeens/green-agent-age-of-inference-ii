@@ -1,0 +1,16 @@
+{
+  "age": 27,
+  "city": "Belo Horizonte",
+  "education_level": "Ensino Médio",
+  "experience_years": 1,
+  "skills": [
+    "heavy machinery operation (forklifts, small cranes)",
+    "safety laws (researching)",
+    "operation skills (training focus)"
+  ],
+  "goals": "To master heavy machinery operation (especially excavators, bulldozers, loaders) with a focus on safety and green practices, aiming to work in renewable energy (wind/solar) or sustainable construction projects.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

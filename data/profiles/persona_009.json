@@ -1,0 +1,16 @@
+{
+  "age": 25,
+  "city": "Rio",
+  "education_level": "Curso Técnico",
+  "experience_years": 3,
+  "skills": [
+    "Painting",
+    "Composition",
+    "Color Theory"
+  ],
+  "goals": "Seek structured training to combine traditional painting/composition skills with basic digital tools, improving confidence and technical proficiency without overly advanced or fast-paced programs.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

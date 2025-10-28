@@ -1,0 +1,17 @@
+{
+  "age": 21,
+  "city": "Porto Alegre",
+  "education_level": "técnico",
+  "experience_years": 2,
+  "skills": [
+    "soldering",
+    "troubleshooting",
+    "circuit design",
+    "electronic systems repair"
+  ],
+  "goals": "Seek hands-on green tech roles, particularly in electronics-related sustainability areas (e.g., solar, energy-efficient devices), with willingness to train for job alignment.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

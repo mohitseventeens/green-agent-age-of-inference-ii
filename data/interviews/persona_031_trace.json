@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_031",
+  "final_profile": {
+    "persona_id": "persona_031",
+    "age": 18,
+    "city": "Fortaleza",
+    "education_level": "Técnico em Eletrônica",
+    "experience_years": 1,
+    "skills": [
+      "Electronics repair",
+      "Circuit soldering",
+      "Troubleshooting (TVs, radios, circuits)",
+      "Basic IT support (informal)"
+    ],
+    "goals": "Seeking a job in electronics (preferably hands-on repair or circuit work) while exploring IT support opportunities. Prefers a workshop or structured company environment with practical tasks.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hey! I'm Felipe Oliveira, 18 years old, and I live in Fortaleza. I speak Portuguese and a bit of English—still learning, you know? Right now, I’m looking for a job in electronics, but I’ve also thought about IT support. Not sure yet."
+    },
+    {
+      "question": "That’s great that you’re exploring both electronics and IT! To help match you with the best opportunities, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished my Técnico course in electronics last year. That’s like a technical high school diploma, but focused on circuits, soldering, and stuff like that. It’s what got me into this whole electronics thing."
+    },
+    {
+      "question": "Got it! Since you’ve got hands-on experience from your Técnico course, have you had any actual work experience—like internships, part-time jobs, or even freelance projects—in electronics or IT support?",
+      "answer": "Yeah, I worked for about a year at a small electronics repair shop here in Fortaleza. Mostly fixing stuff like TVs, radios, and sometimes soldering broken circuits. Nothing too fancy, but I learned a lot. IT support? Nah, just helped my cousins with their PCs sometimes, but that’s it."
+    },
+    {
+      "question": "Since you’ve got practical experience in electronics repair, what kind of work environment do you prefer—like a fast-paced workshop, a more structured company, or maybe even remote work if you were to explore IT support?",
+      "answer": "I like the workshop vibe, you know? Fast but not too crazy, where I can focus on fixing stuff with my hands. A structured company could be cool too if they let me work on real circuits and equipment. Remote work for IT? Not sure, feels too quiet—like I’d miss the hands-on part. Electronics is more my thing."
+    }
+  ]
+}

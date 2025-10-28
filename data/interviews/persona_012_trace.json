@@ -1,0 +1,34 @@
+{
+  "persona_id": "persona_012",
+  "final_profile": {
+    "persona_id": "persona_012",
+    "age": 15,
+    "city": "Rio",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "Learn the basics of stage setup, lighting, and sound for small shows, including hands-on tasks like wrapping cables, setting up microphones, and shadowing professionals at events. Willing to volunteer or work for free to gain practical experience.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, I’m Carla, I’m from Rio and I *really* want to learn how to work with lights, sound, and stage setup for small shows. I don’t care about “green jobs”—just training so I can start helping at gigs! Can you tell me where I can practice wrapping cables or setting up mics safely? I’m ready to start now."
+    },
+    {
+      "question": "That’s awesome you’re so eager to jump in! Just so I can point you to the right training programs or apprenticeships—how old are you, and what’s the highest level of schooling you’ve completed?",
+      "answer": "Ugh, why does that matter? I just need someone to show me how to plug in lights or do a basic sound check. I can learn like anyone else. Please don’t reduce me to my age."
+    },
+    {
+      "question": "Got it—no labels, just practical details. If you were signing up for a hands-on workshop or volunteer gig right now, would they ask for any proof of past training (like a school diploma or course certificate), or could you just show up and start learning?",
+      "answer": "Fine, I finished *Ensino Fundamental*—but I don’t have any certificates for events. I just want to shadow someone at a small show, even if it’s just coiling cables or taping them down so no one trips. Where do I find people who’ll let me do that? I’ll work for free!"
+    },
+    {
+      "question": "\"Got it—just to make sure I connect you with the right people, are you under 18 or over? Some venues have different rules for volunteers based on that.\"",
+      "answer": "I’m 15. But I’m not asking to run the whole show—I just want to learn the basics! Like how to set up a mic stand without it falling or how to wrap a cable so it doesn’t tangle. There *has* to be someone in Rio who’ll let me help with that, right?"
+    }
+  ]
+}

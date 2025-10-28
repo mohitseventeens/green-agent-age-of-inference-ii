@@ -1,0 +1,46 @@
+{
+  "persona_id": "persona_004",
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, sure. I’m Rafael, 27 years old. I live in Rio de Janeiro and speak Portuguese."
+    },
+    {
+      "question": "What is your current profession or field of work?",
+      "answer": "I’m not working in the field yet, but I’m really interested in food and how it affects health. Still figuring things out."
+    },
+    {
+      "question": "\"Have you completed any formal education or training related to food and health, like nutrition or sustainability courses?\"",
+      "answer": "I have a graduação degree. Studied a bit about food production, but not nutrition."
+    },
+    {
+      "question": "\"Since you're interested in food and health, what kind of roles or industries in this field are you most curious about exploring?\"",
+      "answer": "I’m not sure yet. Maybe something where I can check food quality? I like the idea of making sure food is safe."
+    }
+  ],
+  "persona_profile": {
+    "age": 27,
+    "city": "Rio de Janeiro",
+    "education_level": "graduação",
+    "experience_years": 0,
+    "skills": [
+      "food production",
+      "food quality"
+    ],
+    "goals": "Exploring roles related to food quality and safety",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "intermediate_recommendations": {
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  "final_recommendation": {
+    "persona_id": "persona_004",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

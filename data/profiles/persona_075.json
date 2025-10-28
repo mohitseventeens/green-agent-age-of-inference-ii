@@ -1,0 +1,18 @@
+{
+  "age": 22,
+  "city": "São Paulo",
+  "education_level": "Técnico",
+  "experience_years": 0,
+  "skills": [
+    "writing",
+    "organizing information",
+    "technical writing (potential)",
+    "research reports (potential)"
+  ],
+  "goals": "To start a career in **Design Research and Sustainability**, with a focus on technical writing, research support, and learning sustainable design practices. Eager to gain training and hands-on experience in the field.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese",
+    "English (learning)"
+  ]
+}

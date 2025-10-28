@@ -1,0 +1,15 @@
+{
+  "age": 19,
+  "city": null,
+  "education_level": "Ensino Médio",
+  "experience_years": 0,
+  "skills": [
+    "basic tool handling",
+    "interest in hydraulic systems"
+  ],
+  "goals": "Gain hands-on training in green technologies, particularly those involving machinery or hydraulic systems, to explore opportunities in the sector.",
+  "is_open_to_relocate": true,
+  "languages": [
+    "Portuguese"
+  ]
+}

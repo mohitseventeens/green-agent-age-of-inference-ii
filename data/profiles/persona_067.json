@@ -1,0 +1,16 @@
+{
+  "age": 17,
+  "city": "Recife",
+  "education_level": "Ensino Técnico (Administração)",
+  "experience_years": 1,
+  "skills": [
+    "Documentação administrativa",
+    "Processos básicos de seguros",
+    "Organização de tarefas estruturadas"
+  ],
+  "goals": "Desenvolver habilidades em Implementação de Políticas para construir confiança e oportunidades futuras em setores bancários ou de seguros, priorizando crescimento profissional a longo prazo.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

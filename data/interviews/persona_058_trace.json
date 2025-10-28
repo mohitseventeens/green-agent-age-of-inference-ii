@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_058",
+  "final_profile": {
+    "persona_id": "persona_058",
+    "age": 25,
+    "city": "Brasília",
+    "education_level": "graduação (bachelor's degree in tourism)",
+    "experience_years": 1,
+    "skills": [
+      "customer service",
+      "organization",
+      "problem-solving",
+      "explaining information"
+    ],
+    "goals": "Uncertain about career direction; currently prefers to stay in familiar roles (e.g., hotel reception) rather than exploring new fields like green jobs. Prefers stability in Brasília.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello. I’m Isabela, 25 years old, and I live in Brasília. I speak Portuguese."
+    },
+    {
+      "question": "That’s great, Isabela! To tailor the best opportunities for you, could you share a bit about your education level, years of experience in the field (if any), your career goals in sustainability or green jobs, and whether you’d be open to relocating within Brazil?",
+      "answer": "Oh, I’m not sure about green jobs... I actually worked a little in hotel reception before. Just one year, and then I took a break. I don’t think I’m ready for something new yet. I’d rather stay in Brasília."
+    },
+    {
+      "question": "Since you mentioned taking a break after your experience in hotel reception, did you complete high school, a technical course, or any higher education like a university degree?",
+      "answer": "I finished my *graduação*—it’s like a bachelor’s degree. But I’m not sure it helps much now."
+    },
+    {
+      "question": "That’s helpful to know! Your bachelor’s degree might actually open doors in sustainability—what did you study, and did any part of your coursework or past roles (even in hospitality) involve skills like organization, customer service, or problem-solving that could transfer to green jobs?",
+      "answer": "It was in tourism. I mostly did check-ins and helped guests with questions about Brasília. I’m good at explaining things, but... I don’t know about green jobs. Maybe I should just stick to hotels."
+    }
+  ]
+}

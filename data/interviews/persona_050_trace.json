@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_050",
+  "final_profile": {
+    "persona_id": "persona_050",
+    "age": 13,
+    "city": "Curitiba",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "numbers",
+      "accounting (interest)",
+      "management (interest)",
+      "calculating carbon footprints (potential)"
+    ],
+    "goals": "Learn basics of sustainability-related numerical skills, such as calculating carbon footprints, to explore potential green career paths in accounting or management.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m André, 13 years old, and I live in Curitiba. I speak Portuguese."
+    },
+    {
+      "question": "That’s great, André! Since you’re still in school, what subjects or activities do you enjoy the most that might connect to environmental or sustainability topics?",
+      "answer": "Oh, I don’t really know much about environmental jobs. I like numbers and think accounting or management could be interesting for me."
+    },
+    {
+      "question": "That’s a great starting point! Since you enjoy numbers and management, have you ever thought about how those skills could be used in green careers—like tracking sustainability data for companies or managing eco-friendly projects? What sounds most interesting to you?",
+      "answer": "I never thought about that. Maybe tracking numbers for sustainability could be good, but I’m not sure how it works. I just want to learn basics first."
+    },
+    {
+      "question": "If you could start with just one basic skill related to numbers and sustainability—like calculating carbon footprints, budgeting for green projects, or analyzing energy savings—which one would you want to explore first?",
+      "answer": "I think calculating something like carbon footprints could be interesting, but I don’t know where to start. Is there a simple training for that?"
+    }
+  ]
+}

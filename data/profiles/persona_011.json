@@ -1,0 +1,17 @@
+{
+  "age": 25,
+  "city": "Recife",
+  "education_level": "Tecnólogo em Design de Interiores",
+  "experience_years": 0,
+  "skills": [
+    "Visual Presentation (basic)",
+    "Portuguese (native)",
+    "English (intermediate)"
+  ],
+  "goals": "Exploring career opportunities in Tourism, Visual Arts, or Insurance in Recife, with a preference for roles that connect with people, culture, or local history. Seeking clarity on day-to-day responsibilities and training requirements before committing to a field.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

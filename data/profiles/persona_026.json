@@ -1,0 +1,20 @@
+{
+  "age": 30,
+  "city": "Fortaleza",
+  "education_level": "Tecnólogo",
+  "experience_years": 0,
+  "skills": [
+    "electrical systems maintenance",
+    "appliance repair",
+    "bike mechanics",
+    "troubleshooting motors",
+    "basic machine upkeep",
+    "wiring",
+    "problem-solving"
+  ],
+  "goals": "Transition into a stable maintenance role in manufacturing or food processing with flexible hours, leveraging hands-on repair skills and growing professionally in a factory or production setting.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

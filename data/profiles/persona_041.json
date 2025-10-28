@@ -1,0 +1,19 @@
+{
+  "age": 19,
+  "city": "Belo Horizonte",
+  "education_level": "técnico",
+  "experience_years": 0,
+  "skills": [
+    "communication",
+    "group collaboration",
+    "presenting ideas",
+    "interacting with visitors",
+    "basic English proficiency"
+  ],
+  "goals": "Explore entry-level opportunities in tourism, particularly roles involving direct interaction with travelers, while leveraging language skills and interpersonal strengths. Seeking guidance on practical steps to transition informal experiences (e.g., conversing with tourists) into formal training or employment.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

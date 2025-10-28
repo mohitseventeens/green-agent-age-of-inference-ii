@@ -1,0 +1,17 @@
+{
+  "age": 16,
+  "city": "Curitiba",
+  "education_level": "Ensino Médio (incomplete)",
+  "experience_years": 0,
+  "skills": [
+    "Basic household repairs (e.g., fixing chairs, leaky faucets)",
+    "Interest in DIY repair (from videos/games)",
+    "Problem-solving in practical tasks"
+  ],
+  "goals": "To receive formal training in upkeep and repair (e.g., bikes, electronics) with a focus on sustainability and reusing items. Plans to start training while completing high school to develop hands-on skills in eco-friendly repair practices.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English (basic)"
+  ]
+}

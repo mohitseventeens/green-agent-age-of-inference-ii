@@ -1,0 +1,21 @@
+{
+  "age": 28,
+  "city": "Brasília",
+  "education_level": "Técnico (formal legal training)",
+  "experience_years": 2,
+  "skills": [
+    "legal writing",
+    "contract drafting",
+    "clause interpretation",
+    "commercial contracts (supply, service, NDAs)",
+    "government procurement contracts",
+    "cross-linguistic legal review (Portuguese/English)",
+    "jurilinguistic precision"
+  ],
+  "goals": "To specialize in high-precision legal writing, particularly in commercial and government procurement contracts, with a focus on resolving ambiguities in obligations, termination clauses, and cross-linguistic (Portuguese/English) enforceability risks. Aims to develop expertise in drafting bilingual legal instruments within Brasília’s international firms or government-linked entities.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

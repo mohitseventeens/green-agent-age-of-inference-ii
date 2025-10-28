@@ -1,0 +1,15 @@
+{
+  "age": 21,
+  "city": "Recife",
+  "education_level": "Técnico",
+  "experience_years": 0,
+  "skills": [
+    "basics of food production"
+  ],
+  "goals": "Find a short-term, practical training focused on measuring and reducing waste in food production lines, with hands-on exercises, to apply solutions quickly in the food industry.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

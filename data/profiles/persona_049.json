@@ -1,0 +1,19 @@
+{
+  "age": 19,
+  "city": "Recife",
+  "education_level": "Ensino Médio",
+  "experience_years": 0,
+  "skills": [
+    "cost analysis (planned)",
+    "budgeting (planned)",
+    "forecasting (planned)",
+    "Excel (planned)",
+    "ERP systems (planned)"
+  ],
+  "goals": "Focus on training in cost analysis, budgeting, forecasting, and accounting software (Excel, ERP) to secure better entry-level job opportunities in Recife without relocating. Prioritize affordable or free online courses to build foundational skills before entering the workforce.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

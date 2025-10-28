@@ -1,0 +1,20 @@
+{
+  "age": 22,
+  "city": "Curitiba",
+  "education_level": "Graduação em Técnico em Mecânica",
+  "experience_years": 3,
+  "skills": [
+    "Component replacement (brakes, suspensions, hydraulic parts)",
+    "Technical documentation and maintenance logs",
+    "Machinery and automotive systems maintenance",
+    "Technical writing for manuals",
+    "Rebuilding/refurbishing parts (starters, alternators)",
+    "Basic English for work purposes"
+  ],
+  "goals": "To find a stable job in Curitiba focusing on sustainable practices in the automotive/machinery sector, particularly in component reuse, remanufacturing, or electric/hybrid vehicle maintenance, while continuing to develop technical skills in structured refurbishment processes and circular economy principles.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

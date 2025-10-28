@@ -1,0 +1,17 @@
+{
+  "age": 21,
+  "city": "sao paulo",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "fast learner",
+    "interest in food safety",
+    "interest in food production machines"
+  ],
+  "goals": "To receive training in food safety and machine operation, then work in a food factory as a helper or trainee.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

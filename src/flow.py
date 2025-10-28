@@ -1,75 +1,49 @@
 # src/flow.py
-
 import logging
 from pocketflow import Flow
 from src.nodes import (
-    LoadStaticDataNode,
-    ParseStaticDataNode,
-    ExtractProfileNode,
     DecisionNode,
     ProvideAwarenessNode,
     FindTrainingsOnlyNode,
     FindJobsAndTrainingsNode,
     FinalizeOutputNode,
+    # No longer need ExtractProfileNode here
 )
 
-# --- Set up logging ---
 logger = logging.getLogger(__name__)
-if not logger.handlers:
-    logger.setLevel(logging.INFO)
-    handler = logging.StreamHandler()
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
+# (logging setup remains the same)
 
-
-def create_main_flow() -> Flow:
+def create_recommendation_flow() -> Flow:
     """
-    Instantiates all nodes and assembles them into the main PocketFlow workflow.
-
-    Returns:
-        The fully constructed main flow, ready to be executed.
+    Assembles the workflow that starts AFTER a persona profile is already known.
     """
-    logger.info("Creating the main application flow...")
+    logger.info("Creating the recommendation-only flow...")
 
-    # 1. Instantiate all nodes
-    load_static_data_node = LoadStaticDataNode()
-    parse_static_data_node = ParseStaticDataNode()
-    extract_profile_node = ExtractProfileNode()
+    # Instantiate nodes
     decision_node = DecisionNode()
-    
-    # Branch nodes
     provide_awareness_node = ProvideAwarenessNode()
     find_trainings_only_node = FindTrainingsOnlyNode()
-    
-    # Configure the jobs/trainings node to use the powerful model for scoring
     find_jobs_and_trainings_node = FindJobsAndTrainingsNode()
+    finalize_output_node = FinalizeOutputNode()
+
+    # Configure the jobs node for high-quality scoring
     find_jobs_and_trainings_node.set_params({
-        "use_cache_for_scoring": True, # Use cache in production for speed/cost
+        "use_cache_for_scoring": True,
         "scoring_model": "mistral-large-latest"
     })
     
-    # Final output node
-    finalize_output_node = FinalizeOutputNode()
-
-    # 2. Connect the nodes into a workflow
-    
-    # Linear pre-processing chain
-    load_static_data_node >> parse_static_data_node >> extract_profile_node >> decision_node
-    
-    # Conditional branching from the decision node
+    # Connect nodes
     (decision_node - "provide_awareness_young") >> provide_awareness_node
     (decision_node - "provide_awareness_info") >> provide_awareness_node
     (decision_node - "recommend_trainings") >> find_trainings_only_node
     (decision_node - "recommend_jobs") >> find_jobs_and_trainings_node
 
-    # All branches converge on the finalize output node
     provide_awareness_node >> finalize_output_node
     find_trainings_only_node >> finalize_output_node
     find_jobs_and_trainings_node >> finalize_output_node
 
-    # 3. Create and return the Flow object, specifying the start node
-    main_flow = Flow(start=load_static_data_node)
+    # The flow now starts with the DecisionNode
+    rec_flow = Flow(start=decision_node)
     
-    logger.info("Main flow created successfully.")
-    return main_flow
+    logger.info("Recommendation-only flow created successfully.")
+    return rec_flow

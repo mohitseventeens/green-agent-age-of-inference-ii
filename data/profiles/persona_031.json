@@ -1,0 +1,18 @@
+{
+  "age": 18,
+  "city": "Fortaleza",
+  "education_level": "Técnico em Eletrônica",
+  "experience_years": 1,
+  "skills": [
+    "Electronics repair",
+    "Circuit soldering",
+    "Troubleshooting (TVs, radios, circuits)",
+    "Basic IT support (informal)"
+  ],
+  "goals": "Seeking a job in electronics (preferably hands-on repair or circuit work) while exploring IT support opportunities. Prefers a workshop or structured company environment with practical tasks.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "age": 16,
+  "city": "São Paulo",
+  "education_level": "Ensino Médio",
+  "experience_years": 1,
+  "skills": [
+    "Recepção de hotel",
+    "Atendimento ao cliente",
+    "Multitarefa (em desenvolvimento)",
+    "Inglês básico/intermediário"
+  ],
+  "goals": "Obter treinamento formal em habilidades de recepção hoteleira, especialmente em gerenciamento de multitarefas sob pressão, uso eficiente de sistemas de reserva e atendimento simultâneo a múltiplos hóspedes. Melhorar confiança e precisão em operações de front desk para reduzir erros (ex.: reservas duplicadas).",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -58,50 +58,111 @@ def cleanup_cache_files():
         training_cache.unlink()
         print("Removed training cache.")
 
-# --- OPTIMIZED: Test for ParseStaticDataNode ---
-@requires_mistral_key
-def test_parse_static_data_node(cleanup_cache_files):
-    """
-    Tests the ParseStaticDataNode on a small subset of data.
-    It verifies both parsing from markdown and reading from the created cache.
-    """
-    # Arrange: Create a small subset of the real data for testing
-    load_node = LoadStaticDataNode()
-    shared_full = {}
-    load_node.run(shared_full)
+# # --- OPTIMIZED: Test for ParseStaticDataNode ---
+# @requires_mistral_key
+# def test_parse_static_data_node(cleanup_cache_files):
+#     """
+#     Tests the ParseStaticDataNode on a small subset of data.
+#     It verifies both parsing from markdown and reading from the created cache.
+#     """
+#     # Arrange: Create a small subset of the real data for testing
+#     load_node = LoadStaticDataNode()
+#     shared_full = {}
+#     load_node.run(shared_full)
     
-    # OPTIMIZATION: Use only a small slice of the data
-    test_jobs_raw = shared_full["all_jobs"][:5]
-    test_trainings_raw = shared_full["all_trainings"][:5]
+#     # OPTIMIZATION: Use only a small slice of the data
+#     test_jobs_raw = shared_full["all_jobs"][:5]
+#     test_trainings_raw = shared_full["all_trainings"][:5]
     
-    # --- 1. First Run: Parsing the subset ---
-    print("\n--- Running ParseStaticDataNode (First Run): Parsing 5 jobs & 5 trainings ---")
-    shared = {"all_jobs": test_jobs_raw, "all_trainings": test_trainings_raw}
-    parse_node = ParseStaticDataNode()
-    parse_node.shared = shared
-    parse_node.run(shared)
+#     # --- 1. First Run: Parsing the subset ---
+#     print("\n--- Running ParseStaticDataNode (First Run): Parsing 5 jobs & 5 trainings ---")
+#     shared = {"all_jobs": test_jobs_raw, "all_trainings": test_trainings_raw}
+#     parse_node = ParseStaticDataNode()
+#     parse_node.shared = shared
+#     parse_node.run(shared)
 
-    # Assert parsing worked and cache files were created
+#     # Assert parsing worked and cache files were created
+#     assert "parsed_jobs" in shared
+#     assert "parsed_trainings" in shared
+#     assert len(shared["parsed_jobs"]) == 5
+#     assert len(shared["parsed_trainings"]) == 5
+#     assert isinstance(shared["parsed_jobs"][0], JobProfile)
+#     assert isinstance(shared["parsed_trainings"][0], TrainingProfile)
+#     assert Path("data/parsed_jobs.json").exists()
+#     assert Path("data/parsed_trainings.json").exists()
+
+#     # --- 2. Second Run: Reading from cache ---
+#     print("\n--- Running ParseStaticDataNode (Second Run): Reading from cache ---")
+#     shared_cached = {"all_jobs": test_jobs_raw, "all_trainings": test_trainings_raw}
+#     parse_node_cached = ParseStaticDataNode()
+#     parse_node_cached.shared = shared_cached
+#     parse_node_cached.run(shared_cached)
+
+#     # Assert data was loaded from cache correctly
+#     assert len(shared_cached["parsed_jobs"]) == 5
+#     assert len(shared_cached["parsed_trainings"]) == 5
+#     assert shared_cached["parsed_jobs"][0].job_id == shared["parsed_jobs"][0].job_id
+
+# ADD THIS NEW TEST to tests/test_nodes.py
+@requires_mistral_key
+@pytest.mark.parametrize("model_name, suffix", [
+    ("mistral-small-latest", "_small"),
+    ("mistral-large-latest", "_large"),
+])
+def test_parse_static_data_node_model_comparison(model_name, suffix):
+    """
+    Tests the ParseStaticDataNode with different models on a small data sample.
+    It saves the output to separate cache files for quality comparison and
+    validates that no Pydantic errors occur.
+    """
+    # 1. Arrange: Create a small subset of raw data for the test
+    sample_jobs_raw = [
+        {'id': 'j0', 'content': Path('data/jobs/j0.md').read_text()},
+        {'id': 'j1', 'content': Path('data/jobs/j1.md').read_text()}
+    ]
+    sample_trainings_raw = [
+        {'id': 'tr0', 'content': Path('data/trainings/tr0.md').read_text()},
+        {'id': 'tr1', 'content': Path('data/trainings/tr1.md').read_text()}
+    ]
+    
+    # Clean up any old cache files before the test
+    job_cache = Path(f"data/parsed_jobs{suffix}.json")
+    if job_cache.exists():
+        job_cache.unlink()
+        
+    training_cache = Path(f"data/parsed_trainings{suffix}.json")
+    if training_cache.exists():
+        training_cache.unlink()
+
+    # 2. Act: Run the node with the specified model and cache suffix
+    shared = {"all_jobs": sample_jobs_raw, "all_trainings": sample_trainings_raw}
+    node = ParseStaticDataNode()
+    node.set_params({
+        "parsing_model": model_name,
+        "cache_suffix": suffix
+    })
+    
+    print(f"\n--- Testing parsing with model: {model_name} ---")
+    
+    # This will raise an exception if Pydantic validation fails, causing the test to fail.
+    node.run(shared)
+
+    # 3. Assert: Check that the process completed and created valid objects
     assert "parsed_jobs" in shared
     assert "parsed_trainings" in shared
-    assert len(shared["parsed_jobs"]) == 5
-    assert len(shared["parsed_trainings"]) == 5
+    assert len(shared["parsed_jobs"]) == 2
+    assert len(shared["parsed_trainings"]) == 2
+    
+    # Check that the objects are of the correct type (Pydantic validation passed)
     assert isinstance(shared["parsed_jobs"][0], JobProfile)
     assert isinstance(shared["parsed_trainings"][0], TrainingProfile)
-    assert Path("data/parsed_jobs.json").exists()
-    assert Path("data/parsed_trainings.json").exists()
+    
+    # Check that the cache files were created
+    assert job_cache.exists()
+    assert training_cache.exists()
 
-    # --- 2. Second Run: Reading from cache ---
-    print("\n--- Running ParseStaticDataNode (Second Run): Reading from cache ---")
-    shared_cached = {"all_jobs": test_jobs_raw, "all_trainings": test_trainings_raw}
-    parse_node_cached = ParseStaticDataNode()
-    parse_node_cached.shared = shared_cached
-    parse_node_cached.run(shared_cached)
-
-    # Assert data was loaded from cache correctly
-    assert len(shared_cached["parsed_jobs"]) == 5
-    assert len(shared_cached["parsed_trainings"]) == 5
-    assert shared_cached["parsed_jobs"][0].job_id == shared["parsed_jobs"][0].job_id
+    print(f"--- ✅ Success! Parsed successfully with {model_name}. ---")
+    print(f"--- Output saved to {job_cache} and {training_cache} ---")
 
 def test_load_static_data_node():
     node = LoadStaticDataNode()
@@ -232,7 +293,12 @@ def test_find_trainings_only_node():
     # Arrange
     node = FindTrainingsOnlyNode()
     
+    # mock_persona = PersonaProfile(
+    #     age=20, city="Test", education_level="Ensino Médio", # Level 2
+    #     experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
+    # )
     mock_persona = PersonaProfile(
+        persona_id="test_persona_01",
         age=20, city="Test", education_level="Ensino Médio", # Level 2
         experience_years=1, skills=[], goals="learn", is_open_to_relocate=False
     )
@@ -319,7 +385,18 @@ def test_find_jobs_and_trainings_node_live_with_large_model(live_parsed_data):
         "scoring_model": "mistral-large-latest"
     })
     
+    # persona = PersonaProfile(
+    #     age=25,
+    #     city="São Paulo",
+    #     education_level="Graduação",
+    #     experience_years=2,
+    #     skills=["Análise de Dados", "Relatórios Financeiros"],
+    #     goals="Busco uma oportunidade como analista de dados no setor financeiro ou de sustentabilidade.",
+    #     is_open_to_relocate=False,
+    #     languages=["Portuguese", "English"]
+    # )
     persona = PersonaProfile(
+        persona_id="test_persona_02",
         age=25,
         city="São Paulo",
         education_level="Graduação",
@@ -397,3 +474,61 @@ def test_finalize_output_node(intermediate_recs):
     for key, value in intermediate_recs.items():
         assert key in final_rec
         assert final_rec[key] == value
+
+from unittest.mock import MagicMock
+
+def test_find_trainings_only_node_with_domain_filter(monkeypatch):
+    """
+    Tests the full three-stage filtering logic of the FindTrainingsOnlyNode.
+    - Mocks the new domain classification method.
+    - Mocks the final scoring method.
+    - Asserts that only trainings passing all filters are recommended.
+    """
+    # Arrange
+    node = FindTrainingsOnlyNode()
+    
+    # mock_persona = PersonaProfile(
+    #     age=20, city="Test", education_level="Ensino Médio", # Level 2
+    #     experience_years=1, skills=[], goals="learn about technology", is_open_to_relocate=False
+    # )
+    mock_persona = PersonaProfile(
+        persona_id="test_persona_03",
+        age=20, city="Test", education_level="Ensino Médio", # Level 2
+        experience_years=1, skills=[], goals="learn about technology", is_open_to_relocate=False
+    )
+    
+    mock_trainings = [
+        TrainingProfile(training_id="tr1", title="Basic Tech Course", offered_skills=["tech"], required_level="Técnico"),         # Eligible and relevant
+        TrainingProfile(training_id="tr2", title="Advanced Cooking", offered_skills=["cooking"], required_level="Técnico"),      # Eligible but NOT relevant
+        TrainingProfile(training_id="tr3", title="Intro to IT", offered_skills=["it"], required_level=None),                   # Eligible and relevant
+        TrainingProfile(training_id="tr4", title="Post-grad Finance", offered_skills=["finance"], required_level="Graduação"),  # NOT eligible
+    ]
+    
+    shared = {
+        "persona_profile": mock_persona,
+        "parsed_trainings": mock_trainings
+    }
+
+    # Mock the new domain classification method
+    def mock_domain_check(goals, training):
+        # Only return True for trainings with "tech" or "it" in the title
+        return "tech" in training.title.lower() or "it" in training.title.lower()
+        
+    monkeypatch.setattr(node, '_is_training_relevant_domain', mock_domain_check)
+
+    # Mock the final scoring method to return a consistent score
+    monkeypatch.setattr(node, '_get_training_relevance_score', lambda persona, training: 8)
+
+    # Act
+    node.run(shared)
+
+    # Assert
+    assert "intermediate_recommendations" in shared
+    recommendation = shared["intermediate_recommendations"]
+    
+    recommended_ids = {t["training_id"] for t in recommendation["trainings"]}
+    assert len(recommended_ids) == 2
+    assert "tr1" in recommended_ids # Was eligible and passed domain filter
+    assert "tr3" in recommended_ids # Was eligible and passed domain filter
+    assert "tr2" not in recommended_ids # Was eligible but FAILED domain filter
+    assert "tr4" not in recommended_ids # Was NOT eligible

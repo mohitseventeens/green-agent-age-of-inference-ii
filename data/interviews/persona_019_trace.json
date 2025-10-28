@@ -1,0 +1,44 @@
+{
+  "persona_id": "persona_019",
+  "final_profile": {
+    "persona_id": "persona_019",
+    "age": 26,
+    "city": "Rio de Janeiro",
+    "education_level": "graduação",
+    "experience_years": 1,
+    "skills": [
+      "process optimization",
+      "quality control",
+      "fiber science",
+      "fiber recovery systems",
+      "closed-loop water processes",
+      "pulp refining",
+      "waste reduction",
+      "energy efficiency"
+    ],
+    "goals": "Secure a stable position to refine expertise in fiber science, focusing on advanced fiber recovery systems or closed-loop water processes in sustainable Fibers and Paper industry roles.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Obviously, I’m Larissa Costa—26, fluent in Portuguese and English, and based in Rio de Janeiro. I won’t be relocating, so don’t bother suggesting it. Now, let’s focus on what matters: my expertise in process optimization and quality control in Fibers and Paper."
+    },
+    {
+      "question": "\"Given your expertise in process optimization and quality control in the Fibers and Paper sector, could you share a bit about your educational background, how many years of experience you have in this field, and what your long-term career goals are?\"",
+      "answer": "I have a *graduação*—obviously—and a single year of experience, which is more than enough to outperform most in quality control and process optimization. My goal? A stable position where I can refine my already sharp skills in fiber science, not waste time on trivial tasks."
+    },
+    {
+      "question": "Given your focus on fiber science and process optimization, what specific types of green or sustainable initiatives in the Fibers and Paper industry are you most passionate about—or would you want to work on in your next role?",
+      "answer": "Sustainability is basic hygiene in this industry—anyone not optimizing for waste reduction or energy efficiency is stuck in the past. I expect my next role to involve advanced fiber recovery systems or closed-loop water processes. Anything less is just compliance theater."
+    },
+    {
+      "question": "You’ve mentioned advanced fiber recovery and closed-loop water processes—could you share an example of a project or skill you’ve applied (even in training or coursework) that directly relates to these areas, so I can match you with roles that align with your hands-on strengths?",
+      "answer": "I optimized a pulp refining stage during my training—reduced fiber loss by 12% by adjusting screening parameters. Hardly groundbreaking, but it’s more than most \"experts\" with twice my experience can claim. Don’t match me with roles that require hand-holding."
+    }
+  ]
+}

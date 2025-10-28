@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_033",
+  "final_profile": {
+    "persona_id": "persona_033",
+    "age": 21,
+    "city": "Porto Alegre",
+    "education_level": "técnico",
+    "experience_years": 2,
+    "skills": [
+      "soldering",
+      "troubleshooting",
+      "circuit design",
+      "electronic systems repair"
+    ],
+    "goals": "Seek hands-on green tech roles, particularly in electronics-related sustainability areas (e.g., solar, energy-efficient devices), with willingness to train for job alignment.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I'm Gabriel, 21 years old. I live in Porto Alegre and speak Portuguese."
+    },
+    {
+      "question": "That’s great, Gabriel! To tailor the best green job options for you, could you share your highest level of education, how many years of work or internship experience you have, and whether you’d be open to relocating within Brazil or even internationally?",
+      "answer": "I finished a técnico course. Worked 2 years in a technical area, but not green jobs. I can’t relocate, only Porto Alegre."
+    },
+    {
+      "question": "What kind of green job areas or sustainability topics interest you the most—like renewable energy, waste management, urban farming, or something else?",
+      "answer": "I like fixing and building things. My skills are in soldering, troubleshooting, and working with circuits."
+    },
+    {
+      "question": "That’s a great fit for hands-on green tech roles! Have you ever worked with or studied electronics related to sustainability—like solar panel installations, battery repair, or energy-efficient devices? If not, would you be interested in training for those areas?",
+      "answer": "I haven’t worked with solar or batteries, but I’ve fixed electronic systems and designed simple circuits. Training could be good if it helps me get a job using those skills."
+    }
+  ]
+}

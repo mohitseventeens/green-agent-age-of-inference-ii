@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_034",
+  "final_profile": {
+    "persona_id": "persona_034",
+    "age": 16,
+    "city": "Salvador",
+    "education_level": "Ensino Médio",
+    "experience_years": 2,
+    "skills": [
+      "basic electronics",
+      "test equipment (voltmeters, oscilloscopes)",
+      "circuit analysis (beginner)",
+      "English (practicing)"
+    ],
+    "goals": "To gain hands-on training in electronics and electrical systems, master equipment like oscilloscopes and multimeters, and progress toward understanding advanced topics like power systems and circuit design. Seeks structured, affordable training (online or in-person) and access to makerspaces/labs for practical experience. Long-term aspiration may include engineering or technical roles in electronics.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello! I’m Rafael Gomes, I’m 16 years old, and I live in Salvador—I love it here and don’t want to move anywhere else! I speak Portuguese, of course, but I’m practicing English because all the cool electronics manuals are in English, haha.\n\nRight now, I’m really into electronics and electricity, but I *urgently* need training—I want to use all the equipment like oscilloscopes, multimeters, even those big transformers! Do you know where I can learn that?"
+    },
+    {
+      "question": "That’s awesome that you’re diving into electronics! Are you currently in high school, or have you completed any technical courses or training programs yet?",
+      "answer": "Oh, I’m still in *Ensino Médio*—it’s okay, but I want to do so much more! I’ve been messing around with test equipment for about two years now, like voltmeters and basic oscilloscopes, but I know I could be way better.\n\nI saw this one course online about power systems, and I was like, “Wow, if I take this, can I become an engineer in a year?” Probably not, right? But I just want to *understand* everything—schematics, circuits, how electricity really flows! Do you think there’s a training that can help me get there step by step? I don’t even know where to start!"
+    },
+    {
+      "question": "Since you’re eager to learn but still in high school, what kind of time commitment (like evenings, weekends, or short daily sessions) could you realistically dedicate to training right now?",
+      "answer": "Oh, I can do *a lot*! After school, I’m free almost every day—maybe 2 to 3 hours in the evening, and I can do *all day* on weekends if it’s something really hands-on, like a workshop!\n\nI just need something that doesn’t conflict with my classes. Maybe even online courses I can pause and rewatch? But I *really* want to touch the equipment too—like, how am I supposed to learn an oscilloscope just by watching videos? You know what I mean? It’s not the same!"
+    },
+    {
+      "question": "Got it! With that kind of time and energy, do you have a budget in mind for training—like free/low-cost options, or could you invest in a structured course or even tools for hands-on practice?",
+      "answer": "Oh, budget… that’s the tricky part! I don’t have a *lot* of money, but I’ve been saving up from small jobs—maybe around R$200 to R$300 a month? I was thinking… if I find a good course, I could skip buying games or snacks for a while, haha!\n\nBut I *also* saw some cheap used equipment online—like a basic multimeter or even a small oscilloscope. Do you think I should spend my money on tools first, or on training? Or maybe a mix? I just don’t want to waste it! And… do you know if there are free labs or makerspaces in Salvador where I could practice? That would be *perfect*!"
+    }
+  ]
+}

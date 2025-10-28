@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_010",
+  "final_profile": {
+    "persona_id": "persona_010",
+    "age": 26,
+    "city": "São Paulo",
+    "education_level": "graduação (bachelor's degree)",
+    "experience_years": 3,
+    "skills": [
+      "painting",
+      "artistic workshops",
+      "upcycling materials (wood, fabric)",
+      "creative reuse of sustainable materials",
+      "visual storytelling (nature-inspired)"
+    ],
+    "goals": "To integrate artistic passion (painting and nature-inspired visuals) with sustainability, exploring roles where art can promote environmental awareness, upcycling, or urban green spaces—while maintaining creative freedom and reducing waste in the artistic process.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (basic/conversational, art-related)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello! I’m Felipe Ribeiro, 26 years old, and I live in São Paulo—I love the city’s energy, though I’d never leave it. I speak Portuguese, of course, but I can manage a bit of English when I need to, especially when talking about art. Painting is what really moves me, though I sometimes wonder if there’s space for it in the kind of work I’m looking for. Do you think there are jobs where painting isn’t just a hobby, but something central?"
+    },
+    {
+      "question": "That’s a great connection between your passion and work! To help me suggest roles where art could play a central part—especially in sustainability or green fields—could you share your highest level of education and how many years of professional experience you have, whether in art or other areas?",
+      "answer": "I have a *graduação*—that’s like a bachelor’s degree—though it wasn’t in arts at first. I started in another field, but after a couple of years, I just… couldn’t ignore painting anymore. So I’ve been seriously working with it for about three years now—mostly on my own, selling a few pieces here and there, helping out in small workshops. It’s not a long time, I know, but when I paint, it feels like what I’m *meant* to do. I just don’t always see how that fits into a real job, you know? Especially something green—I’ve never even thought about connecting art to sustainability. How would that work?"
+    },
+    {
+      "question": "That’s such a meaningful shift toward your passion! Since you’re curious about connecting art to sustainability, what kinds of environmental or social causes feel most important to you—like conservation, urban green spaces, or maybe upcycling materials? That could help pinpoint where your art might align.",
+      "answer": "Oh, that’s a good question. I’ve never really put it into words before, but… I love how nature has its own colors, its own way of mixing them—like the way sunlight hits the trees in Ibirapuera Park here in São Paulo. It’s like a painting that’s always changing. I guess that’s why I’d lean toward something that helps people *see* nature differently, or maybe even brings a little of that beauty into cities. Upcycling materials sounds interesting too—I’ve used old wood or fabric in my paintings before, just to give them texture. But I’m not sure if that’s enough to make it a \"green job.\" Do you think there’s a place for someone who just wants to paint nature, or paint *with* nature? It feels a bit dreamy, I know."
+    },
+    {
+      "question": "You mentioned using old wood or fabric in your paintings—have you ever explored or thought about working with *sustainable or recycled materials* as a core part of your artistic process, or would you be open to learning more about how to do that in a professional setting?",
+      "answer": "I’ve played around with it, yes—like using scraps of fabric from my mom’s old sewing projects or driftwood I’ve found on trips. There’s something special about giving those materials a second life in a painting. But professionally? I’ve never really thought about it that way. I mean, I’d be open to learning, especially if it meant my work could have less waste… but I’m not sure how to turn that into a job. Would that even be something studios or galleries look for? Or is it more of a niche thing? I guess I worry about limiting myself too much."
+    }
+  ]
+}

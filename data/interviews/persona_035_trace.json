@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_035",
+  "final_profile": {
+    "persona_id": "persona_035",
+    "age": 23,
+    "city": "Recife",
+    "education_level": "Técnico",
+    "experience_years": 0,
+    "skills": [
+      "logistics coordination",
+      "supplier comparison",
+      "budget tracking",
+      "negotiation",
+      "cost optimization",
+      "event planning"
+    ],
+    "goals": "To receive professional training in logistics and supplier management, focusing on core skills like supplier evaluation, contract management, and cost optimization, with a preference for industries connected to travel, food, or retail.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hi! I’m Larissa, 23 years old, and I live in Recife—I love it here and wouldn’t want to move. I speak Portuguese, and in my free time, I’m always planning trips, comparing transport prices, or organizing get-togethers with friends where I hunt for the best deals on food and decorations.\n\nIt got me thinking: how do companies handle suppliers and costs on a bigger scale? That’s why I’m really curious about training in logistics and supplier management—it feels like the next step for me!"
+    },
+    {
+      "question": "That’s a great area to explore! To help tailor the best training or job options for you, what’s the highest level of education you’ve completed so far?",
+      "answer": "I finished my *Técnico* course, which was really hands-on and practical. It helped me see how much I enjoy organizing and optimizing things—like when I plan a party and compare supplier quotes or find the cheapest shipping for ingredients.\n\nNow I’m eager to build on that with proper training in logistics and supplier relationships, so I can turn these small skills into something bigger!"
+    },
+    {
+      "question": "Got it! Since you’re looking to grow in logistics and supplier management, do you have any prior work experience—even informal or part-time—that involved coordination, purchasing, or handling budgets?",
+      "answer": "Not formally, but my hobbies are full of little examples! Like when I organize trips, I compare bus companies, negotiate group discounts, or track spending to stay on budget. Or for parties, I contact multiple suppliers for decorations or food, always hunting for the best mix of quality and price.\n\nIt’s not a job yet, but it made me realize how much I enjoy this kind of coordination—and why I want training to do it professionally in logistics or purchasing!"
+    },
+    {
+      "question": "That’s such a great foundation! When you imagine working in logistics or supplier management, what kind of company or industry excites you most—like retail, manufacturing, or maybe even sustainable tourism, given your love for travel and deals?",
+      "answer": "Oh, that’s a fun question! I’d love something connected to travel or food—maybe a tourism company managing hotel suppliers or a food distributor negotiating with farmers. Even retail could be cool, like working with vendors for a store, since I’m always comparing prices and quality in my daily life.\n\nBut honestly, I’m open to any industry as long as the training teaches me the core skills: how to evaluate suppliers, manage contracts, or optimize costs. That’s what I’m most excited to learn!"
+    }
+  ]
+}

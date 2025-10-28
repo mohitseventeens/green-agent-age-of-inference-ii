@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_073",
+  "final_profile": {
+    "persona_id": "persona_073",
+    "age": 15,
+    "city": "Brasília",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "design research",
+      "prototyping (theoretical interest)",
+      "basic logic (math)",
+      "creative ideation (cinema-inspired)"
+    ],
+    "goals": "Seek foundational training in design research, prototyping tools (e.g., Scratch, Python, paper/cardboard modeling), and logic-based problem-solving before pursuing hands-on projects or formal education (e.g., *técnico*).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "15.\nBrasília.\nPortuguês (BR).\nNo relocation.\nTraining first."
+    },
+    {
+      "question": "That’s great! Since you’re looking for training first, what specific areas of sustainability or green careers are you most interested in exploring?",
+      "answer": "Not sustainability.\nDesign research.\nPrototyping tools.\nBasic code.\nMath → logic.\nCinema → ideas."
+    },
+    {
+      "question": "Got it! With those interests in design research, prototyping, and logic, what’s the highest level of education you’ve completed so far? (For example: fundamental, médio, técnico, etc.)",
+      "answer": "Ensino Fundamental.\nStill studying.\nNo técnico."
+    },
+    {
+      "question": "Given your interests in design research, prototyping, and logic—plus being in *Ensino Fundamental*—what kind of hands-on projects or tools (like Arduino, Tinkercad, Scratch, etc.) have you already tried or would love to learn?",
+      "answer": "None yet.\nOptions?\n- Paper prototypes\n- Scratch (blocks)\n- Simple Python\n- Cardboard models\nMath puzzles → logic for prototypes."
+    }
+  ]
+}

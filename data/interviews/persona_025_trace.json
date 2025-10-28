@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_025",
+  "final_profile": {
+    "persona_id": "persona_025",
+    "age": 14,
+    "city": "Brasília",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "fast learner (hands-on)",
+      "interest in production machines",
+      "basic technical curiosity (from games/videos)"
+    ],
+    "goals": "Explore beginner-friendly, hands-on training with real production or recycling machines (e.g., short courses or apprenticeships) to test interest in green jobs like renewable energy or sustainable manufacturing. Prefers in-person opportunities near Brasília for tactile experience.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi! I’m 14 and live in Brasília. I love drawing and playing video games, especially ones with cool machines. That’s how I got curious about real production equipment!"
+    },
+    {
+      "question": "That’s awesome! Since you’re interested in machines and production, have you thought about what kind of green jobs—like renewable energy, recycling tech, or sustainable manufacturing—sound most exciting to you?",
+      "answer": "Oh, I never thought about \"green\" jobs before! But I like watching videos of big machines, like the ones that sort recycling or make solar panels. Maybe something like that? I just want a training first to see if I’d be good at it."
+    },
+    {
+      "question": "That’s a great starting point! Since you’re interested in hands-on training with machines, would you prefer learning through a short course, an apprenticeship, or maybe even a school program that lets you try different things?",
+      "answer": "I think a short course would be best for now. Something fun, where I can try machines but not too hard since I’m still learning. Like, maybe how to use small production tools or see how things are made? My games have machines, but real ones seem way cooler!"
+    },
+    {
+      "question": "Got it! Since you’re curious about trying real machines in a fun, low-pressure way—would you be open to doing this kind of short course *in person* near Brasília, or would you prefer something online to start?",
+      "answer": "Oh, in person would be amazing! I live in Brasília, so if there’s a place nearby where I can see real machines and try them safely, that’d be so cool. Online is okay too, but I’d love to touch stuff, you know? Like in my games, but real!"
+    },
+    {
+      "question": "That’s perfect! Since you’re 14 and just starting to explore, what’s the highest grade or level of school you’ve completed so far? That’ll help me find the best beginner-friendly options for you.",
+      "answer": "I’m still in *Ensino Fundamental*—like, middle school? I don’t have any real experience with machines, just what I see in videos or games. But I learn fast when it’s hands-on! Maybe something for total beginners?"
+    }
+  ]
+}

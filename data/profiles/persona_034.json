@@ -1,0 +1,18 @@
+{
+  "age": 16,
+  "city": "Salvador",
+  "education_level": "Ensino Médio",
+  "experience_years": 2,
+  "skills": [
+    "basic electronics",
+    "test equipment (voltmeters, oscilloscopes)",
+    "circuit analysis (beginner)",
+    "English (practicing)"
+  ],
+  "goals": "To gain hands-on training in electronics and electrical systems, master equipment like oscilloscopes and multimeters, and progress toward understanding advanced topics like power systems and circuit design. Seeks structured, affordable training (online or in-person) and access to makerspaces/labs for practical experience. Long-term aspiration may include engineering or technical roles in electronics.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

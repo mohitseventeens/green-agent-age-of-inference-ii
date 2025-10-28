@@ -1,0 +1,19 @@
+{
+  "age": 23,
+  "city": "Recife",
+  "education_level": "Técnico",
+  "experience_years": 0,
+  "skills": [
+    "logistics coordination",
+    "supplier comparison",
+    "budget tracking",
+    "negotiation",
+    "cost optimization",
+    "event planning"
+  ],
+  "goals": "To receive professional training in logistics and supplier management, focusing on core skills like supplier evaluation, contract management, and cost optimization, with a preference for industries connected to travel, food, or retail.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

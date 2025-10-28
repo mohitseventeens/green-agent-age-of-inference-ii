@@ -1,0 +1,34 @@
+{
+  "persona_id": "persona_059",
+  "final_profile": {
+    "persona_id": "persona_059",
+    "age": 18,
+    "city": "Curitiba",
+    "education_level": "Técnico (Technical High School)",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "To gain comprehensive training and knowledge in the insurance sector, including claims processing, policy rules, customer service, and legal aspects, through any available free or affordable programs (online or in-person) in Curitiba. Seeks beginner-level courses that cover multiple topics to accelerate learning and prepare for entry-level opportunities in the field.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh hey! So I’m Diego, I’m 18 and I live in Curitiba. I only speak Portuguese, you know, the Brazilian way. Honestly, I don’t have experience yet, but I really wanna get into Insurance. My family always had a hard time with claims and stuff, and it made me curious about how it all works. I just wanna learn everything—like, all the trainings I can get in Insurance, not just one thing. It all seems so important!"
+    },
+    {
+      "question": "That’s awesome that you’re so passionate about insurance! To help find the best training or entry-level opportunities for you, could you tell me what your highest level of education is so far and if you’d be open to moving to another city for work?",
+      "answer": "Oh, I did that Técnico course, you know? Like a technical high school thing. And nah, I can’t really move—I’m staying in Curitiba. But honestly, I just wanna find trainings first. Like, anything in Insurance, from how claims work to the rules and customer service. My family’s struggles kinda made me wanna understand it all, so I’m down for any training that teaches me the basics. The more I learn, the better!"
+    },
+    {
+      "question": "Got it! Since you’re eager to dive into insurance training, have you looked into any specific programs or certifications in Curitiba yet—or would you like help figuring out where to start?",
+      "answer": "Nah, I haven’t looked into anything specific yet, it’s all kinda new to me. I just know I wanna learn *everything*—like, how policies work, how to help people with claims, even the boring legal stuff, you know? If there’s any free or cheap training in Curitiba, I’m in. Even online works if it’s legit. I just wanna start somewhere and soak it all up. You got any ideas where I could begin?"
+    },
+    {
+      "question": "That’s a great mindset! Since you’re open to online or in-person training, would you prefer hands-on programs (like internships or workshops) or self-paced courses (like video lessons or certifications) to start building your insurance knowledge?",
+      "answer": "Ooooh, both sound good to me! Like, workshops would be cool ‘cause I could ask questions and see how stuff works in real life. But if it’s online, I can do it at my own speed, you know? Honestly, I just wanna learn it all—how to talk to customers, how to fill out claims, even the mathy parts if there are any. Whatever gets me started fastest! You think there’s, like, a beginner course that covers a bunch of stuff at once? That’d be perfect."
+    }
+  ]
+}

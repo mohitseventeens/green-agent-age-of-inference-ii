@@ -1,0 +1,51 @@
+{
+  "persona_id": "persona_001",
+  "metrics": {
+    "execution_time_seconds": 1509.91
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "hi i am rafael. i am 21 and live in são paulo. i speak portuges but i try english for jobs. i like food factorys and want lern about safe food."
+    },
+    {
+      "question": "\"Could you share your highest level of education, how many years of work experience you have, and if you're open to relocating for a job?\"",
+      "answer": "i did ensino fundamental. no jobs yet but i want train. i cant move, my famly is here. can i lern how to make food safe in factory? they let studnts touh the mashines?"
+    },
+    {
+      "question": "\"Have you looked into any specific training programs or certifications in food safety that could help you qualify for factory jobs?\"",
+      "answer": "no i dont know names. but i see videos of food lines and its cool. i can lern fast if i see the food lines? maybe a short course for beginers? i dont have money for big school."
+    },
+    {
+      "question": "\"Would you be interested in free or low-cost online courses or apprenticeships that teach food safety and factory operations?\"",
+      "answer": "yes! free is good. but i like see real food lines not just video. maybe a place where i can watch and help little? i promiss be careful. i dont break nothing."
+    }
+  ],
+  "persona_profile": {
+    "age": 21,
+    "city": "são paulo",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "food factory interest",
+      "food safety interest",
+      "quick learner"
+    ],
+    "goals": "Learn about safe food and work in a food factory",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_jobs",
+  "intermediate_recommendations": {
+    "predicted_type": "jobs+trainings",
+    "jobs": []
+  },
+  "final_recommendation": {
+    "persona_id": "persona_001",
+    "predicted_type": "jobs+trainings",
+    "jobs": []
+  }
+}

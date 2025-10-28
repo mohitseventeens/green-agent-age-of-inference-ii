@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_071",
+  "final_profile": {
+    "persona_id": "persona_071",
+    "age": 26,
+    "city": null,
+    "education_level": "Técnico em mecânica",
+    "experience_years": 3,
+    "skills": [
+      "Manutenção de motocicletas",
+      "Diagnóstico de problemas mecânicos",
+      "Reparo de motores"
+    ],
+    "goals": "Aprender sobre manutenção de veículos elétricos, especialmente motocicletas, para trabalhar em uma área que combine paixão por veículos com sustentabilidade e tecnologias do futuro.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hello. I’m André Araújo, 26 years old. I speak Portuguese and a bit of English. I’m from a small town in Brazil, but I’m open to relocating for work. I’ve always liked working with vehicles, especially motorcycles."
+    },
+    {
+      "question": "That’s great that you enjoy working with vehicles! To better match you with opportunities, could you share your highest level of education and how many years of experience you have with motorcycles or related work?",
+      "answer": "I finished my Técnico course in mechanics. And I have about 3 years of experience, mostly helping my father with motorcycle repairs and some work in a small workshop."
+    },
+    {
+      "question": "What kind of green jobs related to motorcycles or mechanics have you considered or heard about that interest you the most? For example, electric vehicle maintenance, sustainable transportation, or recycling parts?",
+      "answer": "I’m not sure about \"green jobs\" exactly, but I’ve heard about electric motorcycles and how they need different maintenance. I’d like to learn more about that—maybe diagnosing issues in electric systems or testing performance. I just want to work with vehicles and machinery, but in a way that’s also good for the future."
+    },
+    {
+      "question": "That’s a great direction! Have you had any hands-on experience with electric vehicles or taken any courses on electric systems, batteries, or sustainable tech—even if just out of personal interest?",
+      "answer": "No, not yet. I’ve only worked with regular motorcycles and engines. But I’m really interested in learning about electric systems. I think it’s the future, and I’d like to be part of that. Maybe a course or training could help me start."
+    }
+  ]
+}

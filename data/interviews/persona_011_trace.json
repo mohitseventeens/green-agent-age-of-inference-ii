@@ -1,0 +1,39 @@
+{
+  "persona_id": "persona_011",
+  "final_profile": {
+    "persona_id": "persona_011",
+    "age": 25,
+    "city": "Recife",
+    "education_level": "Tecnólogo em Design de Interiores",
+    "experience_years": 0,
+    "skills": [
+      "Visual Presentation (basic)",
+      "Portuguese (native)",
+      "English (intermediate)"
+    ],
+    "goals": "Exploring career opportunities in Tourism, Visual Arts, or Insurance in Recife, with a preference for roles that connect with people, culture, or local history. Seeking clarity on day-to-day responsibilities and training requirements before committing to a field.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Felipe Carvalho, 25 years old, and I live in Recife. My native language is Portuguese, but I can speak English like this. I’m still figuring out my career path—right now, I’m curious about Tourism, Visual Arts, and Insurance, but I can’t decide yet. I need to hear about all three first."
+    },
+    {
+      "question": "That’s great that you’re exploring different fields! To help narrow down the best opportunities for you, could you share your highest level of education completed and whether you’d be open to relocating for the right job?",
+      "answer": "I completed a *Tecnólogo* degree here in Brazil. As for relocating, I’d prefer to stay in Recife—I like the culture and the pace of life here. But I’m open to hearing about opportunities in all three fields, as long as they don’t require moving. Could you tell me more about how each of these areas works? Maybe start with Tourism?"
+    },
+    {
+      "question": "That’s a great starting point! Since you mentioned your *Tecnólogo* degree, could you tell me what field it was in—or if it included any coursework or skills related to Tourism, Visual Arts, or Insurance? That might help us connect your background to the right opportunities.",
+      "answer": "My *Tecnólogo* was in **Design de Interiores**, but it was very general—mostly theory, not much hands-on work. I didn’t specialize in anything yet, which is why I’m still exploring. The course touched a little on visual presentation, but nothing deep in arts or techniques.\n\nI don’t have direct experience in Tourism or Insurance, though. That’s why I want to understand all three before making a choice. Could you explain how Tourism works as a career here in Recife? For example, what kinds of roles exist, and what skills do they require?"
+    },
+    {
+      "question": "Got it! Since you’re curious about Tourism in Recife, what kind of work environment appeals to you most—something fast-paced like event planning or tour guiding, or a more structured role like hotel management or travel agency operations?",
+      "answer": "I’m not sure yet—I’ve never worked in Tourism. But I like the idea of something that connects with people and culture, since I enjoy traveling. Maybe a role that lets me share the history or art of Recife with visitors? Though I’d need to understand the day-to-day first.\n\nBefore I decide, I’d still like to hear about Visual Arts and Insurance too. How do those fields compare in terms of training or job stability here?"
+    }
+  ]
+}

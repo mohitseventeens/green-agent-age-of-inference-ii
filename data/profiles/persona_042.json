@@ -1,0 +1,20 @@
+{
+  "age": 28,
+  "city": "Salvador",
+  "education_level": "Tecnólogo",
+  "experience_years": 1,
+  "skills": [
+    "Tourism Marketing (Basic)",
+    "Canva (Basic Design)",
+    "Meta Ads (Basic Promotions)",
+    "Cultural Event Interest (Heritage & Festivals)",
+    "Handicrafts (Cooking, Sewing, Furniture Repair)",
+    "Samba Dance"
+  ],
+  "goals": "Understand if a marketing and promotion training for tourism (with focus on cultural heritage/event promotion in Salvador) will lead to tangible job opportunities, particularly in roles requiring practical digital skills (e.g., social media campaigns, local business partnerships). Seeks training with real-world applicability to Salvador’s tourism sector, avoiding theoretical content.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

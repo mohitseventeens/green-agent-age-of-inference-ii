@@ -1,0 +1,3034 @@
+{
+  "persona_id": "persona_002",
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hello! I’m Mariana Costa, 21 years old, and I live in Recife. I speak Portuguese and a little English. Right now, I’m looking for a training in waste reduction in the food industry."
+    },
+    {
+      "question": "What specific skills or experience do you have that you’d like to highlight for this training?",
+      "answer": "I have a technical background but no work experience yet. I’m most interested in waste reduction because I want to learn how to measure and cut losses in food production. Practical methods are what I need."
+    },
+    {
+      "question": "\"Have you completed any relevant coursework or certifications related to sustainability or food production that could support your application for this training?\"",
+      "answer": "I finished a técnico course, but it didn’t focus on sustainability. That’s why I want a training just on waste reduction—so I can learn how to apply it in real food production. Do you know if the training includes hands-on practice?"
+    },
+    {
+      "question": "\"Could you share more about your técnico course background? What specific skills or knowledge from it might be relevant to waste reduction in the food industry?\"",
+      "answer": "In my técnico course, I learned basics of food handling and production processes. Things like storage, hygiene, and inventory control. I think this helps me understand where waste can happen, but I still need to learn how to actually reduce it in practice. That’s why I want a training focused on that."
+    }
+  ],
+  "persona_profile": {
+    "age": 21,
+    "city": "Recife",
+    "education_level": "Técnico",
+    "experience_years": 0,
+    "skills": [
+      "food handling",
+      "production processes",
+      "storage",
+      "hygiene",
+      "inventory control"
+    ],
+    "goals": "Learn how to measure and cut losses in food production through waste reduction training.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "intermediate_recommendations": {
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr0"
+      },
+      {
+        "training_id": "tr1"
+      },
+      {
+        "training_id": "tr10"
+      },
+      {
+        "training_id": "tr100"
+      },
+      {
+        "training_id": "tr101"
+      },
+      {
+        "training_id": "tr102"
+      },
+      {
+        "training_id": "tr103"
+      },
+      {
+        "training_id": "tr104"
+      },
+      {
+        "training_id": "tr105"
+      },
+      {
+        "training_id": "tr106"
+      },
+      {
+        "training_id": "tr107"
+      },
+      {
+        "training_id": "tr108"
+      },
+      {
+        "training_id": "tr109"
+      },
+      {
+        "training_id": "tr11"
+      },
+      {
+        "training_id": "tr110"
+      },
+      {
+        "training_id": "tr111"
+      },
+      {
+        "training_id": "tr112"
+      },
+      {
+        "training_id": "tr113"
+      },
+      {
+        "training_id": "tr114"
+      },
+      {
+        "training_id": "tr115"
+      },
+      {
+        "training_id": "tr116"
+      },
+      {
+        "training_id": "tr117"
+      },
+      {
+        "training_id": "tr118"
+      },
+      {
+        "training_id": "tr119"
+      },
+      {
+        "training_id": "tr12"
+      },
+      {
+        "training_id": "tr120"
+      },
+      {
+        "training_id": "tr121"
+      },
+      {
+        "training_id": "tr122"
+      },
+      {
+        "training_id": "tr123"
+      },
+      {
+        "training_id": "tr124"
+      },
+      {
+        "training_id": "tr125"
+      },
+      {
+        "training_id": "tr126"
+      },
+      {
+        "training_id": "tr127"
+      },
+      {
+        "training_id": "tr128"
+      },
+      {
+        "training_id": "tr129"
+      },
+      {
+        "training_id": "tr13"
+      },
+      {
+        "training_id": "tr130"
+      },
+      {
+        "training_id": "tr131"
+      },
+      {
+        "training_id": "tr132"
+      },
+      {
+        "training_id": "tr133"
+      },
+      {
+        "training_id": "tr134"
+      },
+      {
+        "training_id": "tr135"
+      },
+      {
+        "training_id": "tr136"
+      },
+      {
+        "training_id": "tr137"
+      },
+      {
+        "training_id": "tr138"
+      },
+      {
+        "training_id": "tr139"
+      },
+      {
+        "training_id": "tr14"
+      },
+      {
+        "training_id": "tr140"
+      },
+      {
+        "training_id": "tr141"
+      },
+      {
+        "training_id": "tr142"
+      },
+      {
+        "training_id": "tr143"
+      },
+      {
+        "training_id": "tr144"
+      },
+      {
+        "training_id": "tr145"
+      },
+      {
+        "training_id": "tr146"
+      },
+      {
+        "training_id": "tr147"
+      },
+      {
+        "training_id": "tr148"
+      },
+      {
+        "training_id": "tr149"
+      },
+      {
+        "training_id": "tr15"
+      },
+      {
+        "training_id": "tr150"
+      },
+      {
+        "training_id": "tr151"
+      },
+      {
+        "training_id": "tr152"
+      },
+      {
+        "training_id": "tr153"
+      },
+      {
+        "training_id": "tr154"
+      },
+      {
+        "training_id": "tr155"
+      },
+      {
+        "training_id": "tr156"
+      },
+      {
+        "training_id": "tr157"
+      },
+      {
+        "training_id": "tr158"
+      },
+      {
+        "training_id": "tr159"
+      },
+      {
+        "training_id": "tr16"
+      },
+      {
+        "training_id": "tr160"
+      },
+      {
+        "training_id": "tr161"
+      },
+      {
+        "training_id": "tr162"
+      },
+      {
+        "training_id": "tr163"
+      },
+      {
+        "training_id": "tr164"
+      },
+      {
+        "training_id": "tr165"
+      },
+      {
+        "training_id": "tr166"
+      },
+      {
+        "training_id": "tr167"
+      },
+      {
+        "training_id": "tr168"
+      },
+      {
+        "training_id": "tr169"
+      },
+      {
+        "training_id": "tr17"
+      },
+      {
+        "training_id": "tr170"
+      },
+      {
+        "training_id": "tr171"
+      },
+      {
+        "training_id": "tr172"
+      },
+      {
+        "training_id": "tr173"
+      },
+      {
+        "training_id": "tr174"
+      },
+      {
+        "training_id": "tr175"
+      },
+      {
+        "training_id": "tr176"
+      },
+      {
+        "training_id": "tr177"
+      },
+      {
+        "training_id": "tr178"
+      },
+      {
+        "training_id": "tr179"
+      },
+      {
+        "training_id": "tr18"
+      },
+      {
+        "training_id": "tr180"
+      },
+      {
+        "training_id": "tr181"
+      },
+      {
+        "training_id": "tr182"
+      },
+      {
+        "training_id": "tr183"
+      },
+      {
+        "training_id": "tr184"
+      },
+      {
+        "training_id": "tr185"
+      },
+      {
+        "training_id": "tr186"
+      },
+      {
+        "training_id": "tr187"
+      },
+      {
+        "training_id": "tr188"
+      },
+      {
+        "training_id": "tr189"
+      },
+      {
+        "training_id": "tr19"
+      },
+      {
+        "training_id": "tr190"
+      },
+      {
+        "training_id": "tr191"
+      },
+      {
+        "training_id": "tr192"
+      },
+      {
+        "training_id": "tr193"
+      },
+      {
+        "training_id": "tr194"
+      },
+      {
+        "training_id": "tr195"
+      },
+      {
+        "training_id": "tr196"
+      },
+      {
+        "training_id": "tr197"
+      },
+      {
+        "training_id": "tr198"
+      },
+      {
+        "training_id": "tr199"
+      },
+      {
+        "training_id": "tr2"
+      },
+      {
+        "training_id": "tr20"
+      },
+      {
+        "training_id": "tr200"
+      },
+      {
+        "training_id": "tr201"
+      },
+      {
+        "training_id": "tr202"
+      },
+      {
+        "training_id": "tr203"
+      },
+      {
+        "training_id": "tr204"
+      },
+      {
+        "training_id": "tr205"
+      },
+      {
+        "training_id": "tr206"
+      },
+      {
+        "training_id": "tr207"
+      },
+      {
+        "training_id": "tr208"
+      },
+      {
+        "training_id": "tr209"
+      },
+      {
+        "training_id": "tr21"
+      },
+      {
+        "training_id": "tr210"
+      },
+      {
+        "training_id": "tr211"
+      },
+      {
+        "training_id": "tr212"
+      },
+      {
+        "training_id": "tr213"
+      },
+      {
+        "training_id": "tr214"
+      },
+      {
+        "training_id": "tr215"
+      },
+      {
+        "training_id": "tr216"
+      },
+      {
+        "training_id": "tr217"
+      },
+      {
+        "training_id": "tr218"
+      },
+      {
+        "training_id": "tr219"
+      },
+      {
+        "training_id": "tr22"
+      },
+      {
+        "training_id": "tr220"
+      },
+      {
+        "training_id": "tr221"
+      },
+      {
+        "training_id": "tr222"
+      },
+      {
+        "training_id": "tr223"
+      },
+      {
+        "training_id": "tr224"
+      },
+      {
+        "training_id": "tr225"
+      },
+      {
+        "training_id": "tr226"
+      },
+      {
+        "training_id": "tr227"
+      },
+      {
+        "training_id": "tr228"
+      },
+      {
+        "training_id": "tr229"
+      },
+      {
+        "training_id": "tr23"
+      },
+      {
+        "training_id": "tr230"
+      },
+      {
+        "training_id": "tr231"
+      },
+      {
+        "training_id": "tr232"
+      },
+      {
+        "training_id": "tr233"
+      },
+      {
+        "training_id": "tr234"
+      },
+      {
+        "training_id": "tr235"
+      },
+      {
+        "training_id": "tr236"
+      },
+      {
+        "training_id": "tr237"
+      },
+      {
+        "training_id": "tr238"
+      },
+      {
+        "training_id": "tr239"
+      },
+      {
+        "training_id": "tr24"
+      },
+      {
+        "training_id": "tr240"
+      },
+      {
+        "training_id": "tr241"
+      },
+      {
+        "training_id": "tr242"
+      },
+      {
+        "training_id": "tr243"
+      },
+      {
+        "training_id": "tr244"
+      },
+      {
+        "training_id": "tr245"
+      },
+      {
+        "training_id": "tr246"
+      },
+      {
+        "training_id": "tr247"
+      },
+      {
+        "training_id": "tr248"
+      },
+      {
+        "training_id": "tr249"
+      },
+      {
+        "training_id": "tr25"
+      },
+      {
+        "training_id": "tr250"
+      },
+      {
+        "training_id": "tr251"
+      },
+      {
+        "training_id": "tr252"
+      },
+      {
+        "training_id": "tr253"
+      },
+      {
+        "training_id": "tr254"
+      },
+      {
+        "training_id": "tr255"
+      },
+      {
+        "training_id": "tr256"
+      },
+      {
+        "training_id": "tr257"
+      },
+      {
+        "training_id": "tr258"
+      },
+      {
+        "training_id": "tr259"
+      },
+      {
+        "training_id": "tr26"
+      },
+      {
+        "training_id": "tr260"
+      },
+      {
+        "training_id": "tr261"
+      },
+      {
+        "training_id": "tr262"
+      },
+      {
+        "training_id": "tr263"
+      },
+      {
+        "training_id": "tr264"
+      },
+      {
+        "training_id": "tr265"
+      },
+      {
+        "training_id": "tr266"
+      },
+      {
+        "training_id": "tr267"
+      },
+      {
+        "training_id": "tr268"
+      },
+      {
+        "training_id": "tr269"
+      },
+      {
+        "training_id": "tr27"
+      },
+      {
+        "training_id": "tr270"
+      },
+      {
+        "training_id": "tr271"
+      },
+      {
+        "training_id": "tr272"
+      },
+      {
+        "training_id": "tr273"
+      },
+      {
+        "training_id": "tr274"
+      },
+      {
+        "training_id": "tr275"
+      },
+      {
+        "training_id": "tr276"
+      },
+      {
+        "training_id": "tr277"
+      },
+      {
+        "training_id": "tr278"
+      },
+      {
+        "training_id": "tr279"
+      },
+      {
+        "training_id": "tr28"
+      },
+      {
+        "training_id": "tr280"
+      },
+      {
+        "training_id": "tr281"
+      },
+      {
+        "training_id": "tr282"
+      },
+      {
+        "training_id": "tr283"
+      },
+      {
+        "training_id": "tr284"
+      },
+      {
+        "training_id": "tr285"
+      },
+      {
+        "training_id": "tr286"
+      },
+      {
+        "training_id": "tr287"
+      },
+      {
+        "training_id": "tr288"
+      },
+      {
+        "training_id": "tr289"
+      },
+      {
+        "training_id": "tr29"
+      },
+      {
+        "training_id": "tr290"
+      },
+      {
+        "training_id": "tr291"
+      },
+      {
+        "training_id": "tr292"
+      },
+      {
+        "training_id": "tr293"
+      },
+      {
+        "training_id": "tr294"
+      },
+      {
+        "training_id": "tr295"
+      },
+      {
+        "training_id": "tr296"
+      },
+      {
+        "training_id": "tr297"
+      },
+      {
+        "training_id": "tr298"
+      },
+      {
+        "training_id": "tr299"
+      },
+      {
+        "training_id": "tr3"
+      },
+      {
+        "training_id": "tr30"
+      },
+      {
+        "training_id": "tr300"
+      },
+      {
+        "training_id": "tr301"
+      },
+      {
+        "training_id": "tr302"
+      },
+      {
+        "training_id": "tr303"
+      },
+      {
+        "training_id": "tr304"
+      },
+      {
+        "training_id": "tr305"
+      },
+      {
+        "training_id": "tr306"
+      },
+      {
+        "training_id": "tr307"
+      },
+      {
+        "training_id": "tr308"
+      },
+      {
+        "training_id": "tr309"
+      },
+      {
+        "training_id": "tr31"
+      },
+      {
+        "training_id": "tr310"
+      },
+      {
+        "training_id": "tr311"
+      },
+      {
+        "training_id": "tr312"
+      },
+      {
+        "training_id": "tr313"
+      },
+      {
+        "training_id": "tr314"
+      },
+      {
+        "training_id": "tr315"
+      },
+      {
+        "training_id": "tr316"
+      },
+      {
+        "training_id": "tr317"
+      },
+      {
+        "training_id": "tr318"
+      },
+      {
+        "training_id": "tr319"
+      },
+      {
+        "training_id": "tr32"
+      },
+      {
+        "training_id": "tr320"
+      },
+      {
+        "training_id": "tr321"
+      },
+      {
+        "training_id": "tr322"
+      },
+      {
+        "training_id": "tr323"
+      },
+      {
+        "training_id": "tr324"
+      },
+      {
+        "training_id": "tr325"
+      },
+      {
+        "training_id": "tr326"
+      },
+      {
+        "training_id": "tr327"
+      },
+      {
+        "training_id": "tr328"
+      },
+      {
+        "training_id": "tr329"
+      },
+      {
+        "training_id": "tr33"
+      },
+      {
+        "training_id": "tr330"
+      },
+      {
+        "training_id": "tr331"
+      },
+      {
+        "training_id": "tr332"
+      },
+      {
+        "training_id": "tr333"
+      },
+      {
+        "training_id": "tr334"
+      },
+      {
+        "training_id": "tr335"
+      },
+      {
+        "training_id": "tr336"
+      },
+      {
+        "training_id": "tr337"
+      },
+      {
+        "training_id": "tr338"
+      },
+      {
+        "training_id": "tr339"
+      },
+      {
+        "training_id": "tr34"
+      },
+      {
+        "training_id": "tr340"
+      },
+      {
+        "training_id": "tr341"
+      },
+      {
+        "training_id": "tr342"
+      },
+      {
+        "training_id": "tr343"
+      },
+      {
+        "training_id": "tr344"
+      },
+      {
+        "training_id": "tr345"
+      },
+      {
+        "training_id": "tr346"
+      },
+      {
+        "training_id": "tr347"
+      },
+      {
+        "training_id": "tr348"
+      },
+      {
+        "training_id": "tr349"
+      },
+      {
+        "training_id": "tr35"
+      },
+      {
+        "training_id": "tr350"
+      },
+      {
+        "training_id": "tr351"
+      },
+      {
+        "training_id": "tr352"
+      },
+      {
+        "training_id": "tr353"
+      },
+      {
+        "training_id": "tr354"
+      },
+      {
+        "training_id": "tr355"
+      },
+      {
+        "training_id": "tr356"
+      },
+      {
+        "training_id": "tr357"
+      },
+      {
+        "training_id": "tr358"
+      },
+      {
+        "training_id": "tr359"
+      },
+      {
+        "training_id": "tr36"
+      },
+      {
+        "training_id": "tr360"
+      },
+      {
+        "training_id": "tr361"
+      },
+      {
+        "training_id": "tr362"
+      },
+      {
+        "training_id": "tr363"
+      },
+      {
+        "training_id": "tr364"
+      },
+      {
+        "training_id": "tr365"
+      },
+      {
+        "training_id": "tr366"
+      },
+      {
+        "training_id": "tr367"
+      },
+      {
+        "training_id": "tr368"
+      },
+      {
+        "training_id": "tr369"
+      },
+      {
+        "training_id": "tr37"
+      },
+      {
+        "training_id": "tr370"
+      },
+      {
+        "training_id": "tr371"
+      },
+      {
+        "training_id": "tr372"
+      },
+      {
+        "training_id": "tr373"
+      },
+      {
+        "training_id": "tr374"
+      },
+      {
+        "training_id": "tr375"
+      },
+      {
+        "training_id": "tr376"
+      },
+      {
+        "training_id": "tr377"
+      },
+      {
+        "training_id": "tr378"
+      },
+      {
+        "training_id": "tr379"
+      },
+      {
+        "training_id": "tr38"
+      },
+      {
+        "training_id": "tr380"
+      },
+      {
+        "training_id": "tr381"
+      },
+      {
+        "training_id": "tr382"
+      },
+      {
+        "training_id": "tr383"
+      },
+      {
+        "training_id": "tr384"
+      },
+      {
+        "training_id": "tr385"
+      },
+      {
+        "training_id": "tr386"
+      },
+      {
+        "training_id": "tr387"
+      },
+      {
+        "training_id": "tr388"
+      },
+      {
+        "training_id": "tr389"
+      },
+      {
+        "training_id": "tr39"
+      },
+      {
+        "training_id": "tr390"
+      },
+      {
+        "training_id": "tr391"
+      },
+      {
+        "training_id": "tr392"
+      },
+      {
+        "training_id": "tr393"
+      },
+      {
+        "training_id": "tr394"
+      },
+      {
+        "training_id": "tr395"
+      },
+      {
+        "training_id": "tr396"
+      },
+      {
+        "training_id": "tr397"
+      },
+      {
+        "training_id": "tr398"
+      },
+      {
+        "training_id": "tr399"
+      },
+      {
+        "training_id": "tr4"
+      },
+      {
+        "training_id": "tr40"
+      },
+      {
+        "training_id": "tr400"
+      },
+      {
+        "training_id": "tr401"
+      },
+      {
+        "training_id": "tr402"
+      },
+      {
+        "training_id": "tr403"
+      },
+      {
+        "training_id": "tr404"
+      },
+      {
+        "training_id": "tr405"
+      },
+      {
+        "training_id": "tr406"
+      },
+      {
+        "training_id": "tr407"
+      },
+      {
+        "training_id": "tr408"
+      },
+      {
+        "training_id": "tr409"
+      },
+      {
+        "training_id": "tr41"
+      },
+      {
+        "training_id": "tr410"
+      },
+      {
+        "training_id": "tr411"
+      },
+      {
+        "training_id": "tr412"
+      },
+      {
+        "training_id": "tr413"
+      },
+      {
+        "training_id": "tr414"
+      },
+      {
+        "training_id": "tr415"
+      },
+      {
+        "training_id": "tr416"
+      },
+      {
+        "training_id": "tr417"
+      },
+      {
+        "training_id": "tr418"
+      },
+      {
+        "training_id": "tr419"
+      },
+      {
+        "training_id": "tr42"
+      },
+      {
+        "training_id": "tr420"
+      },
+      {
+        "training_id": "tr421"
+      },
+      {
+        "training_id": "tr422"
+      },
+      {
+        "training_id": "tr423"
+      },
+      {
+        "training_id": "tr424"
+      },
+      {
+        "training_id": "tr425"
+      },
+      {
+        "training_id": "tr426"
+      },
+      {
+        "training_id": "tr427"
+      },
+      {
+        "training_id": "tr428"
+      },
+      {
+        "training_id": "tr429"
+      },
+      {
+        "training_id": "tr43"
+      },
+      {
+        "training_id": "tr430"
+      },
+      {
+        "training_id": "tr431"
+      },
+      {
+        "training_id": "tr432"
+      },
+      {
+        "training_id": "tr433"
+      },
+      {
+        "training_id": "tr434"
+      },
+      {
+        "training_id": "tr435"
+      },
+      {
+        "training_id": "tr436"
+      },
+      {
+        "training_id": "tr437"
+      },
+      {
+        "training_id": "tr438"
+      },
+      {
+        "training_id": "tr439"
+      },
+      {
+        "training_id": "tr44"
+      },
+      {
+        "training_id": "tr440"
+      },
+      {
+        "training_id": "tr441"
+      },
+      {
+        "training_id": "tr442"
+      },
+      {
+        "training_id": "tr443"
+      },
+      {
+        "training_id": "tr444"
+      },
+      {
+        "training_id": "tr445"
+      },
+      {
+        "training_id": "tr446"
+      },
+      {
+        "training_id": "tr447"
+      },
+      {
+        "training_id": "tr448"
+      },
+      {
+        "training_id": "tr449"
+      },
+      {
+        "training_id": "tr45"
+      },
+      {
+        "training_id": "tr450"
+      },
+      {
+        "training_id": "tr451"
+      },
+      {
+        "training_id": "tr452"
+      },
+      {
+        "training_id": "tr453"
+      },
+      {
+        "training_id": "tr454"
+      },
+      {
+        "training_id": "tr455"
+      },
+      {
+        "training_id": "tr456"
+      },
+      {
+        "training_id": "tr457"
+      },
+      {
+        "training_id": "tr458"
+      },
+      {
+        "training_id": "tr459"
+      },
+      {
+        "training_id": "tr46"
+      },
+      {
+        "training_id": "tr460"
+      },
+      {
+        "training_id": "tr461"
+      },
+      {
+        "training_id": "tr462"
+      },
+      {
+        "training_id": "tr463"
+      },
+      {
+        "training_id": "tr464"
+      },
+      {
+        "training_id": "tr465"
+      },
+      {
+        "training_id": "tr466"
+      },
+      {
+        "training_id": "tr467"
+      },
+      {
+        "training_id": "tr468"
+      },
+      {
+        "training_id": "tr469"
+      },
+      {
+        "training_id": "tr47"
+      },
+      {
+        "training_id": "tr470"
+      },
+      {
+        "training_id": "tr471"
+      },
+      {
+        "training_id": "tr472"
+      },
+      {
+        "training_id": "tr473"
+      },
+      {
+        "training_id": "tr474"
+      },
+      {
+        "training_id": "tr475"
+      },
+      {
+        "training_id": "tr476"
+      },
+      {
+        "training_id": "tr477"
+      },
+      {
+        "training_id": "tr478"
+      },
+      {
+        "training_id": "tr479"
+      },
+      {
+        "training_id": "tr48"
+      },
+      {
+        "training_id": "tr480"
+      },
+      {
+        "training_id": "tr481"
+      },
+      {
+        "training_id": "tr482"
+      },
+      {
+        "training_id": "tr483"
+      },
+      {
+        "training_id": "tr484"
+      },
+      {
+        "training_id": "tr485"
+      },
+      {
+        "training_id": "tr486"
+      },
+      {
+        "training_id": "tr487"
+      },
+      {
+        "training_id": "tr488"
+      },
+      {
+        "training_id": "tr489"
+      },
+      {
+        "training_id": "tr49"
+      },
+      {
+        "training_id": "tr490"
+      },
+      {
+        "training_id": "tr491"
+      },
+      {
+        "training_id": "tr492"
+      },
+      {
+        "training_id": "tr493"
+      },
+      {
+        "training_id": "tr494"
+      },
+      {
+        "training_id": "tr495"
+      },
+      {
+        "training_id": "tr496"
+      },
+      {
+        "training_id": "tr5"
+      },
+      {
+        "training_id": "tr50"
+      },
+      {
+        "training_id": "tr51"
+      },
+      {
+        "training_id": "tr52"
+      },
+      {
+        "training_id": "tr53"
+      },
+      {
+        "training_id": "tr54"
+      },
+      {
+        "training_id": "tr55"
+      },
+      {
+        "training_id": "tr56"
+      },
+      {
+        "training_id": "tr57"
+      },
+      {
+        "training_id": "tr58"
+      },
+      {
+        "training_id": "tr59"
+      },
+      {
+        "training_id": "tr6"
+      },
+      {
+        "training_id": "tr60"
+      },
+      {
+        "training_id": "tr61"
+      },
+      {
+        "training_id": "tr62"
+      },
+      {
+        "training_id": "tr63"
+      },
+      {
+        "training_id": "tr64"
+      },
+      {
+        "training_id": "tr65"
+      },
+      {
+        "training_id": "tr66"
+      },
+      {
+        "training_id": "tr67"
+      },
+      {
+        "training_id": "tr68"
+      },
+      {
+        "training_id": "tr69"
+      },
+      {
+        "training_id": "tr7"
+      },
+      {
+        "training_id": "tr70"
+      },
+      {
+        "training_id": "tr71"
+      },
+      {
+        "training_id": "tr72"
+      },
+      {
+        "training_id": "tr73"
+      },
+      {
+        "training_id": "tr74"
+      },
+      {
+        "training_id": "tr75"
+      },
+      {
+        "training_id": "tr76"
+      },
+      {
+        "training_id": "tr77"
+      },
+      {
+        "training_id": "tr78"
+      },
+      {
+        "training_id": "tr79"
+      },
+      {
+        "training_id": "tr8"
+      },
+      {
+        "training_id": "tr80"
+      },
+      {
+        "training_id": "tr81"
+      },
+      {
+        "training_id": "tr82"
+      },
+      {
+        "training_id": "tr83"
+      },
+      {
+        "training_id": "tr84"
+      },
+      {
+        "training_id": "tr85"
+      },
+      {
+        "training_id": "tr86"
+      },
+      {
+        "training_id": "tr87"
+      },
+      {
+        "training_id": "tr88"
+      },
+      {
+        "training_id": "tr89"
+      },
+      {
+        "training_id": "tr9"
+      },
+      {
+        "training_id": "tr90"
+      },
+      {
+        "training_id": "tr91"
+      },
+      {
+        "training_id": "tr92"
+      },
+      {
+        "training_id": "tr93"
+      },
+      {
+        "training_id": "tr94"
+      },
+      {
+        "training_id": "tr95"
+      },
+      {
+        "training_id": "tr96"
+      },
+      {
+        "training_id": "tr97"
+      },
+      {
+        "training_id": "tr98"
+      },
+      {
+        "training_id": "tr99"
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_002",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr0"
+      },
+      {
+        "training_id": "tr1"
+      },
+      {
+        "training_id": "tr10"
+      },
+      {
+        "training_id": "tr100"
+      },
+      {
+        "training_id": "tr101"
+      },
+      {
+        "training_id": "tr102"
+      },
+      {
+        "training_id": "tr103"
+      },
+      {
+        "training_id": "tr104"
+      },
+      {
+        "training_id": "tr105"
+      },
+      {
+        "training_id": "tr106"
+      },
+      {
+        "training_id": "tr107"
+      },
+      {
+        "training_id": "tr108"
+      },
+      {
+        "training_id": "tr109"
+      },
+      {
+        "training_id": "tr11"
+      },
+      {
+        "training_id": "tr110"
+      },
+      {
+        "training_id": "tr111"
+      },
+      {
+        "training_id": "tr112"
+      },
+      {
+        "training_id": "tr113"
+      },
+      {
+        "training_id": "tr114"
+      },
+      {
+        "training_id": "tr115"
+      },
+      {
+        "training_id": "tr116"
+      },
+      {
+        "training_id": "tr117"
+      },
+      {
+        "training_id": "tr118"
+      },
+      {
+        "training_id": "tr119"
+      },
+      {
+        "training_id": "tr12"
+      },
+      {
+        "training_id": "tr120"
+      },
+      {
+        "training_id": "tr121"
+      },
+      {
+        "training_id": "tr122"
+      },
+      {
+        "training_id": "tr123"
+      },
+      {
+        "training_id": "tr124"
+      },
+      {
+        "training_id": "tr125"
+      },
+      {
+        "training_id": "tr126"
+      },
+      {
+        "training_id": "tr127"
+      },
+      {
+        "training_id": "tr128"
+      },
+      {
+        "training_id": "tr129"
+      },
+      {
+        "training_id": "tr13"
+      },
+      {
+        "training_id": "tr130"
+      },
+      {
+        "training_id": "tr131"
+      },
+      {
+        "training_id": "tr132"
+      },
+      {
+        "training_id": "tr133"
+      },
+      {
+        "training_id": "tr134"
+      },
+      {
+        "training_id": "tr135"
+      },
+      {
+        "training_id": "tr136"
+      },
+      {
+        "training_id": "tr137"
+      },
+      {
+        "training_id": "tr138"
+      },
+      {
+        "training_id": "tr139"
+      },
+      {
+        "training_id": "tr14"
+      },
+      {
+        "training_id": "tr140"
+      },
+      {
+        "training_id": "tr141"
+      },
+      {
+        "training_id": "tr142"
+      },
+      {
+        "training_id": "tr143"
+      },
+      {
+        "training_id": "tr144"
+      },
+      {
+        "training_id": "tr145"
+      },
+      {
+        "training_id": "tr146"
+      },
+      {
+        "training_id": "tr147"
+      },
+      {
+        "training_id": "tr148"
+      },
+      {
+        "training_id": "tr149"
+      },
+      {
+        "training_id": "tr15"
+      },
+      {
+        "training_id": "tr150"
+      },
+      {
+        "training_id": "tr151"
+      },
+      {
+        "training_id": "tr152"
+      },
+      {
+        "training_id": "tr153"
+      },
+      {
+        "training_id": "tr154"
+      },
+      {
+        "training_id": "tr155"
+      },
+      {
+        "training_id": "tr156"
+      },
+      {
+        "training_id": "tr157"
+      },
+      {
+        "training_id": "tr158"
+      },
+      {
+        "training_id": "tr159"
+      },
+      {
+        "training_id": "tr16"
+      },
+      {
+        "training_id": "tr160"
+      },
+      {
+        "training_id": "tr161"
+      },
+      {
+        "training_id": "tr162"
+      },
+      {
+        "training_id": "tr163"
+      },
+      {
+        "training_id": "tr164"
+      },
+      {
+        "training_id": "tr165"
+      },
+      {
+        "training_id": "tr166"
+      },
+      {
+        "training_id": "tr167"
+      },
+      {
+        "training_id": "tr168"
+      },
+      {
+        "training_id": "tr169"
+      },
+      {
+        "training_id": "tr17"
+      },
+      {
+        "training_id": "tr170"
+      },
+      {
+        "training_id": "tr171"
+      },
+      {
+        "training_id": "tr172"
+      },
+      {
+        "training_id": "tr173"
+      },
+      {
+        "training_id": "tr174"
+      },
+      {
+        "training_id": "tr175"
+      },
+      {
+        "training_id": "tr176"
+      },
+      {
+        "training_id": "tr177"
+      },
+      {
+        "training_id": "tr178"
+      },
+      {
+        "training_id": "tr179"
+      },
+      {
+        "training_id": "tr18"
+      },
+      {
+        "training_id": "tr180"
+      },
+      {
+        "training_id": "tr181"
+      },
+      {
+        "training_id": "tr182"
+      },
+      {
+        "training_id": "tr183"
+      },
+      {
+        "training_id": "tr184"
+      },
+      {
+        "training_id": "tr185"
+      },
+      {
+        "training_id": "tr186"
+      },
+      {
+        "training_id": "tr187"
+      },
+      {
+        "training_id": "tr188"
+      },
+      {
+        "training_id": "tr189"
+      },
+      {
+        "training_id": "tr19"
+      },
+      {
+        "training_id": "tr190"
+      },
+      {
+        "training_id": "tr191"
+      },
+      {
+        "training_id": "tr192"
+      },
+      {
+        "training_id": "tr193"
+      },
+      {
+        "training_id": "tr194"
+      },
+      {
+        "training_id": "tr195"
+      },
+      {
+        "training_id": "tr196"
+      },
+      {
+        "training_id": "tr197"
+      },
+      {
+        "training_id": "tr198"
+      },
+      {
+        "training_id": "tr199"
+      },
+      {
+        "training_id": "tr2"
+      },
+      {
+        "training_id": "tr20"
+      },
+      {
+        "training_id": "tr200"
+      },
+      {
+        "training_id": "tr201"
+      },
+      {
+        "training_id": "tr202"
+      },
+      {
+        "training_id": "tr203"
+      },
+      {
+        "training_id": "tr204"
+      },
+      {
+        "training_id": "tr205"
+      },
+      {
+        "training_id": "tr206"
+      },
+      {
+        "training_id": "tr207"
+      },
+      {
+        "training_id": "tr208"
+      },
+      {
+        "training_id": "tr209"
+      },
+      {
+        "training_id": "tr21"
+      },
+      {
+        "training_id": "tr210"
+      },
+      {
+        "training_id": "tr211"
+      },
+      {
+        "training_id": "tr212"
+      },
+      {
+        "training_id": "tr213"
+      },
+      {
+        "training_id": "tr214"
+      },
+      {
+        "training_id": "tr215"
+      },
+      {
+        "training_id": "tr216"
+      },
+      {
+        "training_id": "tr217"
+      },
+      {
+        "training_id": "tr218"
+      },
+      {
+        "training_id": "tr219"
+      },
+      {
+        "training_id": "tr22"
+      },
+      {
+        "training_id": "tr220"
+      },
+      {
+        "training_id": "tr221"
+      },
+      {
+        "training_id": "tr222"
+      },
+      {
+        "training_id": "tr223"
+      },
+      {
+        "training_id": "tr224"
+      },
+      {
+        "training_id": "tr225"
+      },
+      {
+        "training_id": "tr226"
+      },
+      {
+        "training_id": "tr227"
+      },
+      {
+        "training_id": "tr228"
+      },
+      {
+        "training_id": "tr229"
+      },
+      {
+        "training_id": "tr23"
+      },
+      {
+        "training_id": "tr230"
+      },
+      {
+        "training_id": "tr231"
+      },
+      {
+        "training_id": "tr232"
+      },
+      {
+        "training_id": "tr233"
+      },
+      {
+        "training_id": "tr234"
+      },
+      {
+        "training_id": "tr235"
+      },
+      {
+        "training_id": "tr236"
+      },
+      {
+        "training_id": "tr237"
+      },
+      {
+        "training_id": "tr238"
+      },
+      {
+        "training_id": "tr239"
+      },
+      {
+        "training_id": "tr24"
+      },
+      {
+        "training_id": "tr240"
+      },
+      {
+        "training_id": "tr241"
+      },
+      {
+        "training_id": "tr242"
+      },
+      {
+        "training_id": "tr243"
+      },
+      {
+        "training_id": "tr244"
+      },
+      {
+        "training_id": "tr245"
+      },
+      {
+        "training_id": "tr246"
+      },
+      {
+        "training_id": "tr247"
+      },
+      {
+        "training_id": "tr248"
+      },
+      {
+        "training_id": "tr249"
+      },
+      {
+        "training_id": "tr25"
+      },
+      {
+        "training_id": "tr250"
+      },
+      {
+        "training_id": "tr251"
+      },
+      {
+        "training_id": "tr252"
+      },
+      {
+        "training_id": "tr253"
+      },
+      {
+        "training_id": "tr254"
+      },
+      {
+        "training_id": "tr255"
+      },
+      {
+        "training_id": "tr256"
+      },
+      {
+        "training_id": "tr257"
+      },
+      {
+        "training_id": "tr258"
+      },
+      {
+        "training_id": "tr259"
+      },
+      {
+        "training_id": "tr26"
+      },
+      {
+        "training_id": "tr260"
+      },
+      {
+        "training_id": "tr261"
+      },
+      {
+        "training_id": "tr262"
+      },
+      {
+        "training_id": "tr263"
+      },
+      {
+        "training_id": "tr264"
+      },
+      {
+        "training_id": "tr265"
+      },
+      {
+        "training_id": "tr266"
+      },
+      {
+        "training_id": "tr267"
+      },
+      {
+        "training_id": "tr268"
+      },
+      {
+        "training_id": "tr269"
+      },
+      {
+        "training_id": "tr27"
+      },
+      {
+        "training_id": "tr270"
+      },
+      {
+        "training_id": "tr271"
+      },
+      {
+        "training_id": "tr272"
+      },
+      {
+        "training_id": "tr273"
+      },
+      {
+        "training_id": "tr274"
+      },
+      {
+        "training_id": "tr275"
+      },
+      {
+        "training_id": "tr276"
+      },
+      {
+        "training_id": "tr277"
+      },
+      {
+        "training_id": "tr278"
+      },
+      {
+        "training_id": "tr279"
+      },
+      {
+        "training_id": "tr28"
+      },
+      {
+        "training_id": "tr280"
+      },
+      {
+        "training_id": "tr281"
+      },
+      {
+        "training_id": "tr282"
+      },
+      {
+        "training_id": "tr283"
+      },
+      {
+        "training_id": "tr284"
+      },
+      {
+        "training_id": "tr285"
+      },
+      {
+        "training_id": "tr286"
+      },
+      {
+        "training_id": "tr287"
+      },
+      {
+        "training_id": "tr288"
+      },
+      {
+        "training_id": "tr289"
+      },
+      {
+        "training_id": "tr29"
+      },
+      {
+        "training_id": "tr290"
+      },
+      {
+        "training_id": "tr291"
+      },
+      {
+        "training_id": "tr292"
+      },
+      {
+        "training_id": "tr293"
+      },
+      {
+        "training_id": "tr294"
+      },
+      {
+        "training_id": "tr295"
+      },
+      {
+        "training_id": "tr296"
+      },
+      {
+        "training_id": "tr297"
+      },
+      {
+        "training_id": "tr298"
+      },
+      {
+        "training_id": "tr299"
+      },
+      {
+        "training_id": "tr3"
+      },
+      {
+        "training_id": "tr30"
+      },
+      {
+        "training_id": "tr300"
+      },
+      {
+        "training_id": "tr301"
+      },
+      {
+        "training_id": "tr302"
+      },
+      {
+        "training_id": "tr303"
+      },
+      {
+        "training_id": "tr304"
+      },
+      {
+        "training_id": "tr305"
+      },
+      {
+        "training_id": "tr306"
+      },
+      {
+        "training_id": "tr307"
+      },
+      {
+        "training_id": "tr308"
+      },
+      {
+        "training_id": "tr309"
+      },
+      {
+        "training_id": "tr31"
+      },
+      {
+        "training_id": "tr310"
+      },
+      {
+        "training_id": "tr311"
+      },
+      {
+        "training_id": "tr312"
+      },
+      {
+        "training_id": "tr313"
+      },
+      {
+        "training_id": "tr314"
+      },
+      {
+        "training_id": "tr315"
+      },
+      {
+        "training_id": "tr316"
+      },
+      {
+        "training_id": "tr317"
+      },
+      {
+        "training_id": "tr318"
+      },
+      {
+        "training_id": "tr319"
+      },
+      {
+        "training_id": "tr32"
+      },
+      {
+        "training_id": "tr320"
+      },
+      {
+        "training_id": "tr321"
+      },
+      {
+        "training_id": "tr322"
+      },
+      {
+        "training_id": "tr323"
+      },
+      {
+        "training_id": "tr324"
+      },
+      {
+        "training_id": "tr325"
+      },
+      {
+        "training_id": "tr326"
+      },
+      {
+        "training_id": "tr327"
+      },
+      {
+        "training_id": "tr328"
+      },
+      {
+        "training_id": "tr329"
+      },
+      {
+        "training_id": "tr33"
+      },
+      {
+        "training_id": "tr330"
+      },
+      {
+        "training_id": "tr331"
+      },
+      {
+        "training_id": "tr332"
+      },
+      {
+        "training_id": "tr333"
+      },
+      {
+        "training_id": "tr334"
+      },
+      {
+        "training_id": "tr335"
+      },
+      {
+        "training_id": "tr336"
+      },
+      {
+        "training_id": "tr337"
+      },
+      {
+        "training_id": "tr338"
+      },
+      {
+        "training_id": "tr339"
+      },
+      {
+        "training_id": "tr34"
+      },
+      {
+        "training_id": "tr340"
+      },
+      {
+        "training_id": "tr341"
+      },
+      {
+        "training_id": "tr342"
+      },
+      {
+        "training_id": "tr343"
+      },
+      {
+        "training_id": "tr344"
+      },
+      {
+        "training_id": "tr345"
+      },
+      {
+        "training_id": "tr346"
+      },
+      {
+        "training_id": "tr347"
+      },
+      {
+        "training_id": "tr348"
+      },
+      {
+        "training_id": "tr349"
+      },
+      {
+        "training_id": "tr35"
+      },
+      {
+        "training_id": "tr350"
+      },
+      {
+        "training_id": "tr351"
+      },
+      {
+        "training_id": "tr352"
+      },
+      {
+        "training_id": "tr353"
+      },
+      {
+        "training_id": "tr354"
+      },
+      {
+        "training_id": "tr355"
+      },
+      {
+        "training_id": "tr356"
+      },
+      {
+        "training_id": "tr357"
+      },
+      {
+        "training_id": "tr358"
+      },
+      {
+        "training_id": "tr359"
+      },
+      {
+        "training_id": "tr36"
+      },
+      {
+        "training_id": "tr360"
+      },
+      {
+        "training_id": "tr361"
+      },
+      {
+        "training_id": "tr362"
+      },
+      {
+        "training_id": "tr363"
+      },
+      {
+        "training_id": "tr364"
+      },
+      {
+        "training_id": "tr365"
+      },
+      {
+        "training_id": "tr366"
+      },
+      {
+        "training_id": "tr367"
+      },
+      {
+        "training_id": "tr368"
+      },
+      {
+        "training_id": "tr369"
+      },
+      {
+        "training_id": "tr37"
+      },
+      {
+        "training_id": "tr370"
+      },
+      {
+        "training_id": "tr371"
+      },
+      {
+        "training_id": "tr372"
+      },
+      {
+        "training_id": "tr373"
+      },
+      {
+        "training_id": "tr374"
+      },
+      {
+        "training_id": "tr375"
+      },
+      {
+        "training_id": "tr376"
+      },
+      {
+        "training_id": "tr377"
+      },
+      {
+        "training_id": "tr378"
+      },
+      {
+        "training_id": "tr379"
+      },
+      {
+        "training_id": "tr38"
+      },
+      {
+        "training_id": "tr380"
+      },
+      {
+        "training_id": "tr381"
+      },
+      {
+        "training_id": "tr382"
+      },
+      {
+        "training_id": "tr383"
+      },
+      {
+        "training_id": "tr384"
+      },
+      {
+        "training_id": "tr385"
+      },
+      {
+        "training_id": "tr386"
+      },
+      {
+        "training_id": "tr387"
+      },
+      {
+        "training_id": "tr388"
+      },
+      {
+        "training_id": "tr389"
+      },
+      {
+        "training_id": "tr39"
+      },
+      {
+        "training_id": "tr390"
+      },
+      {
+        "training_id": "tr391"
+      },
+      {
+        "training_id": "tr392"
+      },
+      {
+        "training_id": "tr393"
+      },
+      {
+        "training_id": "tr394"
+      },
+      {
+        "training_id": "tr395"
+      },
+      {
+        "training_id": "tr396"
+      },
+      {
+        "training_id": "tr397"
+      },
+      {
+        "training_id": "tr398"
+      },
+      {
+        "training_id": "tr399"
+      },
+      {
+        "training_id": "tr4"
+      },
+      {
+        "training_id": "tr40"
+      },
+      {
+        "training_id": "tr400"
+      },
+      {
+        "training_id": "tr401"
+      },
+      {
+        "training_id": "tr402"
+      },
+      {
+        "training_id": "tr403"
+      },
+      {
+        "training_id": "tr404"
+      },
+      {
+        "training_id": "tr405"
+      },
+      {
+        "training_id": "tr406"
+      },
+      {
+        "training_id": "tr407"
+      },
+      {
+        "training_id": "tr408"
+      },
+      {
+        "training_id": "tr409"
+      },
+      {
+        "training_id": "tr41"
+      },
+      {
+        "training_id": "tr410"
+      },
+      {
+        "training_id": "tr411"
+      },
+      {
+        "training_id": "tr412"
+      },
+      {
+        "training_id": "tr413"
+      },
+      {
+        "training_id": "tr414"
+      },
+      {
+        "training_id": "tr415"
+      },
+      {
+        "training_id": "tr416"
+      },
+      {
+        "training_id": "tr417"
+      },
+      {
+        "training_id": "tr418"
+      },
+      {
+        "training_id": "tr419"
+      },
+      {
+        "training_id": "tr42"
+      },
+      {
+        "training_id": "tr420"
+      },
+      {
+        "training_id": "tr421"
+      },
+      {
+        "training_id": "tr422"
+      },
+      {
+        "training_id": "tr423"
+      },
+      {
+        "training_id": "tr424"
+      },
+      {
+        "training_id": "tr425"
+      },
+      {
+        "training_id": "tr426"
+      },
+      {
+        "training_id": "tr427"
+      },
+      {
+        "training_id": "tr428"
+      },
+      {
+        "training_id": "tr429"
+      },
+      {
+        "training_id": "tr43"
+      },
+      {
+        "training_id": "tr430"
+      },
+      {
+        "training_id": "tr431"
+      },
+      {
+        "training_id": "tr432"
+      },
+      {
+        "training_id": "tr433"
+      },
+      {
+        "training_id": "tr434"
+      },
+      {
+        "training_id": "tr435"
+      },
+      {
+        "training_id": "tr436"
+      },
+      {
+        "training_id": "tr437"
+      },
+      {
+        "training_id": "tr438"
+      },
+      {
+        "training_id": "tr439"
+      },
+      {
+        "training_id": "tr44"
+      },
+      {
+        "training_id": "tr440"
+      },
+      {
+        "training_id": "tr441"
+      },
+      {
+        "training_id": "tr442"
+      },
+      {
+        "training_id": "tr443"
+      },
+      {
+        "training_id": "tr444"
+      },
+      {
+        "training_id": "tr445"
+      },
+      {
+        "training_id": "tr446"
+      },
+      {
+        "training_id": "tr447"
+      },
+      {
+        "training_id": "tr448"
+      },
+      {
+        "training_id": "tr449"
+      },
+      {
+        "training_id": "tr45"
+      },
+      {
+        "training_id": "tr450"
+      },
+      {
+        "training_id": "tr451"
+      },
+      {
+        "training_id": "tr452"
+      },
+      {
+        "training_id": "tr453"
+      },
+      {
+        "training_id": "tr454"
+      },
+      {
+        "training_id": "tr455"
+      },
+      {
+        "training_id": "tr456"
+      },
+      {
+        "training_id": "tr457"
+      },
+      {
+        "training_id": "tr458"
+      },
+      {
+        "training_id": "tr459"
+      },
+      {
+        "training_id": "tr46"
+      },
+      {
+        "training_id": "tr460"
+      },
+      {
+        "training_id": "tr461"
+      },
+      {
+        "training_id": "tr462"
+      },
+      {
+        "training_id": "tr463"
+      },
+      {
+        "training_id": "tr464"
+      },
+      {
+        "training_id": "tr465"
+      },
+      {
+        "training_id": "tr466"
+      },
+      {
+        "training_id": "tr467"
+      },
+      {
+        "training_id": "tr468"
+      },
+      {
+        "training_id": "tr469"
+      },
+      {
+        "training_id": "tr47"
+      },
+      {
+        "training_id": "tr470"
+      },
+      {
+        "training_id": "tr471"
+      },
+      {
+        "training_id": "tr472"
+      },
+      {
+        "training_id": "tr473"
+      },
+      {
+        "training_id": "tr474"
+      },
+      {
+        "training_id": "tr475"
+      },
+      {
+        "training_id": "tr476"
+      },
+      {
+        "training_id": "tr477"
+      },
+      {
+        "training_id": "tr478"
+      },
+      {
+        "training_id": "tr479"
+      },
+      {
+        "training_id": "tr48"
+      },
+      {
+        "training_id": "tr480"
+      },
+      {
+        "training_id": "tr481"
+      },
+      {
+        "training_id": "tr482"
+      },
+      {
+        "training_id": "tr483"
+      },
+      {
+        "training_id": "tr484"
+      },
+      {
+        "training_id": "tr485"
+      },
+      {
+        "training_id": "tr486"
+      },
+      {
+        "training_id": "tr487"
+      },
+      {
+        "training_id": "tr488"
+      },
+      {
+        "training_id": "tr489"
+      },
+      {
+        "training_id": "tr49"
+      },
+      {
+        "training_id": "tr490"
+      },
+      {
+        "training_id": "tr491"
+      },
+      {
+        "training_id": "tr492"
+      },
+      {
+        "training_id": "tr493"
+      },
+      {
+        "training_id": "tr494"
+      },
+      {
+        "training_id": "tr495"
+      },
+      {
+        "training_id": "tr496"
+      },
+      {
+        "training_id": "tr5"
+      },
+      {
+        "training_id": "tr50"
+      },
+      {
+        "training_id": "tr51"
+      },
+      {
+        "training_id": "tr52"
+      },
+      {
+        "training_id": "tr53"
+      },
+      {
+        "training_id": "tr54"
+      },
+      {
+        "training_id": "tr55"
+      },
+      {
+        "training_id": "tr56"
+      },
+      {
+        "training_id": "tr57"
+      },
+      {
+        "training_id": "tr58"
+      },
+      {
+        "training_id": "tr59"
+      },
+      {
+        "training_id": "tr6"
+      },
+      {
+        "training_id": "tr60"
+      },
+      {
+        "training_id": "tr61"
+      },
+      {
+        "training_id": "tr62"
+      },
+      {
+        "training_id": "tr63"
+      },
+      {
+        "training_id": "tr64"
+      },
+      {
+        "training_id": "tr65"
+      },
+      {
+        "training_id": "tr66"
+      },
+      {
+        "training_id": "tr67"
+      },
+      {
+        "training_id": "tr68"
+      },
+      {
+        "training_id": "tr69"
+      },
+      {
+        "training_id": "tr7"
+      },
+      {
+        "training_id": "tr70"
+      },
+      {
+        "training_id": "tr71"
+      },
+      {
+        "training_id": "tr72"
+      },
+      {
+        "training_id": "tr73"
+      },
+      {
+        "training_id": "tr74"
+      },
+      {
+        "training_id": "tr75"
+      },
+      {
+        "training_id": "tr76"
+      },
+      {
+        "training_id": "tr77"
+      },
+      {
+        "training_id": "tr78"
+      },
+      {
+        "training_id": "tr79"
+      },
+      {
+        "training_id": "tr8"
+      },
+      {
+        "training_id": "tr80"
+      },
+      {
+        "training_id": "tr81"
+      },
+      {
+        "training_id": "tr82"
+      },
+      {
+        "training_id": "tr83"
+      },
+      {
+        "training_id": "tr84"
+      },
+      {
+        "training_id": "tr85"
+      },
+      {
+        "training_id": "tr86"
+      },
+      {
+        "training_id": "tr87"
+      },
+      {
+        "training_id": "tr88"
+      },
+      {
+        "training_id": "tr89"
+      },
+      {
+        "training_id": "tr9"
+      },
+      {
+        "training_id": "tr90"
+      },
+      {
+        "training_id": "tr91"
+      },
+      {
+        "training_id": "tr92"
+      },
+      {
+        "training_id": "tr93"
+      },
+      {
+        "training_id": "tr94"
+      },
+      {
+        "training_id": "tr95"
+      },
+      {
+        "training_id": "tr96"
+      },
+      {
+        "training_id": "tr97"
+      },
+      {
+        "training_id": "tr98"
+      },
+      {
+        "training_id": "tr99"
+      }
+    ]
+  }
+}

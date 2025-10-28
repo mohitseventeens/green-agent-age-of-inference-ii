@@ -1,0 +1,19 @@
+{
+  "age": 19,
+  "city": "Brasília",
+  "education_level": "Técnico (Technical Training)",
+  "experience_years": 1,
+  "skills": [
+    "Stage lighting design",
+    "Electrical rigging",
+    "Circuit handling",
+    "Event production (theater/concert)",
+    "Technical blueprint interpretation"
+  ],
+  "goals": "To work in dynamic, live-event environments (e.g., theaters, concert halls) where energy and lighting systems are actively managed, blending technical expertise with creative execution—prioritizing hands-on roles that shape 'wild' electrical currents into controlled, artistic outputs.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "age": 21,
+  "city": "Salvador",
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "process improvement",
+    "problem-solving",
+    "resource optimization",
+    "testing ideas",
+    "collaboration"
+  ],
+  "goals": "To re-enter the workforce with a focus on roles that involve improving processes, ideally with indirect or direct impact on sustainability or social good, while staying in Salvador.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

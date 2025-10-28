@@ -1,0 +1,28 @@
+{
+  "run_timestamp_utc": "2025-10-28T05:44:19.605215",
+  "is_sample_run": false,
+  "sample_size": null,
+  "total_execution_seconds": 1484.01,
+  "parsing_model_used": "mistral-large-latest",
+  "jobs_metadata": {
+    "count_parsed": 200,
+    "total_seconds": 443.82,
+    "avg_seconds_per_job": 2.22
+  },
+  "trainings_metadata": {
+    "count_parsed": 497,
+    "total_seconds": 1040.17,
+    "avg_seconds_per_training": 2.09
+  },
+  "cost_and_tokens": {
+    "total_cost": 1.7225860000000004,
+    "by_model": {
+      "mistral-large-latest": {
+        "calls": 697,
+        "input_tokens": 603491,
+        "output_tokens": 85934,
+        "cost": 1.7225860000000004
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "age": 18,
+  "city": "Salvador",
+  "education_level": "Tecnólogo",
+  "experience_years": 0,
+  "skills": [
+    "Cabling for live shows",
+    "Safety protocols for events"
+  ],
+  "goals": "Start with a steady entry-level role in live show production (e.g., cabling/safety) and gradually take on more responsibilities at a controlled pace.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

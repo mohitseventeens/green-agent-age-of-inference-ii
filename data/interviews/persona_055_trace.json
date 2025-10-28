@@ -1,0 +1,40 @@
+{
+  "persona_id": "persona_055",
+  "final_profile": {
+    "persona_id": "persona_055",
+    "age": 16,
+    "city": "São Paulo",
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "Recepção de hotel",
+      "Atendimento ao cliente",
+      "Multitarefa (em desenvolvimento)",
+      "Inglês básico/intermediário"
+    ],
+    "goals": "Obter treinamento formal em habilidades de recepção hoteleira, especialmente em gerenciamento de multitarefas sob pressão, uso eficiente de sistemas de reserva e atendimento simultâneo a múltiplos hóspedes. Melhorar confiança e precisão em operações de front desk para reduzir erros (ex.: reservas duplicadas).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! I’m Diego, I’m 16 and live in São Paulo—I can’t move, my school and friends are here. I speak Portuguese obviously, and my English is okay, I practiced a lot at the hotel reception I worked at. I really wanna get better at multitasking and front desk stuff, you know? Like, proper training."
+    },
+    {
+      "question": "That’s great you’re already gaining experience! Are you currently in high school, or have you completed any other courses or training programs?",
+      "answer": "Yeah, I’m still in high school, but I already worked 1 year at a hotel reception—so I’m not *completely* new, haha. No courses yet, that’s why I’m looking for a training. My friends don’t even work, but I wanna get serious about this. Multitasking is hard when guests all ask things at once!"
+    },
+    {
+      "question": "What kind of green jobs or industries are you most interested in—like sustainability, eco-tourism, or something else? That way, I can suggest training programs that fit your goals!",
+      "answer": "Oh, uh... I’m not really looking for green jobs? I just want a training for hotel reception, like, to handle front desk and multitasking better. The hotel I worked at was normal, not eco or anything. But if the training has like... recycling tips for guests, that’s cool too, I guess? My focus is really on the reception skills though."
+    },
+    {
+      "question": "Got it! Since you’re focused on improving your reception skills, what specific challenges did you face at the hotel that you’d want the training to help you overcome—like handling difficult guests, managing bookings, or something else?",
+      "answer": "Ugh, the worst was when like *five* guests came at once—one needed a key, another wanted to complain about the Wi-Fi, and then the phone rang for a reservation. I kinda panicked? My hands were shaking while typing, haha. So yeah, training for that multitasking chaos would be amazing. Also, sometimes I forgot to update the system right away and double-booked a room... oops. Need to get smoother at the front desk software too. My old manager said I’m fast but “too nervous”—whatever that means."
+    }
+  ]
+}

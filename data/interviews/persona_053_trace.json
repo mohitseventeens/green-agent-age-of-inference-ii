@@ -1,0 +1,37 @@
+{
+  "persona_id": "persona_053",
+  "final_profile": {
+    "persona_id": "persona_053",
+    "age": 28,
+    "city": "Brasília",
+    "education_level": "técnico em administração",
+    "experience_years": 0,
+    "skills": [
+      "Excel (básico: fórmulas e tabelas simples)"
+    ],
+    "goals": "Buscar treinamento rápido (curso ou certificação) em interpretação de dados e ferramentas como Excel e Power BI para ingressar em cargos juniores de contabilidade ou auditoria, priorizando habilidades práticas para empregabilidade imediata.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (básico)"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Oh, hey! I’m Lucas, 28 years old, and I live in Brasília. I speak Portuguese, obviously, but I can manage basic English too. I’m not really looking for a job yet, though—I wanna focus on training first, you know? Like, something to help me get better at data interpretation for accounting stuff."
+    },
+    {
+      "question": "That’s great that you’re focusing on training! To help point you toward the right programs, what’s the highest level of education you’ve completed so far?",
+      "answer": "Ah, I did a *técnico* course in administration—nothing fancy, but it gave me the basics. Now I just need something more specific, like training in data interpretation or auditing principles, to actually get into accounting roles. You think that’s enough to start, or should I go for more education first?"
+    },
+    {
+      "question": "Got it! Since you’re interested in data interpretation for accounting, do you have any hands-on experience with tools like Excel, Power BI, or accounting software (like QuickBooks or ContaAzul), or would you be starting from scratch?",
+      "answer": "I know the basics of Excel, like formulas and simple tables, but nothing advanced. Power BI or those accounting programs? Never touched ‘em. That’s why I’m looking for training—gotta start somewhere, right? My family keeps saying I should just grab any job, but I wanna do this right. You think a beginner course would cover those tools?"
+    },
+    {
+      "question": "Since you’re aiming for accounting roles with a focus on data, would you prefer a short-term, practical course (like a bootcamp or certification) to quickly build skills in tools like Excel and Power BI, or are you open to a longer program (like a *tecnólogo* degree) that could give you a broader foundation in accounting and auditing?",
+      "answer": "Man, I don’t wanna spend years studying again—I just need something fast to get my foot in the door. A short course or certification sounds perfect, as long as it teaches the stuff companies actually use. Like, if I learn Excel and Power BI well enough, could I really land a junior accounting job after? Or do I *need* more theory first? My friends say I’m overthinking it, but I don’t wanna waste time on the wrong training."
+    }
+  ]
+}

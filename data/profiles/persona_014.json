@@ -1,0 +1,15 @@
+{
+  "age": 17,
+  "city": "Salvador",
+  "education_level": "Ensino Médio",
+  "experience_years": 1,
+  "skills": [
+    "fault finding for events",
+    "event support"
+  ],
+  "goals": "Improve fault-finding skills for live shows through targeted training to resolve issues faster during events.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_064",
+  "final_profile": {
+    "persona_id": "persona_064",
+    "age": 17,
+    "city": "Porto Alegre",
+    "education_level": "Ensino Médio",
+    "experience_years": 2,
+    "skills": [
+      "fraud prevention support",
+      "document verification",
+      "operational tasks"
+    ],
+    "goals": "Exploring and understanding administrative roles in banking or insurance, particularly day-to-day tasks and responsibilities, without immediate job-seeking intent.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Thiago, 17, from Porto Alegre. I speak Portuguese. But I’m not looking for green jobs—I’m curious about administrative work in banking or insurance. Is that mostly office tasks?"
+    },
+    {
+      "question": "That’s great to know! Since you’re exploring administrative roles in banking or insurance, could you share your current education level and whether you’d be open to relocating for the right opportunity?",
+      "answer": "I finished Ensino Médio and have 2 years of experience. I can’t relocate—I need to stay in Porto Alegre."
+    },
+    {
+      "question": "Got it! With your Ensino Médio diploma and two years of experience, what specific administrative skills (like data entry, customer service, or software tools) do you feel most confident using in a banking or insurance role?",
+      "answer": "I worked with fraud prevention support, like checking documents. Also helped with operational tasks, but I’m still learning."
+    },
+    {
+      "question": "That’s a solid foundation in fraud prevention! Since you’re early in your career, would you prefer an entry-level role with training opportunities, or are you looking for a position where you can apply your existing experience right away?",
+      "answer": "I’m not looking for a job right now. Just want to understand what administrative work in banking or insurance is like day to day. Is it a lot of paperwork?"
+    }
+  ]
+}

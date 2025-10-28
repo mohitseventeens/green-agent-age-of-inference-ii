@@ -82,3 +82,22 @@ def test_trainings_returns_empty_when_job_has_no_reqs(sample_persona, sample_job
     sample_job["required_skills"] = []
     missing = get_required_trainings(sample_persona, sample_job)
     assert len(missing) == 0
+
+# --- NEW ---
+def test_filter_passes_on_experience_with_tolerance(sample_persona, sample_job):
+    """
+    Tests that a persona with 0 experience CAN match a job requiring 1 year,
+    due to our new tolerance rule for entry-level positions.
+    """
+    # Arrange
+    sample_persona["experience_years"] = 0
+    sample_job["experience_years"] = 1 # Job requires 1 year
+
+    # Act & Assert
+    assert apply_hard_filters(sample_persona, sample_job) == True, \
+        "Should PASS: Persona with 0 exp should match job with 1 yr req."
+    
+    # Also test the boundary condition
+    sample_job["experience_years"] = 2 # Job requires 2 years
+    assert apply_hard_filters(sample_persona, sample_job) == False, \
+        "Should FAIL: Tolerance should not apply to jobs requiring > 1 yr exp."

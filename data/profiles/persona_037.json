@@ -1,0 +1,20 @@
+{
+  "age": 24,
+  "city": "Recife",
+  "education_level": "Tecnólogo",
+  "experience_years": 2,
+  "skills": [
+    "logistics coordination",
+    "process optimization",
+    "relationship building",
+    "planning and organization",
+    "negotiation",
+    "balancing priorities",
+    "team coordination"
+  ],
+  "goals": "To work in a role that leverages skills in coordination, optimization, and relationship-building—preferably in sustainable logistics or areas where efficiency and collaboration create broader positive impacts, such as reducing waste or improving supply chain sustainability.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

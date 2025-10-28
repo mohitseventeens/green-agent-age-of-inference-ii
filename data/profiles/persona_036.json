@@ -1,0 +1,16 @@
+{
+  "age": 16,
+  "city": "Porto Alegre",
+  "education_level": "Ensino Fundamental",
+  "experience_years": 0,
+  "skills": [
+    "price comparison",
+    "trend analysis",
+    "market observation"
+  ],
+  "goals": "Explore entry-level opportunities in purchasing or procurement, particularly in fast fashion or sustainable retail, with a focus on understanding how companies select products and suppliers.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese"
+  ]
+}

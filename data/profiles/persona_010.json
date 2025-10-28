@@ -1,0 +1,19 @@
+{
+  "age": 26,
+  "city": "São Paulo",
+  "education_level": "graduação (bachelor's degree)",
+  "experience_years": 3,
+  "skills": [
+    "painting",
+    "artistic workshops",
+    "upcycling materials (wood, fabric)",
+    "creative reuse of sustainable materials",
+    "visual storytelling (nature-inspired)"
+  ],
+  "goals": "To integrate artistic passion (painting and nature-inspired visuals) with sustainability, exploring roles where art can promote environmental awareness, upcycling, or urban green spaces—while maintaining creative freedom and reducing waste in the artistic process.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English (basic/conversational, art-related)"
+  ]
+}

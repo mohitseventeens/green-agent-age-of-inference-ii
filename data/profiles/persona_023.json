@@ -1,0 +1,24 @@
+{
+  "age": 20,
+  "city": "Curitiba",
+  "education_level": "graduação técnica",
+  "experience_years": 3,
+  "skills": [
+    "product development (fibers & paper)",
+    "eco-regulations (FSC, EU Ecolabel)",
+    "pulp/paper testing (PFI mill, handsheet molders, tensile/stiffness testers)",
+    "TAPPI/ISO quality control methods",
+    "optical microscopy (fiber morphology)",
+    "LIMS data logging",
+    "Excel for trend analysis",
+    "compliance documentation",
+    "pilot run troubleshooting",
+    "fiber blend formulation"
+  ],
+  "goals": "Secure a full-time R&D or process-focused role in fibers/paper to refine technical expertise in fiber science, advance skills in fiber characterization (e.g., SEM, MorFi) and prototyping software (e.g., FiberLab, OnQ), and develop sustainable paper products that balance performance with compliance demands. Prefers hands-on, innovation-driven environments in smaller teams or mid-sized companies in Curitiba.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

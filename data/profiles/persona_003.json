@@ -1,0 +1,23 @@
+{
+  "age": 26,
+  "city": "Recife",
+  "education_level": "graduação",
+  "experience_years": 2,
+  "skills": [
+    "food waste reduction",
+    "recipe scaling",
+    "material procurement",
+    "quality inspection",
+    "process optimization",
+    "sustainable food practices",
+    "data-driven decision making",
+    "collaboration with local producers",
+    "supply chain efficiency"
+  ],
+  "goals": "To work in a hands-on role within the food industry, focusing on sustainability, waste reduction, and process optimization. Passionate about implementing practical solutions in recipe scaling, quality inspection, and supply chain management to create tangible environmental and operational improvements. Seeks to collaborate with local producers, cooperatives, or companies in Recife that prioritize sustainable practices and holistic food systems.",
+  "is_open_to_relocate": false,
+  "languages": [
+    "Portuguese",
+    "English"
+  ]
+}

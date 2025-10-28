@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_042",
+  "final_profile": {
+    "persona_id": "persona_042",
+    "age": 28,
+    "city": "Salvador",
+    "education_level": "Tecnólogo",
+    "experience_years": 1,
+    "skills": [
+      "Tourism Marketing (Basic)",
+      "Canva (Basic Design)",
+      "Meta Ads (Basic Promotions)",
+      "Cultural Event Interest (Heritage & Festivals)",
+      "Handicrafts (Cooking, Sewing, Furniture Repair)",
+      "Samba Dance"
+    ],
+    "goals": "Understand if a marketing and promotion training for tourism (with focus on cultural heritage/event promotion in Salvador) will lead to tangible job opportunities, particularly in roles requiring practical digital skills (e.g., social media campaigns, local business partnerships). Seeks training with real-world applicability to Salvador’s tourism sector, avoiding theoretical content.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "I’m Patrícia, 28 years old, and I live in Salvador. I speak Portuguese, but I can manage this conversation in English. I’m not looking for a job right now—I’m more interested in understanding if a training in marketing and promotion for tourism would actually help me get better opportunities in that sector. Do you have data on hiring demand for those roles?"
+    },
+    {
+      "question": "That’s a great focus! To give you the most relevant insights, could you share your highest level of education completed and how many years of experience you have in tourism or marketing? Also, would you ever consider relocating for the right opportunity, or do you prefer staying in Salvador?",
+      "answer": "I completed a *Tecnólogo* degree, and I have about a year of experience in tourism marketing—mostly small projects. Relocating isn’t an option for me; I’m committed to staying in Salvador. My concern is whether this training will lead to real job opportunities here. Can you share examples of roles people land after this kind of training, and how quickly?"
+    },
+    {
+      "question": "Got it! To tailor this even further—what specific *type* of tourism sector interests you most in Salvador (e.g., eco-tourism, cultural heritage, luxury/hotel marketing, or event promotion)? That’ll help pinpoint where demand—and training ROI—might be strongest.",
+      "answer": "I’m leaning toward cultural heritage and event promotion, since Salvador has such a strong history and festival scene. But I’m not sure if those areas actually hire more or pay better. Do you know which tourism sectors here have the most job openings? And does the training cover practical skills like social media campaigns or partnerships with local businesses? I don’t want to waste time on theory."
+    },
+    {
+      "question": "Since you’re focused on practical skills—what’s your current comfort level with tools like Meta Ads Manager, Google Analytics, or Canva for creating and tracking campaigns? This’ll help me gauge if the training would fill gaps or just repeat what you already know.",
+      "answer": "I’ve used Canva for basic designs and dabbled in Meta Ads for small promotions, but I wouldn’t call myself confident with analytics or tracking results. My skills are more hands-on otherwise—I cook, sew, dance samba, and even fix furniture sometimes. But for tourism marketing, I know I need stronger digital skills. Does the training include real case studies from Salvador’s cultural events, or is it all generic content? I’d need something that directly applies here."
+    }
+  ]
+}

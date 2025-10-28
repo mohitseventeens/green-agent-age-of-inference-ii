@@ -1,0 +1,41 @@
+{
+  "persona_id": "persona_014",
+  "final_profile": {
+    "persona_id": "persona_014",
+    "age": 17,
+    "city": "Salvador",
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "fault finding for events",
+      "event support"
+    ],
+    "goals": "Improve fault-finding skills for live shows through targeted training to resolve issues faster during events.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Why do you need to know all that? I just want to learn more about fault finding for shows. I’ve helped with small events here in Salvador. That’s all."
+    },
+    {
+      "question": "Got it! Since you’ve worked on small events in Salvador, could you share how long you’ve been doing this kind of work and whether you’d ever consider opportunities outside the city?",
+      "answer": "I’ve been helping for about a year. And no, I’m not leaving Salvador. I just need training to get better at fixing problems fast during shows. That’s it."
+    },
+    {
+      "question": "That makes sense—since you’re looking to build your skills in fault finding, could you tell me how old you are and what your highest level of education is? That’ll help me point you to the right training programs.",
+      "answer": "I’m still in school. Why does my age matter for training? I just want something that teaches me to find and fix faults quickly. No delays, no extra questions."
+    },
+    {
+      "question": "Since you’re still in school, which grade or year are you currently in? That way, I can suggest training that fits your schedule and level.",
+      "answer": "Ensino Médio. Look, I don’t have time for school talk—I just need training that makes me faster at fixing issues during shows. Can you help with that or not?"
+    },
+    {
+      "question": "Got it—since you're in *Ensino Médio*, would you say you’re closer to 16 or 18? That’ll help me find hands-on training that matches your experience level.",
+      "answer": "Why does it matter? I’ve already helped with events. Just tell me where I can train to get better at fault finding. No more questions."
+    }
+  ]
+}

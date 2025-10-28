@@ -1,0 +1,38 @@
+{
+  "persona_id": "persona_068",
+  "final_profile": {
+    "persona_id": "persona_068",
+    "age": 13,
+    "city": "Belo Horizonte",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Basic mechanical curiosity (engines, tools)",
+      "Observational learning (videos, diagrams)",
+      "Safety awareness interest"
+    ],
+    "goals": "To start learning foundational mechanical skills through beginner-friendly courses or workshops, focusing on tool safety and engine basics in Belo Horizonte.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "conversation_history": [
+    {
+      "question": "Hello! To help you find the right green job opportunities, could you please tell me a bit about yourself? For example, your age, languages and current city in Brazil.",
+      "answer": "Hi! I’m Patrícia, I live in Belo Horizonte, and I speak Portuguese. I really like how machines work, especially engines—they seem like big puzzles! Do you know how people start learning about them?"
+    },
+    {
+      "question": "That’s a great interest in engines! To point you toward the best opportunities—whether it’s apprenticeships, technical courses, or jobs—could you share your age, your highest level of education so far, and if you’ve had any hands-on experience (even informal) with machinery or engines? Also, would you be open to moving to another city for the right opportunity?",
+      "answer": "I’m still in school—Ensino Fundamental—and I haven’t worked with engines yet, just watched videos and doodled how I think parts fit together. I can’t move from Belo Horizonte, but maybe there’s a simple course here to start? Like learning tool names or safety first? What do you think is the easiest way to begin?"
+    },
+    {
+      "question": "Just to check—how old are you currently? That’ll help me suggest the best beginner-friendly options for your age group in Belo Horizonte.",
+      "answer": "I’m 13. I know I’m young, but I really want to learn the safe, basic things first—like how to hold tools right or how an engine’s rhythm works, kind of like music but with metal! Could there be a workshop for beginners my age?"
+    },
+    {
+      "question": "That’s awesome that you’re so curious at 13! Do your parents or guardians support your interest in engines, and would they be able to help you find (or even join you in) a local beginner’s workshop or course?",
+      "answer": "They think it’s cool I like engines! My dad sometimes shows me his toolbox, but we don’t know where to look for a real course. Maybe something like “Intro to Vehicle Mechanics for Youth”? Or just a class on tool safety? Do those exist in Belo Horizonte? I could ask my parents to help sign me up!"
+    }
+  ]
+}
