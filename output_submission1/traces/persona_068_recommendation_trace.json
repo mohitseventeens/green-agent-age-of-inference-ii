@@ -1,0 +1,27 @@
+{
+  "persona_id": "persona_068",
+  "persona_profile": {
+    "persona_id": "persona_068",
+    "age": 13,
+    "city": "Belo Horizonte",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Basic mechanical curiosity (engines, tools)",
+      "Observational learning (videos, diagrams)",
+      "Safety awareness interest"
+    ],
+    "goals": "To start learning foundational mechanical skills through beginner-friendly courses or workshops, focusing on tool safety and engine basics in Belo Horizonte.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_young",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_068",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "persona_id": "persona_057",
+  "persona_profile": {
+    "persona_id": "persona_057",
+    "age": 18,
+    "city": "Porto Alegre",
+    "education_level": "communication and technology",
+    "experience_years": 0,
+    "skills": [
+      "basic spreadsheet usage (data organization)",
+      "social media familiarity",
+      "interpersonal communication (self-perceived interest in talking to people)"
+    ],
+    "goals": "Exploring a structured role in hotel reception to leverage interpersonal skills and gain hands-on experience, despite self-doubt about qualifications. Open to unpaid practice (e.g., shadowing or volunteering) to test fit, but hesitant due to fear of inadequacy or burdening others.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_057",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

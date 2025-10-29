@@ -1,0 +1,1731 @@
+[
+    {
+        "persona_id": "persona_001",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j60",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j81",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j84",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_002",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr135",
+            "tr177",
+            "tr179",
+            "tr165",
+            "tr147"
+        ]
+    },
+    {
+        "persona_id": "persona_003",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j69",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j68",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j63",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_004",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j60",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j63",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j64",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_005",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr150",
+            "tr123",
+            "tr147",
+            "tr159",
+            "tr174"
+        ]
+    },
+    {
+        "persona_id": "persona_006",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_007",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_008",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j196",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j158",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j151",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_009",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr129",
+            "tr138",
+            "tr171",
+            "tr0",
+            "tr101"
+        ]
+    },
+    {
+        "persona_id": "persona_010",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_011",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_012",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_013",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j158",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j159",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j151",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_014",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr117",
+            "tr118",
+            "tr106",
+            "tr107",
+            "tr128"
+        ]
+    },
+    {
+        "persona_id": "persona_015",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr105",
+            "tr107",
+            "tr108",
+            "tr117",
+            "tr126"
+        ]
+    },
+    {
+        "persona_id": "persona_016",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j159",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j151",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_017",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j151",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j159",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_018",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            },
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_019",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j38",
+                "suggested_trainings": [
+                    "tr430",
+                    "tr176",
+                    "tr296"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_020",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            },
+            {
+                "job_id": "j38",
+                "suggested_trainings": [
+                    "tr430",
+                    "tr176",
+                    "tr296"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_021",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j135",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j186",
+                "suggested_trainings": [
+                    "tr310"
+                ]
+            },
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_022",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr315",
+                    "tr138"
+                ]
+            },
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_023",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j38",
+                "suggested_trainings": [
+                    "tr430",
+                    "tr176",
+                    "tr296"
+                ]
+            },
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_024",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j138",
+                "suggested_trainings": [
+                    "tr351"
+                ]
+            },
+            {
+                "job_id": "j80",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_025",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_026",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j186",
+                "suggested_trainings": [
+                    "tr310"
+                ]
+            },
+            {
+                "job_id": "j138",
+                "suggested_trainings": [
+                    "tr351"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_027",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j43",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j47",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_028",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr111",
+            "tr117",
+            "tr118",
+            "tr106",
+            "tr108"
+        ]
+    },
+    {
+        "persona_id": "persona_029",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j135",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j84",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j186",
+                "suggested_trainings": [
+                    "tr310"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_030",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j44",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j43",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_031",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_032",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j44",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j182",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_033",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j44",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j43",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_034",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr116",
+            "tr115",
+            "tr103",
+            "tr108",
+            "tr109"
+        ]
+    },
+    {
+        "persona_id": "persona_035",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr158",
+            "tr176",
+            "tr156",
+            "tr174",
+            "tr170"
+        ]
+    },
+    {
+        "persona_id": "persona_036",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j146",
+                "suggested_trainings": [
+                    "tr157",
+                    "tr296",
+                    "tr361",
+                    "tr157"
+                ]
+            },
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_037",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            },
+            {
+                "job_id": "j146",
+                "suggested_trainings": [
+                    "tr157",
+                    "tr296",
+                    "tr361",
+                    "tr157"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_038",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_039",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j30",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j31",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j38",
+                "suggested_trainings": [
+                    "tr430",
+                    "tr176",
+                    "tr296"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_040",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_041",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr195",
+            "tr183",
+            "tr186",
+            "tr189",
+            "tr204"
+        ]
+    },
+    {
+        "persona_id": "persona_042",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j173",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_043",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j77",
+                "suggested_trainings": [
+                    "tr181",
+                    "tr190",
+                    "tr204",
+                    "tr263",
+                    "tr193"
+                ]
+            },
+            {
+                "job_id": "j71",
+                "suggested_trainings": [
+                    "tr193"
+                ]
+            },
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_044",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j170",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j77",
+                "suggested_trainings": [
+                    "tr181",
+                    "tr190",
+                    "tr204",
+                    "tr263",
+                    "tr193"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_045",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr249",
+            "tr267",
+            "tr243",
+            "tr240",
+            "tr216"
+        ]
+    },
+    {
+        "persona_id": "persona_046",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j106",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j103",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j105",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_047",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_048",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j106",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j103",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j146",
+                "suggested_trainings": [
+                    "tr157",
+                    "tr296",
+                    "tr361",
+                    "tr157"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_049",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j15",
+                "suggested_trainings": [
+                    "tr6"
+                ]
+            },
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j146",
+                "suggested_trainings": [
+                    "tr157",
+                    "tr296",
+                    "tr361",
+                    "tr157"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_050",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_051",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j15",
+                "suggested_trainings": [
+                    "tr6"
+                ]
+            },
+            {
+                "job_id": "j4",
+                "suggested_trainings": [
+                    "tr6",
+                    "tr278",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_052",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_053",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j15",
+                "suggested_trainings": [
+                    "tr6"
+                ]
+            },
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_054",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr183",
+            "tr192",
+            "tr180",
+            "tr186",
+            "tr189"
+        ]
+    },
+    {
+        "persona_id": "persona_055",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j77",
+                "suggested_trainings": [
+                    "tr181",
+                    "tr190",
+                    "tr204",
+                    "tr263",
+                    "tr193"
+                ]
+            },
+            {
+                "job_id": "j79",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j71",
+                "suggested_trainings": [
+                    "tr193"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_056",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j79",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j77",
+                "suggested_trainings": [
+                    "tr181",
+                    "tr190",
+                    "tr204",
+                    "tr263",
+                    "tr193"
+                ]
+            },
+            {
+                "job_id": "j71",
+                "suggested_trainings": [
+                    "tr193"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_057",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_058",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_059",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr213",
+            "tr216",
+            "tr231",
+            "tr210",
+            "tr228"
+        ]
+    },
+    {
+        "persona_id": "persona_060",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_061",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j99",
+                "suggested_trainings": [
+                    "tr22",
+                    "tr229"
+                ]
+            },
+            {
+                "job_id": "j92",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_062",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j96",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr441",
+                    "tr228",
+                    "tr376"
+                ]
+            },
+            {
+                "job_id": "j92",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_063",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j92",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j96",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_064",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_065",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_066",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j16",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j15",
+                "suggested_trainings": [
+                    "tr6"
+                ]
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_067",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j16",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j15",
+                "suggested_trainings": [
+                    "tr6"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_068",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_069",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr127",
+            "tr128",
+            "tr126",
+            "tr147",
+            "tr100"
+        ]
+    },
+    {
+        "persona_id": "persona_070",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j182",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j181",
+                "suggested_trainings": [
+                    "tr204",
+                    "tr333",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_071",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j43",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j181",
+                "suggested_trainings": [
+                    "tr204",
+                    "tr333",
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j131",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_072",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j34",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j31",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_073",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    },
+    {
+        "persona_id": "persona_074",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            },
+            {
+                "job_id": "j38",
+                "suggested_trainings": [
+                    "tr430",
+                    "tr176",
+                    "tr296"
+                ]
+            },
+            {
+                "job_id": "j69",
+                "suggested_trainings": [
+                    "tr48"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_075",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j30",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j52",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_076",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j34",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j37",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j52",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_077",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_078",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j173",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_079",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j30",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_080",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j170",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_081",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j170",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_082",
+        "predicted_type": "trainings_only",
+        "trainings": [
+            "tr13",
+            "tr10",
+            "tr1",
+            "tr12",
+            "tr123"
+        ]
+    },
+    {
+        "persona_id": "persona_083",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j85",
+                "suggested_trainings": [
+                    "tr347",
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j87",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_084",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j84",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j81",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j87",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_085",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j81",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j84",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j80",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_086",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j87",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j81",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j84",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_087",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j85",
+                "suggested_trainings": [
+                    "tr347",
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j55",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j87",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_088",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j28",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j34",
+                "suggested_trainings": [
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_089",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j163",
+                "suggested_trainings": [
+                    "tr204"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_090",
+        "predicted_type": "awareness",
+        "predicted_items": "info"
+    },
+    {
+        "persona_id": "persona_091",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j54",
+                "suggested_trainings": [
+                    "tr138",
+                    "tr315"
+                ]
+            },
+            {
+                "job_id": "j52",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j85",
+                "suggested_trainings": [
+                    "tr347",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_092",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j28",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j16",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j98",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376",
+                    "tr441"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_093",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            },
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_094",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            },
+            {
+                "job_id": "j115",
+                "suggested_trainings": [
+                    "tr165",
+                    "tr25"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_095",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            },
+            {
+                "job_id": "j111",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_096",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j115",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j118",
+                "suggested_trainings": [
+                    "tr430"
+                ]
+            },
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_097",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j123",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j138",
+                "suggested_trainings": [
+                    "tr351"
+                ]
+            },
+            {
+                "job_id": "j187",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_098",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j80",
+                "suggested_trainings": [
+                    "tr228",
+                    "tr376"
+                ]
+            },
+            {
+                "job_id": "j117",
+                "suggested_trainings": [
+                    "tr326",
+                    "tr328"
+                ]
+            },
+            {
+                "job_id": "j119",
+                "suggested_trainings": [
+                    "tr297"
+                ]
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_099",
+        "predicted_type": "jobs+trainings",
+        "jobs": [
+            {
+                "job_id": "j170",
+                "suggested_trainings": []
+            },
+            {
+                "job_id": "j85",
+                "suggested_trainings": [
+                    "tr347",
+                    "tr441"
+                ]
+            },
+            {
+                "job_id": "j167",
+                "suggested_trainings": []
+            }
+        ]
+    },
+    {
+        "persona_id": "persona_100",
+        "predicted_type": "awareness",
+        "predicted_items": "too_young"
+    }
+]

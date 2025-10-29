@@ -99,9 +99,9 @@
             "Ability to follow technical instructions"
           ]
         },
-        "score": 44.0,
+        "score": 49.0,
         "sub_scores": {
-          "goals": 55,
+          "goals": 65,
           "skills": 0,
           "experience": 100,
           "education": 10,
@@ -387,33 +387,31 @@
       },
       {
         "job": {
-          "job_id": "j135",
-          "title": "Manufacturing Coordinator – Tools & Setup",
+          "job_id": "j52",
+          "title": "Fiber Optic Intern",
           "city": null,
           "is_remote": true,
-          "education_level": "Técnico",
-          "experience_years": 1,
+          "education_level": "bacharelado",
+          "experience_years": 0,
           "languages": [
-            "Portuguese (BR)",
+            "Portuguese",
             "English"
           ],
           "required_skills": [
-            "Equipment maintenance and repair (intermediate)",
-            "Industrial electrical systems (intermediate)",
-            "Preventive maintenance (basic)",
-            "Bilingual communication (Portuguese/English)",
-            "Problem ownership and resolution",
-            "Tool inventory coordination",
-            "Troubleshooting equipment issues",
-            "Process documentation"
+            "fiber science (foundational knowledge)",
+            "paper product development processes (basic understanding)",
+            "material properties (basic understanding)",
+            "environmental regulations and sustainability standards in manufacturing (familiarity)",
+            "strong communication skills",
+            "curiosity about emerging technologies"
           ]
         },
         "score": 26.0,
         "sub_scores": {
           "goals": 10,
           "skills": 0,
-          "experience": 80,
-          "education": 40,
+          "experience": 100,
+          "education": 10,
           "location": 100
         }
       },
@@ -569,6 +567,38 @@
       },
       {
         "job": {
+          "job_id": "j78",
+          "title": "Hospitality Operations Analyst",
+          "city": "Belo Horizonte",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Analyzing operational data",
+            "Managing guest check-in/check-out procedures",
+            "Handling multiple guest requests",
+            "Resolving guest issues and complaints",
+            "Preparing operational reports",
+            "Problem-solving in guest service situations",
+            "Attention to detail",
+            "Collaboration with reception staff"
+          ]
+        },
+        "score": 23.0,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 80,
+          "education": 10,
+          "location": 100
+        }
+      },
+      {
+        "job": {
           "job_id": "j131",
           "title": "Production Trainee – Electrical & Schematics",
           "city": "Fortaleza",
@@ -624,31 +654,64 @@
       },
       {
         "job": {
-          "job_id": "j52",
-          "title": "Fiber Optic Intern",
-          "city": null,
-          "is_remote": true,
-          "education_level": "bacharelado",
-          "experience_years": 0,
+          "job_id": "j96",
+          "title": "Insurance Consultant – Risk & Strategy",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 1,
           "languages": [
             "Portuguese",
             "English"
           ],
           "required_skills": [
-            "fiber science (foundational knowledge)",
-            "paper product development processes (basic understanding)",
-            "material properties (basic understanding)",
-            "environmental regulations and sustainability standards in manufacturing (familiarity)",
-            "strong communication skills",
-            "curiosity about emerging technologies"
+            "Policy underwriting (intermediate)",
+            "Customer service",
+            "Insurance sales (basic)",
+            "Marketing (basic)",
+            "Actuarial principles (basic)",
+            "Risk assessment",
+            "Client communication"
+          ]
+        },
+        "score": 21.5,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 80,
+          "education": 40,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j135",
+          "title": "Manufacturing Coordinator – Tools & Setup",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Técnico",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "Equipment maintenance and repair (intermediate)",
+            "Industrial electrical systems (intermediate)",
+            "Preventive maintenance (basic)",
+            "Bilingual communication (Portuguese/English)",
+            "Problem ownership and resolution",
+            "Tool inventory coordination",
+            "Troubleshooting equipment issues",
+            "Process documentation"
           ]
         },
         "score": 21.0,
         "sub_scores": {
           "goals": 0,
           "skills": 0,
-          "experience": 100,
-          "education": 10,
+          "experience": 80,
+          "education": 40,
           "location": 100
         }
       },
@@ -831,38 +894,6 @@
       },
       {
         "job": {
-          "job_id": "j78",
-          "title": "Hospitality Operations Analyst",
-          "city": "Belo Horizonte",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Analyzing operational data",
-            "Managing guest check-in/check-out procedures",
-            "Handling multiple guest requests",
-            "Resolving guest issues and complaints",
-            "Preparing operational reports",
-            "Problem-solving in guest service situations",
-            "Attention to detail",
-            "Collaboration with reception staff"
-          ]
-        },
-        "score": 18.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
           "job_id": "j15",
           "title": "Financial Administration Consultant",
           "city": "Brasília",
@@ -914,126 +945,6 @@
           "goals": 0,
           "skills": 0,
           "experience": 100,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j96",
-          "title": "Insurance Consultant – Risk & Strategy",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Policy underwriting (intermediate)",
-            "Customer service",
-            "Insurance sales (basic)",
-            "Marketing (basic)",
-            "Actuarial principles (basic)",
-            "Risk assessment",
-            "Client communication"
-          ]
-        },
-        "score": 16.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j103",
-          "title": "Legal Writing Assistant – Case Support",
-          "city": "Recife",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
-          ],
-          "required_skills": [
-            "legal writing",
-            "legal document preparation",
-            "case law research",
-            "evidence organization",
-            "editing legal documents",
-            "attention to detail",
-            "deadline management"
-          ]
-        },
-        "score": 14.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j64",
-          "title": "Food Production Supervisor",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Food safety (HACCP, GMP)",
-            "Sanitation protocols",
-            "Production line oversight",
-            "Supply chain coordination",
-            "Team leadership"
-          ]
-        },
-        "score": 14.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j67",
-          "title": "Food Industry Operations Manager",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "production workflow management",
-            "line operations coordination",
-            "food safety standards (intermediate)",
-            "sanitation procedures (intermediate)",
-            "modern packaging systems",
-            "hands-on leadership",
-            "operational excellence in food manufacturing"
-          ]
-        },
-        "score": 14.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
           "education": 10,
           "location": 10
         }
@@ -1463,6 +1374,37 @@
       },
       {
         "job": {
+          "job_id": "j103",
+          "title": "Legal Writing Assistant – Case Support",
+          "city": "Recife",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "legal writing",
+            "legal document preparation",
+            "case law research",
+            "evidence organization",
+            "editing legal documents",
+            "attention to detail",
+            "deadline management"
+          ]
+        },
+        "score": 9.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 50,
+          "education": 10,
+          "location": 10
+        }
+      },
+      {
+        "job": {
           "job_id": "j105",
           "title": "Litigation Procedures Analyst",
           "city": "Recife",
@@ -1646,6 +1588,64 @@
           "experience": 20,
           "education": 10,
           "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j64",
+          "title": "Food Production Supervisor",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Food safety (HACCP, GMP)",
+            "Sanitation protocols",
+            "Production line oversight",
+            "Supply chain coordination",
+            "Team leadership"
+          ]
+        },
+        "score": 9.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 50,
+          "education": 10,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j67",
+          "title": "Food Industry Operations Manager",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "production workflow management",
+            "line operations coordination",
+            "food safety standards (intermediate)",
+            "sanitation procedures (intermediate)",
+            "modern packaging systems",
+            "hands-on leadership",
+            "operational excellence in food manufacturing"
+          ]
+        },
+        "score": 9.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 50,
+          "education": 10,
+          "location": 10
         }
       },
       {

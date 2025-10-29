@@ -61,22 +61,6 @@
       },
       {
         "training": {
-          "training_id": "tr171",
-          "title": "Basic Recipe Scaling Training",
-          "offered_skills": [
-            "Proporcional adjustment of ingredient quantities (basic level)",
-            "Fundamentals of recipe scaling for food production"
-          ],
-          "required_level": null
-        },
-        "score": 46.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 10
-        }
-      },
-      {
-        "training": {
           "training_id": "tr0",
           "title": "Master Financial Software Tools - Beginner Level",
           "offered_skills": [
@@ -1029,6 +1013,22 @@
       },
       {
         "training": {
+          "training_id": "tr171",
+          "title": "Basic Recipe Scaling Training",
+          "offered_skills": [
+            "Proporcional adjustment of ingredient quantities (basic level)",
+            "Fundamentals of recipe scaling for food production"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
           "training_id": "tr173",
           "title": "Advanced Recipe Scaling Training",
           "offered_skills": [
@@ -1057,13 +1057,13 @@
         "training_id": "tr138"
       },
       {
-        "training_id": "tr171"
-      },
-      {
         "training_id": "tr0"
       },
       {
         "training_id": "tr101"
+      },
+      {
+        "training_id": "tr102"
       }
     ]
   }

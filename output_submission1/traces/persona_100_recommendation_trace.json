@@ -1,0 +1,24 @@
+{
+  "persona_id": "persona_100",
+  "persona_profile": {
+    "persona_id": "persona_100",
+    "age": 15,
+    "city": "Rio",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "To pursue a career that involves adventure, travel, and working on ships, with a focus on maritime activities like learning to tie knots, understanding tides, and preparing for future opportunities in the field.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "provide_awareness_young",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_100",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  }
+}

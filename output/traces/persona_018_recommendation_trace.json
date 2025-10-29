@@ -1,0 +1,1911 @@
+{
+  "persona_id": "persona_018",
+  "persona_profile": {
+    "persona_id": "persona_018",
+    "age": 25,
+    "city": "São Paulo",
+    "education_level": "graduação",
+    "experience_years": 3,
+    "skills": [
+      "product development (paper)",
+      "basic pulping processes",
+      "recycled materials (basic)"
+    ],
+    "goals": "Transition into a green career within the paper industry, focusing on alternative fibers and sustainable pulping processes to improve environmental impact.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_jobs",
+  "trace_details": {
+    "job_ranking": [
+      {
+        "job": {
+          "job_id": "j54",
+          "title": "Junior Paper Manufacturing Specialist",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "bacharelado",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "sustainable manufacturing practices",
+            "environmental compliance standards",
+            "paper manufacturing processes",
+            "team collaboration",
+            "technical expertise in paper production"
+          ]
+        },
+        "score": 68.0,
+        "sub_scores": {
+          "goals": 85,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j55",
+          "title": "Coordinator – Fiber Processing Operations",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Environmental regulations (intermediate)",
+            "Chemical handling procedures (intermediate)",
+            "Process optimization techniques (intermediate)",
+            "Pulping processes (basic)",
+            "Fiber manufacturing (basic)",
+            "Bilingual communication (Portuguese & English)",
+            "Operational problem-solving"
+          ]
+        },
+        "score": 68.0,
+        "sub_scores": {
+          "goals": 85,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j37",
+          "title": "Specialist – Innovation Management & Troubleshooting",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "managing innovation processes",
+            "problem-solving methodologies",
+            "experimental design",
+            "analytical thinking",
+            "collaborative communication",
+            "systematic troubleshooting",
+            "root cause analysis",
+            "designing experiments",
+            "testing hypotheses"
+          ]
+        },
+        "score": 67.5,
+        "sub_scores": {
+          "goals": 75,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j38",
+          "title": "Research & Development Supervisor",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Leadership",
+            "Problem-solving",
+            "Data analysis",
+            "Project management",
+            "Research methodologies",
+            "Cross-functional coordination",
+            "Stakeholder communication",
+            "Mentoring",
+            "Technical knowledge"
+          ]
+        },
+        "score": 63.0,
+        "sub_scores": {
+          "goals": 75,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j80",
+          "title": "HSE Specialist – Industrial Safety",
+          "city": "Fortaleza",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Industrial health and safety protocols",
+            "Risk assessment",
+            "Safety audits",
+            "Environmental compliance",
+            "Hazard identification",
+            "Safety training program development",
+            "Analytical skills for safety solutions",
+            "Proactive safety process improvement"
+          ]
+        },
+        "score": 53.0,
+        "sub_scores": {
+          "goals": 55,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j34",
+          "title": "Design Analyst – Technical Writing & Methods",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "Technical writing",
+            "Research methodologies",
+            "Innovation processes",
+            "Analytical thinking",
+            "Design research studies",
+            "Documentation of design development",
+            "Communication in Portuguese and English",
+            "Managing innovation workflows"
+          ]
+        },
+        "score": 50.0,
+        "sub_scores": {
+          "goals": 40,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j81",
+          "title": "HSE Intern – Safety Procedures",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Understanding of industrial safety principles",
+            "HSE management systems",
+            "Safety protocol development",
+            "Safety audits and workplace inspections",
+            "Incident investigation processes",
+            "Regulatory compliance tracking",
+            "Preparation of safety training materials"
+          ]
+        },
+        "score": 45.5,
+        "sub_scores": {
+          "goals": 40,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j85",
+          "title": "Environmental Health Analyst",
+          "city": "Recife",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "environmental health assessment",
+            "industrial safety protocols",
+            "regulatory compliance monitoring",
+            "analytical thinking",
+            "attention to detail",
+            "clear communication",
+            "report preparation",
+            "stakeholder engagement"
+          ]
+        },
+        "score": 45.5,
+        "sub_scores": {
+          "goals": 40,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j87",
+          "title": "Industrial Hygiene Analyst",
+          "city": "Belo Horizonte",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "industrial health and safety principles",
+            "workplace safety assessments",
+            "air quality analysis",
+            "noise level monitoring",
+            "hazard identification",
+            "safety protocol development",
+            "environmental compliance",
+            "occupational health risk assessment"
+          ]
+        },
+        "score": 45.5,
+        "sub_scores": {
+          "goals": 40,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j52",
+          "title": "Fiber Optic Intern",
+          "city": null,
+          "is_remote": true,
+          "education_level": "bacharelado",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "fiber science (foundational knowledge)",
+            "paper product development processes (basic understanding)",
+            "material properties (basic understanding)",
+            "environmental regulations and sustainability standards in manufacturing (familiarity)",
+            "strong communication skills",
+            "curiosity about emerging technologies"
+          ]
+        },
+        "score": 45.0,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j67",
+          "title": "Food Industry Operations Manager",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "production workflow management",
+            "line operations coordination",
+            "food safety standards (intermediate)",
+            "sanitation procedures (intermediate)",
+            "modern packaging systems",
+            "hands-on leadership",
+            "operational excellence in food manufacturing"
+          ]
+        },
+        "score": 45.0,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j84",
+          "title": "Occupational Safety Trainee",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Graduação",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Attention to detail",
+            "Commitment to safety principles",
+            "Willingness to learn safety regulations and procedures"
+          ]
+        },
+        "score": 45.0,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j131",
+          "title": "Production Trainee – Electrical & Schematics",
+          "city": "Fortaleza",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "equipment calibration principles (basic)",
+            "blueprint and schematic reading (foundational)",
+            "industrial electrical systems (basic familiarity)",
+            "collaboration and communication"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j138",
+          "title": "Maintenance & Hydraulics Analyst",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Preventive maintenance strategies",
+            "Maintenance scheduling",
+            "Hydraulic systems",
+            "Pneumatic systems",
+            "Maintenance data analysis",
+            "Maintenance planning",
+            "Fluid power system management",
+            "Troubleshooting hydraulic systems",
+            "Technical analysis",
+            "Hands-on problem-solving"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j146",
+          "title": "Consultant – Procurement & ERP Systems",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Procurement process optimization",
+            "ERP system implementation",
+            "Supplier relationship management",
+            "Contract negotiation",
+            "Performance monitoring",
+            "Analytical skills for procurement data evaluation",
+            "Bridging technical systems and business requirements"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j68",
+          "title": "Nutrition & Food Technology Analyst",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "waste minimization techniques",
+            "overseeing production workflows",
+            "analytical skills",
+            "attention to detail",
+            "food technology analysis",
+            "production optimization"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j69",
+          "title": "Specialist – Food Innovation",
+          "city": "Curitiba",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "managing production lines",
+            "scaling recipes for commercial manufacturing",
+            "implementing waste reduction programs",
+            "food production",
+            "process optimization"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j98",
+          "title": "Policy & Compliance Analyst",
+          "city": "Curitiba",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "fraud detection and prevention techniques",
+            "data analysis",
+            "risk assessment",
+            "attention to detail",
+            "analytical thinking"
+          ]
+        },
+        "score": 40.5,
+        "sub_scores": {
+          "goals": 30,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j115",
+          "title": "Ground Logistics Analyst – Cargo Flow",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Analytical skills",
+            "Attention to detail",
+            "Scheduling systems",
+            "Problem-solving",
+            "Logistics coordination",
+            "Transportation operations",
+            "Cargo flow tracking",
+            "Report creation",
+            "Resource allocation",
+            "Operational record-keeping"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j135",
+          "title": "Manufacturing Coordinator – Tools & Setup",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Técnico",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "Equipment maintenance and repair (intermediate)",
+            "Industrial electrical systems (intermediate)",
+            "Preventive maintenance (basic)",
+            "Bilingual communication (Portuguese/English)",
+            "Problem ownership and resolution",
+            "Tool inventory coordination",
+            "Troubleshooting equipment issues",
+            "Process documentation"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j167",
+          "title": "Manager – Cultural & Educational Projects",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "project coordination",
+            "project management",
+            "stakeholder collaboration",
+            "program development",
+            "attention to detail",
+            "communication"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j182",
+          "title": "Workshop Assistant – Components & Documentation",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "Basic proficiency with workshop tools",
+            "Intermediate component replacement skills",
+            "Intermediate documentation writing abilities",
+            "Attention to detail",
+            "Technical writing"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j60",
+          "title": "Food Industry Intern – Quality & Safety",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Basic understanding of food safety and hygiene standards",
+            "Foundational knowledge in product development processes",
+            "Curiosity about food industry operations"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j63",
+          "title": "Specialist – Food Process Development",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Food process development",
+            "Recipe scaling (small-batch to large-scale)",
+            "Food safety standards (HACCP, GMP)",
+            "Hygiene protocols implementation",
+            "Collaboration in diverse teams"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j64",
+          "title": "Food Production Supervisor",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Food safety (HACCP, GMP)",
+            "Sanitation protocols",
+            "Production line oversight",
+            "Supply chain coordination",
+            "Team leadership"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j106",
+          "title": "Junior Legal Analyst – Ethics & Drafting",
+          "city": "Curitiba",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "legal writing",
+            "document drafting",
+            "legal research",
+            "negotiation support",
+            "ethical practice standards"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j117",
+          "title": "Dock Operations Intern – Equipment & Safety",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "vessel communication",
+            "equipment operation (cranes, forklifts)",
+            "supply chain planning processes",
+            "safety protocols"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j186",
+          "title": "Mechanical Intern – Workshop Support",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Hands-on workshop work",
+            "Willingness to learn mechanical systems",
+            "Assisting experienced mechanics",
+            "Maintenance procedures"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j187",
+          "title": "Maintenance Trainee – Fleet Operations",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Basic proficiency with hand tools and maintenance equipment",
+            "Intermediate skills in technical writing and documentation",
+            "Intermediate experience with component replacement and repair procedures",
+            "Troubleshooting techniques for mechanical and electrical systems",
+            "Maintenance records and technical documentation"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j31",
+          "title": "Assistant – Design Research Projects",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Data collection and analysis (user experience studies)",
+            "Research coordination and documentation",
+            "Organizational skills (multi-tasking in research)",
+            "Understanding of user behavior and design methodologies",
+            "Supporting senior researchers with research data"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j118",
+          "title": "Port Planning & Dispatch Analyst",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "scheduling and dispatch operations",
+            "customs procedures",
+            "vessel movement optimization",
+            "timeline coordination",
+            "import/export documentation",
+            "port capacity analysis",
+            "logistics problem-solving",
+            "pressure handling in time-sensitive operations"
+          ]
+        },
+        "score": 35.0,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j119",
+          "title": "Terminal Coordination Specialist",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "port operations coordination",
+            "terminal management systems",
+            "maritime safety regulations",
+            "terminal workflow management",
+            "stakeholder coordination"
+          ]
+        },
+        "score": 35.0,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j30",
+          "title": "Design Research Intern",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "bacharelado",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "User interviews",
+            "Usability testing",
+            "Research data analysis",
+            "Report creation",
+            "Presentation skills",
+            "Analytical thinking",
+            "Attention to detail",
+            "Facilitation of participant conversations",
+            "Collaboration with UX designers and product managers"
+          ]
+        },
+        "score": 35.0,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j4",
+          "title": "Senior Accountant – Auditing & Controls",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "accounting software platforms",
+            "financial data analysis",
+            "tax compliance",
+            "regulatory requirements",
+            "analytical thinking",
+            "attention to detail",
+            "intermediate-level accounting systems",
+            "data interpretation",
+            "advanced knowledge of tax compliance procedures"
+          ]
+        },
+        "score": 35.0,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j15",
+          "title": "Financial Administration Consultant",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "regulatory reporting",
+            "financial data analysis",
+            "financial systems knowledge",
+            "compliance requirements understanding",
+            "analytical abilities",
+            "attention to accuracy"
+          ]
+        },
+        "score": 30.5,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j28",
+          "title": "Records Information Analyst",
+          "city": "Belo Horizonte",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "content management platforms",
+            "document metadata standards",
+            "data compliance frameworks",
+            "information retention strategies",
+            "CMS platforms (basic knowledge)",
+            "metadata creation (intermediate-level)",
+            "regulatory compliance (intermediate-level)",
+            "records retention policies (intermediate-level)"
+          ]
+        },
+        "score": 30.5,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j43",
+          "title": "Power Systems Specialist",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "electrical safety protocols and procedures",
+            "electrical components",
+            "electrical system architecture",
+            "maintenance and troubleshooting of electrical power systems"
+          ]
+        },
+        "score": 30.5,
+        "sub_scores": {
+          "goals": 10,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j163",
+          "title": "Specialist – Group Facilitation & Cultural Events",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Tecnólogo",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "leading group discussions",
+            "coordinating events",
+            "working respectfully across different cultural backgrounds",
+            "active listening",
+            "organizing details effectively",
+            "adapting approach based on community needs"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j196",
+          "title": "Studio Assistant – Sculpture & Painting",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Graduação",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "sculpting techniques",
+            "artistic painting fundamentals",
+            "studio organization",
+            "attention to detail",
+            "following artistic direction"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j44",
+          "title": "Software-Focused Electrical Intern",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Técnico",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "circuit design principles",
+            "fundamental soldering skills",
+            "electrical design software (basic)",
+            "hardware-software interface development (basic)",
+            "troubleshooting basic electrical issues"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j77",
+          "title": "Hotel Reception Manager",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Cash handling",
+            "Payment processing",
+            "Guest check-in/check-out",
+            "Staff training",
+            "Customer service",
+            "Conflict resolution",
+            "Team coordination (housekeeping/maintenance)",
+            "Financial reconciliation"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j79",
+          "title": "Specialist – Hotel Customer Experience",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Guest service principles",
+            "Multitasking",
+            "Hotel arrival/departure procedures",
+            "Strong communication",
+            "Customer-focused mindset",
+            "Adaptability in service environments"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j0",
+          "title": "Accounting Intern – Bookkeeping & Admin",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Tax regulations",
+            "Compliance processes",
+            "Financial record keeping",
+            "Attention to detail",
+            "Organizational skills"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j103",
+          "title": "Legal Writing Assistant – Case Support",
+          "city": "Recife",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "legal writing",
+            "legal document preparation",
+            "case law research",
+            "evidence organization",
+            "editing legal documents",
+            "attention to detail",
+            "deadline management"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j105",
+          "title": "Litigation Procedures Analyst",
+          "city": "Recife",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "case management systems",
+            "legal research tools",
+            "court filing procedures",
+            "attention to detail",
+            "analytical thinking",
+            "procedural knowledge (intermediate level)",
+            "litigation workflows"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j111",
+          "title": "Customs & Vessel Communications Specialist",
+          "city": "Recife",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Working knowledge of customs procedures and protocols",
+            "Experience communicating with maritime vessels through various channels",
+            "Clear communication abilities",
+            "Attention to detail",
+            "Ability to work under time-sensitive conditions",
+            "Documentation management (shipping manifests, customs declarations, port authority paperwork)"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j123",
+          "title": "Specialist – Vessel Communication & Navigation Systems",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "maritime first aid procedures",
+            "cargo handling operations",
+            "vigilant watchkeeping duties",
+            "emergency response in maritime environments",
+            "maintaining communication and navigation equipment",
+            "monitoring maritime traffic and weather conditions",
+            "intermediate-level first aid",
+            "basic emergency protocols"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j151",
+          "title": "Stagehand Intern – Setup & Run",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Basic understanding of live show operations",
+            "Foundational knowledge of stage mechanics",
+            "Foundational knowledge of equipment handling",
+            "Physical stamina for setup work and long show days",
+            "Ability to follow technical instructions"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j158",
+          "title": "Lighting Rigging Coordinator",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Intermediate proficiency in lighting rigging systems",
+            "Equipment setup",
+            "Safety protocols",
+            "Technical operations",
+            "Troubleshooting equipment issues",
+            "Safety inspections of rigging equipment",
+            "Maintaining detailed documentation of equipment status and setup configurations"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j159",
+          "title": "Stagecraft Specialist – Rigging & Fault Finding",
+          "city": "Fortaleza",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "stage mechanical systems",
+            "cable routing and organization",
+            "electrical troubleshooting",
+            "problem-solving in technical issues",
+            "working independently with guidance on complex situations",
+            "communication in Portuguese",
+            "physical work (lifting equipment, working at heights)",
+            "troubleshooting under pressure",
+            "maintaining strict safety standards"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j16",
+          "title": "Banking Operations Supervisor",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Document control systems management",
+            "Regulatory report preparation",
+            "Compliance oversight",
+            "Regulatory requirements understanding",
+            "Attention to detail",
+            "Cross-functional teamwork"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j170",
+          "title": "Tourism Consultant – Events & Guest Services",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Event organization and management (planning to execution)",
+            "Customer service (exceeding guest expectations)",
+            "Booking and reservation platform operations",
+            "Multilingual communication (Portuguese and English)",
+            "Problem-solving in tourism/hospitality contexts",
+            "Local cultural and attraction knowledge (Rio de Janeiro)"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j173",
+          "title": "Destination Promotion Assistant – Digital Presence",
+          "city": "Fortaleza",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Solid understanding of destination attractions and tourism offerings",
+            "Awareness of local cultural nuances and visitor expectations",
+            "Strong communication abilities",
+            "Cultural sensitivity",
+            "Attention to detail",
+            "Digital content creation",
+            "Destination promotion"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j181",
+          "title": "Vehicle Systems Analyst – Maintenance",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Graduação",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "Technical analysis",
+            "Vehicle systems maintenance",
+            "Electrical circuits and wiring systems",
+            "Schematic reading",
+            "Troubleshooting electrical issues",
+            "Analytical thinking",
+            "Root cause identification",
+            "Practical solution development"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j188",
+          "title": "Diagnostics Analyst – Automotive",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Data Analysis (Automotive Systems)",
+            "Diagnostic Procedures",
+            "Technical Problem Solving",
+            "Automotive Systems Knowledge",
+            "Analytical Thinking",
+            "Attention to Detail",
+            "Technical Communication"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j47",
+          "title": "Electronics Engineering Specialist",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "electronic system diagnostics and repair",
+            "electrical installation and wiring work",
+            "power system analysis and design",
+            "problem-solving",
+            "attention to detail"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j71",
+          "title": "Reception Assistant – Hospitality Services",
+          "city": "Fortaleza",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Advanced verbal and written communication (Portuguese)",
+            "Advanced verbal and written communication (English)",
+            "Guest services (check-ins, check-outs, inquiries)",
+            "Room assignment management",
+            "Payment processing",
+            "Guest record maintenance",
+            "Hotel amenities and local attractions knowledge",
+            "Phone and correspondence handling"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j78",
+          "title": "Hospitality Operations Analyst",
+          "city": "Belo Horizonte",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Analyzing operational data",
+            "Managing guest check-in/check-out procedures",
+            "Handling multiple guest requests",
+            "Resolving guest issues and complaints",
+            "Preparing operational reports",
+            "Problem-solving in guest service situations",
+            "Attention to detail",
+            "Collaboration with reception staff"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j92",
+          "title": "Insurance Risk Analyst",
+          "city": "Brasília",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "regulatory compliance (insurance sector)",
+            "SUSEP regulations",
+            "Brazilian insurance law",
+            "risk assessment",
+            "analytical skills",
+            "attention to detail",
+            "interpretation of complex regulatory documents"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j96",
+          "title": "Insurance Consultant – Risk & Strategy",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "Técnico",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Policy underwriting (intermediate)",
+            "Customer service",
+            "Insurance sales (basic)",
+            "Marketing (basic)",
+            "Actuarial principles (basic)",
+            "Risk assessment",
+            "Client communication"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j99",
+          "title": "Insurance Fraud Investigation Specialist",
+          "city": "Porto Alegre",
+          "is_remote": false,
+          "education_level": "bacharelado",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "risk evaluation",
+            "insurance product knowledge",
+            "analytical skills",
+            "actuarial methods",
+            "investigation",
+            "attention to detail",
+            "evidence-based case building"
+          ]
+        },
+        "score": 25.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_018",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          },
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

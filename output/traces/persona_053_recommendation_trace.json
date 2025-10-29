@@ -1,0 +1,871 @@
+{
+  "persona_id": "persona_053",
+  "persona_profile": {
+    "persona_id": "persona_053",
+    "age": 28,
+    "city": "Brasília",
+    "education_level": "técnico em administração",
+    "experience_years": 0,
+    "skills": [
+      "Excel (básico: fórmulas e tabelas simples)"
+    ],
+    "goals": "Buscar treinamento rápido (curso ou certificação) em interpretação de dados e ferramentas como Excel e Power BI para ingressar em cargos juniores de contabilidade ou auditoria, priorizando habilidades práticas para empregabilidade imediata.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (básico)"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "trace_details": {
+    "training_ranking": [
+      {
+        "training": {
+          "training_id": "tr0",
+          "title": "Master Financial Software Tools - Beginner Level",
+          "offered_skills": [
+            "contabilidade básica em softwares financeiros",
+            "processamento de transações financeiras",
+            "geração de relatórios básicos",
+            "navegação em sistemas contábeis",
+            "tarefas práticas de contabilidade digital",
+            "fundamentos de ferramentas modernas de gestão financeira"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr12",
+          "title": "Basic Data Analysis Training",
+          "offered_skills": [
+            "Análise de dados financeiros",
+            "Interpretação de métricas-chave",
+            "Leitura de relatórios financeiros básicos",
+            "Tomada de decisão baseada em dados",
+            "Análise numérica aplicada a contabilidade e gestão"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr15",
+          "title": "Basic Financial Reporting Training",
+          "offered_skills": [
+            "Preparação de demonstrações financeiras básicas",
+            "Interpretação de relatórios financeiros fundamentais",
+            "Noções de contabilidade introdutória",
+            "Análise financeira inicial"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr21",
+          "title": "Avaliação de Riscos Empresariais - Nível Básico",
+          "offered_skills": [
+            "Identificação de riscos organizacionais",
+            "Análise de riscos empresariais (básico)",
+            "Avaliação de ameaças e oportunidades",
+            "Metodologias práticas de avaliação de riscos",
+            "Técnicas de análise qualitativa de riscos",
+            "Técnicas de análise quantitativa de riscos",
+            "Comunicação de resultados para tomada de decisão",
+            "Gestão de riscos em contextos empresariais"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr57",
+          "title": "Basic Documentation for Risk Management",
+          "offered_skills": [
+            "Documentação básica de gestão de riscos",
+            "Melhores práticas de transparência e conformidade",
+            "Estruturação de relatórios de risco",
+            "Manutenção de trilhas de auditoria",
+            "Precisão documentária em categorias de risco",
+            "Documentação de risco de crédito",
+            "Relatórios de risco operacional",
+            "Aplicação de padrões regulatórios em documentação financeira"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr227",
+          "title": "Advanced Financial Crime Detection Training",
+          "offered_skills": [
+            "Identificação avançada de crimes financeiros",
+            "Prevenção de crimes financeiros",
+            "Melhores práticas em transparência e conformidade (compliance)",
+            "Análise de padrões complexos de fraude",
+            "Avaliação de riscos em seguros",
+            "Protocolos de investigação antifraude",
+            "Implementação de estratégias robustas de prevenção a perdas financeiras",
+            "Estudos de caso práticos em detecção de fraudes"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr368",
+          "title": "Advanced Expense Optimization Techniques",
+          "offered_skills": [
+            "Redução avançada de custos operacionais",
+            "Melhores práticas em transparência e conformidade (compliance)",
+            "Identificação de oportunidades de economia",
+            "Negociação avançada de contratos",
+            "Implementação de programas sustentáveis de redução de custos",
+            "Aplicação de frameworks práticos em procurement",
+            "Análise de estudos de caso reais em otimização de despesas"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr42",
+          "title": "Basic Financial Crime Prevention Support Training",
+          "offered_skills": [
+            "Identificação de atividades suspeitas (deteção de padrões irregulares)",
+            "Proteção de instituições financeiras contra transações fraudulentas",
+            "Conhecimento de procedimentos de conformidade (compliance)",
+            "Suporte a processos de investigação",
+            "Reconhecimento de sinais de alerta (red flags)",
+            "Aplicação de protocolos de relatório adequados",
+            "Manuseio de dados financeiros sensíveis",
+            "Compreensão do arcabouço regulatório (proteção a clientes e instituições)"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr167",
+          "title": "Advanced Manufacturing Line Operations",
+          "offered_skills": [
+            "Gerenciamento avançado de fluxos de produção",
+            "Otimização de eficiência produtiva",
+            "Liderança de equipes multifuncionais em ambientes de produção alimentícia",
+            "Resolução avançada de problemas em manufatura",
+            "Implementação de sistemas de controle de qualidade",
+            "Processos de melhoria contínua (kaizen/lean)",
+            "Análise de dados de produção industrial",
+            "Tomada de decisão estratégica sob pressão",
+            "Coordenação de múltiplas linhas de produção simultâneas",
+            "Garantia de padrões de segurança alimentar em ambientes industriais",
+            "Aplicação prática de teorias de manufatura para o setor alimentício"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr38",
+          "title": "Advanced Data Security Protocols",
+          "offered_skills": [
+            "Implementação de protocolos avançados de segurança de dados",
+            "Proteção de informações financeiras sensíveis",
+            "Arquiteturas de segurança em nível empresarial",
+            "Metodologias de avaliação de ameaças",
+            "Quadros de conformidade para instituições financeiras (bancos e seguros)",
+            "Estratégias avançadas de proteção contra ameaças cibernéticas modernas",
+            "Atendimento a requisitos regulatórios do setor financeiro",
+            "Segurança da informação aplicada a administração bancária e de seguros",
+            "Práticas de implementação de frameworks de proteção de dados",
+            "Gestão de riscos em ambientes financeiros críticos"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr69",
+          "title": "Proteção de Dados - Curso Básico",
+          "offered_skills": [
+            "Fundamentos de proteção de informações (nível básico)",
+            "Técnicas essenciais para salvaguardar dados sensíveis",
+            "Manutenção de padrões de segurança organizacional",
+            "Protocolos de segurança da informação",
+            "Avaliação de riscos em proteção de dados",
+            "Melhores práticas para manuseio de dados confidenciais",
+            "Implementação de medidas básicas de segurança",
+            "Reconhecimento de ameaças à integridade de dados organizacionais",
+            "Aplicação prática de conceitos teóricos em segurança de dados"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr223",
+          "title": "Pricing Analytics for Insurance Professionals",
+          "offered_skills": [
+            "Análise de dados para precificação de seguros",
+            "Modelagem avançada de preços em seguros",
+            "Avaliação de riscos com base em dados",
+            "Interpretação de resultados para tomada de decisão em precificação",
+            "Trabalho com conjuntos de dados complexos do setor de seguros",
+            "Aplicação prática de técnicas analíticas em cenários reais de seguros"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 42.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr28",
+          "title": "Intermediate Tax Compliance Training",
+          "offered_skills": [
+            "Gestão de obrigações fiscais (Tax obligation management)",
+            "Interpretação de regulamentações tributárias (Tax regulation interpretation)",
+            "Estratégias de conformidade fiscal (Tax compliance strategies)",
+            "Identificação de riscos fiscais (Tax risk identification)",
+            "Manutenção de registros tributários precisos (Accurate tax record-keeping)",
+            "Análise de casos práticos de compliance (Practical compliance case analysis)",
+            "Atualização sobre mudanças regulatórias (Regulatory update tracking)",
+            "Abordagens sistemáticas para gestão tributária (Systematic tax management approaches)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 42.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr58",
+          "title": "Intermediate Risk Documentation Training",
+          "offered_skills": [
+            "Criação de documentação de risco financeiro",
+            "Manutenção de documentação de compliance",
+            "Análise de requisitos de risco bancário/seguros",
+            "Aplicação de melhores práticas em gestão de documentos",
+            "Resolução de cenários reais de risco financeiro",
+            "Conformidade com normas de documentação (bancos/seguros)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 42.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr102",
+          "title": "Basic Electrical Power Systems Course",
+          "offered_skills": [
+            "Fundamentos de redes elétricas (nível básico)",
+            "Distribuição de energia em redes elétricas"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr103",
+          "title": "Master Electrical Power Systems at Intermediate Level!",
+          "offered_skills": [
+            "Análise de sistemas de potência elétrica",
+            "Cálculo de fluxo de carga",
+            "Avaliação de estabilidade de sistemas elétricos",
+            "Projeto de redes de distribuição de energia",
+            "Diagnóstico e solução de problemas em infraestrutura elétrica",
+            "Compreensão de sistemas de geração e distribuição de energia",
+            "Avaliação de redes elétricas"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr104",
+          "title": "Advanced Electrical Grid Systems",
+          "offered_skills": [
+            "complex electrical network analysis",
+            "grid management (advanced level)",
+            "grid stability optimization",
+            "load balancing techniques",
+            "system optimization for electrical distribution",
+            "power network solution implementation",
+            "transparency and compliance in electrical systems"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr114",
+          "title": "Master Electronic Testing Equipment - Beginner Course",
+          "offered_skills": [
+            "Operação de instrumentos de teste eletrônicos (nível básico)",
+            "Técnicas fundamentais de medição",
+            "Manuseio seguro de equipamentos eletrônicos",
+            "Interpretação de leituras de dispositivos de teste",
+            "Aplicação de princípios básicos de medição"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr150",
+          "title": "Master Food Safety Fundamentals",
+          "offered_skills": [
+            "Hazard analysis (Análise de Perigos - HACCP)",
+            "Critical control points (Pontos Críticos de Controle - PCC)",
+            "Good Manufacturing Practices (Boas Práticas de Fabricação - BPF)",
+            "Contamination prevention (Prevenção de contaminação)",
+            "Quality assurance in food production (Garantia de qualidade na produção de alimentos)",
+            "Food safety regulatory compliance (Conformidade com normas de segurança alimentar)",
+            "Monitoring procedures for food safety (Procedimentos de monitoramento em segurança alimentar)",
+            "Identification of potential hazards in food production (Identificação de perigos potenciais na produção de alimentos)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr177",
+          "title": "Basic Food Waste Reduction Training",
+          "offered_skills": [
+            "Minimização de desperdício de alimentos (nível básico)",
+            "Melhores práticas para transparência e conformidade em serviços de alimentação",
+            "Identificação de fontes de desperdício",
+            "Implementação de técnicas de redução de resíduos",
+            "Acompanhamento de melhorias operacionais",
+            "Fundamentos teóricos em gestão sustentável de alimentos",
+            "Aplicação prática em operações de serviço de alimentação"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr336",
+          "title": "Basic Industrial Power Systems Training",
+          "offered_skills": [
+            "industrial power distribution fundamentals",
+            "electrical safety protocols",
+            "equipment operation in manufacturing",
+            "circuit analysis",
+            "motor controls",
+            "protective devices in industrial settings",
+            "troubleshooting techniques for electrical systems",
+            "reading electrical schematics",
+            "power flow analysis in industrial environments",
+            "identification of common electrical components in manufacturing",
+            "maintenance of industrial electrical infrastructure",
+            "basics of automation and control systems"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr337",
+          "title": "intermediate-level industrial electrical systems training",
+          "offered_skills": [
+            "power distribution (intermediate)",
+            "motor control (intermediate)",
+            "automation systems (intermediate)",
+            "safety protocols in industrial environments",
+            "industry standards compliance",
+            "technical expertise in electrical systems (hands-on)"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr338",
+          "title": "Advanced Industrial Power Systems Training",
+          "offered_skills": [
+            "Complex industrial power distribution",
+            "Industrial power control systems (advanced)",
+            "Best practices for transparency and compliance in industrial systems",
+            "Advanced concepts for senior roles in production/manufacturing environments"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr344",
+          "title": "Master Advanced Hydraulic and Pneumatic Systems",
+          "offered_skills": [
+            "Advanced hydraulic system design",
+            "Advanced pneumatic system design",
+            "Complex diagnostics for fluid power systems",
+            "Troubleshooting and optimization of hydraulic/pneumatic applications",
+            "Implementation of sophisticated industrial fluid power solutions"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr393",
+          "title": "Electrical Fundamentals for Show Production",
+          "offered_skills": [
+            "Electrical fundamentals (theatrical/event environments)",
+            "Basic circuit understanding",
+            "Electrical safety protocols (live entertainment)",
+            "Power distribution (show production)",
+            "Basic troubleshooting (electrical systems)",
+            "Practical application of electrical components (backstage/on-stage)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr394",
+          "title": "Master Electrical Systems for Show Production",
+          "offered_skills": [
+            "Power distribution for live events",
+            "Lighting circuit management",
+            "Electrical safety in entertainment environments",
+            "Reading electrical schematics",
+            "Troubleshooting power issues",
+            "Implementing safe electrical practices for show production"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr480",
+          "title": "Master Equipment Part Replacement - Beginner Level",
+          "offered_skills": [
+            "Remoção segura de peças mecânicas",
+            "Instalação de componentes",
+            "Substituição de peças em nível fundamental",
+            "Protocolo de segurança em manutenção",
+            "Uso de ferramentas especializadas",
+            "Processos de substituição passo a passo",
+            "Fundamentos de sistemas mecânicos em veículos, maquinário e aeronaves"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr496",
+          "title": "Advanced Equipment Proficiency Training",
+          "offered_skills": [
+            "Operação avançada de equipamentos veiculares",
+            "Manuseio de maquinário industrial complexo",
+            "Operação de equipamentos aeronáuticos",
+            "Técnicas avançadas de solução de problemas em equipamentos",
+            "Precisão no manuseio de maquinário sofisticado",
+            "Habilidades profissionais sênior em operação técnica"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr71",
+          "title": "Advanced Information Protection Training",
+          "offered_skills": [
+            "proteção avançada de informações organizacionais",
+            "implementação de protocolos de segurança abrangentes",
+            "gerenciamento de cenários complexos de ameaças",
+            "avaliação de ameaças (threat assessment)",
+            "resposta a incidentes de segurança",
+            "design de arquitetura de segurança",
+            "liderança em iniciativas de proteção de dados",
+            "gestão de riscos em segurança da informação"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr98",
+          "title": "Advanced Circuit Installation and Power Systems",
+          "offered_skills": [
+            "complex circuit installation",
+            "power distribution systems",
+            "professional-grade electrical connections",
+            "advanced equipment handling",
+            "industrial electrical work",
+            "commercial electrical work",
+            "theoretical and practical application of electrical systems",
+            "industry best practices in electrical installations"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr493",
+          "title": "Intermediate System Performance Analysis Training",
+          "offered_skills": [
+            "Análise de desempenho de sistemas (nível intermediário)",
+            "Identificação de gargalos em sistemas automotivos e industriais",
+            "Medição de tempos de resposta em sistemas mecânicos/eletrônicos",
+            "Otimização de sistemas sob condições variadas de carga",
+            "Uso de ferramentas padrão da indústria para diagnóstico de desempenho",
+            "Criação de relatórios técnicos para melhoria de confiabilidade",
+            "Aplicação de metodologias de avaliação em veículos, maquinário pesado e sistemas aeroespaciais",
+            "Recomendação de melhorias para eficiência operacional"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr130",
+          "title": "Intermediate Fiber Science Training",
+          "offered_skills": [
+            "Análise de materiais têxteis (nível intermediário)",
+            "Propriedades de fibras (nível intermediário)",
+            "Melhores práticas em transparência e conformidade no setor têxtil",
+            "Credencial reconhecida para currículo (certificação)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr148",
+          "title": "Master Intermediate Environmental Resource Management in Paper Industry",
+          "offered_skills": [
+            "Gestão de resíduos industriais (waste stream management)",
+            "Otimização de processos de reciclagem (recycling process optimization)",
+            "Estratégias de descarte sustentável (sustainable disposal strategies)",
+            "Conformidade regulatória ambiental (environmental regulatory compliance)",
+            "Práticas de sustentabilidade com eficiência operacional (cost-effective sustainability practices)",
+            "Recuperação de materiais em manufatura (material recovery optimization)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr217",
+          "title": "Insurance Contract Law - Intermediate Level",
+          "offered_skills": [
+            "Análise de contratos de seguro",
+            "Interpretação de cláusulas contratuais no setor de seguros",
+            "Compreensão de estruturas de apólices",
+            "Gestão de obrigações de cobertura e exclusões",
+            "Mecanismos de resolução de disputas em seguros",
+            "Conhecimento jurídico aplicado a relações entre seguradoras e segurados",
+            "Habilidades práticas em gestão de sinistros e subscritação de apólices"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr262",
+          "title": "Intermediate Deal-Making and Conflict Resolution Training",
+          "offered_skills": [
+            "strategic bargaining",
+            "dispute resolution (intermediate level)",
+            "transparency and compliance best practices",
+            "managing complex discussions",
+            "resolving disputes in legal contexts",
+            "handling challenging conversations",
+            "building consensus among competing interests",
+            "navigating power dynamics",
+            "addressing cultural differences in negotiations",
+            "managing emotional tensions in professional settings",
+            "ethical standards in conflict resolution",
+            "client relations enhancement",
+            "case resolution capabilities"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr274",
+          "title": "Treinamento Intermediário em Comunicação com Embarcações",
+          "offered_skills": [
+            "Comunicação efetiva com navios e embarcações (nível intermediário)",
+            "Melhores práticas de transparência e conformidade no setor marítimo",
+            "Coordenação de operações portuárias",
+            "Gerenciamento de tráfego de embarcações",
+            "Protocolos de comunicação marítima",
+            "Terminologia técnica específica do setor naval",
+            "Procedimentos de segurança em operações marítimas",
+            "Comunicação clara em situações complexas"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr343",
+          "title": "Intermediate Hydraulic and Pneumatic Systems Training",
+          "offered_skills": [
+            "Design of hydraulic and pneumatic systems",
+            "Troubleshooting fluid-powered machinery",
+            "Optimization of industrial fluid systems",
+            "Pressure calculations for hydraulic/pneumatic applications",
+            "Component selection for fluid power systems",
+            "System diagnostics in manufacturing environments",
+            "Maintenance procedures for production lines"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr409",
+          "title": "Intermediate Live Performance Management",
+          "offered_skills": [
+            "Coordenação avançada de eventos ao vivo",
+            "Gestão de som em performances",
+            "Coordenação de iluminação",
+            "Resolução de problemas em tempo real durante performances",
+            "Gestão de equipamentos para eventos",
+            "Coordenação de equipes técnicas e artistas",
+            "Logística operacional de shows ao vivo",
+            "Técnicas avançadas de *troubleshooting* em eventos",
+            "Habilidades de gestão sob pressão em ambientes de performance"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr421",
+          "title": "Desenvolva sua Sensibilidade Intercultural no Turismo",
+          "offered_skills": [
+            "Compreensão de diferentes culturas",
+            "Atendimento intercultural excepcional",
+            "Identificação de diferenças culturais",
+            "Adaptação de comunicação para diversos públicos",
+            "Criação de experiências inclusivas para turistas internacionais",
+            "Reconhecimento de nuances comportamentais",
+            "Evitamento de mal-entendidos culturais",
+            "Transformação da diversidade em vantagem competitiva",
+            "Protocolos de cortesia intercultural",
+            "Estratégias práticas para superar barreiras culturais"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 24.0,
+        "sub_scores": {
+          "prerequisite": 60,
+          "goal_alignment": 0
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_053",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr0"
+      },
+      {
+        "training_id": "tr12"
+      },
+      {
+        "training_id": "tr15"
+      },
+      {
+        "training_id": "tr21"
+      },
+      {
+        "training_id": "tr57"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "persona_id": "persona_012",
+  "persona_profile": {
+    "persona_id": "persona_012",
+    "age": 15,
+    "city": "Rio",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [],
+    "goals": "Learn the basics of stage setup, lighting, and sound for small shows, including hands-on tasks like wrapping cables, setting up microphones, and shadowing professionals at events. Willing to volunteer or work for free to gain practical experience.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_young",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_012",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  }
+}

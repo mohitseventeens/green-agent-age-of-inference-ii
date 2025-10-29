@@ -1,0 +1,27 @@
+{
+  "persona_id": "persona_077",
+  "persona_profile": {
+    "persona_id": "persona_077",
+    "age": 26,
+    "city": null,
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "teamwork",
+      "design research (theoretical interest)",
+      "product usability analysis (theoretical interest)"
+    ],
+    "goals": "Seeking an entry-level role in **design research and development** to learn about studying user-product interactions and contributing to iterative improvements. Open to exploring sustainable/eco-friendly contexts if aligned with core interests in team-based research.",
+    "is_open_to_relocate": true,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_077",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

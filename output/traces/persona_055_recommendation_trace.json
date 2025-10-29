@@ -1,0 +1,1129 @@
+{
+  "persona_id": "persona_055",
+  "persona_profile": {
+    "persona_id": "persona_055",
+    "age": 16,
+    "city": "São Paulo",
+    "education_level": "Ensino Médio",
+    "experience_years": 1,
+    "skills": [
+      "Recepção de hotel",
+      "Atendimento ao cliente",
+      "Multitarefa (em desenvolvimento)",
+      "Inglês básico/intermediário"
+    ],
+    "goals": "Obter treinamento formal em habilidades de recepção hoteleira, especialmente em gerenciamento de multitarefas sob pressão, uso eficiente de sistemas de reserva e atendimento simultâneo a múltiplos hóspedes. Melhorar confiança e precisão em operações de front desk para reduzir erros (ex.: reservas duplicadas).",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "trace_details": {
+    "training_ranking": [
+      {
+        "training": {
+          "training_id": "tr193",
+          "title": "Intermediate Hotel Reception Operations Training",
+          "offered_skills": [
+            "Hotel reception management (intermediate level)",
+            "Guest services handling",
+            "Reservations management",
+            "Daily operations coordination",
+            "Guest check-ins and check-outs",
+            "Complex reservation systems operation",
+            "Guest issue resolution",
+            "Coordination with housekeeping and maintenance teams",
+            "Payment processing",
+            "Detailed guest records maintenance",
+            "Overbookings management",
+            "VIP guest handling",
+            "Multitasking under pressure",
+            "Clear communication with international guests",
+            "Property management systems usage"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 97.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 95
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr194",
+          "title": "Advanced Hotel Reception Operations",
+          "offered_skills": [
+            "Reception management (advanced)",
+            "Guest service excellence (advanced)",
+            "Transparency and compliance best practices",
+            "Advanced guest handling techniques",
+            "Complex reservation management",
+            "Sophisticated problem-solving strategies",
+            "VIP guest services",
+            "Supervisory skills in hospitality"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 97.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 95
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr192",
+          "title": "Master Hotel Reception Operations from Scratch",
+          "offered_skills": [
+            "Recepção hoteleira (check-in/check-out)",
+            "Gerenciamento de reservas",
+            "Protocolo de atendimento ao cliente",
+            "Operações diárias de front desk",
+            "Sistemas de gestão de bookings",
+            "Técnicas de atendimento a hóspedes",
+            "Comunicação profissional em hospitalidade"
+          ],
+          "required_level": null
+        },
+        "score": 94.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 90
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr202",
+          "title": "Intermediate Juggling Multiple Tasks Training",
+          "offered_skills": [
+            "Managing multiple responsibilities simultaneously",
+            "Prioritizing competing tasks in busy environments",
+            "Handling check-ins, phone calls, and guest requests concurrently",
+            "Staying organized under pressure",
+            "Maintaining service quality in high-demand scenarios",
+            "Practical techniques for task prioritization and execution",
+            "Efficiently managing hotel reception workflows"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 94.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 90
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr184",
+          "title": "Hotel Guest Services Training - Intermediate Level",
+          "offered_skills": [
+            "Guest arrival management (intermediate)",
+            "Guest departure management (intermediate)",
+            "Room assignment efficiency",
+            "Payment processing accuracy",
+            "Guest issue resolution",
+            "Technical procedures for hotel operations",
+            "Guest communication techniques",
+            "Real-scenario practice for hotel reception",
+            "Industry best practices for hotel services"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr185",
+          "title": "Advanced Guest Arrival and Departure Management",
+          "offered_skills": [
+            "Complex reception scenario handling",
+            "VIP guest protocols",
+            "Advanced problem-solving in hotel operations",
+            "Premium guest service techniques",
+            "Operational excellence in hotel reception"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr201",
+          "title": "Master the Basics of Hotel Reception!",
+          "offered_skills": [
+            "Handling guest requests",
+            "Managing phone calls",
+            "Administrative duties",
+            "Task prioritization",
+            "Managing interruptions",
+            "Guest service under pressure",
+            "Check-in management",
+            "Reservation processing",
+            "Assisting walk-in guests",
+            "Multitasking in hospitality"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr209",
+          "title": "Advanced Property Management Systems Training",
+          "offered_skills": [
+            "Complex reservation operations",
+            "Room inventory optimization",
+            "Guest data management",
+            "Sophisticated reservation workflows",
+            "Complex booking scenario management",
+            "Detailed report generation",
+            "System troubleshooting",
+            "Advanced booking system features",
+            "Hotel operations streamlining",
+            "Guest experience enhancement"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr188",
+          "title": "Advanced Professional Interaction Skills for Hotel Reception",
+          "offered_skills": [
+            "Advanced professional interaction techniques for hospitality environments",
+            "Handling complex guest situations",
+            "Navigating challenging conversations",
+            "Crafting professional correspondence",
+            "Effective cross-cultural communication",
+            "De-escalation techniques",
+            "Writing clear and professional emails",
+            "Coordinating with multiple departments",
+            "Representing hotel standards with confidence"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr207",
+          "title": "Hotel Property Management Systems - Basic Training",
+          "offered_skills": [
+            "Hotel booking software operations (basic)",
+            "Property management system navigation",
+            "Guest check-in/check-out processing",
+            "Room inventory management (basic)",
+            "Payment processing in hospitality software",
+            "Coordination of guest services via digital platforms"
+          ],
+          "required_level": null
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr208",
+          "title": "Hotel Property Management Systems Training - Intermediate Level",
+          "offered_skills": [
+            "Mastery of hotel booking and management software (intermediate level)",
+            "Best practices for transparency and compliance in hotel management",
+            "Recognized credential for resume enhancement"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr191",
+          "title": "Advanced Client Relations in Hotel Reception",
+          "offered_skills": [
+            "complex guest situation handling",
+            "professional conflict resolution",
+            "exceptional hospitality experience delivery",
+            "sophisticated client interaction techniques",
+            "complaint resolution strategies",
+            "premium service standards implementation",
+            "maintaining professional composure under pressure",
+            "transforming difficult situations into positive guest experiences"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr197",
+          "title": "Advanced Customer Service Excellence for Hotel Reception",
+          "offered_skills": [
+            "Advanced customer service techniques",
+            "Relationship management in hospitality",
+            "Handling complex guest interactions",
+            "Anticipating guest needs",
+            "Resolving challenging situations with grace",
+            "Sophisticated communication strategies",
+            "VIP guest management",
+            "Complaint resolution",
+            "Special request handling",
+            "Guest loyalty building"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr183",
+          "title": "Hotel Guest Registration and Departure Procedures - Basic Level",
+          "offered_skills": [
+            "Guest arrival and departure process management (foundational)",
+            "Hotel reception documentation procedures",
+            "Guest communication protocols",
+            "Efficient processing techniques for peak/regular hours",
+            "Administrative tasks for hotel reception",
+            "Basic payment processing in hospitality",
+            "Guest service standards compliance",
+            "Professional handling of routine guest interactions"
+          ],
+          "required_level": null
+        },
+        "score": 79.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 65
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr187",
+          "title": "Intermediate Speaking and Writing Skills for Hotel Reception",
+          "offered_skills": [
+            "Professional guest interaction (intermediate level)",
+            "Face-to-face conversation in hospitality",
+            "Written correspondence for hotel operations",
+            "Handling complex guest requests",
+            "Managing difficult situations through dialogue",
+            "Crafting professional emails and messages",
+            "Explaining hotel policies diplomatically",
+            "Resolving guest complaints effectively",
+            "Adapting communication style to different guest personalities",
+            "Clear expression under pressure in hospitality",
+            "Maintaining professional tone in guest service"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 79.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 65
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr195",
+          "title": "Guest Relations Training - Basic Level",
+          "offered_skills": [
+            "Customer service excellence in hospitality",
+            "Managing guest interactions",
+            "Handling guest inquiries",
+            "Ensuring guest satisfaction (check-in to check-out)",
+            "Practical techniques for hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 79.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 65
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr196",
+          "title": "Intermediate Customer Service Excellence Training",
+          "offered_skills": [
+            "Advanced communication techniques in customer service",
+            "Problem-solving strategies for hotel guest interactions",
+            "Handling complex guest situations",
+            "Managing guest expectations effectively",
+            "Turning challenging encounters into positive outcomes",
+            "Sophisticated guest interaction skills"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 79.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 65
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr181",
+          "title": "Master Intermediate Money Management at Hotel Reception",
+          "offered_skills": [
+            "guest payment handling",
+            "transaction processing",
+            "cash operations management",
+            "advanced payment scenarios",
+            "error resolution in transactions",
+            "financial reconciliation",
+            "complex guest billing",
+            "financial record maintenance",
+            "daily cash operations (hotel front desk)"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr186",
+          "title": "Basic Hotel Reception Communication Training",
+          "offered_skills": [
+            "Essential speaking skills for guest interactions (basic level)",
+            "Essential writing skills for guest interactions (basic level)",
+            "Best practices for transparency and compliance in hospitality",
+            "Professional front desk conversation handling",
+            "Clear and effective message writing for guest experience",
+            "Check-in procedures",
+            "Handling guest requests and complaints"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr189",
+          "title": "Master the Basics of Hotel Reception: Basic Customer Service Training",
+          "offered_skills": [
+            "Guest interaction",
+            "Handling inquiries",
+            "Resolving guest concerns",
+            "Creating positive first impressions",
+            "Front desk operations",
+            "Guest relations",
+            "Professional communication in hospitality",
+            "Foundational customer service in hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr200",
+          "title": "Advanced Regional Expertise for Hotel Professionals",
+          "offered_skills": [
+            "Comprehensive regional destination knowledge (advanced level)",
+            "Best practices for transparency and compliance in hospitality",
+            "Expertise in guest recommendations (dining, entertainment, transportation, hidden gems)",
+            "Advanced receptionist skills for hotel professionals"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr204",
+          "title": "Master the Basics of Hotel Reception: Basic Problem Resolution Training",
+          "offered_skills": [
+            "Guest complaint handling",
+            "Conflict resolution",
+            "Active listening",
+            "Root cause identification",
+            "Problem-solving under pressure",
+            "De-escalation techniques",
+            "Clear communication in hospitality",
+            "Maintaining composure with upset guests",
+            "Guest service improvement"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr205",
+          "title": "Master Guest Issue Resolution at the Front Desk!",
+          "offered_skills": [
+            "Handling complex guest complaints",
+            "Managing escalated complaints effectively",
+            "Turning difficult guest interactions into positive experiences",
+            "Maintaining guest satisfaction in challenging circumstances",
+            "Advanced techniques for addressing guest concerns",
+            "Preserving hotel reputation during conflict resolution"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr206",
+          "title": "Advanced Customer Issue Resolution for Hotel Reception",
+          "offered_skills": [
+            "Complex guest complaint handling (advanced)",
+            "Conflict resolution (advanced)",
+            "Transparency and compliance best practices"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 70.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 50
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr180",
+          "title": "Basic Money Management for Hotel Reception",
+          "offered_skills": [
+            "Money transaction management (basic level)",
+            "Processing guest payments",
+            "Balancing daily receipts",
+            "End-of-shift reconciliation",
+            "Handling incidental charges",
+            "Managing cash drawers",
+            "Financial procedures for hotel front desk operations"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr182",
+          "title": "Advanced Money Management in Hotel Reception",
+          "offered_skills": [
+            "Complex financial transaction handling",
+            "Cash flow management",
+            "Accurate accounting procedures",
+            "Sophisticated financial operations oversight",
+            "Large transaction processing",
+            "Precise record-keeping in hotel environments",
+            "Payment process management",
+            "Financial accuracy in high-pressure reception situations"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr199",
+          "title": "Conhecimento Avançado da Região Local para Recepcionistas",
+          "offered_skills": [
+            "Domínio de atrações, serviços e pontos de interesse da região (nível intermediário)",
+            "Orientação detalhada sobre restaurantes, pontos turísticos e transporte público",
+            "Atendimento especializado a hóspedes com informações precisas sobre eventos locais e serviços essenciais",
+            "Simulação de situações reais de recepção hoteleira",
+            "Aplicação prática de conhecimento em formato híbrido (online/presencial)"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr421",
+          "title": "Desenvolva sua Sensibilidade Intercultural no Turismo",
+          "offered_skills": [
+            "Compreensão de diferentes culturas",
+            "Atendimento intercultural excepcional",
+            "Identificação de diferenças culturais",
+            "Adaptação de comunicação para diversos públicos",
+            "Criação de experiências inclusivas para turistas internacionais",
+            "Reconhecimento de nuances comportamentais",
+            "Evitamento de mal-entendidos culturais",
+            "Transformação da diversidade em vantagem competitiva",
+            "Protocolos de cortesia intercultural",
+            "Estratégias práticas para superar barreiras culturais"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr167",
+          "title": "Advanced Manufacturing Line Operations",
+          "offered_skills": [
+            "Gerenciamento avançado de fluxos de produção",
+            "Otimização de eficiência produtiva",
+            "Liderança de equipes multifuncionais em ambientes de produção alimentícia",
+            "Resolução avançada de problemas em manufatura",
+            "Implementação de sistemas de controle de qualidade",
+            "Processos de melhoria contínua (kaizen/lean)",
+            "Análise de dados de produção industrial",
+            "Tomada de decisão estratégica sob pressão",
+            "Coordenação de múltiplas linhas de produção simultâneas",
+            "Garantia de padrões de segurança alimentar em ambientes industriais",
+            "Aplicação prática de teorias de manufatura para o setor alimentício"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr198",
+          "title": "Master Your Neighborhood: Essential Area Knowledge for Hotel Staff",
+          "offered_skills": [
+            "Local area knowledge for hospitality",
+            "Guest service recommendations (restaurants, transportation, entertainment)",
+            "Direction-giving and navigation assistance",
+            "Handling guest inquiries professionally",
+            "Enhancing guest experience through local expertise"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr401",
+          "title": "Advanced Team and Performer Interaction Skills for Show Technicians",
+          "offered_skills": [
+            "Coordenação avançada de equipes em ambientes de entretenimento ao vivo",
+            "Gestão de interações complexas nos bastidores",
+            "Comunicação eficiente em situações de alta pressão",
+            "Fluxo de informações em produções artísticas e técnicas",
+            "Liderança em cenários de performance de alto risco",
+            "Integração entre equipes técnicas e criativas",
+            "Técnicas de diálogo claro e preciso em ambientes dinâmicos"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr409",
+          "title": "Intermediate Live Performance Management",
+          "offered_skills": [
+            "Coordenação avançada de eventos ao vivo",
+            "Gestão de som em performances",
+            "Coordenação de iluminação",
+            "Resolução de problemas em tempo real durante performances",
+            "Gestão de equipamentos para eventos",
+            "Coordenação de equipes técnicas e artistas",
+            "Logística operacional de shows ao vivo",
+            "Técnicas avançadas de *troubleshooting* em eventos",
+            "Habilidades de gestão sob pressão em ambientes de performance"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr274",
+          "title": "Treinamento Intermediário em Comunicação com Embarcações",
+          "offered_skills": [
+            "Comunicação efetiva com navios e embarcações (nível intermediário)",
+            "Melhores práticas de transparência e conformidade no setor marítimo",
+            "Coordenação de operações portuárias",
+            "Gerenciamento de tráfego de embarcações",
+            "Protocolos de comunicação marítima",
+            "Terminologia técnica específica do setor naval",
+            "Procedimentos de segurança em operações marítimas",
+            "Comunicação clara em situações complexas"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr0",
+          "title": "Master Financial Software Tools - Beginner Level",
+          "offered_skills": [
+            "contabilidade básica em softwares financeiros",
+            "processamento de transações financeiras",
+            "geração de relatórios básicos",
+            "navegação em sistemas contábeis",
+            "tarefas práticas de contabilidade digital",
+            "fundamentos de ferramentas modernas de gestão financeira"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr175",
+          "title": "Master Intermediate Supply Chain Management in Food Industry",
+          "offered_skills": [
+            "Gestão de redes de distribuição de alimentos",
+            "Otimização de inventário",
+            "Coordenação logística",
+            "Gerenciamento de estoque perecível",
+            "Roteirização de distribuição",
+            "Relações com fornecedores",
+            "Sistemas de gerenciamento de armazéns (WMS)",
+            "Conformidade com segurança alimentar em cadeias de suprimento",
+            "Logística de transporte refrigerado",
+            "Coordenação de redes complexas de distribuição"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr282",
+          "title": "Master Port Operations Coordination from the Ground Up",
+          "offered_skills": [
+            "Coordenação de operações portuárias básicas",
+            "Gestão de cronogramas de embarcações",
+            "Coordenação de operações de carga",
+            "Protocolo de comunicação marítima",
+            "Fluxos operacionais em instalações portuárias",
+            "Resolução de desafios práticos em portos"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr283",
+          "title": "Coordenação de Operações Portuárias - Nível Intermediário",
+          "offered_skills": [
+            "Coordenação de operações portuárias (nível intermediário)",
+            "Gestão de processos logísticos complexos em portos",
+            "Gestão de recursos em terminais portuários",
+            "Planejamento de cargas",
+            "Coordenação de equipes portuárias",
+            "Otimização de fluxos operacionais em portos",
+            "Gerenciamento de documentação portuária especializada",
+            "Coordenação intersetorial em ambientes portuários"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr367",
+          "title": "Advanced Cost Reduction Strategies Training",
+          "offered_skills": [
+            "Identificar oportunidades de economia",
+            "Negociar melhores acordos",
+            "Implementar abordagens sistemáticas para redução de custos em compras",
+            "Analisar padrões de gastos",
+            "Avaliar desempenho de fornecedores",
+            "Criar planos de redução de custos acionáveis",
+            "Equilibrar redução de custos com manutenção de qualidade",
+            "Gerenciamento de relacionamento com fornecedores",
+            "Pensamento estratégico em compras"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr103",
+          "title": "Master Electrical Power Systems at Intermediate Level!",
+          "offered_skills": [
+            "Análise de sistemas de potência elétrica",
+            "Cálculo de fluxo de carga",
+            "Avaliação de estabilidade de sistemas elétricos",
+            "Projeto de redes de distribuição de energia",
+            "Diagnóstico e solução de problemas em infraestrutura elétrica",
+            "Compreensão de sistemas de geração e distribuição de energia",
+            "Avaliação de redes elétricas"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr106",
+          "title": "Intermediate Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Identificação de riscos elétricos (hazard identification)",
+            "Implementação de medidas protetivas (protective measures)",
+            "Manutenção de ambientes de trabalho seguros (safe working environments)",
+            "Avaliação avançada de riscos (advanced hazard assessment)",
+            "Uso adequado de equipamentos de segurança (safety equipment usage)",
+            "Procedimentos de resposta a emergências elétricas (emergency response)",
+            "Criação de espaços de trabalho mais seguros (safer workspaces)"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr119",
+          "title": "Advanced Electronic Systems Troubleshooting Course",
+          "offered_skills": [
+            "Diagnóstico avançado de sistemas eletrônicos",
+            "Resolução de falhas complexas em eletrônica",
+            "Metodologias avançadas de teste em eletrônica",
+            "Estratégias sofisticadas de reparo em sistemas eletrônicos",
+            "Abordagens sistemáticas para solução de problemas técnicos",
+            "Expertise em desafios diagnósticos difíceis em eletrônica"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr155",
+          "title": "Advanced Food Safety and Sanitation Standards",
+          "offered_skills": [
+            "Sanitação avançada em manipulação de alimentos",
+            "Prevenção de contaminação e controle de riscos",
+            "Liderança em sistemas de gestão de segurança alimentar",
+            "Implementação e monitoramento de protocolos de segurança avançados",
+            "Conformidade com regulamentações de segurança alimentar",
+            "Avaliação de riscos em ambientes de produção de alimentos"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr160",
+          "title": "Master Intermediate Food Packaging Technology",
+          "offered_skills": [
+            "Design de embalagens alimentícias",
+            "Otimização de sistemas de embalagem",
+            "Seleção avançada de materiais para embalagens",
+            "Propriedades de barreira em embalagens",
+            "Sustentabilidade em embalagens de alimentos",
+            "Conformidade regulatória para embalagens alimentícias",
+            "Avaliação de desempenho de embalagens",
+            "Solucionar problemas comuns em embalagens",
+            "Tomada de decisão estratégica em design de embalagens",
+            "Equilíbrio entre segurança do produto, vida útil e custo-efetividade"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr177",
+          "title": "Basic Food Waste Reduction Training",
+          "offered_skills": [
+            "Minimização de desperdício de alimentos (nível básico)",
+            "Melhores práticas para transparência e conformidade em serviços de alimentação",
+            "Identificação de fontes de desperdício",
+            "Implementação de técnicas de redução de resíduos",
+            "Acompanhamento de melhorias operacionais",
+            "Fundamentos teóricos em gestão sustentável de alimentos",
+            "Aplicação prática em operações de serviço de alimentação"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr179",
+          "title": "Advanced Food Waste Management Training",
+          "offered_skills": [
+            "identificação de fontes de desperdício em operações industriais de alimentos",
+            "implementação de protocolos de redução de resíduos",
+            "otimização de utilização de recursos em ambientes complexos de produção alimentícia",
+            "desenho e gestão de estratégias abrangentes de minimização de desperdício",
+            "aplicação de frameworks teóricos em casos práticos de sustentabilidade",
+            "desenvolvimento de planos de ação para contextos operacionais específicos",
+            "liderança em iniciativas de sustentabilidade no setor alimentício",
+            "análise de impacto ambiental em cadeias de produção de alimentos",
+            "gestão híbrida (teoria + prática) de sistemas de redução de desperdício"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr217",
+          "title": "Insurance Contract Law - Intermediate Level",
+          "offered_skills": [
+            "Análise de contratos de seguro",
+            "Interpretação de cláusulas contratuais no setor de seguros",
+            "Compreensão de estruturas de apólices",
+            "Gestão de obrigações de cobertura e exclusões",
+            "Mecanismos de resolução de disputas em seguros",
+            "Conhecimento jurídico aplicado a relações entre seguradoras e segurados",
+            "Habilidades práticas em gestão de sinistros e subscritação de apólices"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr238",
+          "title": "Advance Your Insurance Sales and Marketing Skills!",
+          "offered_skills": [
+            "Promoção de soluções de seguros",
+            "Compreensão das necessidades do cliente",
+            "Fechamento de negócios no setor de seguros",
+            "Posicionamento de produtos de seguros",
+            "Manuseio de objeções",
+            "Desenvolvimento de estratégias de marketing para clientes em potencial",
+            "Construção de relacionamentos duradouros com clientes",
+            "Venda de produtos de proteção"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr342",
+          "title": "Master Hydraulic and Pneumatic Systems from Scratch",
+          "offered_skills": [
+            "Fundamentos de sistemas hidráulicos",
+            "Fundamentos de sistemas pneumáticos",
+            "Componentes de transmissão de potência",
+            "Aplicações industriais de hidráulica e pneumática",
+            "Controle básico de sistemas hidráulicos/pneumáticos",
+            "Manutenção e operação de equipamentos industriais"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr38",
+          "title": "Advanced Data Security Protocols",
+          "offered_skills": [
+            "Implementação de protocolos avançados de segurança de dados",
+            "Proteção de informações financeiras sensíveis",
+            "Arquiteturas de segurança em nível empresarial",
+            "Metodologias de avaliação de ameaças",
+            "Quadros de conformidade para instituições financeiras (bancos e seguros)",
+            "Estratégias avançadas de proteção contra ameaças cibernéticas modernas",
+            "Atendimento a requisitos regulatórios do setor financeiro",
+            "Segurança da informação aplicada a administração bancária e de seguros",
+            "Práticas de implementação de frameworks de proteção de dados",
+            "Gestão de riscos em ambientes financeiros críticos"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr392",
+          "title": "Master Advanced Sound System Configuration",
+          "offered_skills": [
+            "configuração avançada de sistemas de som",
+            "manuseio de equipamentos de áudio profissionais",
+            "solucionar problemas complexos de som",
+            "configuração de setups de áudio sofisticados",
+            "gerenciamento de sistemas de som para eventos ao vivo",
+            "tecnologias de áudio para teatros e concertos"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_055",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr193"
+      },
+      {
+        "training_id": "tr194"
+      },
+      {
+        "training_id": "tr192"
+      },
+      {
+        "training_id": "tr202"
+      },
+      {
+        "training_id": "tr184"
+      }
+    ]
+  }
+}

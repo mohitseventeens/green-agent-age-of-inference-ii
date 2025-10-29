@@ -18,1867 +18,1072 @@
       "English"
     ]
   },
-  "decision_action": "recommend_jobs",
+  "decision_action": "recommend_trainings",
   "trace_details": {
-    "job_ranking": [
+    "training_ranking": [
       {
-        "job": {
-          "job_id": "j60",
-          "title": "Food Industry Intern – Quality & Safety",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
+        "training": {
+          "training_id": "tr150",
+          "title": "Master Food Safety Fundamentals",
+          "offered_skills": [
+            "Hazard analysis (Análise de Perigos - HACCP)",
+            "Critical control points (Pontos Críticos de Controle - PCC)",
+            "Good Manufacturing Practices (Boas Práticas de Fabricação - BPF)",
+            "Contamination prevention (Prevenção de contaminação)",
+            "Quality assurance in food production (Garantia de qualidade na produção de alimentos)",
+            "Food safety regulatory compliance (Conformidade com normas de segurança alimentar)",
+            "Monitoring procedures for food safety (Procedimentos de monitoramento em segurança alimentar)",
+            "Identification of potential hazards in food production (Identificação de perigos potenciais na produção de alimentos)"
           ],
-          "required_skills": [
-            "Basic understanding of food safety and hygiene standards",
-            "Foundational knowledge in product development processes",
-            "Curiosity about food industry operations"
-          ]
+          "required_level": null
         },
-        "score": 65.5,
+        "score": 97.0,
         "sub_scores": {
-          "goals": 95,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
+          "prerequisite": 100,
+          "goal_alignment": 95
         }
       },
       {
-        "job": {
-          "job_id": "j81",
-          "title": "HSE Intern – Safety Procedures",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
+        "training": {
+          "training_id": "tr151",
+          "title": "Intermediate Food Safety Standards Training",
+          "offered_skills": [
+            "hazard analysis and critical control points (HACCP) - intermediate level",
+            "good manufacturing practices (GMP) - intermediate level",
+            "food safety system implementation and monitoring",
+            "risk identification in food production environments",
+            "theoretical and practical application of safety protocols",
+            "compliance oversight in food manufacturing"
           ],
-          "required_skills": [
-            "Understanding of industrial safety principles",
-            "HSE management systems",
-            "Safety protocol development",
-            "Safety audits and workplace inspections",
-            "Incident investigation processes",
-            "Regulatory compliance tracking",
-            "Preparation of safety training materials"
-          ]
+          "required_level": "ensino medio"
         },
-        "score": 51.0,
+        "score": 94.0,
         "sub_scores": {
-          "goals": 75,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 90
         }
       },
       {
-        "job": {
-          "job_id": "j84",
-          "title": "Occupational Safety Trainee",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Graduação",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
+        "training": {
+          "training_id": "tr153",
+          "title": "Basic Food Safety and Sanitation Training",
+          "offered_skills": [
+            "food safety practices",
+            "sanitation standards",
+            "transparency and compliance in food service",
+            "proper handwashing techniques",
+            "equipment sanitization",
+            "safe food preparation environment maintenance",
+            "food safety certification"
           ],
-          "required_skills": [
-            "Attention to detail",
-            "Commitment to safety principles",
-            "Willingness to learn safety regulations and procedures"
-          ]
+          "required_level": null
         },
-        "score": 51.0,
+        "score": 91.0,
         "sub_scores": {
-          "goals": 60,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 100
+          "prerequisite": 100,
+          "goal_alignment": 85
         }
       },
       {
-        "job": {
-          "job_id": "j186",
-          "title": "Mechanical Intern – Workshop Support",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
+        "training": {
+          "training_id": "tr154",
+          "title": "Intermediate Food Safety Standards Training",
+          "offered_skills": [
+            "Implementação de procedimentos de saneamento em manipulação de alimentos",
+            "Manutenção de padrões de segurança alimentar",
+            "Técnicas avançadas de prevenção de contaminação",
+            "Aplicação de normas de higiene em ambientes de preparo de alimentos",
+            "Gestão de segurança em serviços de alimentação"
           ],
-          "required_skills": [
-            "Hands-on workshop work",
-            "Willingness to learn mechanical systems",
-            "Assisting experienced mechanics",
-            "Maintenance procedures"
-          ]
+          "required_level": "ensino medio"
         },
-        "score": 49.0,
+        "score": 91.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 85
         }
       },
       {
-        "job": {
-          "job_id": "j117",
-          "title": "Dock Operations Intern – Equipment & Safety",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
+        "training": {
+          "training_id": "tr166",
+          "title": "Intermediate Manufacturing Operations Training",
+          "offered_skills": [
+            "Manufacturing operations coordination (intermediate level)",
+            "Workflow management in production",
+            "Efficiency optimization in manufacturing",
+            "Daily production activity oversight",
+            "Multi-stream production handling",
+            "Quality control implementation in food manufacturing",
+            "Operational troubleshooting",
+            "Supervision of production teams",
+            "Maintenance of operational standards",
+            "Resource allocation in production",
+            "Scheduling optimization",
+            "Process improvement techniques (food industry-specific)"
           ],
-          "required_skills": [
-            "vessel communication",
-            "equipment operation (cranes, forklifts)",
-            "supply chain planning processes",
-            "safety protocols"
-          ]
+          "required_level": "Ensino Médio"
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr169",
+          "title": "Intermediate Food Safety and Standards Training",
+          "offered_skills": [
+            "Food safety assessment (intermediate level)",
+            "Standards verification (intermediate level)",
+            "Food product evaluation",
+            "Identifying safety issues in food production",
+            "Regulatory compliance in food industry",
+            "Assessment protocols implementation",
+            "Contamination risk identification",
+            "Production process evaluation",
+            "Quality standards maintenance in food supply chain"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr159",
+          "title": "Master Food Packaging Technology from Scratch",
+          "offered_skills": [
+            "Food container design",
+            "Material selection for food packaging",
+            "Packaging processes and quality standards",
+            "Food safety and preservation best practices",
+            "Shelf life optimization via packaging",
+            "Fundamental principles of food packaging decisions",
+            "Practical applications in food manufacturing packaging"
+          ],
+          "required_level": null
+        },
+        "score": 88.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 80
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr168",
+          "title": "Basic Food Safety and Standards Training",
+          "offered_skills": [
+            "Food safety assessment (basic level)",
+            "Food control procedures (basic level)"
+          ],
+          "required_level": null
+        },
+        "score": 88.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 80
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr178",
+          "title": "Intermediate Food Waste Management Training",
+          "offered_skills": [
+            "minimizing food waste in food industry operations",
+            "identifying waste sources in food production/service",
+            "implementing food waste reduction strategies",
+            "measuring impact of waste reduction",
+            "inventory management for waste minimization",
+            "portion control techniques",
+            "sustainable practices in food operations",
+            "food waste measurement techniques",
+            "staff training for waste reduction",
+            "compliance with food safety standards while reducing waste",
+            "creating action plans for operational efficiency and sustainability",
+            "cost-environmental impact balancing in food operations"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr126",
+          "title": "Basic Equipment Handling Training",
+          "offered_skills": [
+            "Safe operation of industrial machinery (basic level)",
+            "Maintenance of industrial machinery (basic level)"
+          ],
+          "required_level": null
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr127",
+          "title": "Intermediate Machinery Operation Training",
+          "offered_skills": [
+            "Advanced machinery operation techniques (intermediate level)",
+            "Complex equipment management",
+            "Troubleshooting procedures for fiber and paper production",
+            "Safety protocols in manufacturing environments",
+            "Equipment specifications analysis",
+            "Maintenance protocols implementation",
+            "Independent operation of industrial machinery",
+            "Problem-solving in industrial equipment scenarios"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr165",
+          "title": "Basic Production Line Management Training",
+          "offered_skills": [
+            "Manufacturing operations",
+            "Workflow optimization",
+            "Transparency and compliance best practices",
+            "Supervisory skills for manufacturing",
+            "Team coordination in production",
+            "Quality control procedures",
+            "Resource allocation",
+            "Bottleneck identification",
+            "Efficiency improvements in food production"
+          ],
+          "required_level": null
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr19",
+          "title": "Intermediate Compliance and Risk Management Training",
+          "offered_skills": [
+            "Compliance standards maintenance",
+            "Regulatory frameworks understanding",
+            "Adherence protocols implementation",
+            "Regulatory risk protection",
+            "Compliance management techniques",
+            "Risk assessment strategies",
+            "Regulatory standards maintenance in dynamic environments"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 82.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 70
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr174",
+          "title": "Master Food Industry Logistics from the Ground Up",
+          "offered_skills": [
+            "food supply network management",
+            "procurement fundamentals",
+            "distribution logistics",
+            "inventory management for perishable goods",
+            "efficient product movement in food industry",
+            "practical food logistics operations"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr175",
+          "title": "Master Intermediate Supply Chain Management in Food Industry",
+          "offered_skills": [
+            "Gestão de redes de distribuição de alimentos",
+            "Otimização de inventário",
+            "Coordenação logística",
+            "Gerenciamento de estoque perecível",
+            "Roteirização de distribuição",
+            "Relações com fornecedores",
+            "Sistemas de gerenciamento de armazéns (WMS)",
+            "Conformidade com segurança alimentar em cadeias de suprimento",
+            "Logística de transporte refrigerado",
+            "Coordenação de redes complexas de distribuição"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr177",
+          "title": "Basic Food Waste Reduction Training",
+          "offered_skills": [
+            "Minimização de desperdício de alimentos (nível básico)",
+            "Melhores práticas para transparência e conformidade em serviços de alimentação",
+            "Identificação de fontes de desperdício",
+            "Implementação de técnicas de redução de resíduos",
+            "Acompanhamento de melhorias operacionais",
+            "Fundamentos teóricos em gestão sustentável de alimentos",
+            "Aplicação prática em operações de serviço de alimentação"
+          ],
+          "required_level": null
+        },
+        "score": 70.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 50
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr157",
+          "title": "Master Intermediate Procurement in Food Industry",
+          "offered_skills": [
+            "supplier relationship management",
+            "contract negotiation",
+            "strategic sourcing",
+            "vendor evaluation",
+            "cost optimization in procurement",
+            "quality assurance in procurement",
+            "regulatory compliance (food industry)",
+            "market trend analysis",
+            "supplier performance assessment",
+            "procurement strategy implementation"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr160",
+          "title": "Master Intermediate Food Packaging Technology",
+          "offered_skills": [
+            "Design de embalagens alimentícias",
+            "Otimização de sistemas de embalagem",
+            "Seleção avançada de materiais para embalagens",
+            "Propriedades de barreira em embalagens",
+            "Sustentabilidade em embalagens de alimentos",
+            "Conformidade regulatória para embalagens alimentícias",
+            "Avaliação de desempenho de embalagens",
+            "Solucionar problemas comuns em embalagens",
+            "Tomada de decisão estratégica em design de embalagens",
+            "Equilíbrio entre segurança do produto, vida útil e custo-efetividade"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr105",
+          "title": "Basic Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Electrical safety protocols",
+            "Hazard prevention",
+            "Regulatory compliance in electrical work",
+            "Identifying electrical hazards",
+            "Implementing protective measures",
+            "Workplace safety procedures for electrical systems",
+            "Theoretical and practical electrical safety applications"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr106",
+          "title": "Intermediate Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Identificação de riscos elétricos (hazard identification)",
+            "Implementação de medidas protetivas (protective measures)",
+            "Manutenção de ambientes de trabalho seguros (safe working environments)",
+            "Avaliação avançada de riscos (advanced hazard assessment)",
+            "Uso adequado de equipamentos de segurança (safety equipment usage)",
+            "Procedimentos de resposta a emergências elétricas (emergency response)",
+            "Criação de espaços de trabalho mais seguros (safer workspaces)"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr120",
+          "title": "Basic Chemical Handling Training",
+          "offered_skills": [
+            "chemical safety protocols",
+            "proper handling techniques",
+            "risk assessment procedures",
+            "safety measures for chemical storage",
+            "emergency response protocols",
+            "understanding chemical safety principles in fiber and paper production"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr121",
+          "title": "Master Safe Chemical Practices in Industrial Settings - Intermediate Chemical Handling Training",
+          "offered_skills": [
+            "Segurança no manuseio de produtos químicos (chemical safety handling)",
+            "Armazenamento adequado de substâncias perigosas (proper storage of hazardous substances)",
+            "Protocolos de resposta a emergências (emergency response protocols)",
+            "Conformidade regulatória em ambientes industriais (regulatory compliance in industrial settings)",
+            "Avaliação de riscos químicos (chemical risk assessment)",
+            "Implementação de medidas de segurança (safety measures implementation)",
+            "Manuseio de processos químicos complexos (handling complex chemical processes)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr135",
+          "title": "Basic Training in Streamlining Industrial Operations",
+          "offered_skills": [
+            "workflow improvement (basic level)",
+            "identifying bottlenecks in industrial processes",
+            "waste reduction in manufacturing",
+            "cost reduction techniques",
+            "productivity enhancement in production lines",
+            "systematic operational analysis",
+            "measuring process improvement results"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr136",
+          "title": "Optimize Manufacturing Processes Like a Pro! - Intermediate Process Optimization Training",
+          "offered_skills": [
+            "Process optimization in fiber and paper manufacturing",
+            "Streamlining operations",
+            "Waste reduction techniques",
+            "Efficiency improvement in manufacturing",
+            "Analyzing production workflows",
+            "Identifying bottlenecks",
+            "Implementing systematic improvements",
+            "Handling complex optimization challenges",
+            "Applying real industry scenarios in fiber and paper operations"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr137",
+          "title": "Advanced Manufacturing Efficiency Enhancement",
+          "offered_skills": [
+            "Workflow optimization (Avançado)",
+            "Transparency and compliance best practices",
+            "Bottleneck identification in manufacturing",
+            "Lean methodologies implementation",
+            "Efficient production workflow design",
+            "Waste reduction techniques",
+            "Data-driven decision making for production",
+            "Statistical analysis for production improvement",
+            "Advanced problem-solving frameworks",
+            "Case study analysis (pulp and paper industry)",
+            "Operational expertise in industrial processes"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr147",
+          "title": "Basic Training in Environmental Resource Management",
+          "offered_skills": [
+            "Environmental resource management (basic level)",
+            "Sustainable material handling",
+            "Material identification and categorization",
+            "Regulatory compliance in environmental practices",
+            "Safety protocols for resource handling",
+            "Sustainable practices in fiber/paper manufacturing",
+            "Material flow assessment",
+            "Sorting system implementation",
+            "Economic and environmental impact analysis of resource management"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr156",
+          "title": "Basic Procurement Training",
+          "offered_skills": [
+            "sourcing materials (food sector)",
+            "procurement processes (food industry)",
+            "supplier evaluation",
+            "cost management (food production)",
+            "food industry standards compliance"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr162",
+          "title": "Basic Food Innovation and Development Course",
+          "offered_skills": [
+            "Food innovation fundamentals",
+            "Product concept development",
+            "Market launch strategies for food products",
+            "Food product testing and validation"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr171",
+          "title": "Basic Recipe Scaling Training",
+          "offered_skills": [
+            "Proporcional adjustment of ingredient quantities (basic level)",
+            "Fundamentals of recipe scaling for food production"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr172",
+          "title": "Intermediate Recipe Scaling Training",
+          "offered_skills": [
+            "Formula adjustment (intermediate level)",
+            "Portion calculation (intermediate level)",
+            "Recipe scaling (up/down) while maintaining quality and consistency"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr123",
+          "title": "Environmental Compliance Training - Fundamentals",
+          "offered_skills": [
+            "Regulatory framework understanding for fiber and paper industry",
+            "Environmental compliance standards (basic level)",
+            "Sustainable practices in manufacturing",
+            "Compliance requirements and implementation strategies",
+            "Environmental standards knowledge",
+            "Regulatory documentation for legal compliance",
+            "Practical application of compliance processes"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr124",
+          "title": "Environmental Compliance Training - Intermediate Level",
+          "offered_skills": [
+            "Mastery of environmental compliance frameworks (fiber and paper industry)",
+            "Application of best practices for transparency and regulatory adherence",
+            "Regulatory risk assessment",
+            "Development of compliance protocols",
+            "Maintenance of environmental standards in industrial settings",
+            "Navigation of complex environmental standards (fiber and paper manufacturing)",
+            "Implementation of compliance strategies"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr139",
+          "title": "Intermediate Paper Product Development Training",
+          "offered_skills": [
+            "Paper product creation (intermediate level)",
+            "Innovation in paper product development",
+            "Best practices for transparency and compliance in the paper industry",
+            "Practical approaches to creating innovative paper products",
+            "Industry standards for fibers and paper products"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr144",
+          "title": "Basic Paper and Pulp Quality Control Training",
+          "offered_skills": [
+            "Monitoring production quality (paper and pulp industry)",
+            "Identifying defects in paper and pulp manufacturing",
+            "Implementing basic quality control procedures",
+            "Essential testing methods for paper and pulp",
+            "Applying industry quality standards",
+            "Inspection techniques for paper and pulp production"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr189",
+          "title": "Master the Basics of Hotel Reception: Basic Customer Service Training",
+          "offered_skills": [
+            "Guest interaction",
+            "Handling inquiries",
+            "Resolving guest concerns",
+            "Creating positive first impressions",
+            "Front desk operations",
+            "Guest relations",
+            "Professional communication in hospitality",
+            "Foundational customer service in hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr190",
+          "title": "Intermediate Client Relations Training",
+          "offered_skills": [
+            "Guest interaction techniques (intermediate level)",
+            "Transparency and compliance best practices",
+            "Advanced communication strategies",
+            "Problem-solving techniques",
+            "Conflict resolution",
+            "Managing guest expectations",
+            "Building lasting guest relationships"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr132",
+          "title": "Manufacturing Processes in Paper Industry - Fundamentals",
+          "offered_skills": [
+            "Essential production techniques in paper manufacturing",
+            "Quality control methods in paper production",
+            "Pulping methods and raw material processing",
+            "Bleaching sequences and chemical treatments",
+            "Paper formation and coating techniques",
+            "Equipment operation principles for paper manufacturing",
+            "Troubleshooting common production issues",
+            "Maintaining consistent product specifications",
+            "Best practices for transparency and compliance in paper industry",
+            "Modern manufacturing facility workflows"
+          ],
+          "required_level": null
         },
         "score": 46.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 10
         }
       },
       {
-        "job": {
-          "job_id": "j68",
-          "title": "Nutrition & Food Technology Analyst",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
+        "training": {
+          "training_id": "tr184",
+          "title": "Hotel Guest Services Training - Intermediate Level",
+          "offered_skills": [
+            "Guest arrival management (intermediate)",
+            "Guest departure management (intermediate)",
+            "Room assignment efficiency",
+            "Payment processing accuracy",
+            "Guest issue resolution",
+            "Technical procedures for hotel operations",
+            "Guest communication techniques",
+            "Real-scenario practice for hotel reception",
+            "Industry best practices for hotel services"
           ],
-          "required_skills": [
-            "waste minimization techniques",
-            "overseeing production workflows",
-            "analytical skills",
-            "attention to detail",
-            "food technology analysis",
-            "production optimization"
-          ]
+          "required_level": "ensino medio"
         },
-        "score": 42.0,
+        "score": 46.0,
         "sub_scores": {
-          "goals": 60,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 10
         }
       },
       {
-        "job": {
-          "job_id": "j69",
-          "title": "Specialist – Food Innovation",
-          "city": "Curitiba",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
+        "training": {
+          "training_id": "tr186",
+          "title": "Basic Hotel Reception Communication Training",
+          "offered_skills": [
+            "Essential speaking skills for guest interactions (basic level)",
+            "Essential writing skills for guest interactions (basic level)",
+            "Best practices for transparency and compliance in hospitality",
+            "Professional front desk conversation handling",
+            "Clear and effective message writing for guest experience",
+            "Check-in procedures",
+            "Handling guest requests and complaints"
           ],
-          "required_skills": [
-            "managing production lines",
-            "scaling recipes for commercial manufacturing",
-            "implementing waste reduction programs",
-            "food production",
-            "process optimization"
-          ]
+          "required_level": null
         },
-        "score": 42.0,
+        "score": 46.0,
         "sub_scores": {
-          "goals": 60,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 10
         }
       },
       {
-        "job": {
-          "job_id": "j64",
-          "title": "Food Production Supervisor",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr1",
+          "title": "Intermediate Financial Software Training",
+          "offered_skills": [
+            "Managing complex accounting tasks with professional software tools",
+            "Navigating advanced features of accounting platforms",
+            "Processing complex financial transactions",
+            "Generating detailed financial reports",
+            "Streamlining accounting workflows",
+            "Customizing software settings for accounting operations",
+            "Troubleshooting common issues in financial software",
+            "Handling intermediate-level accounting tasks"
           ],
-          "required_skills": [
-            "Food safety (HACCP, GMP)",
-            "Sanitation protocols",
-            "Production line oversight",
-            "Supply chain coordination",
-            "Team leadership"
-          ]
+          "required_level": "ensino medio"
         },
-        "score": 41.5,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j67",
-          "title": "Food Industry Operations Manager",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr10",
+          "title": "Intermediate Financial Cost Analysis Training",
+          "offered_skills": [
+            "intermediate cost analysis techniques",
+            "financial performance evaluation",
+            "data-driven financial recommendations",
+            "cost structure interpretation",
+            "cost optimization identification",
+            "strategic financial decision-making",
+            "real-world financial case analysis",
+            "business profitability assessment"
           ],
-          "required_skills": [
-            "production workflow management",
-            "line operations coordination",
-            "food safety standards (intermediate)",
-            "sanitation procedures (intermediate)",
-            "modern packaging systems",
-            "hands-on leadership",
-            "operational excellence in food manufacturing"
-          ]
+          "required_level": "Ensino Médio"
         },
-        "score": 41.5,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j87",
-          "title": "Industrial Hygiene Analyst",
-          "city": "Belo Horizonte",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr117",
+          "title": "Basic Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits",
+            "Systematic hardware failure resolution",
+            "Reading schematics",
+            "Using diagnostic tools",
+            "Logical problem-solving for electronics repair",
+            "Component failure identification",
+            "Proven repair methodologies",
+            "Real-world troubleshooting scenarios"
           ],
-          "required_skills": [
-            "industrial health and safety principles",
-            "workplace safety assessments",
-            "air quality analysis",
-            "noise level monitoring",
-            "hazard identification",
-            "safety protocol development",
-            "environmental compliance",
-            "occupational health risk assessment"
-          ]
+          "required_level": null
         },
-        "score": 41.5,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j135",
-          "title": "Manufacturing Coordinator – Tools & Setup",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Técnico",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
+        "training": {
+          "training_id": "tr118",
+          "title": "Intermediate Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits (intermediate level)",
+            "Systematic fault identification and resolution in electrical systems",
+            "Recognized credential for resume enhancement"
           ],
-          "required_skills": [
-            "Equipment maintenance and repair (intermediate)",
-            "Industrial electrical systems (intermediate)",
-            "Preventive maintenance (basic)",
-            "Bilingual communication (Portuguese/English)",
-            "Problem ownership and resolution",
-            "Tool inventory coordination",
-            "Troubleshooting equipment issues",
-            "Process documentation"
-          ]
+          "required_level": "ensino medio"
         },
-        "score": 41.0,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 40,
-          "skills": 0,
-          "experience": 80,
-          "education": 40,
-          "location": 100
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j63",
-          "title": "Specialist – Food Process Development",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
+        "training": {
+          "training_id": "tr12",
+          "title": "Basic Data Analysis Training",
+          "offered_skills": [
+            "Análise de dados financeiros",
+            "Interpretação de métricas-chave",
+            "Leitura de relatórios financeiros básicos",
+            "Tomada de decisão baseada em dados",
+            "Análise numérica aplicada a contabilidade e gestão"
           ],
-          "required_skills": [
-            "Food process development",
-            "Recipe scaling (small-batch to large-scale)",
-            "Food safety standards (HACCP, GMP)",
-            "Hygiene protocols implementation",
-            "Collaboration in diverse teams"
-          ]
+          "required_level": null
         },
-        "score": 37.0,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 65,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j182",
-          "title": "Workshop Assistant – Components & Documentation",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
+        "training": {
+          "training_id": "tr13",
+          "title": "Intermediate Data Analysis and Interpretation Training",
+          "offered_skills": [
+            "Intermediate data analysis",
+            "Data interpretation for business decision-making",
+            "Pattern recognition in financial data",
+            "Trend analysis in management information",
+            "Drawing actionable insights from numerical data",
+            "Strategic business decision support"
           ],
-          "required_skills": [
-            "Basic proficiency with workshop tools",
-            "Intermediate component replacement skills",
-            "Intermediate documentation writing abilities",
-            "Attention to detail",
-            "Technical writing"
-          ]
+          "required_level": "Ensino Médio"
         },
-        "score": 33.0,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j131",
-          "title": "Production Trainee – Electrical & Schematics",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr130",
+          "title": "Intermediate Fiber Science Training",
+          "offered_skills": [
+            "Análise de materiais têxteis (nível intermediário)",
+            "Propriedades de fibras (nível intermediário)",
+            "Melhores práticas em transparência e conformidade no setor têxtil",
+            "Credencial reconhecida para currículo (certificação)"
           ],
-          "required_skills": [
-            "equipment calibration principles (basic)",
-            "blueprint and schematic reading (foundational)",
-            "industrial electrical systems (basic familiarity)",
-            "collaboration and communication"
-          ]
+          "required_level": "Ensino Médio"
         },
-        "score": 31.5,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j54",
-          "title": "Junior Paper Manufacturing Specialist",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr133",
+          "title": "Intermediate Manufacturing Processes in Pulp and Paper Industry",
+          "offered_skills": [
+            "Mastery of intermediate-level production techniques in paper manufacturing",
+            "Quality control in industrial paper production",
+            "Best practices for transparency and compliance in the pulp and paper industry"
           ],
-          "required_skills": [
-            "sustainable manufacturing practices",
-            "environmental compliance standards",
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr138",
+          "title": "Basic Paper Product Development Course",
+          "offered_skills": [
+            "paper product design",
+            "paper product development",
+            "raw material selection for paper manufacturing",
             "paper manufacturing processes",
-            "team collaboration",
-            "technical expertise in paper production"
-          ]
+            "quality control in paper production",
+            "sustainable paper solutions",
+            "product specification optimization",
+            "market-driven paper product innovation",
+            "industry-standard approaches in fiber sector"
+          ],
+          "required_level": null
         },
-        "score": 31.5,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j80",
-          "title": "HSE Specialist – Industrial Safety",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese",
-            "English"
+        "training": {
+          "training_id": "tr141",
+          "title": "Basic Paper Manufacturing Processes Training",
+          "offered_skills": [
+            "wood fiber processing techniques",
+            "chemical pulp processing basics",
+            "mechanical pulp processing basics",
+            "raw material transformation for paper manufacturing",
+            "fundamentals of fiber processing in pulp and paper industry"
           ],
-          "required_skills": [
-            "Industrial health and safety protocols",
-            "Risk assessment",
-            "Safety audits",
-            "Environmental compliance",
-            "Hazard identification",
-            "Safety training program development",
-            "Analytical skills for safety solutions",
-            "Proactive safety process improvement"
-          ]
+          "required_level": null
         },
-        "score": 29.0,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 40,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       },
       {
-        "job": {
-          "job_id": "j85",
-          "title": "Environmental Health Analyst",
-          "city": "Recife",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
+        "training": {
+          "training_id": "tr15",
+          "title": "Basic Financial Reporting Training",
+          "offered_skills": [
+            "Preparação de demonstrações financeiras básicas",
+            "Interpretação de relatórios financeiros fundamentais",
+            "Noções de contabilidade introdutória",
+            "Análise financeira inicial"
           ],
-          "required_skills": [
-            "environmental health assessment",
-            "industrial safety protocols",
-            "regulatory compliance monitoring",
-            "analytical thinking",
-            "attention to detail",
-            "clear communication",
-            "report preparation",
-            "stakeholder engagement"
-          ]
+          "required_level": null
         },
-        "score": 29.0,
+        "score": 40.0,
         "sub_scores": {
-          "goals": 40,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j151",
-          "title": "Stagehand Intern – Setup & Run",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Basic understanding of live show operations",
-            "Foundational knowledge of stage mechanics",
-            "Foundational knowledge of equipment handling",
-            "Physical stamina for setup work and long show days",
-            "Ability to follow technical instructions"
-          ]
-        },
-        "score": 26.5,
-        "sub_scores": {
-          "goals": 20,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j79",
-          "title": "Specialist – Hotel Customer Experience",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Guest service principles",
-            "Multitasking",
-            "Hotel arrival/departure procedures",
-            "Strong communication",
-            "Customer-focused mindset",
-            "Adaptability in service environments"
-          ]
-        },
-        "score": 26.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j38",
-          "title": "Research & Development Supervisor",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Leadership",
-            "Problem-solving",
-            "Data analysis",
-            "Project management",
-            "Research methodologies",
-            "Cross-functional coordination",
-            "Stakeholder communication",
-            "Mentoring",
-            "Technical knowledge"
-          ]
-        },
-        "score": 24.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 100,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j138",
-          "title": "Maintenance & Hydraulics Analyst",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Preventive maintenance strategies",
-            "Maintenance scheduling",
-            "Hydraulic systems",
-            "Pneumatic systems",
-            "Maintenance data analysis",
-            "Maintenance planning",
-            "Fluid power system management",
-            "Troubleshooting hydraulic systems",
-            "Technical analysis",
-            "Hands-on problem-solving"
-          ]
-        },
-        "score": 24.0,
-        "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j187",
-          "title": "Maintenance Trainee – Fleet Operations",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Basic proficiency with hand tools and maintenance equipment",
-            "Intermediate skills in technical writing and documentation",
-            "Intermediate experience with component replacement and repair procedures",
-            "Troubleshooting techniques for mechanical and electrical systems",
-            "Maintenance records and technical documentation"
-          ]
-        },
-        "score": 24.0,
-        "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j44",
-          "title": "Software-Focused Electrical Intern",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Técnico",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "circuit design principles",
-            "fundamental soldering skills",
-            "electrical design software (basic)",
-            "hardware-software interface development (basic)",
-            "troubleshooting basic electrical issues"
-          ]
-        },
-        "score": 24.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 100,
-          "education": 40,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j55",
-          "title": "Coordinator – Fiber Processing Operations",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Environmental regulations (intermediate)",
-            "Chemical handling procedures (intermediate)",
-            "Process optimization techniques (intermediate)",
-            "Pulping processes (basic)",
-            "Fiber manufacturing (basic)",
-            "Bilingual communication (Portuguese & English)",
-            "Operational problem-solving"
-          ]
-        },
-        "score": 23.5,
-        "sub_scores": {
-          "goals": 20,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j115",
-          "title": "Ground Logistics Analyst – Cargo Flow",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Analytical skills",
-            "Attention to detail",
-            "Scheduling systems",
-            "Problem-solving",
-            "Logistics coordination",
-            "Transportation operations",
-            "Cargo flow tracking",
-            "Report creation",
-            "Resource allocation",
-            "Operational record-keeping"
-          ]
-        },
-        "score": 23.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j163",
-          "title": "Specialist – Group Facilitation & Cultural Events",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Tecnólogo",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "leading group discussions",
-            "coordinating events",
-            "working respectfully across different cultural backgrounds",
-            "active listening",
-            "organizing details effectively",
-            "adapting approach based on community needs"
-          ]
-        },
-        "score": 21.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j52",
-          "title": "Fiber Optic Intern",
-          "city": null,
-          "is_remote": true,
-          "education_level": "bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "fiber science (foundational knowledge)",
-            "paper product development processes (basic understanding)",
-            "material properties (basic understanding)",
-            "environmental regulations and sustainability standards in manufacturing (familiarity)",
-            "strong communication skills",
-            "curiosity about emerging technologies"
-          ]
-        },
-        "score": 21.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j106",
-          "title": "Junior Legal Analyst – Ethics & Drafting",
-          "city": "Curitiba",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "legal writing",
-            "document drafting",
-            "legal research",
-            "negotiation support",
-            "ethical practice standards"
-          ]
-        },
-        "score": 19.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 100,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j37",
-          "title": "Specialist – Innovation Management & Troubleshooting",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "managing innovation processes",
-            "problem-solving methodologies",
-            "experimental design",
-            "analytical thinking",
-            "collaborative communication",
-            "systematic troubleshooting",
-            "root cause analysis",
-            "designing experiments",
-            "testing hypotheses"
-          ]
-        },
-        "score": 18.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j78",
-          "title": "Hospitality Operations Analyst",
-          "city": "Belo Horizonte",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Analyzing operational data",
-            "Managing guest check-in/check-out procedures",
-            "Handling multiple guest requests",
-            "Resolving guest issues and complaints",
-            "Preparing operational reports",
-            "Problem-solving in guest service situations",
-            "Attention to detail",
-            "Collaboration with reception staff"
-          ]
-        },
-        "score": 18.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j98",
-          "title": "Policy & Compliance Analyst",
-          "city": "Curitiba",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "fraud detection and prevention techniques",
-            "data analysis",
-            "risk assessment",
-            "attention to detail",
-            "analytical thinking"
-          ]
-        },
-        "score": 18.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j196",
-          "title": "Studio Assistant – Sculpture & Painting",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Graduação",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "sculpting techniques",
-            "artistic painting fundamentals",
-            "studio organization",
-            "attention to detail",
-            "following artistic direction"
-          ]
-        },
-        "score": 18.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j34",
-          "title": "Design Analyst – Technical Writing & Methods",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
-          ],
-          "required_skills": [
-            "Technical writing",
-            "Research methodologies",
-            "Innovation processes",
-            "Analytical thinking",
-            "Design research studies",
-            "Documentation of design development",
-            "Communication in Portuguese and English",
-            "Managing innovation workflows"
-          ]
-        },
-        "score": 18.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j158",
-          "title": "Lighting Rigging Coordinator",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Intermediate proficiency in lighting rigging systems",
-            "Equipment setup",
-            "Safety protocols",
-            "Technical operations",
-            "Troubleshooting equipment issues",
-            "Safety inspections of rigging equipment",
-            "Maintaining detailed documentation of equipment status and setup configurations"
-          ]
-        },
-        "score": 17.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j15",
-          "title": "Financial Administration Consultant",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "regulatory reporting",
-            "financial data analysis",
-            "financial systems knowledge",
-            "compliance requirements understanding",
-            "analytical abilities",
-            "attention to accuracy"
-          ]
-        },
-        "score": 16.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j30",
-          "title": "Design Research Intern",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "User interviews",
-            "Usability testing",
-            "Research data analysis",
-            "Report creation",
-            "Presentation skills",
-            "Analytical thinking",
-            "Attention to detail",
-            "Facilitation of participant conversations",
-            "Collaboration with UX designers and product managers"
-          ]
-        },
-        "score": 16.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 100,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j31",
-          "title": "Assistant – Design Research Projects",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Data collection and analysis (user experience studies)",
-            "Research coordination and documentation",
-            "Organizational skills (multi-tasking in research)",
-            "Understanding of user behavior and design methodologies",
-            "Supporting senior researchers with research data"
-          ]
-        },
-        "score": 16.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j96",
-          "title": "Insurance Consultant – Risk & Strategy",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Policy underwriting (intermediate)",
-            "Customer service",
-            "Insurance sales (basic)",
-            "Marketing (basic)",
-            "Actuarial principles (basic)",
-            "Risk assessment",
-            "Client communication"
-          ]
-        },
-        "score": 16.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j159",
-          "title": "Stagecraft Specialist – Rigging & Fault Finding",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "stage mechanical systems",
-            "cable routing and organization",
-            "electrical troubleshooting",
-            "problem-solving in technical issues",
-            "working independently with guidance on complex situations",
-            "communication in Portuguese",
-            "physical work (lifting equipment, working at heights)",
-            "troubleshooting under pressure",
-            "maintaining strict safety standards"
-          ]
-        },
-        "score": 14.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j123",
-          "title": "Specialist – Vessel Communication & Navigation Systems",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "maritime first aid procedures",
-            "cargo handling operations",
-            "vigilant watchkeeping duties",
-            "emergency response in maritime environments",
-            "maintaining communication and navigation equipment",
-            "monitoring maritime traffic and weather conditions",
-            "intermediate-level first aid",
-            "basic emergency protocols"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j16",
-          "title": "Banking Operations Supervisor",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Document control systems management",
-            "Regulatory report preparation",
-            "Compliance oversight",
-            "Regulatory requirements understanding",
-            "Attention to detail",
-            "Cross-functional teamwork"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j188",
-          "title": "Diagnostics Analyst – Automotive",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Data Analysis (Automotive Systems)",
-            "Diagnostic Procedures",
-            "Technical Problem Solving",
-            "Automotive Systems Knowledge",
-            "Analytical Thinking",
-            "Attention to Detail",
-            "Technical Communication"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j28",
-          "title": "Records Information Analyst",
-          "city": "Belo Horizonte",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "content management platforms",
-            "document metadata standards",
-            "data compliance frameworks",
-            "information retention strategies",
-            "CMS platforms (basic knowledge)",
-            "metadata creation (intermediate-level)",
-            "regulatory compliance (intermediate-level)",
-            "records retention policies (intermediate-level)"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j47",
-          "title": "Electronics Engineering Specialist",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "electronic system diagnostics and repair",
-            "electrical installation and wiring work",
-            "power system analysis and design",
-            "problem-solving",
-            "attention to detail"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j77",
-          "title": "Hotel Reception Manager",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Cash handling",
-            "Payment processing",
-            "Guest check-in/check-out",
-            "Staff training",
-            "Customer service",
-            "Conflict resolution",
-            "Team coordination (housekeeping/maintenance)",
-            "Financial reconciliation"
-          ]
-        },
-        "score": 13.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 80,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j119",
-          "title": "Terminal Coordination Specialist",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "port operations coordination",
-            "terminal management systems",
-            "maritime safety regulations",
-            "terminal workflow management",
-            "stakeholder coordination"
-          ]
-        },
-        "score": 12.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j146",
-          "title": "Consultant – Procurement & ERP Systems",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Procurement process optimization",
-            "ERP system implementation",
-            "Supplier relationship management",
-            "Contract negotiation",
-            "Performance monitoring",
-            "Analytical skills for procurement data evaluation",
-            "Bridging technical systems and business requirements"
-          ]
-        },
-        "score": 12.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j173",
-          "title": "Destination Promotion Assistant – Digital Presence",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Solid understanding of destination attractions and tourism offerings",
-            "Awareness of local cultural nuances and visitor expectations",
-            "Strong communication abilities",
-            "Cultural sensitivity",
-            "Attention to detail",
-            "Digital content creation",
-            "Destination promotion"
-          ]
-        },
-        "score": 12.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j71",
-          "title": "Reception Assistant – Hospitality Services",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Advanced verbal and written communication (Portuguese)",
-            "Advanced verbal and written communication (English)",
-            "Guest services (check-ins, check-outs, inquiries)",
-            "Room assignment management",
-            "Payment processing",
-            "Guest record maintenance",
-            "Hotel amenities and local attractions knowledge",
-            "Phone and correspondence handling"
-          ]
-        },
-        "score": 9.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j0",
-          "title": "Accounting Intern – Bookkeeping & Admin",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Tax regulations",
-            "Compliance processes",
-            "Financial record keeping",
-            "Attention to detail",
-            "Organizational skills"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j103",
-          "title": "Legal Writing Assistant – Case Support",
-          "city": "Recife",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
-          ],
-          "required_skills": [
-            "legal writing",
-            "legal document preparation",
-            "case law research",
-            "evidence organization",
-            "editing legal documents",
-            "attention to detail",
-            "deadline management"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j105",
-          "title": "Litigation Procedures Analyst",
-          "city": "Recife",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "case management systems",
-            "legal research tools",
-            "court filing procedures",
-            "attention to detail",
-            "analytical thinking",
-            "procedural knowledge (intermediate level)",
-            "litigation workflows"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j111",
-          "title": "Customs & Vessel Communications Specialist",
-          "city": "Recife",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Working knowledge of customs procedures and protocols",
-            "Experience communicating with maritime vessels through various channels",
-            "Clear communication abilities",
-            "Attention to detail",
-            "Ability to work under time-sensitive conditions",
-            "Documentation management (shipping manifests, customs declarations, port authority paperwork)"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j167",
-          "title": "Manager – Cultural & Educational Projects",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "project coordination",
-            "project management",
-            "stakeholder collaboration",
-            "program development",
-            "attention to detail",
-            "communication"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j170",
-          "title": "Tourism Consultant – Events & Guest Services",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Event organization and management (planning to execution)",
-            "Customer service (exceeding guest expectations)",
-            "Booking and reservation platform operations",
-            "Multilingual communication (Portuguese and English)",
-            "Problem-solving in tourism/hospitality contexts",
-            "Local cultural and attraction knowledge (Rio de Janeiro)"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j181",
-          "title": "Vehicle Systems Analyst – Maintenance",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "Graduação",
-          "experience_years": 2,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "Technical analysis",
-            "Vehicle systems maintenance",
-            "Electrical circuits and wiring systems",
-            "Schematic reading",
-            "Troubleshooting electrical issues",
-            "Analytical thinking",
-            "Root cause identification",
-            "Practical solution development"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 50,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j4",
-          "title": "Senior Accountant – Auditing & Controls",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "accounting software platforms",
-            "financial data analysis",
-            "tax compliance",
-            "regulatory requirements",
-            "analytical thinking",
-            "attention to detail",
-            "intermediate-level accounting systems",
-            "data interpretation",
-            "advanced knowledge of tax compliance procedures"
-          ]
-        },
-        "score": 9.0,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 100
-        }
-      },
-      {
-        "job": {
-          "job_id": "j43",
-          "title": "Power Systems Specialist",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Técnico",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "electrical safety protocols and procedures",
-            "electrical components",
-            "electrical system architecture",
-            "maintenance and troubleshooting of electrical power systems"
-          ]
-        },
-        "score": 7.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 20,
-          "education": 40,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j118",
-          "title": "Port Planning & Dispatch Analyst",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "scheduling and dispatch operations",
-            "customs procedures",
-            "vessel movement optimization",
-            "timeline coordination",
-            "import/export documentation",
-            "port capacity analysis",
-            "logistics problem-solving",
-            "pressure handling in time-sensitive operations"
-          ]
-        },
-        "score": 4.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j92",
-          "title": "Insurance Risk Analyst",
-          "city": "Brasília",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "regulatory compliance (insurance sector)",
-            "SUSEP regulations",
-            "Brazilian insurance law",
-            "risk assessment",
-            "analytical skills",
-            "attention to detail",
-            "interpretation of complex regulatory documents"
-          ]
-        },
-        "score": 4.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j99",
-          "title": "Insurance Fraud Investigation Specialist",
-          "city": "Porto Alegre",
-          "is_remote": false,
-          "education_level": "bacharelado",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "risk evaluation",
-            "insurance product knowledge",
-            "analytical skills",
-            "actuarial methods",
-            "investigation",
-            "attention to detail",
-            "evidence-based case building"
-          ]
-        },
-        "score": 4.5,
-        "sub_scores": {
-          "goals": 0,
-          "skills": 0,
-          "experience": 20,
-          "education": 10,
-          "location": 10
+          "prerequisite": 100,
+          "goal_alignment": 0
         }
       }
     ]
   },
   "final_recommendation": {
     "persona_id": "persona_001",
-    "predicted_type": "jobs+trainings",
-    "jobs": [
+    "predicted_type": "trainings_only",
+    "trainings": [
       {
-        "job_id": "j60",
-        "suggested_trainings": []
+        "training_id": "tr150"
       },
       {
-        "job_id": "j81",
-        "suggested_trainings": []
+        "training_id": "tr151"
       },
       {
-        "job_id": "j84",
-        "suggested_trainings": []
+        "training_id": "tr153"
+      },
+      {
+        "training_id": "tr154"
+      },
+      {
+        "training_id": "tr166"
       }
     ]
   }

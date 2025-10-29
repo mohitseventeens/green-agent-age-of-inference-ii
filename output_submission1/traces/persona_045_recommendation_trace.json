@@ -1,0 +1,1080 @@
+{
+  "persona_id": "persona_045",
+  "persona_profile": {
+    "persona_id": "persona_045",
+    "age": 27,
+    "city": "Belo Horizonte",
+    "education_level": "Law",
+    "experience_years": 0,
+    "skills": [
+      "statutory interpretation",
+      "ethical practice",
+      "legal debate",
+      "case analysis"
+    ],
+    "goals": "To deepen expertise in statutory interpretation and ethical legal practice through hands-on, interactive training—preferably in-person in Belo Horizonte—with a focus on resolving conflicts between laws and navigating ethical dilemmas in real-world scenarios.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "trace_details": {
+    "training_ranking": [
+      {
+        "training": {
+          "training_id": "tr249",
+          "title": "Professional Ethics in Legal Practice - Basic Level",
+          "offered_skills": [
+            "Professional conduct standards in legal environments",
+            "Ethical decision-making in legal practice",
+            "Handling conflicts of interest",
+            "Client confidentiality management",
+            "Navigating ethical dilemmas in Brazilian legal practice",
+            "Recognizing ethical issues in legal work"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr267",
+          "title": "Master Legal Text Analysis and Court Decision Understanding",
+          "offered_skills": [
+            "Legal text analysis",
+            "Interpretation of legal statutes",
+            "Reading and understanding legislative texts",
+            "Application of legal principles in practice",
+            "Breaking down complex legal language",
+            "Statutory analysis",
+            "Understanding court interpretations of laws"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr243",
+          "title": "Basic Legal Counseling Skills Training",
+          "offered_skills": [
+            "Client advising fundamentals (legal)",
+            "Legal communication techniques",
+            "Structuring counseling sessions",
+            "Ethical considerations in attorney-client relationships",
+            "Conducting effective client meetings",
+            "Providing clear legal guidance"
+          ],
+          "required_level": null
+        },
+        "score": 79.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 65
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr240",
+          "title": "Foundational Legal Case Analysis Course",
+          "offered_skills": [
+            "legal case analysis",
+            "examining court decisions",
+            "identifying key legal arguments",
+            "understanding judicial reasoning",
+            "systematic case breakdown",
+            "extracting legal principles",
+            "organizing legal findings"
+          ],
+          "required_level": null
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr216",
+          "title": "Insurance Contract Law Fundamentals",
+          "offered_skills": [
+            "Legal principles of insurance agreements (foundational)",
+            "Transparency and compliance in insurance contracts",
+            "Policy interpretation",
+            "Claims process navigation",
+            "Regulatory requirements in insurance",
+            "Contract law application in insurance"
+          ],
+          "required_level": null
+        },
+        "score": 70.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 50
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr234",
+          "title": "Basic Regulatory Compliance Training",
+          "offered_skills": [
+            "Understanding and implementing compliance standards at a basic level",
+            "Navigating the regulatory landscape in the insurance industry",
+            "Identifying potential compliance risks",
+            "Applying compliance procedures in real-world scenarios",
+            "Handling basic compliance tasks",
+            "Supporting organizational regulatory obligations"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr252",
+          "title": "Basic Legal Research Training",
+          "offered_skills": [
+            "Fundamental research techniques in legal databases",
+            "Case law analysis",
+            "Transparency and compliance best practices",
+            "Navigating legal databases",
+            "Understanding case law structures",
+            "Systematic approaches to legal investigation",
+            "Legal information gathering and analysis"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr258",
+          "title": "Basic Legal Dispute Resolution Training",
+          "offered_skills": [
+            "court procedures (foundational)",
+            "legal dispute management (foundational)",
+            "transparency best practices",
+            "compliance best practices"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr441",
+          "title": "Basic Problem-Solving Training",
+          "offered_skills": [
+            "Analytical thinking",
+            "Solution-finding abilities",
+            "Transparency and compliance best practices",
+            "Problem identification",
+            "Option evaluation",
+            "Effective solution implementation",
+            "Handling guest complaints (tourism/hospitality)",
+            "Resolving booking issues",
+            "Addressing service disruptions",
+            "Breaking down complex situations into manageable steps"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr123",
+          "title": "Environmental Compliance Training - Fundamentals",
+          "offered_skills": [
+            "Regulatory framework understanding for fiber and paper industry",
+            "Environmental compliance standards (basic level)",
+            "Sustainable practices in manufacturing",
+            "Compliance requirements and implementation strategies",
+            "Environmental standards knowledge",
+            "Regulatory documentation for legal compliance",
+            "Practical application of compliance processes"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr225",
+          "title": "Basic Insurance Fraud Detection Training",
+          "offered_skills": [
+            "Detecting fraudulent insurance claims (basic level)",
+            "Preventing insurance fraud",
+            "Identifying suspicious patterns in claims",
+            "Investigating questionable claims",
+            "Implementing fraud prevention strategies",
+            "Spotting red flags in insurance scenarios",
+            "Analyzing real-world insurance fraud case studies",
+            "Applying hands-on fraud detection exercises"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr246",
+          "title": "Basic Legal Document Preparation Course",
+          "offered_skills": [
+            "Professional legal document preparation (basic level)",
+            "Writing clear legal clauses",
+            "Organizing legal document structure",
+            "Avoiding common legal pitfalls in contracts",
+            "Translating business requirements into legally sound language",
+            "Structuring agreements logically",
+            "Drafting basic legal agreements"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr255",
+          "title": "Professional Legal Document Writing",
+          "offered_skills": [
+            "Crafting clear and persuasive legal documents",
+            "Applying best practices for transparency and compliance in legal writing",
+            "Structuring legal arguments effectively",
+            "Using appropriate legal terminology",
+            "Drafting contracts, briefs, and memoranda",
+            "Writing with clarity and precision for legal audiences"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr261",
+          "title": "Basic Contract and Deal-Making Skills",
+          "offered_skills": [
+            "Bargaining techniques",
+            "Agreement-building",
+            "Transparency and compliance best practices",
+            "Contract preparation",
+            "Persuasive communication",
+            "Deal closure",
+            "Legal negotiation (contract discussions)",
+            "Settlement talks"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr264",
+          "title": "Basic Courtroom Presentation Skills",
+          "offered_skills": [
+            "Persuasive speaking techniques in legal settings (basic level)",
+            "Transparency and compliance best practices"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr285",
+          "title": "Port Safety Regulations Training - Basic Level",
+          "offered_skills": [
+            "Port safety compliance",
+            "Regulatory frameworks (maritime/port)",
+            "Transparency and compliance best practices",
+            "Safety protocols in port operations",
+            "Navigating complex safety requirements",
+            "Implementation of port safety procedures",
+            "Practical application of maritime safety regulations"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr63",
+          "title": "Master Data Protection and Privacy Laws",
+          "offered_skills": [
+            "Data protection compliance",
+            "Privacy regulation navigation",
+            "Personal data handling",
+            "Regulatory standards implementation",
+            "Data governance support",
+            "Compliant data process creation",
+            "Legal-to-business translation of privacy laws"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr147",
+          "title": "Basic Training in Environmental Resource Management",
+          "offered_skills": [
+            "Environmental resource management (basic level)",
+            "Sustainable material handling",
+            "Material identification and categorization",
+            "Regulatory compliance in environmental practices",
+            "Safety protocols for resource handling",
+            "Sustainable practices in fiber/paper manufacturing",
+            "Material flow assessment",
+            "Sorting system implementation",
+            "Economic and environmental impact analysis of resource management"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr228",
+          "title": "Basic Risk and Hazard Evaluation Training",
+          "offered_skills": [
+            "risk identification",
+            "hazard analysis",
+            "risk assessment",
+            "workplace hazard evaluation",
+            "risk documentation",
+            "safety assessment fundamentals",
+            "insurance risk management basics"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr24",
+          "title": "Basic Strategic Planning Course",
+          "offered_skills": [
+            "business strategy",
+            "strategic planning techniques",
+            "transparency and compliance best practices",
+            "market analysis",
+            "objective setting",
+            "actionable plan development",
+            "organizational decision-making frameworks"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr3",
+          "title": "Basic Audit Fundamentals Course",
+          "offered_skills": [
+            "Examination of financial records",
+            "Assessment of internal controls",
+            "Compliance verification with professional standards",
+            "Financial statement analysis",
+            "Basic verification procedures",
+            "Entry-level audit task execution",
+            "Understanding financial examination principles"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr45",
+          "title": "Building Bridges Between Departments - Basic Training",
+          "offered_skills": [
+            "Interdepartmental communication",
+            "Cross-functional project coordination",
+            "Information flow management",
+            "Relationship management between departments",
+            "Resolving communication gaps",
+            "Supporting collaborative initiatives in banking and insurance"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr150",
+          "title": "Master Food Safety Fundamentals",
+          "offered_skills": [
+            "Hazard analysis (Análise de Perigos - HACCP)",
+            "Critical control points (Pontos Críticos de Controle - PCC)",
+            "Good Manufacturing Practices (Boas Práticas de Fabricação - BPF)",
+            "Contamination prevention (Prevenção de contaminação)",
+            "Quality assurance in food production (Garantia de qualidade na produção de alimentos)",
+            "Food safety regulatory compliance (Conformidade com normas de segurança alimentar)",
+            "Monitoring procedures for food safety (Procedimentos de monitoramento em segurança alimentar)",
+            "Identification of potential hazards in food production (Identificação de perigos potenciais na produção de alimentos)"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr306",
+          "title": "Basic Crisis Response Training for Maritime Workers",
+          "offered_skills": [
+            "crisis response in maritime environments",
+            "safety procedures for vessels and water transport",
+            "risk assessment in maritime operations",
+            "immediate response techniques for urgent situations",
+            "practical safety knowledge through real scenarios and case studies",
+            "basic safety protocols for crew coordination"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr354",
+          "title": "Basic Workplace Safety Regulations Training",
+          "offered_skills": [
+            "understanding workplace safety compliance",
+            "applying safety protocols",
+            "knowledge of regulatory requirements",
+            "legal obligations in production facilities",
+            "maintaining safe working environments",
+            "compliance frameworks for industrial settings"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr366",
+          "title": "Cost Reduction Strategies Training - Beginner Level",
+          "offered_skills": [
+            "Analisar padrões de gastos (spending pattern analysis)",
+            "Negociar com fornecedores (supplier negotiation)",
+            "Identificar oportunidades de economia (cost-saving identification)",
+            "Avaliar contratos de fornecedores (vendor contract evaluation)",
+            "Criar casos de negócios para otimização orçamentária (business case presentation for budget optimization)",
+            "Implementar técnicas de redução de custos operacionais (operational cost reduction techniques)",
+            "Compras estratégicas (strategic purchasing)",
+            "Eficiência financeira (financial efficiency)"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr369",
+          "title": "foundational spending analytics training",
+          "offered_skills": [
+            "expense data interpretation",
+            "expense data analysis (basic level)",
+            "transparency best practices",
+            "compliance best practices",
+            "spending pattern identification",
+            "cost-saving opportunity detection",
+            "procurement report creation",
+            "analytical methods for organizational expenses",
+            "data collection for expense analysis",
+            "data visualization for procurement"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr399",
+          "title": "Master Team and Performer Interactions for Show Technicians",
+          "offered_skills": [
+            "Interpersonal communication in live entertainment",
+            "Coordinating with crew and performers under pressure",
+            "Relaying technical information accurately",
+            "Professional relationship building in production environments",
+            "Briefing performers on safety protocols",
+            "Handling last-minute changes in live events",
+            "Collaborative problem-solving in show production"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr108",
+          "title": "Basic Circuit Diagram Interpretation",
+          "offered_skills": [
+            "Reading electrical diagrams",
+            "Understanding circuit analysis",
+            "Applying industry standards for circuit documentation",
+            "Identifying electrical components",
+            "Tracing signal paths in circuits",
+            "Interpreting basic electrical schematics",
+            "Troubleshooting devices using diagrams",
+            "Communicating technical circuit information"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr117",
+          "title": "Basic Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits",
+            "Systematic hardware failure resolution",
+            "Reading schematics",
+            "Using diagnostic tools",
+            "Logical problem-solving for electronics repair",
+            "Component failure identification",
+            "Proven repair methodologies",
+            "Real-world troubleshooting scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr12",
+          "title": "Basic Data Analysis Training",
+          "offered_skills": [
+            "Análise de dados financeiros",
+            "Interpretação de métricas-chave",
+            "Leitura de relatórios financeiros básicos",
+            "Tomada de decisão baseada em dados",
+            "Análise numérica aplicada a contabilidade e gestão"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr129",
+          "title": "Basic Understanding of Material Science and Analysis",
+          "offered_skills": [
+            "Material structure analysis (basic)",
+            "Properties evaluation (basic)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr135",
+          "title": "Basic Training in Streamlining Industrial Operations",
+          "offered_skills": [
+            "workflow improvement (basic level)",
+            "identifying bottlenecks in industrial processes",
+            "waste reduction in manufacturing",
+            "cost reduction techniques",
+            "productivity enhancement in production lines",
+            "systematic operational analysis",
+            "measuring process improvement results"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr189",
+          "title": "Master the Basics of Hotel Reception: Basic Customer Service Training",
+          "offered_skills": [
+            "Guest interaction",
+            "Handling inquiries",
+            "Resolving guest concerns",
+            "Creating positive first impressions",
+            "Front desk operations",
+            "Guest relations",
+            "Professional communication in hospitality",
+            "Foundational customer service in hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr198",
+          "title": "Master Your Neighborhood: Essential Area Knowledge for Hotel Staff",
+          "offered_skills": [
+            "Local area knowledge for hospitality",
+            "Guest service recommendations (restaurants, transportation, entertainment)",
+            "Direction-giving and navigation assistance",
+            "Handling guest inquiries professionally",
+            "Enhancing guest experience through local expertise"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr210",
+          "title": "Basic Actuarial Principles Training",
+          "offered_skills": [
+            "Risk assessment fundamentals",
+            "Probability theory (applied to insurance)",
+            "Statistical analysis (applied to insurance)",
+            "Financial mathematics (insurance context)",
+            "Data-driven decision-making in insurance",
+            "Product development for insurance",
+            "Pricing strategies in insurance",
+            "Regulatory compliance in insurance",
+            "Financial modeling for risk analysis"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr330",
+          "title": "Basic Technical Drawing and Schematic Interpretation Course",
+          "offered_skills": [
+            "Blueprint reading",
+            "Technical diagram interpretation",
+            "Schematic symbol understanding",
+            "Technical documentation comprehension",
+            "Basic production equipment knowledge"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr333",
+          "title": "Basic Equipment Problem-Solving Training",
+          "offered_skills": [
+            "equipment diagnostics",
+            "root cause identification",
+            "problem-solving for machinery issues",
+            "structured troubleshooting methods",
+            "practical diagnostic techniques",
+            "reducing equipment downtime",
+            "systematic failure analysis"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr336",
+          "title": "Basic Industrial Power Systems Training",
+          "offered_skills": [
+            "industrial power distribution fundamentals",
+            "electrical safety protocols",
+            "equipment operation in manufacturing",
+            "circuit analysis",
+            "motor controls",
+            "protective devices in industrial settings",
+            "troubleshooting techniques for electrical systems",
+            "reading electrical schematics",
+            "power flow analysis in industrial environments",
+            "identification of common electrical components in manufacturing",
+            "maintenance of industrial electrical infrastructure",
+            "basics of automation and control systems"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr345",
+          "title": "Basic Heavy Equipment Operation Training",
+          "offered_skills": [
+            "Operating large industrial machinery (foundational level)",
+            "Safety protocols and compliance standards in equipment handling",
+            "Basic maintenance checks for heavy equipment",
+            "Operational techniques for bulldozers, excavators, and cranes",
+            "Practical exercises in real-world industrial scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr375",
+          "title": "Basic Market Research Training",
+          "offered_skills": [
+            "market analysis",
+            "research methodologies (foundational level)",
+            "transparency best practices",
+            "compliance best practices"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr423",
+          "title": "Basic Tourist Destination Knowledge Course",
+          "offered_skills": [
+            "Tourist destination analysis",
+            "Cultural and attraction identification",
+            "Local tourism resource management",
+            "Effective communication of destination features",
+            "Transparency and compliance in tourism",
+            "Tourism reception and promotion"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr432",
+          "title": "Basic Tourist Area Navigation and Information Services",
+          "offered_skills": [
+            "Navigating and presenting local attractions",
+            "Providing accurate directions and area recommendations",
+            "Understanding basic principles of visitor assistance",
+            "Local knowledge sharing for tourism"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr438",
+          "title": "Cross-Cultural Communication Skills for Tourism Professionals",
+          "offered_skills": [
+            "Cross-cultural communication techniques (basic level)",
+            "Assisting international guests with clarity and cultural sensitivity",
+            "Navigating common communication challenges",
+            "Understanding cultural nuances",
+            "Creating positive experiences for international visitors"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr444",
+          "title": "Basic Hotel and Travel Booking Systems Training",
+          "offered_skills": [
+            "Hotel booking management (basic)",
+            "Travel booking management (basic)",
+            "Processing guest reservations via computerized systems",
+            "Handling cancellations and modifications in booking systems",
+            "Navigating booking platforms",
+            "Managing guest information",
+            "Day-to-day booking operations"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr453",
+          "title": "Creative Visual Communication - Basic Level",
+          "offered_skills": [
+            "Creative communication through visual mediums (basic level)",
+            "Fundamental visual storytelling",
+            "Basic artistic techniques for visual expression",
+            "Core techniques in visual creativity"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr486",
+          "title": "Basic Circuit Design and Analysis Training",
+          "offered_skills": [
+            "Circuit design (basic level)",
+            "Electrical troubleshooting (automotive/industrial)",
+            "Reading electrical diagrams",
+            "Measuring voltage and current",
+            "Diagnosing electrical issues in machinery",
+            "Understanding electrical current flow in complex systems",
+            "Identifying common failure points in electrical systems"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr489",
+          "title": "Basic Automotive Troubleshooting Course",
+          "offered_skills": [
+            "Systematic fault identification in automotive systems",
+            "Basic problem-solving techniques for engine/transmission/electrical issues",
+            "Use of diagnostic tools and equipment",
+            "Interpretation of diagnostic results",
+            "Creation of repair recommendations",
+            "Understanding common failure patterns in automotive systems",
+            "Diagnostics of traditional mechanical and modern computerized components"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr492",
+          "title": "Basic Software Performance Testing Course",
+          "offered_skills": [
+            "system speed evaluation",
+            "stability assessment",
+            "scalability testing",
+            "bottleneck identification",
+            "response time measurement",
+            "load condition performance analysis",
+            "testing methodologies (vehicle diagnostics)",
+            "testing tools (machinery optimization)",
+            "foundational system performance assessment"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr6",
+          "title": "Master Financial Planning and Budget Management",
+          "offered_skills": [
+            "Financial planning (basic level)",
+            "Financial data analysis",
+            "Budget creation",
+            "Financial forecasting",
+            "Budget preparation",
+            "Financial management fundamentals"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_045",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr249"
+      },
+      {
+        "training_id": "tr267"
+      },
+      {
+        "training_id": "tr243"
+      },
+      {
+        "training_id": "tr240"
+      },
+      {
+        "training_id": "tr216"
+      }
+    ]
+  }
+}

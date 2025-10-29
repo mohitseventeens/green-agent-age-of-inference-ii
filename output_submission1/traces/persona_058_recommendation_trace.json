@@ -1,0 +1,28 @@
+{
+  "persona_id": "persona_058",
+  "persona_profile": {
+    "persona_id": "persona_058",
+    "age": 25,
+    "city": "Brasília",
+    "education_level": "graduação (bachelor's degree in tourism)",
+    "experience_years": 1,
+    "skills": [
+      "customer service",
+      "organization",
+      "problem-solving",
+      "explaining information"
+    ],
+    "goals": "Uncertain about career direction; currently prefers to stay in familiar roles (e.g., hotel reception) rather than exploring new fields like green jobs. Prefers stability in Brasília.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_058",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

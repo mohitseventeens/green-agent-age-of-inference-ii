@@ -1,0 +1,2983 @@
+[
+  {
+    "persona_id": "persona_001",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j60",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j81",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j84",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_002",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr135"
+      },
+      {
+        "training_id": "tr177"
+      },
+      {
+        "training_id": "tr179"
+      },
+      {
+        "training_id": "tr165"
+      },
+      {
+        "training_id": "tr147"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_003",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j69",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j68",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j63",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_004",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j60",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j63",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j64",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_005",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr150"
+      },
+      {
+        "training_id": "tr123"
+      },
+      {
+        "training_id": "tr147"
+      },
+      {
+        "training_id": "tr159"
+      },
+      {
+        "training_id": "tr174"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_006",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_007",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_008",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j196",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j158",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j151",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_009",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr129"
+      },
+      {
+        "training_id": "tr138"
+      },
+      {
+        "training_id": "tr171"
+      },
+      {
+        "training_id": "tr0"
+      },
+      {
+        "training_id": "tr101"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_010",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_011",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_012",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_013",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j158",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j159",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j151",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_014",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr117"
+      },
+      {
+        "training_id": "tr118"
+      },
+      {
+        "training_id": "tr106"
+      },
+      {
+        "training_id": "tr107"
+      },
+      {
+        "training_id": "tr128"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_015",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr105"
+      },
+      {
+        "training_id": "tr107"
+      },
+      {
+        "training_id": "tr108"
+      },
+      {
+        "training_id": "tr117"
+      },
+      {
+        "training_id": "tr126"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_016",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j159",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j151",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_017",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j151",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j159",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_018",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_019",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j38",
+        "suggested_trainings": [
+          {
+            "missing_skill": "stakeholder communication",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          },
+          {
+            "missing_skill": "cross-functional coordination",
+            "trainings": [
+              {
+                "training_id": "tr176"
+              },
+              {
+                "training_id": "tr296"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_020",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j38",
+        "suggested_trainings": [
+          {
+            "missing_skill": "stakeholder communication",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          },
+          {
+            "missing_skill": "cross-functional coordination",
+            "trainings": [
+              {
+                "training_id": "tr176"
+              },
+              {
+                "training_id": "tr296"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_021",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j135",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j186",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance procedures",
+            "trainings": [
+              {
+                "training_id": "tr310"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_022",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          },
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_023",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j38",
+        "suggested_trainings": [
+          {
+            "missing_skill": "stakeholder communication",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          },
+          {
+            "missing_skill": "cross-functional coordination",
+            "trainings": [
+              {
+                "training_id": "tr176"
+              },
+              {
+                "training_id": "tr296"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_024",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j138",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance scheduling",
+            "trainings": [
+              {
+                "training_id": "tr351"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j80",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_025",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_026",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j186",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance procedures",
+            "trainings": [
+              {
+                "training_id": "tr310"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j138",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance scheduling",
+            "trainings": [
+              {
+                "training_id": "tr351"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_027",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j43",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j47",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_028",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr111"
+      },
+      {
+        "training_id": "tr117"
+      },
+      {
+        "training_id": "tr118"
+      },
+      {
+        "training_id": "tr106"
+      },
+      {
+        "training_id": "tr108"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_029",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j135",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j84",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j186",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance procedures",
+            "trainings": [
+              {
+                "training_id": "tr310"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_030",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j44",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j43",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_031",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_032",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j44",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j182",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_033",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j44",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j43",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_034",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr116"
+      },
+      {
+        "training_id": "tr115"
+      },
+      {
+        "training_id": "tr103"
+      },
+      {
+        "training_id": "tr108"
+      },
+      {
+        "training_id": "tr109"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_035",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr158"
+      },
+      {
+        "training_id": "tr176"
+      },
+      {
+        "training_id": "tr156"
+      },
+      {
+        "training_id": "tr174"
+      },
+      {
+        "training_id": "tr170"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_036",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j146",
+        "suggested_trainings": [
+          {
+            "missing_skill": "supplier relationship management",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              },
+              {
+                "training_id": "tr296"
+              },
+              {
+                "training_id": "tr361"
+              }
+            ]
+          },
+          {
+            "missing_skill": "contract negotiation",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_037",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j146",
+        "suggested_trainings": [
+          {
+            "missing_skill": "supplier relationship management",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              },
+              {
+                "training_id": "tr296"
+              },
+              {
+                "training_id": "tr361"
+              }
+            ]
+          },
+          {
+            "missing_skill": "contract negotiation",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_038",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_039",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j30",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j31",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j38",
+        "suggested_trainings": [
+          {
+            "missing_skill": "stakeholder communication",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          },
+          {
+            "missing_skill": "cross-functional coordination",
+            "trainings": [
+              {
+                "training_id": "tr176"
+              },
+              {
+                "training_id": "tr296"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_040",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_041",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr195"
+      },
+      {
+        "training_id": "tr183"
+      },
+      {
+        "training_id": "tr186"
+      },
+      {
+        "training_id": "tr189"
+      },
+      {
+        "training_id": "tr204"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_042",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j173",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_043",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j77",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial reconciliation",
+            "trainings": [
+              {
+                "training_id": "tr181"
+              }
+            ]
+          },
+          {
+            "missing_skill": "conflict resolution",
+            "trainings": [
+              {
+                "training_id": "tr190"
+              },
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr263"
+              }
+            ]
+          },
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j71",
+        "suggested_trainings": [
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_044",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j170",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j77",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial reconciliation",
+            "trainings": [
+              {
+                "training_id": "tr181"
+              }
+            ]
+          },
+          {
+            "missing_skill": "conflict resolution",
+            "trainings": [
+              {
+                "training_id": "tr190"
+              },
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr263"
+              }
+            ]
+          },
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_045",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr249"
+      },
+      {
+        "training_id": "tr267"
+      },
+      {
+        "training_id": "tr243"
+      },
+      {
+        "training_id": "tr240"
+      },
+      {
+        "training_id": "tr216"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_046",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j106",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j103",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j105",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_047",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_048",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j106",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j103",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j146",
+        "suggested_trainings": [
+          {
+            "missing_skill": "supplier relationship management",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              },
+              {
+                "training_id": "tr296"
+              },
+              {
+                "training_id": "tr361"
+              }
+            ]
+          },
+          {
+            "missing_skill": "contract negotiation",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_049",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j15",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j146",
+        "suggested_trainings": [
+          {
+            "missing_skill": "supplier relationship management",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              },
+              {
+                "training_id": "tr296"
+              },
+              {
+                "training_id": "tr361"
+              }
+            ]
+          },
+          {
+            "missing_skill": "contract negotiation",
+            "trainings": [
+              {
+                "training_id": "tr157"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_050",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_051",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j15",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j4",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          },
+          {
+            "missing_skill": "regulatory requirements",
+            "trainings": [
+              {
+                "training_id": "tr278"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_052",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_053",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j15",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_054",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr183"
+      },
+      {
+        "training_id": "tr192"
+      },
+      {
+        "training_id": "tr180"
+      },
+      {
+        "training_id": "tr186"
+      },
+      {
+        "training_id": "tr189"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_055",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j77",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial reconciliation",
+            "trainings": [
+              {
+                "training_id": "tr181"
+              }
+            ]
+          },
+          {
+            "missing_skill": "conflict resolution",
+            "trainings": [
+              {
+                "training_id": "tr190"
+              },
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr263"
+              }
+            ]
+          },
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j79",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j71",
+        "suggested_trainings": [
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_056",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j79",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j77",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial reconciliation",
+            "trainings": [
+              {
+                "training_id": "tr181"
+              }
+            ]
+          },
+          {
+            "missing_skill": "conflict resolution",
+            "trainings": [
+              {
+                "training_id": "tr190"
+              },
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr263"
+              }
+            ]
+          },
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j71",
+        "suggested_trainings": [
+          {
+            "missing_skill": "payment processing",
+            "trainings": [
+              {
+                "training_id": "tr193"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_057",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_058",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_059",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr213"
+      },
+      {
+        "training_id": "tr216"
+      },
+      {
+        "training_id": "tr231"
+      },
+      {
+        "training_id": "tr210"
+      },
+      {
+        "training_id": "tr228"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_060",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_061",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j99",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk evaluation",
+            "trainings": [
+              {
+                "training_id": "tr22"
+              },
+              {
+                "training_id": "tr229"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j92",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_062",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j96",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          },
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j92",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_063",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j92",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j96",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_064",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_065",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_066",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j16",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j15",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_067",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j16",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j15",
+        "suggested_trainings": [
+          {
+            "missing_skill": "financial data analysis",
+            "trainings": [
+              {
+                "training_id": "tr6"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_068",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_069",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr127"
+      },
+      {
+        "training_id": "tr128"
+      },
+      {
+        "training_id": "tr126"
+      },
+      {
+        "training_id": "tr147"
+      },
+      {
+        "training_id": "tr100"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_070",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j182",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j181",
+        "suggested_trainings": [
+          {
+            "missing_skill": "root cause identification",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr333"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_071",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j43",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j181",
+        "suggested_trainings": [
+          {
+            "missing_skill": "root cause identification",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              },
+              {
+                "training_id": "tr333"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j131",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_072",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j34",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j31",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_073",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  },
+  {
+    "persona_id": "persona_074",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j38",
+        "suggested_trainings": [
+          {
+            "missing_skill": "stakeholder communication",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          },
+          {
+            "missing_skill": "cross-functional coordination",
+            "trainings": [
+              {
+                "training_id": "tr176"
+              },
+              {
+                "training_id": "tr296"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j69",
+        "suggested_trainings": [
+          {
+            "missing_skill": "process optimization",
+            "trainings": [
+              {
+                "training_id": "tr48"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_075",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j30",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j52",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_076",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j34",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j37",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j52",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_077",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_078",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j173",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_079",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j30",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_080",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j170",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_081",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j170",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_082",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr13"
+      },
+      {
+        "training_id": "tr10"
+      },
+      {
+        "training_id": "tr1"
+      },
+      {
+        "training_id": "tr12"
+      },
+      {
+        "training_id": "tr123"
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_083",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j85",
+        "suggested_trainings": [
+          {
+            "missing_skill": "industrial safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr347"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j87",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_084",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j84",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j81",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j87",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_085",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j81",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j84",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j80",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_086",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j87",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j81",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j84",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_087",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j85",
+        "suggested_trainings": [
+          {
+            "missing_skill": "industrial safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr347"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j55",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j87",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_088",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j28",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j34",
+        "suggested_trainings": [
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_089",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j163",
+        "suggested_trainings": [
+          {
+            "missing_skill": "active listening",
+            "trainings": [
+              {
+                "training_id": "tr204"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_090",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  },
+  {
+    "persona_id": "persona_091",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j54",
+        "suggested_trainings": [
+          {
+            "missing_skill": "paper manufacturing processes",
+            "trainings": [
+              {
+                "training_id": "tr138"
+              }
+            ]
+          },
+          {
+            "missing_skill": "environmental compliance standards",
+            "trainings": [
+              {
+                "training_id": "tr315"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j52",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j85",
+        "suggested_trainings": [
+          {
+            "missing_skill": "industrial safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr347"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_092",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j28",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j16",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j98",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_093",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_094",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j115",
+        "suggested_trainings": [
+          {
+            "missing_skill": "resource allocation",
+            "trainings": [
+              {
+                "training_id": "tr165"
+              },
+              {
+                "training_id": "tr25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_095",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j111",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_096",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j115",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j118",
+        "suggested_trainings": [
+          {
+            "missing_skill": "timeline coordination",
+            "trainings": [
+              {
+                "training_id": "tr430"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_097",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j123",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j138",
+        "suggested_trainings": [
+          {
+            "missing_skill": "maintenance scheduling",
+            "trainings": [
+              {
+                "training_id": "tr351"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j187",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_098",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j80",
+        "suggested_trainings": [
+          {
+            "missing_skill": "risk assessment",
+            "trainings": [
+              {
+                "training_id": "tr228"
+              },
+              {
+                "training_id": "tr376"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j117",
+        "suggested_trainings": [
+          {
+            "missing_skill": "safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr326"
+              },
+              {
+                "training_id": "tr328"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j119",
+        "suggested_trainings": [
+          {
+            "missing_skill": "terminal workflow management",
+            "trainings": [
+              {
+                "training_id": "tr297"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_099",
+    "predicted_type": "jobs+trainings",
+    "jobs": [
+      {
+        "job_id": "j170",
+        "suggested_trainings": []
+      },
+      {
+        "job_id": "j85",
+        "suggested_trainings": [
+          {
+            "missing_skill": "industrial safety protocols",
+            "trainings": [
+              {
+                "training_id": "tr347"
+              }
+            ]
+          },
+          {
+            "missing_skill": "analytical thinking",
+            "trainings": [
+              {
+                "training_id": "tr441"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "job_id": "j167",
+        "suggested_trainings": []
+      }
+    ]
+  },
+  {
+    "persona_id": "persona_100",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  }
+]

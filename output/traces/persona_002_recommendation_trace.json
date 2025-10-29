@@ -132,26 +132,6 @@
       },
       {
         "training": {
-          "training_id": "tr174",
-          "title": "Master Food Industry Logistics from the Ground Up",
-          "offered_skills": [
-            "food supply network management",
-            "procurement fundamentals",
-            "distribution logistics",
-            "inventory management for perishable goods",
-            "efficient product movement in food industry",
-            "practical food logistics operations"
-          ],
-          "required_level": null
-        },
-        "score": 70.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 50
-        }
-      },
-      {
-        "training": {
           "training_id": "tr150",
           "title": "Master Food Safety Fundamentals",
           "offered_skills": [
@@ -163,27 +143,6 @@
             "Food safety regulatory compliance (Conformidade com normas de segurança alimentar)",
             "Monitoring procedures for food safety (Procedimentos de monitoramento em segurança alimentar)",
             "Identification of potential hazards in food production (Identificação de perigos potenciais na produção de alimentos)"
-          ],
-          "required_level": null
-        },
-        "score": 64.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 40
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr159",
-          "title": "Master Food Packaging Technology from Scratch",
-          "offered_skills": [
-            "Food container design",
-            "Material selection for food packaging",
-            "Packaging processes and quality standards",
-            "Food safety and preservation best practices",
-            "Shelf life optimization via packaging",
-            "Fundamental principles of food packaging decisions",
-            "Practical applications in food manufacturing packaging"
           ],
           "required_level": null
         },
@@ -211,6 +170,26 @@
             "Compliance oversight in food safety management"
           ],
           "required_level": "Técnico"
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr174",
+          "title": "Master Food Industry Logistics from the Ground Up",
+          "offered_skills": [
+            "food supply network management",
+            "procurement fundamentals",
+            "distribution logistics",
+            "inventory management for perishable goods",
+            "efficient product movement in food industry",
+            "practical food logistics operations"
+          ],
+          "required_level": null
         },
         "score": 64.0,
         "sub_scores": {
@@ -446,6 +425,27 @@
       },
       {
         "training": {
+          "training_id": "tr159",
+          "title": "Master Food Packaging Technology from Scratch",
+          "offered_skills": [
+            "Food container design",
+            "Material selection for food packaging",
+            "Packaging processes and quality standards",
+            "Food safety and preservation best practices",
+            "Shelf life optimization via packaging",
+            "Fundamental principles of food packaging decisions",
+            "Practical applications in food manufacturing packaging"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
           "training_id": "tr161",
           "title": "Advanced Food Packaging Solutions",
           "offered_skills": [
@@ -478,44 +478,6 @@
             "Food product testing and validation"
           ],
           "required_level": null
-        },
-        "score": 58.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 30
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr163",
-          "title": "Master Intermediate Food Innovation!",
-          "offered_skills": [
-            "food product development (concept to market)",
-            "market research for food innovation",
-            "formulation strategies in food technology",
-            "testing methodologies for food products",
-            "regulatory compliance in food development",
-            "practical R&D skills for food technologists",
-            "consumer demand analysis in food innovation"
-          ],
-          "required_level": "Técnico"
-        },
-        "score": 58.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 30
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr164",
-          "title": "Advanced Food Innovation and Development Program",
-          "offered_skills": [
-            "Mastering advanced food innovation techniques (Advanced level)",
-            "Applying best practices for transparency and compliance in food development",
-            "Strengthening professional credentials in food innovation"
-          ],
-          "required_level": "Técnico"
         },
         "score": 58.0,
         "sub_scores": {
@@ -570,26 +532,6 @@
         "sub_scores": {
           "prerequisite": 100,
           "goal_alignment": 30
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr120",
-          "title": "Basic Chemical Handling Training",
-          "offered_skills": [
-            "chemical safety protocols",
-            "proper handling techniques",
-            "risk assessment procedures",
-            "safety measures for chemical storage",
-            "emergency response protocols",
-            "understanding chemical safety principles in fiber and paper production"
-          ],
-          "required_level": null
-        },
-        "score": 52.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 20
         }
       },
       {
@@ -671,6 +613,44 @@
       },
       {
         "training": {
+          "training_id": "tr163",
+          "title": "Master Intermediate Food Innovation!",
+          "offered_skills": [
+            "food product development (concept to market)",
+            "market research for food innovation",
+            "formulation strategies in food technology",
+            "testing methodologies for food products",
+            "regulatory compliance in food development",
+            "practical R&D skills for food technologists",
+            "consumer demand analysis in food innovation"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr164",
+          "title": "Advanced Food Innovation and Development Program",
+          "offered_skills": [
+            "Mastering advanced food innovation techniques (Advanced level)",
+            "Applying best practices for transparency and compliance in food development",
+            "Strengthening professional credentials in food innovation"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
           "training_id": "tr20",
           "title": "Advanced Compliance Management Training",
           "offered_skills": [
@@ -704,6 +684,26 @@
             "Component failure identification",
             "Proven repair methodologies",
             "Real-world troubleshooting scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr120",
+          "title": "Basic Chemical Handling Training",
+          "offered_skills": [
+            "chemical safety protocols",
+            "proper handling techniques",
+            "risk assessment procedures",
+            "safety measures for chemical storage",
+            "emergency response protocols",
+            "understanding chemical safety principles in fiber and paper production"
           ],
           "required_level": null
         },

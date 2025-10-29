@@ -1,0 +1,29 @@
+{
+  "persona_id": "persona_006",
+  "persona_profile": {
+    "persona_id": "persona_006",
+    "age": 16,
+    "city": "Belo Horizonte",
+    "education_level": "Ensino Médio",
+    "experience_years": 0,
+    "skills": [
+      "Painting",
+      "Art (basic composition)",
+      "Music appreciation (MPB)",
+      "Jogging (for creative clarity)"
+    ],
+    "goals": "Improve painting and composition skills through training (non-digital), inspired by artists like Tarsila do Amaral. Focus on developing a personal artistic style while exploring free local workshops in Belo Horizonte. Long-term dream is to pursue art as a future career after further education.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (basic)"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_006",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

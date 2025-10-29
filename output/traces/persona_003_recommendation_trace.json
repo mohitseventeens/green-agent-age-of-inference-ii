@@ -317,9 +317,9 @@
             "stakeholder engagement"
           ]
         },
-        "score": 55.0,
+        "score": 57.5,
         "sub_scores": {
-          "goals": 50,
+          "goals": 55,
           "skills": 0,
           "experience": 100,
           "education": 100,
@@ -424,38 +424,6 @@
       },
       {
         "job": {
-          "job_id": "j34",
-          "title": "Design Analyst – Technical Writing & Methods",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (BR)",
-            "English"
-          ],
-          "required_skills": [
-            "Technical writing",
-            "Research methodologies",
-            "Innovation processes",
-            "Analytical thinking",
-            "Design research studies",
-            "Documentation of design development",
-            "Communication in Portuguese and English",
-            "Managing innovation workflows"
-          ]
-        },
-        "score": 45.0,
-        "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 100,
-          "education": 100,
-          "location": 100
-        }
-      },
-      {
-        "job": {
           "job_id": "j117",
           "title": "Dock Operations Intern – Equipment & Safety",
           "city": "Porto Alegre",
@@ -499,38 +467,6 @@
             "paper manufacturing processes",
             "team collaboration",
             "technical expertise in paper production"
-          ]
-        },
-        "score": 40.5,
-        "sub_scores": {
-          "goals": 30,
-          "skills": 0,
-          "experience": 100,
-          "education": 100,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j78",
-          "title": "Hospitality Operations Analyst",
-          "city": "Belo Horizonte",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 1,
-          "languages": [
-            "Portuguese (Brazilian)",
-            "English"
-          ],
-          "required_skills": [
-            "Analyzing operational data",
-            "Managing guest check-in/check-out procedures",
-            "Handling multiple guest requests",
-            "Resolving guest issues and complaints",
-            "Preparing operational reports",
-            "Problem-solving in guest service situations",
-            "Attention to detail",
-            "Collaboration with reception staff"
           ]
         },
         "score": 40.5,
@@ -625,6 +561,38 @@
             "Tool inventory coordination",
             "Troubleshooting equipment issues",
             "Process documentation"
+          ]
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j34",
+          "title": "Design Analyst – Technical Writing & Methods",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (BR)",
+            "English"
+          ],
+          "required_skills": [
+            "Technical writing",
+            "Research methodologies",
+            "Innovation processes",
+            "Analytical thinking",
+            "Design research studies",
+            "Documentation of design development",
+            "Communication in Portuguese and English",
+            "Managing innovation workflows"
           ]
         },
         "score": 40.0,
@@ -743,6 +711,71 @@
             "Willingness to learn mechanical systems",
             "Assisting experienced mechanics",
             "Maintenance procedures"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j30",
+          "title": "Design Research Intern",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "bacharelado",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "User interviews",
+            "Usability testing",
+            "Research data analysis",
+            "Report creation",
+            "Presentation skills",
+            "Analytical thinking",
+            "Attention to detail",
+            "Facilitation of participant conversations",
+            "Collaboration with UX designers and product managers"
+          ]
+        },
+        "score": 35.5,
+        "sub_scores": {
+          "goals": 20,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j78",
+          "title": "Hospitality Operations Analyst",
+          "city": "Belo Horizonte",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 1,
+          "languages": [
+            "Portuguese (Brazilian)",
+            "English"
+          ],
+          "required_skills": [
+            "Analyzing operational data",
+            "Managing guest check-in/check-out procedures",
+            "Handling multiple guest requests",
+            "Resolving guest issues and complaints",
+            "Preparing operational reports",
+            "Problem-solving in guest service situations",
+            "Attention to detail",
+            "Collaboration with reception staff"
           ]
         },
         "score": 35.5,
@@ -901,38 +934,6 @@
           "experience": 80,
           "education": 100,
           "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j4",
-          "title": "Senior Accountant – Auditing & Controls",
-          "city": null,
-          "is_remote": true,
-          "education_level": "Bacharelado",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "accounting software platforms",
-            "financial data analysis",
-            "tax compliance",
-            "regulatory requirements",
-            "analytical thinking",
-            "attention to detail",
-            "intermediate-level accounting systems",
-            "data interpretation",
-            "advanced knowledge of tax compliance procedures"
-          ]
-        },
-        "score": 32.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 80,
-          "education": 100,
-          "location": 100
         }
       },
       {
@@ -1188,39 +1189,6 @@
             "metadata creation (intermediate-level)",
             "regulatory compliance (intermediate-level)",
             "records retention policies (intermediate-level)"
-          ]
-        },
-        "score": 30.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 100,
-          "education": 100,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j30",
-          "title": "Design Research Intern",
-          "city": "São Paulo",
-          "is_remote": false,
-          "education_level": "bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "User interviews",
-            "Usability testing",
-            "Research data analysis",
-            "Report creation",
-            "Presentation skills",
-            "Analytical thinking",
-            "Attention to detail",
-            "Facilitation of participant conversations",
-            "Collaboration with UX designers and product managers"
           ]
         },
         "score": 30.5,
@@ -1503,6 +1471,38 @@
           "experience": 80,
           "education": 100,
           "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j4",
+          "title": "Senior Accountant – Auditing & Controls",
+          "city": null,
+          "is_remote": true,
+          "education_level": "Bacharelado",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese"
+          ],
+          "required_skills": [
+            "accounting software platforms",
+            "financial data analysis",
+            "tax compliance",
+            "regulatory requirements",
+            "analytical thinking",
+            "attention to detail",
+            "intermediate-level accounting systems",
+            "data interpretation",
+            "advanced knowledge of tax compliance procedures"
+          ]
+        },
+        "score": 27.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 80,
+          "education": 100,
+          "location": 100
         }
       },
       {

@@ -181,23 +181,76 @@ class ExtractProfileNode(Node):
         shared.update(exec_res)
         logger.info(f"Successfully extracted profile for {shared['persona_id']}.")
 
+# class DecisionNode(Node):
+#     # Unchanged
+#     def prep(self, shared):
+#         profile = shared.get("persona_profile")
+#         if not profile: raise ValueError("PersonaProfile not found.")
+#         return profile
+#     def exec(self, profile: PersonaProfile):
+#         if profile.age < 16: return "provide_awareness_young"
+#         info_kw = ["exploring", "curious", "not sure"]
+#         train_kw = ["training", "courses", "learn", "study"]
+#         job_kw = ["job", "work", "career"]
+#         goals = profile.goals.lower()
+#         if any(kw in goals for kw in info_kw): return "provide_awareness_info"
+#         if any(kw in goals for kw in train_kw) and not any(kw in goals for kw in job_kw): return "recommend_trainings"
+#         return "recommend_jobs"
+#     def post(self, shared, prep_res, exec_res):
+#         shared["decision_action"] = exec_res
+#         return exec_res
+# In src/nodes.py, replace the old DecisionNode with this:
+
 class DecisionNode(Node):
-    # Unchanged
     def prep(self, shared):
         profile = shared.get("persona_profile")
-        if not profile: raise ValueError("PersonaProfile not found.")
+        if not profile or not isinstance(profile, PersonaProfile):
+            raise ValueError("A valid PersonaProfile object was not found in the shared store.")
         return profile
-    def exec(self, profile: PersonaProfile):
-        if profile.age < 16: return "provide_awareness_young"
-        info_kw = ["exploring", "curious", "not sure"]
-        train_kw = ["training", "courses", "learn", "study"]
-        job_kw = ["job", "work", "career"]
-        goals = profile.goals.lower()
-        if any(kw in goals for kw in info_kw): return "provide_awareness_info"
-        if any(kw in goals for kw in train_kw) and not any(kw in goals for kw in job_kw): return "recommend_trainings"
-        return "recommend_jobs"
-    def post(self, shared, prep_res, exec_res):
+
+    def exec(self, profile: PersonaProfile) -> str:
+        logger.info(f"Making an LLM-powered decision for persona with age {profile.age} and goals: '{profile.goals}'")
+        
+        # The age check is a hard rule, so we do it first.
+        if profile.age < 16:
+            logger.info("Decision: provide_awareness (age < 16)")
+            return "provide_awareness_young"
+
+        # Now, use an LLM for the nuanced decision.
+        prompt = f"""
+        You are an expert career advisor. Your task is to classify a person's primary intent based on their stated goals. You must choose one of three actions.
+
+        Here are the actions and their criteria:
+        1. "recommend_jobs": Choose this if the person is actively looking for a job right now, has some qualifications, or mentions a specific career path as their immediate goal.
+        2. "recommend_trainings": Choose this if the person's PRIMARY focus is on learning, studying, upskilling, or getting qualifications BEFORE they start looking for a job.
+        3. "provide_awareness": Choose this if the person is just exploring, is unsure, or has very vague goals without a clear intent to either work or study.
+
+        Persona's Profile:
+        - Age: {profile.age}
+        - Experience: {profile.experience_years} years
+        - Stated Goals: "{profile.goals}"
+
+        Based on these criteria, which is the single best action to take? Respond ONLY with the single action string (e.g., "recommend_jobs").
+        """
+        
+        # Use a cheap and fast model for this classification task. Caching helps performance.
+        decision = call_llm(prompt, model="mistral-large-latest", use_cache=True)
+        
+        # Clean up the response to be safe
+        cleaned_decision = decision.strip().replace('"', '')
+
+        # A safety check in case the LLM hallucinates an invalid action
+        valid_actions = ["recommend_jobs", "recommend_trainings", "provide_awareness_info"]
+        if cleaned_decision not in valid_actions:
+            logger.warning(f"LLM returned an invalid action: '{cleaned_decision}'. Defaulting to 'recommend_jobs'.")
+            return "recommend_jobs"
+            
+        logger.info(f"LLM Decision: {cleaned_decision}")
+        return cleaned_decision
+
+    def post(self, shared, prep_res, exec_res: str) -> Optional[str]:
         shared["decision_action"] = exec_res
+        logger.info(f"Decision action '{exec_res}' stored in shared store.")
         return exec_res
 
 # class ProvideAwarenessNode(Node):

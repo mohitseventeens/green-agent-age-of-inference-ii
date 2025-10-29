@@ -37,9 +37,9 @@
             "Curiosity about food industry operations"
           ]
         },
-        "score": 77.5,
+        "score": 76.0,
         "sub_scores": {
-          "goals": 95,
+          "goals": 92,
           "skills": 0,
           "experience": 100,
           "education": 100,
@@ -445,34 +445,6 @@
       },
       {
         "job": {
-          "job_id": "j186",
-          "title": "Mechanical Intern – Workshop Support",
-          "city": "Rio de Janeiro",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Hands-on workshop work",
-            "Willingness to learn mechanical systems",
-            "Assisting experienced mechanics",
-            "Maintenance procedures"
-          ]
-        },
-        "score": 35.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 100,
-          "education": 100,
-          "location": 100
-        }
-      },
-      {
-        "job": {
           "job_id": "j170",
           "title": "Tourism Consultant – Events & Guest Services",
           "city": "Rio de Janeiro",
@@ -546,34 +518,6 @@
             "compliance requirements understanding",
             "analytical abilities",
             "attention to accuracy"
-          ]
-        },
-        "score": 30.5,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 100,
-          "education": 100,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j54",
-          "title": "Junior Paper Manufacturing Specialist",
-          "city": "Salvador",
-          "is_remote": false,
-          "education_level": "bacharelado",
-          "experience_years": 0,
-          "languages": [
-            "Portuguese"
-          ],
-          "required_skills": [
-            "sustainable manufacturing practices",
-            "environmental compliance standards",
-            "paper manufacturing processes",
-            "team collaboration",
-            "technical expertise in paper production"
           ]
         },
         "score": 30.5,
@@ -679,6 +623,34 @@
       },
       {
         "job": {
+          "job_id": "j186",
+          "title": "Mechanical Intern – Workshop Support",
+          "city": "Rio de Janeiro",
+          "is_remote": false,
+          "education_level": "Tecnólogo",
+          "experience_years": 0,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Hands-on workshop work",
+            "Willingness to learn mechanical systems",
+            "Assisting experienced mechanics",
+            "Maintenance procedures"
+          ]
+        },
+        "score": 30.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 100,
+          "education": 100,
+          "location": 100
+        }
+      },
+      {
+        "job": {
           "job_id": "j44",
           "title": "Software-Focused Electrical Intern",
           "city": null,
@@ -738,34 +710,32 @@
       },
       {
         "job": {
-          "job_id": "j138",
-          "title": "Maintenance & Hydraulics Analyst",
-          "city": "Salvador",
+          "job_id": "j71",
+          "title": "Reception Assistant – Hospitality Services",
+          "city": "Fortaleza",
           "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 2,
+          "education_level": "Tecnólogo",
+          "experience_years": 3,
           "languages": [
             "Portuguese",
             "English"
           ],
           "required_skills": [
-            "Preventive maintenance strategies",
-            "Maintenance scheduling",
-            "Hydraulic systems",
-            "Pneumatic systems",
-            "Maintenance data analysis",
-            "Maintenance planning",
-            "Fluid power system management",
-            "Troubleshooting hydraulic systems",
-            "Technical analysis",
-            "Hands-on problem-solving"
+            "Advanced verbal and written communication (Portuguese)",
+            "Advanced verbal and written communication (English)",
+            "Guest services (check-ins, check-outs, inquiries)",
+            "Room assignment management",
+            "Payment processing",
+            "Guest record maintenance",
+            "Hotel amenities and local attractions knowledge",
+            "Phone and correspondence handling"
           ]
         },
-        "score": 27.5,
+        "score": 28.0,
         "sub_scores": {
-          "goals": 10,
+          "goals": 20,
           "skills": 0,
-          "experience": 80,
+          "experience": 50,
           "education": 100,
           "location": 10
         }
@@ -919,64 +889,28 @@
       },
       {
         "job": {
-          "job_id": "j118",
-          "title": "Port Planning & Dispatch Analyst",
-          "city": "São Paulo",
+          "job_id": "j54",
+          "title": "Junior Paper Manufacturing Specialist",
+          "city": "Salvador",
           "is_remote": false,
-          "education_level": "Bacharelado",
-          "experience_years": 3,
+          "education_level": "bacharelado",
+          "experience_years": 0,
           "languages": [
-            "Portuguese",
-            "English"
+            "Portuguese"
           ],
           "required_skills": [
-            "scheduling and dispatch operations",
-            "customs procedures",
-            "vessel movement optimization",
-            "timeline coordination",
-            "import/export documentation",
-            "port capacity analysis",
-            "logistics problem-solving",
-            "pressure handling in time-sensitive operations"
+            "sustainable manufacturing practices",
+            "environmental compliance standards",
+            "paper manufacturing processes",
+            "team collaboration",
+            "technical expertise in paper production"
           ]
         },
-        "score": 23.0,
+        "score": 25.5,
         "sub_scores": {
-          "goals": 10,
+          "goals": 0,
           "skills": 0,
-          "experience": 50,
-          "education": 100,
-          "location": 10
-        }
-      },
-      {
-        "job": {
-          "job_id": "j71",
-          "title": "Reception Assistant – Hospitality Services",
-          "city": "Fortaleza",
-          "is_remote": false,
-          "education_level": "Tecnólogo",
-          "experience_years": 3,
-          "languages": [
-            "Portuguese",
-            "English"
-          ],
-          "required_skills": [
-            "Advanced verbal and written communication (Portuguese)",
-            "Advanced verbal and written communication (English)",
-            "Guest services (check-ins, check-outs, inquiries)",
-            "Room assignment management",
-            "Payment processing",
-            "Guest record maintenance",
-            "Hotel amenities and local attractions knowledge",
-            "Phone and correspondence handling"
-          ]
-        },
-        "score": 23.0,
-        "sub_scores": {
-          "goals": 10,
-          "skills": 0,
-          "experience": 50,
+          "experience": 100,
           "education": 100,
           "location": 10
         }
@@ -1058,6 +992,40 @@
             "maritime safety regulations",
             "terminal workflow management",
             "stakeholder coordination"
+          ]
+        },
+        "score": 22.5,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 80,
+          "education": 100,
+          "location": 10
+        }
+      },
+      {
+        "job": {
+          "job_id": "j138",
+          "title": "Maintenance & Hydraulics Analyst",
+          "city": "Salvador",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 2,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "Preventive maintenance strategies",
+            "Maintenance scheduling",
+            "Hydraulic systems",
+            "Pneumatic systems",
+            "Maintenance data analysis",
+            "Maintenance planning",
+            "Fluid power system management",
+            "Troubleshooting hydraulic systems",
+            "Technical analysis",
+            "Hands-on problem-solving"
           ]
         },
         "score": 22.5,
@@ -1158,6 +1126,38 @@
           "experience": 50,
           "education": 100,
           "location": 100
+        }
+      },
+      {
+        "job": {
+          "job_id": "j118",
+          "title": "Port Planning & Dispatch Analyst",
+          "city": "São Paulo",
+          "is_remote": false,
+          "education_level": "Bacharelado",
+          "experience_years": 3,
+          "languages": [
+            "Portuguese",
+            "English"
+          ],
+          "required_skills": [
+            "scheduling and dispatch operations",
+            "customs procedures",
+            "vessel movement optimization",
+            "timeline coordination",
+            "import/export documentation",
+            "port capacity analysis",
+            "logistics problem-solving",
+            "pressure handling in time-sensitive operations"
+          ]
+        },
+        "score": 18.0,
+        "sub_scores": {
+          "goals": 0,
+          "skills": 0,
+          "experience": 50,
+          "education": 100,
+          "location": 10
         }
       },
       {

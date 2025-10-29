@@ -1,0 +1,1086 @@
+{
+  "persona_id": "persona_044",
+  "persona_profile": {
+    "persona_id": "persona_044",
+    "age": 27,
+    "city": "Belo Horizonte",
+    "education_level": "graduação",
+    "experience_years": 0,
+    "skills": [
+      "problem-solving (basic)",
+      "cultural curiosity",
+      "interpersonal communication (Portuguese)",
+      "willingness to learn"
+    ],
+    "goals": "To develop practical skills in cultural awareness, problem-solving, and customer service for entry-level roles in tourism or cultural centers, with a focus on helping travelers feel welcome and supported.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English (basic)"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "trace_details": {
+    "training_ranking": [
+      {
+        "training": {
+          "training_id": "tr198",
+          "title": "Master Your Neighborhood: Essential Area Knowledge for Hotel Staff",
+          "offered_skills": [
+            "Local area knowledge for hospitality",
+            "Guest service recommendations (restaurants, transportation, entertainment)",
+            "Direction-giving and navigation assistance",
+            "Handling guest inquiries professionally",
+            "Enhancing guest experience through local expertise"
+          ],
+          "required_level": null
+        },
+        "score": 94.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 90
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr186",
+          "title": "Basic Hotel Reception Communication Training",
+          "offered_skills": [
+            "Essential speaking skills for guest interactions (basic level)",
+            "Essential writing skills for guest interactions (basic level)",
+            "Best practices for transparency and compliance in hospitality",
+            "Professional front desk conversation handling",
+            "Clear and effective message writing for guest experience",
+            "Check-in procedures",
+            "Handling guest requests and complaints"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr189",
+          "title": "Master the Basics of Hotel Reception: Basic Customer Service Training",
+          "offered_skills": [
+            "Guest interaction",
+            "Handling inquiries",
+            "Resolving guest concerns",
+            "Creating positive first impressions",
+            "Front desk operations",
+            "Guest relations",
+            "Professional communication in hospitality",
+            "Foundational customer service in hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr195",
+          "title": "Guest Relations Training - Basic Level",
+          "offered_skills": [
+            "Customer service excellence in hospitality",
+            "Managing guest interactions",
+            "Handling guest inquiries",
+            "Ensuring guest satisfaction (check-in to check-out)",
+            "Practical techniques for hotel reception"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr204",
+          "title": "Master the Basics of Hotel Reception: Basic Problem Resolution Training",
+          "offered_skills": [
+            "Guest complaint handling",
+            "Conflict resolution",
+            "Active listening",
+            "Root cause identification",
+            "Problem-solving under pressure",
+            "De-escalation techniques",
+            "Clear communication in hospitality",
+            "Maintaining composure with upset guests",
+            "Guest service improvement"
+          ],
+          "required_level": null
+        },
+        "score": 91.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 85
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr183",
+          "title": "Hotel Guest Registration and Departure Procedures - Basic Level",
+          "offered_skills": [
+            "Guest arrival and departure process management (foundational)",
+            "Hotel reception documentation procedures",
+            "Guest communication protocols",
+            "Efficient processing techniques for peak/regular hours",
+            "Administrative tasks for hotel reception",
+            "Basic payment processing in hospitality",
+            "Guest service standards compliance",
+            "Professional handling of routine guest interactions"
+          ],
+          "required_level": null
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr201",
+          "title": "Master the Basics of Hotel Reception!",
+          "offered_skills": [
+            "Handling guest requests",
+            "Managing phone calls",
+            "Administrative duties",
+            "Task prioritization",
+            "Managing interruptions",
+            "Guest service under pressure",
+            "Check-in management",
+            "Reservation processing",
+            "Assisting walk-in guests",
+            "Multitasking in hospitality"
+          ],
+          "required_level": null
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr399",
+          "title": "Master Team and Performer Interactions for Show Technicians",
+          "offered_skills": [
+            "Interpersonal communication in live entertainment",
+            "Coordinating with crew and performers under pressure",
+            "Relaying technical information accurately",
+            "Professional relationship building in production environments",
+            "Briefing performers on safety protocols",
+            "Handling last-minute changes in live events",
+            "Collaborative problem-solving in show production"
+          ],
+          "required_level": null
+        },
+        "score": 64.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 40
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr153",
+          "title": "Basic Food Safety and Sanitation Training",
+          "offered_skills": [
+            "food safety practices",
+            "sanitation standards",
+            "transparency and compliance in food service",
+            "proper handwashing techniques",
+            "equipment sanitization",
+            "safe food preparation environment maintenance",
+            "food safety certification"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr207",
+          "title": "Hotel Property Management Systems - Basic Training",
+          "offered_skills": [
+            "Hotel booking software operations (basic)",
+            "Property management system navigation",
+            "Guest check-in/check-out processing",
+            "Room inventory management (basic)",
+            "Payment processing in hospitality software",
+            "Coordination of guest services via digital platforms"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr291",
+          "title": "Basic Safety and Protection Procedures Training",
+          "offered_skills": [
+            "Maritime safety protocols",
+            "Threat identification in port and vessel environments",
+            "Implementation of protective measures",
+            "Incident response in maritime security",
+            "Compliance with maritime safety regulations",
+            "Practical safety knowledge for port operations"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr30",
+          "title": "Basic Customer Data Management Training",
+          "offered_skills": [
+            "Customer information handling (foundational)",
+            "Data accuracy techniques",
+            "Regulatory compliance in data management",
+            "Secure handling of sensitive financial information",
+            "Documentation procedures for customer records",
+            "Systematic data organization in banking/insurance"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr333",
+          "title": "Basic Equipment Problem-Solving Training",
+          "offered_skills": [
+            "equipment diagnostics",
+            "root cause identification",
+            "problem-solving for machinery issues",
+            "structured troubleshooting methods",
+            "practical diagnostic techniques",
+            "reducing equipment downtime",
+            "systematic failure analysis"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr408",
+          "title": "Basic Live Show Operations Training",
+          "offered_skills": [
+            "live performance operations management (basic)",
+            "coordination of live events",
+            "technical support for concerts/theater",
+            "troubleshooting common live show issues",
+            "departmental collaboration in entertainment production",
+            "maintaining live performance workflow"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr174",
+          "title": "Master Food Industry Logistics from the Ground Up",
+          "offered_skills": [
+            "food supply network management",
+            "procurement fundamentals",
+            "distribution logistics",
+            "inventory management for perishable goods",
+            "efficient product movement in food industry",
+            "practical food logistics operations"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr213",
+          "title": "Basic Insurance Claims Handling Course",
+          "offered_skills": [
+            "Insurance claims handling",
+            "Claims processing (review, evaluation, and processing)",
+            "Claims workflow management",
+            "Documentation requirements for claims",
+            "Claim validity assessment",
+            "Gathering necessary documentation for claims",
+            "Effective communication with policyholders",
+            "Decision-making in claims processes"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr231",
+          "title": "Risk Assessment and Insurance Decision-Making Training",
+          "offered_skills": [
+            "analyzing insurance applications",
+            "assessing risk factors",
+            "making informed coverage decisions",
+            "identifying key risk indicators",
+            "understanding coverage implications",
+            "applying systematic decision-making frameworks",
+            "evaluating insurance requests",
+            "practical knowledge in insurance risk assessment"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr237",
+          "title": "Basic Sales and Marketing for Insurance Products",
+          "offered_skills": [
+            "Insurance product marketing",
+            "Sales strategies for insurance",
+            "Customer engagement in insurance",
+            "Product positioning for insurance",
+            "Client relationship building in insurance"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr243",
+          "title": "Basic Legal Counseling Skills Training",
+          "offered_skills": [
+            "Client advising fundamentals (legal)",
+            "Legal communication techniques",
+            "Structuring counseling sessions",
+            "Ethical considerations in attorney-client relationships",
+            "Conducting effective client meetings",
+            "Providing clear legal guidance"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr261",
+          "title": "Basic Contract and Deal-Making Skills",
+          "offered_skills": [
+            "Bargaining techniques",
+            "Agreement-building",
+            "Transparency and compliance best practices",
+            "Contract preparation",
+            "Persuasive communication",
+            "Deal closure",
+            "Legal negotiation (contract discussions)",
+            "Settlement talks"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr273",
+          "title": "Basic Maritime Vessel Communication Training",
+          "offered_skills": [
+            "Radio communication protocols (maritime)",
+            "Transparency and compliance best practices (maritime)",
+            "Foundational vessel communication"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr285",
+          "title": "Port Safety Regulations Training - Basic Level",
+          "offered_skills": [
+            "Port safety compliance",
+            "Regulatory frameworks (maritime/port)",
+            "Transparency and compliance best practices",
+            "Safety protocols in port operations",
+            "Navigating complex safety requirements",
+            "Implementation of port safety procedures",
+            "Practical application of maritime safety regulations"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr303",
+          "title": "Basic Maritime Communication Systems Training",
+          "offered_skills": [
+            "Radio communication protocols (basic level)",
+            "Digital communication protocols (basic level)",
+            "Industry standards for safe maritime operations"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr306",
+          "title": "Basic Crisis Response Training for Maritime Workers",
+          "offered_skills": [
+            "crisis response in maritime environments",
+            "safety procedures for vessels and water transport",
+            "risk assessment in maritime operations",
+            "immediate response techniques for urgent situations",
+            "practical safety knowledge through real scenarios and case studies",
+            "basic safety protocols for crew coordination"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr318",
+          "title": "Master the Fundamentals of Marine Navigation and Ship Handling",
+          "offered_skills": [
+            "Marine navigation principles",
+            "Vessel handling techniques",
+            "Seamanship practices",
+            "Chart reading",
+            "Compass work",
+            "Basic maneuvering skills"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr33",
+          "title": "Basic Regulatory Supervision Training",
+          "offered_skills": [
+            "regulatory supervision (basic level)",
+            "compliance gap identification",
+            "understanding regulatory frameworks",
+            "oversight support in financial institutions",
+            "risk identification (basic)",
+            "compliance monitoring (basic)",
+            "practical knowledge of supervision processes"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr36",
+          "title": "Basic Data Protection and Security Protocols Training",
+          "offered_skills": [
+            "Information protection fundamentals",
+            "Encryption basics",
+            "Access control implementation",
+            "Incident response procedures",
+            "Vulnerability identification in banking/insurance",
+            "Secure data handling procedures",
+            "Threat recognition (cybersecurity)",
+            "Regulatory compliance in financial security",
+            "Practical security safeguards application"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr390",
+          "title": "Sound System Configuration Training - Basic Level",
+          "offered_skills": [
+            "Sound system configuration (basic)",
+            "Connecting audio equipment",
+            "Optimizing audio output for venues",
+            "Setting up microphones",
+            "Configuring speakers",
+            "Operating mixing boards",
+            "Basic sound equipment troubleshooting",
+            "Live sound management (theaters, concerts, events)"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr414",
+          "title": "Basic Stage Mechanics Training",
+          "offered_skills": [
+            "theatrical rigging",
+            "backstage equipment operation",
+            "safety protocols for live performances",
+            "stage machinery operation",
+            "technical systems maintenance",
+            "mechanical principles for theater",
+            "practical application in event environments"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr123",
+          "title": "Environmental Compliance Training - Fundamentals",
+          "offered_skills": [
+            "Regulatory framework understanding for fiber and paper industry",
+            "Environmental compliance standards (basic level)",
+            "Sustainable practices in manufacturing",
+            "Compliance requirements and implementation strategies",
+            "Environmental standards knowledge",
+            "Regulatory documentation for legal compliance",
+            "Practical application of compliance processes"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr165",
+          "title": "Basic Production Line Management Training",
+          "offered_skills": [
+            "Manufacturing operations",
+            "Workflow optimization",
+            "Transparency and compliance best practices",
+            "Supervisory skills for manufacturing",
+            "Team coordination in production",
+            "Quality control procedures",
+            "Resource allocation",
+            "Bottleneck identification",
+            "Efficiency improvements in food production"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr245",
+          "title": "Advanced Legal Counseling and Advisory Skills",
+          "offered_skills": [
+            "sophisticated advisory techniques",
+            "navigating complex client relationships",
+            "handling sensitive legal consultations",
+            "providing strategic guidance in challenging situations",
+            "managing difficult conversations",
+            "structuring effective legal advice",
+            "building stronger client relationships"
+          ],
+          "required_level": "Graduação"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr264",
+          "title": "Basic Courtroom Presentation Skills",
+          "offered_skills": [
+            "Persuasive speaking techniques in legal settings (basic level)",
+            "Transparency and compliance best practices"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr266",
+          "title": "Advanced Courtroom Presentation Skills",
+          "offered_skills": [
+            "advanced courtroom presentation techniques",
+            "crafting compelling legal arguments",
+            "handling challenging cross-examinations",
+            "presenting cases confidently before judges and juries",
+            "sophisticated advocacy strategies",
+            "managing hostile witnesses",
+            "complex legal argumentation",
+            "persuasion techniques in litigation",
+            "personalized feedback on presentation style",
+            "practical exercises with real-world case studies"
+          ],
+          "required_level": "Graduação"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr3",
+          "title": "Basic Audit Fundamentals Course",
+          "offered_skills": [
+            "Examination of financial records",
+            "Assessment of internal controls",
+            "Compliance verification with professional standards",
+            "Financial statement analysis",
+            "Basic verification procedures",
+            "Entry-level audit task execution",
+            "Understanding financial examination principles"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr351",
+          "title": "Master Equipment Maintenance Fundamentals",
+          "offered_skills": [
+            "equipment maintenance fundamentals",
+            "preventive maintenance techniques",
+            "inspection procedures",
+            "maintenance scheduling",
+            "early problem detection",
+            "safety protocols in maintenance",
+            "basic troubleshooting",
+            "maintenance documentation",
+            "equipment condition assessment",
+            "maintenance planning for reduced downtime",
+            "equipment lifecycle optimization",
+            "communication with technical teams"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr378",
+          "title": "ERP Systems for Purchasing Management - Basic Level",
+          "offered_skills": [
+            "ERP procurement operations (foundational)",
+            "Transparency and compliance in procurement",
+            "Vendor relationship management (digital)",
+            "Purchase order creation",
+            "Supplier management",
+            "Inventory tracking (basic)",
+            "Procurement reporting (basic)",
+            "ERP workflow streamlining"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr393",
+          "title": "Electrical Fundamentals for Show Production",
+          "offered_skills": [
+            "Electrical fundamentals (theatrical/event environments)",
+            "Basic circuit understanding",
+            "Electrical safety protocols (live entertainment)",
+            "Power distribution (show production)",
+            "Basic troubleshooting (electrical systems)",
+            "Practical application of electrical components (backstage/on-stage)"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr405",
+          "title": "Basic Stage Lighting Setup Course",
+          "offered_skills": [
+            "Stage lighting installation",
+            "Lighting equipment configuration",
+            "Safety protocols for stage lighting",
+            "Equipment handling for live performances",
+            "Basic positioning and securing of stage lights",
+            "Technical skills for live event production"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr105",
+          "title": "Basic Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Electrical safety protocols",
+            "Hazard prevention",
+            "Regulatory compliance in electrical work",
+            "Identifying electrical hazards",
+            "Implementing protective measures",
+            "Workplace safety procedures for electrical systems",
+            "Theoretical and practical electrical safety applications"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr111",
+          "title": "Master Basic Electronic Component Joining",
+          "offered_skills": [
+            "Fundamental electronic component joining techniques",
+            "Proper heating methods for electronics",
+            "Material selection for electrical connections",
+            "Reliable electrical connection creation",
+            "Electronics repair basics",
+            "Circuit board assembly",
+            "Electrical maintenance",
+            "Industry-standard electronics assembly methods",
+            "Practical hands-on experience with real components"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr117",
+          "title": "Basic Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits",
+            "Systematic hardware failure resolution",
+            "Reading schematics",
+            "Using diagnostic tools",
+            "Logical problem-solving for electronics repair",
+            "Component failure identification",
+            "Proven repair methodologies",
+            "Real-world troubleshooting scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr129",
+          "title": "Basic Understanding of Material Science and Analysis",
+          "offered_skills": [
+            "Material structure analysis (basic)",
+            "Properties evaluation (basic)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr159",
+          "title": "Master Food Packaging Technology from Scratch",
+          "offered_skills": [
+            "Food container design",
+            "Material selection for food packaging",
+            "Packaging processes and quality standards",
+            "Food safety and preservation best practices",
+            "Shelf life optimization via packaging",
+            "Fundamental principles of food packaging decisions",
+            "Practical applications in food manufacturing packaging"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr242",
+          "title": "Advanced Legal Case Analysis Training",
+          "offered_skills": [
+            "Advanced legal case dissection",
+            "Judicial reasoning evaluation",
+            "Identification of key legal principles in court decisions",
+            "Sophisticated analytical skills for legal precedents"
+          ],
+          "required_level": "Graduação"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr260",
+          "title": "Advanced Legal Dispute Management Training",
+          "offered_skills": [
+            "managing complex legal disputes",
+            "handling sophisticated courtroom procedures",
+            "navigating intricate case workflows",
+            "leading courtroom proceedings",
+            "managing sophisticated legal dispute resolution processes",
+            "theoretical and practical application in advanced legal practice",
+            "real-world legal scenario analysis",
+            "expert-level competency in dispute resolution",
+            "expert-level competency in courtroom management"
+          ],
+          "required_level": "Graduação"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr279",
+          "title": "Basic Heavy Machinery Operation Training",
+          "offered_skills": [
+            "Crane operation (foundational)",
+            "Forklift operation (foundational)",
+            "Safety protocols for heavy machinery",
+            "Industry best practices in maritime equipment handling",
+            "Operational efficiency in port environments",
+            "Practical equipment handling confidence"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr300",
+          "title": "Basic Maritime Cargo Operations Training",
+          "offered_skills": [
+            "Cargo loading and unloading (basic)",
+            "Safety protocols for maritime freight",
+            "Cargo documentation and inspection",
+            "Weight distribution and cargo stability (basic)",
+            "Container handling (basic)",
+            "Bulk cargo operations (basic)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr345",
+          "title": "Basic Heavy Equipment Operation Training",
+          "offered_skills": [
+            "Operating large industrial machinery (foundational level)",
+            "Safety protocols and compliance standards in equipment handling",
+            "Basic maintenance checks for heavy equipment",
+            "Operational techniques for bulldozers, excavators, and cranes",
+            "Practical exercises in real-world industrial scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr348",
+          "title": "Learn Metal Working and Welding Fundamentals",
+          "offered_skills": [
+            "Metal cutting",
+            "Metal shaping",
+            "Welding (basic)",
+            "Joining techniques",
+            "Finishing techniques (metalworking)",
+            "Industrial equipment operation (basic)",
+            "Manufacturing process fundamentals"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_044",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr198"
+      },
+      {
+        "training_id": "tr186"
+      },
+      {
+        "training_id": "tr189"
+      },
+      {
+        "training_id": "tr195"
+      },
+      {
+        "training_id": "tr204"
+      }
+    ]
+  }
+}

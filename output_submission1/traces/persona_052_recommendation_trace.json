@@ -1,0 +1,31 @@
+{
+  "persona_id": "persona_052",
+  "persona_profile": {
+    "persona_id": "persona_052",
+    "age": 26,
+    "city": "Rio de Janeiro",
+    "education_level": "Tecnólogo em Ciências Contábeis",
+    "experience_years": 3,
+    "skills": [
+      "Financial Reporting",
+      "Regulatory Compliance",
+      "ESG Reporting (theoretical interest)",
+      "Carbon Accounting (theoretical interest)",
+      "Portuguese (native)",
+      "English (intermediate/professional)"
+    ],
+    "goals": "Transition into a role that bridges traditional accounting with sustainability, specifically focusing on ESG reporting frameworks, carbon accounting, or sustainable finance. Aim to contribute to meaningful sustainability disclosures in financial reporting while ensuring rigor and avoiding greenwashing. Interested in exploring how companies in Rio de Janeiro balance financial performance with sustainability goals, potentially through corporate roles, consulting, or local policy discussions.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_052",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

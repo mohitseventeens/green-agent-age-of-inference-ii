@@ -1,0 +1,1101 @@
+{
+  "persona_id": "persona_046",
+  "persona_profile": {
+    "persona_id": "persona_046",
+    "age": 27,
+    "city": "São Paulo",
+    "education_level": "Ensino Médio",
+    "experience_years": 2,
+    "skills": [
+      "document handling",
+      "meeting participation",
+      "negotiation (basic)",
+      "case analysis (basic)"
+    ],
+    "goals": "Explore career paths in law, particularly negotiation, legal writing, or case analysis, through training or roles that allow exposure to multiple areas before specializing.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "recommend_trainings",
+  "trace_details": {
+    "training_ranking": [
+      {
+        "training": {
+          "training_id": "tr158",
+          "title": "Advanced Procurement Management",
+          "offered_skills": [
+            "strategic sourcing",
+            "supplier relationship optimization",
+            "complex contract negotiation",
+            "purchasing process streamlining (food manufacturing)",
+            "vendor evaluation",
+            "supply chain optimization (food industry)",
+            "regulatory compliance navigation (food industry)",
+            "quality standards management (food industry)",
+            "cost-effective procurement strategies",
+            "advanced negotiation techniques",
+            "risk assessment in food supply chains",
+            "sustainable sourcing practices",
+            "seasonal fluctuation management (perishable goods)",
+            "perishable goods procurement",
+            "resilient supplier network development"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 76.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 60
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr10",
+          "title": "Intermediate Financial Cost Analysis Training",
+          "offered_skills": [
+            "intermediate cost analysis techniques",
+            "financial performance evaluation",
+            "data-driven financial recommendations",
+            "cost structure interpretation",
+            "cost optimization identification",
+            "strategic financial decision-making",
+            "real-world financial case analysis",
+            "business profitability assessment"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr123",
+          "title": "Environmental Compliance Training - Fundamentals",
+          "offered_skills": [
+            "Regulatory framework understanding for fiber and paper industry",
+            "Environmental compliance standards (basic level)",
+            "Sustainable practices in manufacturing",
+            "Compliance requirements and implementation strategies",
+            "Environmental standards knowledge",
+            "Regulatory documentation for legal compliance",
+            "Practical application of compliance processes"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr124",
+          "title": "Environmental Compliance Training - Intermediate Level",
+          "offered_skills": [
+            "Mastery of environmental compliance frameworks (fiber and paper industry)",
+            "Application of best practices for transparency and regulatory adherence",
+            "Regulatory risk assessment",
+            "Development of compliance protocols",
+            "Maintenance of environmental standards in industrial settings",
+            "Navigation of complex environmental standards (fiber and paper manufacturing)",
+            "Implementation of compliance strategies"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr13",
+          "title": "Intermediate Data Analysis and Interpretation Training",
+          "offered_skills": [
+            "Intermediate data analysis",
+            "Data interpretation for business decision-making",
+            "Pattern recognition in financial data",
+            "Trend analysis in management information",
+            "Drawing actionable insights from numerical data",
+            "Strategic business decision support"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr14",
+          "title": "Advanced Analytics and Business Intelligence Training",
+          "offered_skills": [
+            "Complex analytical techniques",
+            "Statistical modeling (Advanced level)",
+            "Transparency and compliance best practices",
+            "Extracting insights from complex datasets",
+            "Sophisticated statistical models",
+            "Predictive modeling",
+            "Analytical frameworks for financial and management applications",
+            "Communicating analytical results to stakeholders",
+            "Real-world scenario analysis"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr157",
+          "title": "Master Intermediate Procurement in Food Industry",
+          "offered_skills": [
+            "supplier relationship management",
+            "contract negotiation",
+            "strategic sourcing",
+            "vendor evaluation",
+            "cost optimization in procurement",
+            "quality assurance in procurement",
+            "regulatory compliance (food industry)",
+            "market trend analysis",
+            "supplier performance assessment",
+            "procurement strategy implementation"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr16",
+          "title": "Intermediate Corporate Financial Reporting",
+          "offered_skills": [
+            "Financial statement preparation (intermediate level)",
+            "Financial statement analysis (intermediate level)",
+            "Transparency and compliance best practices in financial reporting",
+            "Regulatory requirements for financial reporting",
+            "Disclosure practices in financial statements",
+            "Complex reporting scenarios handling",
+            "Application of accounting standards"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr1",
+          "title": "Intermediate Financial Software Training",
+          "offered_skills": [
+            "Managing complex accounting tasks with professional software tools",
+            "Navigating advanced features of accounting platforms",
+            "Processing complex financial transactions",
+            "Generating detailed financial reports",
+            "Streamlining accounting workflows",
+            "Customizing software settings for accounting operations",
+            "Troubleshooting common issues in financial software",
+            "Handling intermediate-level accounting tasks"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr12",
+          "title": "Basic Data Analysis Training",
+          "offered_skills": [
+            "Análise de dados financeiros",
+            "Interpretação de métricas-chave",
+            "Leitura de relatórios financeiros básicos",
+            "Tomada de decisão baseada em dados",
+            "Análise numérica aplicada a contabilidade e gestão"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr135",
+          "title": "Basic Training in Streamlining Industrial Operations",
+          "offered_skills": [
+            "workflow improvement (basic level)",
+            "identifying bottlenecks in industrial processes",
+            "waste reduction in manufacturing",
+            "cost reduction techniques",
+            "productivity enhancement in production lines",
+            "systematic operational analysis",
+            "measuring process improvement results"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr147",
+          "title": "Basic Training in Environmental Resource Management",
+          "offered_skills": [
+            "Environmental resource management (basic level)",
+            "Sustainable material handling",
+            "Material identification and categorization",
+            "Regulatory compliance in environmental practices",
+            "Safety protocols for resource handling",
+            "Sustainable practices in fiber/paper manufacturing",
+            "Material flow assessment",
+            "Sorting system implementation",
+            "Economic and environmental impact analysis of resource management"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr15",
+          "title": "Basic Financial Reporting Training",
+          "offered_skills": [
+            "Preparação de demonstrações financeiras básicas",
+            "Interpretação de relatórios financeiros fundamentais",
+            "Noções de contabilidade introdutória",
+            "Análise financeira inicial"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr156",
+          "title": "Basic Procurement Training",
+          "offered_skills": [
+            "sourcing materials (food sector)",
+            "procurement processes (food industry)",
+            "supplier evaluation",
+            "cost management (food production)",
+            "food industry standards compliance"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr100",
+          "title": "Intermediate Programming for Embedded Systems",
+          "offered_skills": [
+            "Programming embedded controllers (intermediate level)",
+            "Best practices for transparency and compliance in embedded systems",
+            "Writing sophisticated code for small computing devices",
+            "Handling complex sensor interactions",
+            "Implementing advanced control algorithms",
+            "Theoretical and hands-on embedded systems development",
+            "Real-world application experience in embedded systems"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr129",
+          "title": "Basic Understanding of Material Science and Analysis",
+          "offered_skills": [
+            "Material structure analysis (basic)",
+            "Properties evaluation (basic)"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr136",
+          "title": "Optimize Manufacturing Processes Like a Pro! - Intermediate Process Optimization Training",
+          "offered_skills": [
+            "Process optimization in fiber and paper manufacturing",
+            "Streamlining operations",
+            "Waste reduction techniques",
+            "Efficiency improvement in manufacturing",
+            "Analyzing production workflows",
+            "Identifying bottlenecks",
+            "Implementing systematic improvements",
+            "Handling complex optimization challenges",
+            "Applying real industry scenarios in fiber and paper operations"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr137",
+          "title": "Advanced Manufacturing Efficiency Enhancement",
+          "offered_skills": [
+            "Workflow optimization (Avançado)",
+            "Transparency and compliance best practices",
+            "Bottleneck identification in manufacturing",
+            "Lean methodologies implementation",
+            "Efficient production workflow design",
+            "Waste reduction techniques",
+            "Data-driven decision making for production",
+            "Statistical analysis for production improvement",
+            "Advanced problem-solving frameworks",
+            "Case study analysis (pulp and paper industry)",
+            "Operational expertise in industrial processes"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr139",
+          "title": "Intermediate Paper Product Development Training",
+          "offered_skills": [
+            "Paper product creation (intermediate level)",
+            "Innovation in paper product development",
+            "Best practices for transparency and compliance in the paper industry",
+            "Practical approaches to creating innovative paper products",
+            "Industry standards for fibers and paper products"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr150",
+          "title": "Master Food Safety Fundamentals",
+          "offered_skills": [
+            "Hazard analysis (Análise de Perigos - HACCP)",
+            "Critical control points (Pontos Críticos de Controle - PCC)",
+            "Good Manufacturing Practices (Boas Práticas de Fabricação - BPF)",
+            "Contamination prevention (Prevenção de contaminação)",
+            "Quality assurance in food production (Garantia de qualidade na produção de alimentos)",
+            "Food safety regulatory compliance (Conformidade com normas de segurança alimentar)",
+            "Monitoring procedures for food safety (Procedimentos de monitoramento em segurança alimentar)",
+            "Identification of potential hazards in food production (Identificação de perigos potenciais na produção de alimentos)"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr152",
+          "title": "Advanced Food Safety Standards Training",
+          "offered_skills": [
+            "hazard analysis",
+            "critical control points (CCP) management",
+            "good manufacturing practices (GMP)",
+            "food safety protocol design",
+            "safety management system implementation",
+            "risk assessment in food production",
+            "compliance with international food safety regulations",
+            "quality assurance leadership",
+            "food safety initiative oversight"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr104",
+          "title": "Advanced Electrical Grid Systems",
+          "offered_skills": [
+            "complex electrical network analysis",
+            "grid management (advanced level)",
+            "grid stability optimization",
+            "load balancing techniques",
+            "system optimization for electrical distribution",
+            "power network solution implementation",
+            "transparency and compliance in electrical systems"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr105",
+          "title": "Basic Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Electrical safety protocols",
+            "Hazard prevention",
+            "Regulatory compliance in electrical work",
+            "Identifying electrical hazards",
+            "Implementing protective measures",
+            "Workplace safety procedures for electrical systems",
+            "Theoretical and practical electrical safety applications"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr106",
+          "title": "Intermediate Electrical Safety Procedures Training",
+          "offered_skills": [
+            "Identificação de riscos elétricos (hazard identification)",
+            "Implementação de medidas protetivas (protective measures)",
+            "Manutenção de ambientes de trabalho seguros (safe working environments)",
+            "Avaliação avançada de riscos (advanced hazard assessment)",
+            "Uso adequado de equipamentos de segurança (safety equipment usage)",
+            "Procedimentos de resposta a emergências elétricas (emergency response)",
+            "Criação de espaços de trabalho mais seguros (safer workspaces)"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr107",
+          "title": "Advanced Electrical Safety Training",
+          "offered_skills": [
+            "electrical hazard assessment (advanced)",
+            "emergency response protocols (electrical safety)",
+            "regulatory compliance (electrical safety)",
+            "sophisticated safety measures implementation",
+            "advanced protective equipment usage",
+            "leadership in electrical safety management",
+            "subtle risk identification in electrical systems",
+            "critical safety decision-making"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr108",
+          "title": "Basic Circuit Diagram Interpretation",
+          "offered_skills": [
+            "Reading electrical diagrams",
+            "Understanding circuit analysis",
+            "Applying industry standards for circuit documentation",
+            "Identifying electrical components",
+            "Tracing signal paths in circuits",
+            "Interpreting basic electrical schematics",
+            "Troubleshooting devices using diagrams",
+            "Communicating technical circuit information"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr110",
+          "title": "Advanced Circuit Diagram Interpretation",
+          "offered_skills": [
+            "Advanced circuit diagram interpretation",
+            "Analysis of complex electrical systems",
+            "Troubleshooting intricate wiring configurations",
+            "Understanding multi-layered electronic designs",
+            "Interpreting industrial-grade diagrams",
+            "Working with multi-phase systems",
+            "Decoding complex control circuits"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr112",
+          "title": "Intermediate Electronic Component Assembly Course",
+          "offered_skills": [
+            "Precision joining for circuit boards",
+            "Advanced iron techniques",
+            "Flux application",
+            "Quality control methods for electronics",
+            "Handling temperature-sensitive components",
+            "Creating reliable electrical connections",
+            "Working with different materials in electronics assembly"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr115",
+          "title": "Intermediate Electronic Testing Equipment Mastery",
+          "offered_skills": [
+            "intermediate-level operation of electronic testing equipment",
+            "advanced measurement scenarios handling",
+            "complex readings interpretation",
+            "troubleshooting sophisticated electrical systems",
+            "industry-standard procedures (electronic testing)",
+            "precision measurement techniques"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr117",
+          "title": "Basic Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits",
+            "Systematic hardware failure resolution",
+            "Reading schematics",
+            "Using diagnostic tools",
+            "Logical problem-solving for electronics repair",
+            "Component failure identification",
+            "Proven repair methodologies",
+            "Real-world troubleshooting scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr118",
+          "title": "Intermediate Electronic Systems Diagnostics Training",
+          "offered_skills": [
+            "Diagnostic techniques for electronic circuits (intermediate level)",
+            "Systematic fault identification and resolution in electrical systems",
+            "Recognized credential for resume enhancement"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr120",
+          "title": "Basic Chemical Handling Training",
+          "offered_skills": [
+            "chemical safety protocols",
+            "proper handling techniques",
+            "risk assessment procedures",
+            "safety measures for chemical storage",
+            "emergency response protocols",
+            "understanding chemical safety principles in fiber and paper production"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr121",
+          "title": "Master Safe Chemical Practices in Industrial Settings - Intermediate Chemical Handling Training",
+          "offered_skills": [
+            "Segurança no manuseio de produtos químicos (chemical safety handling)",
+            "Armazenamento adequado de substâncias perigosas (proper storage of hazardous substances)",
+            "Protocolos de resposta a emergências (emergency response protocols)",
+            "Conformidade regulatória em ambientes industriais (regulatory compliance in industrial settings)",
+            "Avaliação de riscos químicos (chemical risk assessment)",
+            "Implementação de medidas de segurança (safety measures implementation)",
+            "Manuseio de processos químicos complexos (handling complex chemical processes)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr122",
+          "title": "Advanced Training in Safe Chemical Management",
+          "offered_skills": [
+            "Hazardous substances management",
+            "Proper storage protocols for chemicals",
+            "Emergency response procedures in industrial environments",
+            "Regulatory compliance for chemical safety",
+            "Theoretical and practical chemical safety applications"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr126",
+          "title": "Basic Equipment Handling Training",
+          "offered_skills": [
+            "Safe operation of industrial machinery (basic level)",
+            "Maintenance of industrial machinery (basic level)"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr127",
+          "title": "Intermediate Machinery Operation Training",
+          "offered_skills": [
+            "Advanced machinery operation techniques (intermediate level)",
+            "Complex equipment management",
+            "Troubleshooting procedures for fiber and paper production",
+            "Safety protocols in manufacturing environments",
+            "Equipment specifications analysis",
+            "Maintenance protocols implementation",
+            "Independent operation of industrial machinery",
+            "Problem-solving in industrial equipment scenarios"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr128",
+          "title": "Advanced Machinery Operations Training",
+          "offered_skills": [
+            "complex industrial equipment handling",
+            "precision machinery operations",
+            "sophisticated equipment management",
+            "troubleshooting complex mechanical issues",
+            "optimizing production processes",
+            "advanced machinery handling in paper manufacturing",
+            "senior technical role readiness",
+            "leading equipment operations"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr130",
+          "title": "Intermediate Fiber Science Training",
+          "offered_skills": [
+            "Análise de materiais têxteis (nível intermediário)",
+            "Propriedades de fibras (nível intermediário)",
+            "Melhores práticas em transparência e conformidade no setor têxtil",
+            "Credencial reconhecida para currículo (certificação)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr131",
+          "title": "Advanced Fiber Science Training",
+          "offered_skills": [
+            "Advanced fiber analysis and characterization methods",
+            "Complex fiber structure evaluation and testing protocols",
+            "Research-level understanding of fiber science principles",
+            "Advanced testing methodologies in fiber science",
+            "Application of theoretical knowledge in practical fiber analysis",
+            "Leadership in fiber science projects",
+            "Innovative solutions in materials development (fiber and paper industry)"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr140",
+          "title": "Advanced Paper Product Development Training",
+          "offered_skills": [
+            "Advanced paper product innovation",
+            "Advanced paper product development strategies",
+            "Best practices for transparency and compliance in paper products",
+            "Sophisticated techniques for creating and optimizing paper-based products",
+            "Advanced methodologies for successful product launches in the fiber and paper industry",
+            "Leading complex paper product development projects"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr141",
+          "title": "Basic Paper Manufacturing Processes Training",
+          "offered_skills": [
+            "wood fiber processing techniques",
+            "chemical pulp processing basics",
+            "mechanical pulp processing basics",
+            "raw material transformation for paper manufacturing",
+            "fundamentals of fiber processing in pulp and paper industry"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr143",
+          "title": "Advanced Pulping Processes Training",
+          "offered_skills": [
+            "sophisticated fiber processing methods",
+            "advanced pulping technologies",
+            "optimization strategies in paper manufacturing",
+            "quality control processes in pulping",
+            "troubleshooting complex production scenarios",
+            "efficiency improvement techniques in paper production",
+            "practical applications of theoretical pulping knowledge",
+            "industrial-scale process engineering for paper manufacturing"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr144",
+          "title": "Basic Paper and Pulp Quality Control Training",
+          "offered_skills": [
+            "Monitoring production quality (paper and pulp industry)",
+            "Identifying defects in paper and pulp manufacturing",
+            "Implementing basic quality control procedures",
+            "Essential testing methods for paper and pulp",
+            "Applying industry quality standards",
+            "Inspection techniques for paper and pulp production"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr151",
+          "title": "Intermediate Food Safety Standards Training",
+          "offered_skills": [
+            "hazard analysis and critical control points (HACCP) - intermediate level",
+            "good manufacturing practices (GMP) - intermediate level",
+            "food safety system implementation and monitoring",
+            "risk identification in food production environments",
+            "theoretical and practical application of safety protocols",
+            "compliance oversight in food manufacturing"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr153",
+          "title": "Basic Food Safety and Sanitation Training",
+          "offered_skills": [
+            "food safety practices",
+            "sanitation standards",
+            "transparency and compliance in food service",
+            "proper handwashing techniques",
+            "equipment sanitization",
+            "safe food preparation environment maintenance",
+            "food safety certification"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr154",
+          "title": "Intermediate Food Safety Standards Training",
+          "offered_skills": [
+            "Implementação de procedimentos de saneamento em manipulação de alimentos",
+            "Manutenção de padrões de segurança alimentar",
+            "Técnicas avançadas de prevenção de contaminação",
+            "Aplicação de normas de higiene em ambientes de preparo de alimentos",
+            "Gestão de segurança em serviços de alimentação"
+          ],
+          "required_level": "ensino medio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr161",
+          "title": "Advanced Food Packaging Solutions",
+          "offered_skills": [
+            "Advanced packaging design for food products",
+            "Implementation techniques for food packaging systems",
+            "Innovative packaging materials (e.g., biodegradable, smart packaging)",
+            "Sustainable packaging solutions",
+            "Advanced food preservation techniques",
+            "Barrier properties analysis in packaging",
+            "Regulatory compliance for international food packaging markets",
+            "Emerging trends in food packaging (e.g., intelligent packaging systems)",
+            "Case study analysis for real-world food packaging challenges"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr163",
+          "title": "Master Intermediate Food Innovation!",
+          "offered_skills": [
+            "food product development (concept to market)",
+            "market research for food innovation",
+            "formulation strategies in food technology",
+            "testing methodologies for food products",
+            "regulatory compliance in food development",
+            "practical R&D skills for food technologists",
+            "consumer demand analysis in food innovation"
+          ],
+          "required_level": "Técnico"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr165",
+          "title": "Basic Production Line Management Training",
+          "offered_skills": [
+            "Manufacturing operations",
+            "Workflow optimization",
+            "Transparency and compliance best practices",
+            "Supervisory skills for manufacturing",
+            "Team coordination in production",
+            "Quality control procedures",
+            "Resource allocation",
+            "Bottleneck identification",
+            "Efficiency improvements in food production"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr166",
+          "title": "Intermediate Manufacturing Operations Training",
+          "offered_skills": [
+            "Manufacturing operations coordination (intermediate level)",
+            "Workflow management in production",
+            "Efficiency optimization in manufacturing",
+            "Daily production activity oversight",
+            "Multi-stream production handling",
+            "Quality control implementation in food manufacturing",
+            "Operational troubleshooting",
+            "Supervision of production teams",
+            "Maintenance of operational standards",
+            "Resource allocation in production",
+            "Scheduling optimization",
+            "Process improvement techniques (food industry-specific)"
+          ],
+          "required_level": "Ensino Médio"
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      }
+    ]
+  },
+  "final_recommendation": {
+    "persona_id": "persona_046",
+    "predicted_type": "trainings_only",
+    "trainings": [
+      {
+        "training_id": "tr158"
+      },
+      {
+        "training_id": "tr10"
+      },
+      {
+        "training_id": "tr123"
+      },
+      {
+        "training_id": "tr124"
+      },
+      {
+        "training_id": "tr13"
+      }
+    ]
+  }
+}

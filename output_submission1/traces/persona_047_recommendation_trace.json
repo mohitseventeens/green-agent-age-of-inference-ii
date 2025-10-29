@@ -1,0 +1,29 @@
+{
+  "persona_id": "persona_047",
+  "persona_profile": {
+    "persona_id": "persona_047",
+    "age": 14,
+    "city": "Rio de Janeiro",
+    "education_level": "Ensino Fundamental",
+    "experience_years": 0,
+    "skills": [
+      "Critical thinking (math/history focus)",
+      "Passion for justice/human rights",
+      "Eagerness to learn (law, research, advocacy)",
+      "Basic English proficiency"
+    ],
+    "goals": "To become a human rights lawyer in Rio de Janeiro, starting with early preparation through internships, workshops, or volunteering while still in school. Focused on defending marginalized communities and making a local impact without relocating.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "provide_awareness_young",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_047",
+    "predicted_type": "awareness",
+    "predicted_items": "too_young"
+  }
+}

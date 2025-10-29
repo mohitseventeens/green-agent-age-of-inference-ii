@@ -1,0 +1,28 @@
+{
+  "persona_id": "persona_011",
+  "persona_profile": {
+    "persona_id": "persona_011",
+    "age": 25,
+    "city": "Recife",
+    "education_level": "Tecnólogo em Design de Interiores",
+    "experience_years": 0,
+    "skills": [
+      "Visual Presentation (basic)",
+      "Portuguese (native)",
+      "English (intermediate)"
+    ],
+    "goals": "Exploring career opportunities in Tourism, Visual Arts, or Insurance in Recife, with a preference for roles that connect with people, culture, or local history. Seeking clarity on day-to-day responsibilities and training requirements before committing to a field.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese",
+      "English"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_011",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

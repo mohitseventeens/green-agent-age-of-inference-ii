@@ -1,0 +1,27 @@
+{
+  "persona_id": "persona_064",
+  "persona_profile": {
+    "persona_id": "persona_064",
+    "age": 17,
+    "city": "Porto Alegre",
+    "education_level": "Ensino Médio",
+    "experience_years": 2,
+    "skills": [
+      "fraud prevention support",
+      "document verification",
+      "operational tasks"
+    ],
+    "goals": "Exploring and understanding administrative roles in banking or insurance, particularly day-to-day tasks and responsibilities, without immediate job-seeking intent.",
+    "is_open_to_relocate": false,
+    "languages": [
+      "Portuguese"
+    ]
+  },
+  "decision_action": "provide_awareness_info",
+  "trace_details": {},
+  "final_recommendation": {
+    "persona_id": "persona_064",
+    "predicted_type": "awareness",
+    "predicted_items": "info"
+  }
+}

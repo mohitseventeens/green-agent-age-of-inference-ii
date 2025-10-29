@@ -29,6 +29,29 @@
     "training_ranking": [
       {
         "training": {
+          "training_id": "tr147",
+          "title": "Basic Training in Environmental Resource Management",
+          "offered_skills": [
+            "Environmental resource management (basic level)",
+            "Sustainable material handling",
+            "Material identification and categorization",
+            "Regulatory compliance in environmental practices",
+            "Safety protocols for resource handling",
+            "Sustainable practices in fiber/paper manufacturing",
+            "Material flow assessment",
+            "Sorting system implementation",
+            "Economic and environmental impact analysis of resource management"
+          ],
+          "required_level": null
+        },
+        "score": 85.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 75
+        }
+      },
+      {
+        "training": {
           "training_id": "tr150",
           "title": "Master Food Safety Fundamentals",
           "offered_skills": [
@@ -61,29 +84,6 @@
             "Environmental standards knowledge",
             "Regulatory documentation for legal compliance",
             "Practical application of compliance processes"
-          ],
-          "required_level": null
-        },
-        "score": 79.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 65
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr147",
-          "title": "Basic Training in Environmental Resource Management",
-          "offered_skills": [
-            "Environmental resource management (basic level)",
-            "Sustainable material handling",
-            "Material identification and categorization",
-            "Regulatory compliance in environmental practices",
-            "Safety protocols for resource handling",
-            "Sustainable practices in fiber/paper manufacturing",
-            "Material flow assessment",
-            "Sorting system implementation",
-            "Economic and environmental impact analysis of resource management"
           ],
           "required_level": null
         },
@@ -170,10 +170,10 @@
           ],
           "required_level": null
         },
-        "score": 79.0,
+        "score": 70.0,
         "sub_scores": {
           "prerequisite": 100,
-          "goal_alignment": 65
+          "goal_alignment": 50
         }
       },
       {
@@ -188,6 +188,24 @@
             "productivity enhancement in production lines",
             "systematic operational analysis",
             "measuring process improvement results"
+          ],
+          "required_level": null
+        },
+        "score": 67.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 45
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr162",
+          "title": "Basic Food Innovation and Development Course",
+          "offered_skills": [
+            "Food innovation fundamentals",
+            "Product concept development",
+            "Market launch strategies for food products",
+            "Food product testing and validation"
           ],
           "required_level": null
         },
@@ -222,27 +240,6 @@
       },
       {
         "training": {
-          "training_id": "tr153",
-          "title": "Basic Food Safety and Sanitation Training",
-          "offered_skills": [
-            "food safety practices",
-            "sanitation standards",
-            "transparency and compliance in food service",
-            "proper handwashing techniques",
-            "equipment sanitization",
-            "safe food preparation environment maintenance",
-            "food safety certification"
-          ],
-          "required_level": null
-        },
-        "score": 64.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 40
-        }
-      },
-      {
-        "training": {
           "training_id": "tr18",
           "title": "Basic Compliance and Regulatory Standards",
           "offered_skills": [
@@ -261,6 +258,25 @@
       },
       {
         "training": {
+          "training_id": "tr12",
+          "title": "Basic Data Analysis Training",
+          "offered_skills": [
+            "Análise de dados financeiros",
+            "Interpretação de métricas-chave",
+            "Leitura de relatórios financeiros básicos",
+            "Tomada de decisão baseada em dados",
+            "Análise numérica aplicada a contabilidade e gestão"
+          ],
+          "required_level": null
+        },
+        "score": 58.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 30
+        }
+      },
+      {
+        "training": {
           "training_id": "tr120",
           "title": "Basic Chemical Handling Training",
           "offered_skills": [
@@ -270,38 +286,6 @@
             "safety measures for chemical storage",
             "emergency response protocols",
             "understanding chemical safety principles in fiber and paper production"
-          ],
-          "required_level": null
-        },
-        "score": 58.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 30
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr126",
-          "title": "Basic Equipment Handling Training",
-          "offered_skills": [
-            "Safe operation of industrial machinery (basic level)",
-            "Maintenance of industrial machinery (basic level)"
-          ],
-          "required_level": null
-        },
-        "score": 58.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 30
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr129",
-          "title": "Basic Understanding of Material Science and Analysis",
-          "offered_skills": [
-            "Material structure analysis (basic)",
-            "Properties evaluation (basic)"
           ],
           "required_level": null
         },
@@ -357,14 +341,16 @@
       },
       {
         "training": {
-          "training_id": "tr156",
-          "title": "Basic Procurement Training",
+          "training_id": "tr153",
+          "title": "Basic Food Safety and Sanitation Training",
           "offered_skills": [
-            "sourcing materials (food sector)",
-            "procurement processes (food industry)",
-            "supplier evaluation",
-            "cost management (food production)",
-            "food industry standards compliance"
+            "food safety practices",
+            "sanitation standards",
+            "transparency and compliance in food service",
+            "proper handwashing techniques",
+            "equipment sanitization",
+            "safe food preparation environment maintenance",
+            "food safety certification"
           ],
           "required_level": null
         },
@@ -376,13 +362,14 @@
       },
       {
         "training": {
-          "training_id": "tr162",
-          "title": "Basic Food Innovation and Development Course",
+          "training_id": "tr156",
+          "title": "Basic Procurement Training",
           "offered_skills": [
-            "Food innovation fundamentals",
-            "Product concept development",
-            "Market launch strategies for food products",
-            "Food product testing and validation"
+            "sourcing materials (food sector)",
+            "procurement processes (food industry)",
+            "supplier evaluation",
+            "cost management (food production)",
+            "food industry standards compliance"
           ],
           "required_level": null
         },
@@ -494,14 +481,48 @@
       },
       {
         "training": {
-          "training_id": "tr12",
-          "title": "Basic Data Analysis Training",
+          "training_id": "tr105",
+          "title": "Basic Electrical Safety Procedures Training",
           "offered_skills": [
-            "Análise de dados financeiros",
-            "Interpretação de métricas-chave",
-            "Leitura de relatórios financeiros básicos",
-            "Tomada de decisão baseada em dados",
-            "Análise numérica aplicada a contabilidade e gestão"
+            "Electrical safety protocols",
+            "Hazard prevention",
+            "Regulatory compliance in electrical work",
+            "Identifying electrical hazards",
+            "Implementing protective measures",
+            "Workplace safety procedures for electrical systems",
+            "Theoretical and practical electrical safety applications"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr126",
+          "title": "Basic Equipment Handling Training",
+          "offered_skills": [
+            "Safe operation of industrial machinery (basic level)",
+            "Maintenance of industrial machinery (basic level)"
+          ],
+          "required_level": null
+        },
+        "score": 52.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 20
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr129",
+          "title": "Basic Understanding of Material Science and Analysis",
+          "offered_skills": [
+            "Material structure analysis (basic)",
+            "Properties evaluation (basic)"
           ],
           "required_level": null
         },
@@ -536,14 +557,11 @@
       },
       {
         "training": {
-          "training_id": "tr141",
-          "title": "Basic Paper Manufacturing Processes Training",
+          "training_id": "tr171",
+          "title": "Basic Recipe Scaling Training",
           "offered_skills": [
-            "wood fiber processing techniques",
-            "chemical pulp processing basics",
-            "mechanical pulp processing basics",
-            "raw material transformation for paper manufacturing",
-            "fundamentals of fiber processing in pulp and paper industry"
+            "Proporcional adjustment of ingredient quantities (basic level)",
+            "Fundamentals of recipe scaling for food production"
           ],
           "required_level": null
         },
@@ -611,16 +629,37 @@
       },
       {
         "training": {
-          "training_id": "tr105",
-          "title": "Basic Electrical Safety Procedures Training",
+          "training_id": "tr111",
+          "title": "Master Basic Electronic Component Joining",
           "offered_skills": [
-            "Electrical safety protocols",
-            "Hazard prevention",
-            "Regulatory compliance in electrical work",
-            "Identifying electrical hazards",
-            "Implementing protective measures",
-            "Workplace safety procedures for electrical systems",
-            "Theoretical and practical electrical safety applications"
+            "Fundamental electronic component joining techniques",
+            "Proper heating methods for electronics",
+            "Material selection for electrical connections",
+            "Reliable electrical connection creation",
+            "Electronics repair basics",
+            "Circuit board assembly",
+            "Electrical maintenance",
+            "Industry-standard electronics assembly methods",
+            "Practical hands-on experience with real components"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr141",
+          "title": "Basic Paper Manufacturing Processes Training",
+          "offered_skills": [
+            "wood fiber processing techniques",
+            "chemical pulp processing basics",
+            "mechanical pulp processing basics",
+            "raw material transformation for paper manufacturing",
+            "fundamentals of fiber processing in pulp and paper industry"
           ],
           "required_level": null
         },
@@ -639,43 +678,6 @@
             "Interpretação de relatórios financeiros fundamentais",
             "Noções de contabilidade introdutória",
             "Análise financeira inicial"
-          ],
-          "required_level": null
-        },
-        "score": 46.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 10
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr171",
-          "title": "Basic Recipe Scaling Training",
-          "offered_skills": [
-            "Proporcional adjustment of ingredient quantities (basic level)",
-            "Fundamentals of recipe scaling for food production"
-          ],
-          "required_level": null
-        },
-        "score": 46.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 10
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr180",
-          "title": "Basic Money Management for Hotel Reception",
-          "offered_skills": [
-            "Money transaction management (basic level)",
-            "Processing guest payments",
-            "Balancing daily receipts",
-            "End-of-shift reconciliation",
-            "Handling incidental charges",
-            "Managing cash drawers",
-            "Financial procedures for hotel front desk operations"
           ],
           "required_level": null
         },
@@ -717,6 +719,29 @@
             "Direction-giving and navigation assistance",
             "Handling guest inquiries professionally",
             "Enhancing guest experience through local expertise"
+          ],
+          "required_level": null
+        },
+        "score": 46.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 10
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr204",
+          "title": "Master the Basics of Hotel Reception: Basic Problem Resolution Training",
+          "offered_skills": [
+            "Guest complaint handling",
+            "Conflict resolution",
+            "Active listening",
+            "Root cause identification",
+            "Problem-solving under pressure",
+            "De-escalation techniques",
+            "Clear communication in hospitality",
+            "Maintaining composure with upset guests",
+            "Guest service improvement"
           ],
           "required_level": null
         },
@@ -771,26 +796,6 @@
       },
       {
         "training": {
-          "training_id": "tr216",
-          "title": "Insurance Contract Law Fundamentals",
-          "offered_skills": [
-            "Legal principles of insurance agreements (foundational)",
-            "Transparency and compliance in insurance contracts",
-            "Policy interpretation",
-            "Claims process navigation",
-            "Regulatory requirements in insurance",
-            "Contract law application in insurance"
-          ],
-          "required_level": null
-        },
-        "score": 46.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 10
-        }
-      },
-      {
-        "training": {
           "training_id": "tr222",
           "title": "Basic Insurance Pricing Analytics Training",
           "offered_skills": [
@@ -798,28 +803,6 @@
             "Best practices for transparency in insurance pricing",
             "Best practices for compliance in insurance pricing",
             "Insurance pricing analytics"
-          ],
-          "required_level": null
-        },
-        "score": 46.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 10
-        }
-      },
-      {
-        "training": {
-          "training_id": "tr225",
-          "title": "Basic Insurance Fraud Detection Training",
-          "offered_skills": [
-            "Detecting fraudulent insurance claims (basic level)",
-            "Preventing insurance fraud",
-            "Identifying suspicious patterns in claims",
-            "Investigating questionable claims",
-            "Implementing fraud prevention strategies",
-            "Spotting red flags in insurance scenarios",
-            "Analyzing real-world insurance fraud case studies",
-            "Applying hands-on fraud detection exercises"
           ],
           "required_level": null
         },
@@ -869,29 +852,6 @@
       },
       {
         "training": {
-          "training_id": "tr111",
-          "title": "Master Basic Electronic Component Joining",
-          "offered_skills": [
-            "Fundamental electronic component joining techniques",
-            "Proper heating methods for electronics",
-            "Material selection for electrical connections",
-            "Reliable electrical connection creation",
-            "Electronics repair basics",
-            "Circuit board assembly",
-            "Electrical maintenance",
-            "Industry-standard electronics assembly methods",
-            "Practical hands-on experience with real components"
-          ],
-          "required_level": null
-        },
-        "score": 40.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 0
-        }
-      },
-      {
-        "training": {
           "training_id": "tr117",
           "title": "Basic Electronic Systems Diagnostics Training",
           "offered_skills": [
@@ -903,6 +863,27 @@
             "Component failure identification",
             "Proven repair methodologies",
             "Real-world troubleshooting scenarios"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr180",
+          "title": "Basic Money Management for Hotel Reception",
+          "offered_skills": [
+            "Money transaction management (basic level)",
+            "Processing guest payments",
+            "Balancing daily receipts",
+            "End-of-shift reconciliation",
+            "Handling incidental charges",
+            "Managing cash drawers",
+            "Financial procedures for hotel front desk operations"
           ],
           "required_level": null
         },
@@ -976,29 +957,6 @@
       },
       {
         "training": {
-          "training_id": "tr204",
-          "title": "Master the Basics of Hotel Reception: Basic Problem Resolution Training",
-          "offered_skills": [
-            "Guest complaint handling",
-            "Conflict resolution",
-            "Active listening",
-            "Root cause identification",
-            "Problem-solving under pressure",
-            "De-escalation techniques",
-            "Clear communication in hospitality",
-            "Maintaining composure with upset guests",
-            "Guest service improvement"
-          ],
-          "required_level": null
-        },
-        "score": 40.0,
-        "sub_scores": {
-          "prerequisite": 100,
-          "goal_alignment": 0
-        }
-      },
-      {
-        "training": {
           "training_id": "tr213",
           "title": "Basic Insurance Claims Handling Course",
           "offered_skills": [
@@ -1010,6 +968,48 @@
             "Gathering necessary documentation for claims",
             "Effective communication with policyholders",
             "Decision-making in claims processes"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr216",
+          "title": "Insurance Contract Law Fundamentals",
+          "offered_skills": [
+            "Legal principles of insurance agreements (foundational)",
+            "Transparency and compliance in insurance contracts",
+            "Policy interpretation",
+            "Claims process navigation",
+            "Regulatory requirements in insurance",
+            "Contract law application in insurance"
+          ],
+          "required_level": null
+        },
+        "score": 40.0,
+        "sub_scores": {
+          "prerequisite": 100,
+          "goal_alignment": 0
+        }
+      },
+      {
+        "training": {
+          "training_id": "tr225",
+          "title": "Basic Insurance Fraud Detection Training",
+          "offered_skills": [
+            "Detecting fraudulent insurance claims (basic level)",
+            "Preventing insurance fraud",
+            "Identifying suspicious patterns in claims",
+            "Investigating questionable claims",
+            "Implementing fraud prevention strategies",
+            "Spotting red flags in insurance scenarios",
+            "Analyzing real-world insurance fraud case studies",
+            "Applying hands-on fraud detection exercises"
           ],
           "required_level": null
         },
@@ -1045,13 +1045,13 @@
     "predicted_type": "trainings_only",
     "trainings": [
       {
+        "training_id": "tr147"
+      },
+      {
         "training_id": "tr150"
       },
       {
         "training_id": "tr123"
-      },
-      {
-        "training_id": "tr147"
       },
       {
         "training_id": "tr159"
